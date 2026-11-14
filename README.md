@@ -1,67 +1,84 @@
-# Daily Brief
+# Kitchen Coach
 
-A daily early-warning digest of the **top 10 social, cultural and technical issues**, built from public news feeds. Each issue gets a **risk rating, a score out of 10, a rationale and a summary finding**, and the brief opens with summary findings for the day.
+**Your recipe, one spoken, timed step at a time.**
 
-It runs on **Windows** (desktop icon, Start menu, Ctrl+Alt+B hotkey and a daily scheduled run), on **GitHub** (a free daily run that publishes a web page) and on **iPhone** (that page saved to your Home Screen as an app icon).
+Kitchen Coach reads a recipe file (PDF, Word .docx, XML, XHTML, HTML or TXT), works out the
+ingredients, the method steps and every cooking time, then talks you through the recipe with
+big, glanceable timers. Timers keep running in the background when you move on, so you can
+have the onions frying while the pasta boils.
 
-> **What it is not:** Daily Brief doesn't predict the future. It measures what public reporting is paying attention to and how serious the language is. The *momentum* signal shows topics that are rising compared with recent days. That's an early-warning indicator, not a forecast or a probability. Always read the sources before acting.
+| Windows desktop | iPhone |
+|---|---|
+| Desktop icon, opens in its own app window, starts automatically when you sign in | Home-screen icon, full-screen, works offline |
+| Recipes are read by the local Python engine | Recipes are read on the phone itself |
 
-## How an issue is scored (0–10)
+![Cooking screen](docs/screens/05_cook_running.png)
 
-| Signal | Points | Meaning |
-|---|---|---|
-| Perspective breadth | 1.5 per perspective, max 3 | Touches Social / Cultural / Technical keywords |
-| Severity wording | sum of word weights, max 4 | e.g. *attack* 3, *breach* 3, *warning* 2, *ban* 1 |
-| Corroboration | +1 per extra outlet, max 2 | The same event reported by several independent sources |
-| Momentum | +1 | Its topics are mentioned noticeably more than the 7-day average |
-
-**Ratings:** High ≥ 7 · Elevated ≥ 5 · Moderate ≥ 3 · Low < 3.  **Type:** *Threat* if the severity wording totals 3 or more, otherwise *Watch*.
-
-How it reduces bias:
-- **Sources from different countries and editorial leanings:** UK (BBC, Guardian), US (NPR, Fox News, WSJ, CISA), Qatar (Al Jazeera), Germany (DW), France (France 24), the UN, and specialist tech outlets.
-- **Fixed, published rules:** the same keyword lists and weights apply to every story. Nothing is generated or editorialised, and the findings are the outlets' own summaries.
-- **Duplicate grouping:** headlines about the same event are grouped together, so one story can't fill the list.
-- **Guaranteed mix:** at least one item from each perspective appears in the top 10 when there is material for it.
-
-Keyword lists and feeds are not neutral in themselves. Review `config.json` and adjust it to suit you.
+## Features
+- Finds numbered steps, Word auto-numbered lists, HTML ordered lists, schema.org recipe data
+  in saved web pages, and plain paragraphs under a "Method" heading.
+- Understands times like `25 mins`, `1 hour 30 minutes`, `1½ hours`, `half an hour`, `20-25 minutes`
+  (uses the shorter time and tells you), `a few minutes` (flagged as an estimate) and
+  ignores `stir every 5 minutes`.
+- **Paste or type** a recipe, paste straight from a web page (step numbers kept), or read
+  **screenshots and photos** of recipes with on-device text recognition (Tesseract.js) - or press Ctrl+V on the home screen.
+- Splits a long step with several timed actions into separate timed steps.
+- Edit, reorder, add or delete steps and timers before you cook.
+- Speaks each step aloud, chimes and speaks when a timer ends, repeats the alarm until you respond.
+- Background timers tray, +1 minute, restart timer, pause/resume, keyboard shortcuts.
+- Keeps the screen awake while cooking; picks up where you left off if the app is closed.
+- Saved recipe library; everything stays on your device.
 
 ## Quick start
 
-**One command:** extract the ZIP and double-click **`Setup.cmd`**. It sets up GitHub (repo, Pages, daily run) and Windows in one go; then add the page to your iPhone. Details: [guides/INSTALL.md](guides/INSTALL.md).
+### Windows (ready-built)
+1. Download `KitchenCoach-Windows.zip` from this repo's **Releases** page and unzip it.
+2. Double-click **Install.bat**. A **Kitchen Coach** icon appears on your desktop and the app opens.
+   It will also open automatically each time you sign in (run `Install.bat -NoStartup` to turn that off).
 
-Or step by step:
+### Windows (from source)
+Install Python 3.10+ from python.org, download this repo, then double-click `windows\Install.bat`.
 
-| Platform | Steps |
-|---|---|
-| **Windows** | Download the ZIP, extract it and double-click **`Install.cmd`**. Details: [guides/INSTALL.md](guides/INSTALL.md#windows) |
-| **GitHub** | Upload this folder to a new public repo, turn on Pages (`main` branch, `/docs` folder) and run the workflow once. Details: [guides/INSTALL.md](guides/INSTALL.md#github) |
-| **iPhone** | Open your Pages link in Safari, tap **Share** and choose **Add to Home Screen**. Details: [guides/INSTALL.md](guides/INSTALL.md#iphone) |
+### iPhone
+1. Publish the web app with GitHub Pages (see below) and open
+   `https://YOUR-USERNAME.github.io/kitchen-coach/` in **Safari**.
+2. Tap **Share** > **Add to Home Screen** > **Add**. Launch it from the new icon.
 
-How to read the brief, customise it and keep it up to date: **[guides/USER_GUIDE.md](guides/USER_GUIDE.md)**.
+### GitHub
+1. Create a new repository called `kitchen-coach` and upload all of these files.
+2. **Settings > Pages > Source: GitHub Actions** - the iPhone app is then published automatically.
+3. **Actions > Windows build > Run workflow** builds `KitchenCoach.exe`; pushing a tag such as
+   `v1.0.0` attaches `KitchenCoach-Windows.zip` to a Release.
 
-## Command line
+Full instructions, with screenshots, are in **[docs/Kitchen_Coach_User_Guide.pdf](docs/Kitchen_Coach_User_Guide.pdf)**.
 
+## Project layout
 ```
-python daily_brief.py                 # print the brief and write HTML + JSON reports
-python daily_brief.py --open          # ...and open the report in your browser
-python daily_brief.py --top 15        # show 15 issues
-python daily_brief.py --check-feeds   # test every news source
-python -m unittest discover -s tests  # run the tests
+app.py               local web engine (Flask) - Windows build
+launcher.py          starts the engine, opens the app window, stops when it closes
+recipe_parser.py     reads PDF/DOCX/XML/XHTML/HTML/TXT and finds steps + timers
+web/                 the app itself (also the iPhone / GitHub Pages build)
+  parser.js          in-browser copy of the recipe reader (kept identical by tests)
+  app.js, index.html, styles.css, sw.js, manifest.webmanifest, vendor/ (pdf.js, JSZip)
+windows/             Install.bat, installer/uninstaller, exe build script
+tests/               pytest + node tests, sample recipes, browser end-to-end test
+docs/                user guide PDF and screenshots
+.github/workflows/   tests, GitHub Pages deploy, Windows exe build
 ```
 
-The script uses only the Python standard library (Python 3.9 or later), so there's nothing to `pip install`.
+## Development
+```bash
+pip install -r requirements-dev.txt
+python app.py                      # http://127.0.0.1:8765
+python -m pytest -q                # Python tests
+npm test                           # JavaScript parser must match the Python one
+python tests/build_fixtures.py     # after changing the reading rules, then re-run both test suites
+python -m playwright install chromium && python tests/e2e_browser.py   # full browser test
+```
 
-## Files
+## Privacy and safety
+Recipes never leave your device. The Windows engine listens only on `127.0.0.1`, rejects requests
+for any other host name, limits uploads to 15 MB and reads XML with `defusedxml` (no external
+entities). The web app has a strict Content Security Policy and loads nothing from the internet.
 
-| File | Purpose |
-|---|---|
-| `daily_brief.py` | The program |
-| `config.json` | Feeds, keyword lists and severity weights (replaced by updates) |
-| `user_config.example.json` | Example of your own overrides, which are kept through updates |
-| `VERSION` | Version number checked by the updater; increase it when you release changes |
-| `repo.txt` | Your GitHub `username/repo`, used for updates |
-| `Setup.cmd`, `setup-all.ps1` | Automated setup: GitHub repo + Pages + workflow + Windows install. Re-run it to publish changes. |
-| `Install.cmd`, `install.ps1`, `update.ps1`, `uninstall.ps1` | Windows-only install, update and removal |
-| `.github/workflows/daily-brief.yml` | Daily cloud run that publishes to `docs/` |
-| `docs/` | The published web page (written by the workflow) |
-| `assets/` | App icons |
+Licence: MIT. pdf.js (Apache-2.0), JSZip (MIT) and Tesseract.js (Apache-2.0) are included in `web/vendor`.
