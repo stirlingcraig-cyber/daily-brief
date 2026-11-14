@@ -1,0 +1,77 @@
+{
+  "settings": {
+    "top_n": 10,
+    "max_age_hours": 48,
+    "timeout_seconds": 15,
+    "max_workers": 8,
+    "cluster_similarity": 0.4,
+    "keep_reports_days": 30,
+    "history_days": 30,
+    "check_for_updates": true
+  },
+  "feeds": {
+    "BBC World": "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "BBC Technology": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+    "The Guardian World": "https://www.theguardian.com/world/rss",
+    "NPR World": "https://feeds.npr.org/1004/rss.xml",
+    "Fox News World": "https://moxie.foxnews.com/google-publisher/world.xml",
+    "WSJ World": "https://feeds.a.dj.com/rss/RSSWorldNews.xml",
+    "Al Jazeera": "https://www.aljazeera.com/xml/rss/all.xml",
+    "DW (Germany)": "https://rss.dw.com/rdf/rss-en-all",
+    "France 24": "https://www.france24.com/en/rss",
+    "UN News": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+    "Ars Technica": "https://feeds.arstechnica.com/arstechnica/index",
+    "The Register": "https://www.theregister.com/headlines.atom",
+    "CISA Advisories (US Gov)": "https://www.cisa.gov/cybersecurity-advisories/all.xml"
+  },
+  "themes": {
+    "Social": [
+      "protest", "election", "migra*", "refugee", "asylum", "inequality",
+      "strike", "human rights", "public health", "pandemic", "outbreak",
+      "housing", "homeless*", "crime", "education", "discrimination",
+      "conflict", "war", "displace*", "poverty", "unemployment",
+      "cost of living", "inflation", "famine", "food security", "violence",
+      "unrest", "riot", "ceasefire", "humanitarian", "climate"
+    ],
+    "Cultural": [
+      "religio*", "identity", "culture", "cultural", "censor*", "language",
+      "heritage", "media", "journalis*", "press freedom", "misinformation",
+      "disinformation", "propaganda", "polari*", "free speech", "speech",
+      "tradition", "extremis*", "radicali*", "hate", "social media",
+      "conspiracy", "trust", "boycott"
+    ],
+    "Technical": [
+      "ai", "artificial intelligence", "cyber*", "data breach", "hack*",
+      "privacy", "surveillance", "semiconductor", "chip", "automation",
+      "robot*", "infrastructure", "outage", "vulnerabilit*", "zero-day",
+      "encryption", "ransomware", "malware", "phishing", "deepfake",
+      "quantum", "satellite", "power grid", "blackout", "software", "cloud"
+    ]
+  },
+  "severity": {
+    "critical": 3,
+    "deadly": 4,
+    "dead": 3,
+    "fatal": 4,
+    "kill*": 4,
+    "attack": 3,
+    "war": 3,
+    "crisis": 3,
+    "emergency": 3,
+    "breach": 3,
+    "exploit": 3,
+    "collapse": 3,
+    "outage": 2,
+    "threat": 2,
+    "warning": 2,
+    "disruption": 2,
+    "escalat*": 2,
+    "sanction": 2,
+    "shortage": 2,
+    "ban": 1,
+    "banned": 1,
+    "lawsuit": 1,
+    "protest": 1,
+    "concern": 1
+  }
+}

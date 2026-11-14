@@ -1,0 +1,19 @@
+{
+  "_help": "Copy of this file lives in your DailyBrief folder as user_config.json. Anything here overrides config.json and survives updates. Delete the sections you don't need.",
+  "settings": {
+    "top_n": 10,
+    "max_age_hours": 48
+  },
+  "feeds": {
+    "Example extra feed (delete me)": null
+  },
+  "themes": {
+    "Technical": [
+      "ai", "artificial intelligence", "cyber*", "data breach", "ransomware",
+      "water", "utilit*"
+    ]
+  },
+  "severity": {
+    "drought": 2
+  }
+}
