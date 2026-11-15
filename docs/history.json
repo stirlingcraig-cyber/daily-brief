@@ -44,12 +44,12 @@
   "war": 12
  },
  "2026-11-15": {
-  "ai": 17,
-  "artificial intelligence": 1,
+  "ai": 19,
+  "artificial intelligence": 2,
   "asylum": 1,
   "chip": 3,
-  "climate": 4,
-  "conflict": 1,
+  "climate": 6,
+  "conflict": 2,
   "crime": 1,
   "cultural": 1,
   "cyber*": 4,
@@ -59,14 +59,14 @@
   "election": 7,
   "hack*": 2,
   "housing": 1,
-  "humanitarian": 1,
+  "humanitarian": 2,
   "infrastructure": 3,
   "journalis*": 2,
   "malware": 1,
   "media": 2,
   "misinformation": 1,
   "outage": 11,
-  "outbreak": 2,
+  "outbreak": 3,
   "poverty": 1,
   "protest": 8,
   "quantum": 1,
@@ -74,9 +74,10 @@
   "robot*": 2,
   "social media": 2,
   "software": 1,
-  "strike": 5,
+  "strike": 6,
   "trust": 2,
-  "violence": 2,
-  "war": 9
+  "unrest": 1,
+  "violence": 3,
+  "war": 10
  }
 }

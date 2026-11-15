@@ -1,17 +1,17 @@
 {
   "version": "2.0.0",
-  "generated_utc": "2026-11-15T09:28:10.859438+00:00",
+  "generated_utc": "2026-11-15T09:28:59.592332+00:00",
   "method": "Scores (0-10) combine perspective breadth, severity wording, cross-source corroboration and momentum. They measure attention and concern in public reporting - not probability, not a forecast. Read the sources before acting.",
   "summary": [
-    "Scanned 387 items from 11 of 13 sources; 79 matched a perspective and were grouped into 77 distinct issues.",
+    "Scanned 418 items from 12 of 13 sources; 85 matched a perspective and were grouped into 83 distinct issues.",
     "Top list ratings: Elevated 10 (10 threats, 0 watch items).",
-    "Perspective mix: Social 9, Technical 2, Cultural 1.",
+    "Perspective mix: Social 9, Technical 3, Cultural 1.",
     "Momentum baseline still building (1 of 3 days collected).",
     "Most widely reported: \"Israel kills Hamas commander in strike on Gaza camp, officials say\" (2 sources)."
   ],
   "rising_terms": [],
   "feed_status": {
-    "BBC World": "ok (20 items)",
+    "BBC World": "ok (21 items)",
     "BBC Technology": "ok (21 items)",
     "The Guardian World": "ok (45 items)",
     "NPR World": "ok (10 items)",
@@ -20,7 +20,7 @@
     "Al Jazeera": "ok (25 items)",
     "DW (Germany)": "ok (127 items)",
     "France 24": "ok (24 items)",
-    "UN News": "FAILED - invalid XML: not well-formed (invalid token): line 1, column 0",
+    "UN News": "ok (30 items)",
     "Ars Technica": "ok (20 items)",
     "The Register": "ok (50 items)",
     "CISA Advisories (US Gov)": "FAILED - response too large"
@@ -57,6 +57,30 @@
     },
     {
       "rank": 2,
+      "title": "Digital finance products used to abuse almost 20% of young women and girls, UK report finds",
+      "score": 6.0,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-15T09:22:39+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (violence); Technical (ai); severity wording: exploit.",
+      "finding": "Survey respondents describe current or former partners controlling bank accounts and taking out credit online without full consent Almost one in five young women and girls in the UK have experienced digital financial products being used as a tool of abuse by a current or former partner , a report has found. Abusers...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "Digital finance products used to abuse almost 20% of young women and girls, UK report finds",
+          "url": "https://www.theguardian.com/society/2026/nov/15/digital-finance-products-abuse-against-young-women-and-girls-report"
+        }
+      ]
+    },
+    {
+      "rank": 3,
       "title": "Macron says limiting Ukraine aid would pave way to 'another war'",
       "score": 6.0,
       "rating": "Elevated",
@@ -80,7 +104,7 @@
       ]
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Inside Arab nation's battle against radicalism as top official warns of threat brewing on Europe's streets",
       "score": 6.0,
       "rating": "Elevated",
@@ -104,7 +128,7 @@
       ]
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Three sentenced to death over Jordan church attack",
       "score": 5.5,
       "rating": "Elevated",
@@ -127,7 +151,7 @@
       ]
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Thousands in Portugal protest against surging rental prices",
       "score": 5.5,
       "rating": "Elevated",
@@ -150,7 +174,7 @@
       ]
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Germany news: Germany holds national day of remembrance",
       "score": 5.5,
       "rating": "Elevated",
@@ -173,7 +197,7 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "ASEAN summit: Who’s attending and what’s at stake?",
       "score": 5.5,
       "rating": "Elevated",
@@ -196,7 +220,7 @@
       ]
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "'Is this a cyberattack?' Grounded flights, a Microsoft outage and AI chaos fuel cybersecurity fears",
       "score": 5.5,
       "rating": "Elevated",
@@ -219,7 +243,7 @@
       ]
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "World’s top court to rule if Myanmar committed genocide against Rohingya",
       "score": 5.5,
       "rating": "Elevated",
@@ -238,29 +262,6 @@
           "source": "The Guardian World",
           "title": "World’s top court to rule if Myanmar committed genocide against Rohingya",
           "url": "https://www.theguardian.com/world/2026/nov/15/myanmar-rohingya-genocide-icj"
-        }
-      ]
-    },
-    {
-      "rank": 10,
-      "title": "Iran war live: Bahrain targeted as Gulf nations warned against US support",
-      "score": 5.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social"
-      ],
-      "sources": [
-        "Al Jazeera"
-      ],
-      "latest_utc": "2026-11-15T00:00:08+00:00",
-      "rationale": "Reported by 1 source (Al Jazeera); perspectives: Social (strike, war); severity wording: attack, war.",
-      "finding": "Bahrain says it intercepted 'treacherous' Iranian attacks as tensions rise over heightened strikes in the Gulf.",
-      "links": [
-        {
-          "source": "Al Jazeera",
-          "title": "Iran war live: Bahrain targeted as Gulf nations warned against US support",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/11/15/iran-war-live-israel-vows-gaza-offensive-policy-despite-caretaker-status?traffic_source=rss"
         }
       ]
     }
