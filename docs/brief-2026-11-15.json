@@ -1,0 +1,268 @@
+{
+  "version": "2.0.0",
+  "generated_utc": "2026-11-15T09:28:10.859438+00:00",
+  "method": "Scores (0-10) combine perspective breadth, severity wording, cross-source corroboration and momentum. They measure attention and concern in public reporting - not probability, not a forecast. Read the sources before acting.",
+  "summary": [
+    "Scanned 387 items from 11 of 13 sources; 79 matched a perspective and were grouped into 77 distinct issues.",
+    "Top list ratings: Elevated 10 (10 threats, 0 watch items).",
+    "Perspective mix: Social 9, Technical 2, Cultural 1.",
+    "Momentum baseline still building (1 of 3 days collected).",
+    "Most widely reported: \"Israel kills Hamas commander in strike on Gaza camp, officials say\" (2 sources)."
+  ],
+  "rising_terms": [],
+  "feed_status": {
+    "BBC World": "ok (20 items)",
+    "BBC Technology": "ok (21 items)",
+    "The Guardian World": "ok (45 items)",
+    "NPR World": "ok (10 items)",
+    "Fox News World": "ok (25 items)",
+    "WSJ World": "ok (20 items)",
+    "Al Jazeera": "ok (25 items)",
+    "DW (Germany)": "ok (127 items)",
+    "France 24": "ok (24 items)",
+    "UN News": "FAILED - invalid XML: not well-formed (invalid token): line 1, column 0",
+    "Ars Technica": "ok (20 items)",
+    "The Register": "ok (50 items)",
+    "CISA Advisories (US Gov)": "FAILED - response too large"
+  },
+  "issues": [
+    {
+      "rank": 1,
+      "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
+      "score": 6.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "Al Jazeera",
+        "BBC World"
+      ],
+      "latest_utc": "2026-11-15T08:17:41+00:00",
+      "rationale": "Reported by 2 sources (Al Jazeera, BBC World); perspectives: Social (strike); severity wording: kill*, attack.",
+      "finding": "Both Hamas and IDF officials confirm the death of Samir Abu Younis, commander of the Rafah Brigade.",
+      "links": [
+        {
+          "source": "BBC World",
+          "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
+          "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source": "Al Jazeera",
+          "title": "Israeli air strike kills senior Hamas commander in Gaza",
+          "url": "https://www.aljazeera.com/news/2026/11/15/israeli-air-strike-kills-senior-hamas-commander-in-gaza?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "Macron says limiting Ukraine aid would pave way to 'another war'",
+      "score": 6.0,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "France 24"
+      ],
+      "latest_utc": "2026-11-14T20:15:43+00:00",
+      "rationale": "Reported by 1 source (France 24); perspectives: Social (war); Technical (ai); severity wording: war.",
+      "finding": "French President Emmanuel Macron on Saturday warned that limiting aid to Ukraine would force Kyiv into an \"unjust peace\" and risk another war. His statement comes as the United States pushes ahead with efforts to negotiate between Ukraine and Moscow.",
+      "links": [
+        {
+          "source": "France 24",
+          "title": "Macron says limiting Ukraine aid would pave way to 'another war'",
+          "url": "https://www.france24.com/en/europe/20261114-macron-says-limiting-ukraine-aid-would-pave-way-to-another-war"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "Inside Arab nation's battle against radicalism as top official warns of threat brewing on Europe's streets",
+      "score": 6.0,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Cultural",
+        "Social"
+      ],
+      "sources": [
+        "Fox News World"
+      ],
+      "latest_utc": "2026-11-14T12:00:53+00:00",
+      "rationale": "Reported by 1 source (Fox News World); perspectives: Cultural (radicali); Social (education, protest); severity wording: threat, protest.",
+      "finding": "A senior United Arab Emirates official warns that European protests have crossed into national security threats, urging coexistence education first.",
+      "links": [
+        {
+          "source": "Fox News World",
+          "title": "Inside Arab nation's battle against radicalism as top official warns of threat brewing on Europe's streets",
+          "url": "https://www.foxnews.com/world/inside-arab-nations-battle-against-radicalism-top-official-warns-threat-brewing-europes-streets"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "Three sentenced to death over Jordan church attack",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "France 24"
+      ],
+      "latest_utc": "2026-11-15T08:53:39+00:00",
+      "rationale": "Reported by 1 source (France 24); perspectives: Social (strike); severity wording: kill*, attack.",
+      "finding": "A Jordian court on Sunday sentenced the three gunmen responsible for a terror attack on a church funeral procession in the village of Hamoud that killed nine and wounded others. The attack prompted retaliatory strikes on \"terrorist organisations\" in neighbouring Syria.",
+      "links": [
+        {
+          "source": "France 24",
+          "title": "Three sentenced to death over Jordan church attack",
+          "url": "https://www.france24.com/en/middle-east/20261115-three-sentenced-to-death-over-jordan-church-attack"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "Thousands in Portugal protest against surging rental prices",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "Al Jazeera"
+      ],
+      "latest_utc": "2026-11-15T08:40:37+00:00",
+      "rationale": "Reported by 1 source (Al Jazeera); perspectives: Social (housing, protest); severity wording: crisis, protest.",
+      "finding": "Thousands of people across Portugal are angry about rising rental prices, demanding action to end the housing crisis.",
+      "links": [
+        {
+          "source": "Al Jazeera",
+          "title": "Thousands in Portugal protest against surging rental prices",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/thousands-in-portugal-protest-against-surging-rental-prices?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "Germany news: Germany holds national day of remembrance",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "DW (Germany)"
+      ],
+      "latest_utc": "2026-11-15T07:23:00+00:00",
+      "rationale": "Reported by 1 source (DW (Germany)); perspectives: Social (war); severity wording: war, crisis.",
+      "finding": "Events are being held for Volkstrauertag, a day commemorating victims of war and oppression. Meanwhile, experts say the country is headed for a budget crisis. DW has more.",
+      "links": [
+        {
+          "source": "DW (Germany)",
+          "title": "Germany news: Germany holds national day of remembrance",
+          "url": "https://www.dw.com/en/germany-news-germany-holds-national-day-of-remembrance/live-79947500?maca=en-rss-en-all-1573-rdf"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "ASEAN summit: Who’s attending and what’s at stake?",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "Al Jazeera"
+      ],
+      "latest_utc": "2026-11-15T07:11:24+00:00",
+      "rationale": "Reported by 1 source (Al Jazeera); perspectives: Social (war); severity wording: war, disruption.",
+      "finding": "Energy disruptions as a result of the US-Israel war on Iran is a key issue for the import-dependent bloc.",
+      "links": [
+        {
+          "source": "Al Jazeera",
+          "title": "ASEAN summit: Who’s attending and what’s at stake?",
+          "url": "https://www.aljazeera.com/news/2026/11/15/asean-summit-whos-attending-and-whats-at-stake?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "'Is this a cyberattack?' Grounded flights, a Microsoft outage and AI chaos fuel cybersecurity fears",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Technical"
+      ],
+      "sources": [
+        "France 24"
+      ],
+      "latest_utc": "2026-11-15T07:04:31+00:00",
+      "rationale": "Reported by 1 source (France 24); perspectives: Technical (ai, cyber, outage); severity wording: outage, disruption.",
+      "finding": "A series of unsettling disruptions, from tech stock turbulence and Microsoft outages to a nationwide grounding of flights, has left millions wondering whether the world’s increasingly interconnected technology systems are beginning to unravel.",
+      "links": [
+        {
+          "source": "France 24",
+          "title": "'Is this a cyberattack?' Grounded flights, a Microsoft outage and AI chaos fuel cybersecurity fears",
+          "url": "https://www.france24.com/en/technology/20261115-is-this-a-cyberattack-grounded-flights-a-microsoft-outage-and-ai-chaos-fuel-cybersecurity-fears"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "World’s top court to rule if Myanmar committed genocide against Rohingya",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-15T06:00:05+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (crime, war); severity wording: critical, war.",
+      "finding": "International court of justice has never before found a state guilty of genocide, and ruling will have implications for case against Israel The world’s top court will deliver a judgment this week on whether Myanmar committed genocide against its Rohingya minority, in a landmark case that will set a critical...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "World’s top court to rule if Myanmar committed genocide against Rohingya",
+          "url": "https://www.theguardian.com/world/2026/nov/15/myanmar-rohingya-genocide-icj"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "Iran war live: Bahrain targeted as Gulf nations warned against US support",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "Al Jazeera"
+      ],
+      "latest_utc": "2026-11-15T00:00:08+00:00",
+      "rationale": "Reported by 1 source (Al Jazeera); perspectives: Social (strike, war); severity wording: attack, war.",
+      "finding": "Bahrain says it intercepted 'treacherous' Iranian attacks as tensions rise over heightened strikes in the Gulf.",
+      "links": [
+        {
+          "source": "Al Jazeera",
+          "title": "Iran war live: Bahrain targeted as Gulf nations warned against US support",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/15/iran-war-live-israel-vows-gaza-offensive-policy-despite-caretaker-status?traffic_source=rss"
+        }
+      ]
+    }
+  ]
+}
