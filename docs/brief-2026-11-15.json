@@ -1,17 +1,16 @@
 {
   "version": "2.0.0",
-  "generated_utc": "2026-11-15T09:28:59.592332+00:00",
+  "generated_utc": "2026-11-15T13:53:52.479775+00:00",
   "method": "Scores (0-10) combine perspective breadth, severity wording, cross-source corroboration and momentum. They measure attention and concern in public reporting - not probability, not a forecast. Read the sources before acting.",
   "summary": [
-    "Scanned 418 items from 12 of 13 sources; 85 matched a perspective and were grouped into 83 distinct issues.",
+    "Scanned 420 items from 12 of 13 sources; 76 matched a perspective and were grouped into 73 distinct issues.",
     "Top list ratings: Elevated 10 (10 threats, 0 watch items).",
-    "Perspective mix: Social 9, Technical 3, Cultural 1.",
-    "Momentum baseline still building (1 of 3 days collected).",
-    "Most widely reported: \"Israel kills Hamas commander in strike on Gaza camp, officials say\" (2 sources)."
+    "Perspective mix: Social 8, Technical 3, Cultural 1.",
+    "Momentum baseline still building (1 of 3 days collected)."
   ],
   "rising_terms": [],
   "feed_status": {
-    "BBC World": "ok (21 items)",
+    "BBC World": "ok (23 items)",
     "BBC Technology": "ok (21 items)",
     "The Guardian World": "ok (45 items)",
     "NPR World": "ok (10 items)",
@@ -28,59 +27,6 @@
   "issues": [
     {
       "rank": 1,
-      "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
-      "score": 6.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social"
-      ],
-      "sources": [
-        "Al Jazeera",
-        "BBC World"
-      ],
-      "latest_utc": "2026-11-15T08:17:41+00:00",
-      "rationale": "Reported by 2 sources (Al Jazeera, BBC World); perspectives: Social (strike); severity wording: kill*, attack.",
-      "finding": "Both Hamas and IDF officials confirm the death of Samir Abu Younis, commander of the Rafah Brigade.",
-      "links": [
-        {
-          "source": "BBC World",
-          "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
-          "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "Al Jazeera",
-          "title": "Israeli air strike kills senior Hamas commander in Gaza",
-          "url": "https://www.aljazeera.com/news/2026/11/15/israeli-air-strike-kills-senior-hamas-commander-in-gaza?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "title": "Digital finance products used to abuse almost 20% of young women and girls, UK report finds",
-      "score": 6.0,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social",
-        "Technical"
-      ],
-      "sources": [
-        "The Guardian World"
-      ],
-      "latest_utc": "2026-11-15T09:22:39+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (violence); Technical (ai); severity wording: exploit.",
-      "finding": "Survey respondents describe current or former partners controlling bank accounts and taking out credit online without full consent Almost one in five young women and girls in the UK have experienced digital financial products being used as a tool of abuse by a current or former partner , a report has found. Abusers...",
-      "links": [
-        {
-          "source": "The Guardian World",
-          "title": "Digital finance products used to abuse almost 20% of young women and girls, UK report finds",
-          "url": "https://www.theguardian.com/society/2026/nov/15/digital-finance-products-abuse-against-young-women-and-girls-report"
-        }
-      ]
-    },
-    {
-      "rank": 3,
       "title": "Macron says limiting Ukraine aid would pave way to 'another war'",
       "score": 6.0,
       "rating": "Elevated",
@@ -104,7 +50,7 @@
       ]
     },
     {
-      "rank": 4,
+      "rank": 2,
       "title": "Inside Arab nation's battle against radicalism as top official warns of threat brewing on Europe's streets",
       "score": 6.0,
       "rating": "Elevated",
@@ -128,7 +74,99 @@
       ]
     },
     {
+      "rank": 3,
+      "title": "Ukrainian drones strike Russia's petrochemical capital in overnight assault",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "France 24"
+      ],
+      "latest_utc": "2026-11-15T13:36:53+00:00",
+      "rationale": "Reported by 1 source (France 24); perspectives: Social (strike); severity wording: kill*.",
+      "finding": "Russian officials confirmed Sunday that the central industrial city of Nizhnekamsk had endured \"prolonged\" Ukrainian airstrikes overnight, damaging a residential building and sparking a fire at a major petrochemical complex, injuring three people. Separate overnight strikes on Taganrog city killed an electricity...",
+      "links": [
+        {
+          "source": "France 24",
+          "title": "Ukrainian drones strike Russia's petrochemical capital in overnight assault",
+          "url": "https://www.france24.com/en/europe/20261115-ukrainian-drones-strike-russia-s-petrochemical-capital-in-overnight-assault"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "Saudi Arabia, Qatar, Jordan, Egypt condemn Iranian attack on Bahrain - Middle East crisis live",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-15T13:34:32+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (strike); severity wording: attack, crisis, escalat*.",
+      "finding": "Iran has targeted airbase in Bahrain in latest resumption of strikes since september The state-run Bahrain news agency is also carrying the statements of each country in the region responding to Iran’s actions targeting their Gulf neighbour this morning. Jordan, Egypt, Saudi Arabia, and Qatar have all strongly...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "Saudi Arabia, Qatar, Jordan, Egypt condemn Iranian attack on Bahrain - Middle East crisis live",
+          "url": "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis"
+        }
+      ]
+    },
+    {
       "rank": 5,
+      "title": "Are we too reliant on technology? Questions arise after Microsoft's widespread outages",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Technical"
+      ],
+      "sources": [
+        "France 24"
+      ],
+      "latest_utc": "2026-11-15T11:44:50+00:00",
+      "rationale": "Reported by 1 source (France 24); perspectives: Technical (outage); severity wording: outage, disruption.",
+      "finding": "This week's Microsoft outage highlighted the risks of relying on a single technology provider for essential services. The disruption lasted nearly 24 hours, impacting millions of users across more than 70 countries – from government agencies to airlines to hospitals and small businesses. Are we too reliant on...",
+      "links": [
+        {
+          "source": "France 24",
+          "title": "Are we too reliant on technology? Questions arise after Microsoft's widespread outages",
+          "url": "https://www.france24.com/en/are-we-too-reliant-on-technology-questions-arise-after-microsoft-s-widespread-outages"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "Drone attacks on power stations plunge Sudan’s cities into darkness",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Technical"
+      ],
+      "sources": [
+        "Al Jazeera"
+      ],
+      "latest_utc": "2026-11-15T09:59:37+00:00",
+      "rationale": "Reported by 1 source (Al Jazeera); perspectives: Technical (outage); severity wording: attack, outage.",
+      "finding": "Sudan's power stations are being targeted in waves of drone attacks, resulting in power outages.",
+      "links": [
+        {
+          "source": "Al Jazeera",
+          "title": "Drone attacks on power stations plunge Sudan’s cities into darkness",
+          "url": "https://www.aljazeera.com/features/2026/11/15/drone-strikes-on-power-stations-plunges-sudans-cities-into-darkness?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "rank": 7,
       "title": "Three sentenced to death over Jordan church attack",
       "score": 5.5,
       "rating": "Elevated",
@@ -141,7 +179,7 @@
       ],
       "latest_utc": "2026-11-15T08:53:39+00:00",
       "rationale": "Reported by 1 source (France 24); perspectives: Social (strike); severity wording: kill*, attack.",
-      "finding": "A Jordian court on Sunday sentenced the three gunmen responsible for a terror attack on a church funeral procession in the village of Hamoud that killed nine and wounded others. The attack prompted retaliatory strikes on \"terrorist organisations\" in neighbouring Syria.",
+      "finding": "A Jordanian court on Sunday sentenced the three gunmen responsible for a terror attack on a church funeral procession in the village of Hamoud that killed nine and wounded others. The attack prompted retaliatory strikes on \"terrorist organisations\" in neighbouring Syria.",
       "links": [
         {
           "source": "France 24",
@@ -151,7 +189,7 @@
       ]
     },
     {
-      "rank": 6,
+      "rank": 8,
       "title": "Thousands in Portugal protest against surging rental prices",
       "score": 5.5,
       "rating": "Elevated",
@@ -174,7 +212,30 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 9,
+      "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "BBC World"
+      ],
+      "latest_utc": "2026-11-15T08:17:41+00:00",
+      "rationale": "Reported by 1 source (BBC World); perspectives: Social (strike); severity wording: kill*.",
+      "finding": "Both Hamas and IDF officials confirm the death of Samir Abu Younis, commander of the Rafah Brigade.",
+      "links": [
+        {
+          "source": "BBC World",
+          "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
+          "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "rank": 10,
       "title": "Germany news: Germany holds national day of remembrance",
       "score": 5.5,
       "rating": "Elevated",
@@ -193,75 +254,6 @@
           "source": "DW (Germany)",
           "title": "Germany news: Germany holds national day of remembrance",
           "url": "https://www.dw.com/en/germany-news-germany-holds-national-day-of-remembrance/live-79947500?maca=en-rss-en-all-1573-rdf"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "title": "ASEAN summit: Who’s attending and what’s at stake?",
-      "score": 5.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social"
-      ],
-      "sources": [
-        "Al Jazeera"
-      ],
-      "latest_utc": "2026-11-15T07:11:24+00:00",
-      "rationale": "Reported by 1 source (Al Jazeera); perspectives: Social (war); severity wording: war, disruption.",
-      "finding": "Energy disruptions as a result of the US-Israel war on Iran is a key issue for the import-dependent bloc.",
-      "links": [
-        {
-          "source": "Al Jazeera",
-          "title": "ASEAN summit: Who’s attending and what’s at stake?",
-          "url": "https://www.aljazeera.com/news/2026/11/15/asean-summit-whos-attending-and-whats-at-stake?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "rank": 9,
-      "title": "'Is this a cyberattack?' Grounded flights, a Microsoft outage and AI chaos fuel cybersecurity fears",
-      "score": 5.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Technical"
-      ],
-      "sources": [
-        "France 24"
-      ],
-      "latest_utc": "2026-11-15T07:04:31+00:00",
-      "rationale": "Reported by 1 source (France 24); perspectives: Technical (ai, cyber, outage); severity wording: outage, disruption.",
-      "finding": "A series of unsettling disruptions, from tech stock turbulence and Microsoft outages to a nationwide grounding of flights, has left millions wondering whether the world’s increasingly interconnected technology systems are beginning to unravel.",
-      "links": [
-        {
-          "source": "France 24",
-          "title": "'Is this a cyberattack?' Grounded flights, a Microsoft outage and AI chaos fuel cybersecurity fears",
-          "url": "https://www.france24.com/en/technology/20261115-is-this-a-cyberattack-grounded-flights-a-microsoft-outage-and-ai-chaos-fuel-cybersecurity-fears"
-        }
-      ]
-    },
-    {
-      "rank": 10,
-      "title": "World’s top court to rule if Myanmar committed genocide against Rohingya",
-      "score": 5.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social"
-      ],
-      "sources": [
-        "The Guardian World"
-      ],
-      "latest_utc": "2026-11-15T06:00:05+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (crime, war); severity wording: critical, war.",
-      "finding": "International court of justice has never before found a state guilty of genocide, and ruling will have implications for case against Israel The world’s top court will deliver a judgment this week on whether Myanmar committed genocide against its Rohingya minority, in a landmark case that will set a critical...",
-      "links": [
-        {
-          "source": "The Guardian World",
-          "title": "World’s top court to rule if Myanmar committed genocide against Rohingya",
-          "url": "https://www.theguardian.com/world/2026/nov/15/myanmar-rohingya-genocide-icj"
         }
       ]
     }
