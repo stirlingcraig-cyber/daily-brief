@@ -1,9 +1,9 @@
 {
   "version": "2.0.0",
-  "generated_utc": "2026-11-16T13:48:10.905153+00:00",
+  "generated_utc": "2026-11-16T15:41:13.744396+00:00",
   "method": "Scores (0-10) combine perspective breadth, severity wording, cross-source corroboration and momentum. They measure attention and concern in public reporting - not probability, not a forecast. Read the sources before acting.",
   "summary": [
-    "Scanned 423 items from 12 of 13 sources; 78 matched a perspective and were grouped into 73 distinct issues.",
+    "Scanned 393 items from 11 of 13 sources; 76 matched a perspective and were grouped into 75 distinct issues.",
     "Top list ratings: Elevated 10 (10 threats, 0 watch items).",
     "Perspective mix: Social 6, Technical 4, Cultural 3.",
     "Momentum baseline still building (2 of 3 days collected)."
@@ -19,7 +19,7 @@
     "Al Jazeera": "ok (25 items)",
     "DW (Germany)": "ok (130 items)",
     "France 24": "ok (24 items)",
-    "UN News": "ok (30 items)",
+    "UN News": "FAILED - invalid XML: not well-formed (invalid token): line 1, column 0",
     "Ars Technica": "ok (20 items)",
     "The Register": "ok (50 items)",
     "CISA Advisories (US Gov)": "FAILED - response too large"
@@ -99,6 +99,52 @@
     },
     {
       "rank": 4,
+      "title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "BBC World"
+      ],
+      "latest_utc": "2026-11-16T14:58:12+00:00",
+      "rationale": "Reported by 1 source (BBC World); perspectives: Social (war); severity wording: attack, war.",
+      "finding": "Russia said Ukraine had launched over 2,000 drones over the course of a day, while Kyiv came under a record 17 air raid alerts.",
+      "links": [
+        {
+          "source": "BBC World",
+          "title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+          "url": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "Microsoft Outlook outage blamed after 15 injured in hotel pool chlorine incident",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Technical"
+      ],
+      "sources": [
+        "The Register"
+      ],
+      "latest_utc": "2026-11-16T14:42:00+00:00",
+      "rationale": "Reported by 1 source (The Register); perspectives: Technical (outage); severity wording: outage, warning.",
+      "finding": "A safety warning went missing, chemical levels soared, and five guests ended up in hospital",
+      "links": [
+        {
+          "source": "The Register",
+          "title": "Microsoft Outlook outage blamed after 15 injured in hotel pool chlorine incident",
+          "url": "https://www.theregister.com/saas/2026/11/16/microsoft-outlook-outage-blamed-after-15-injured-in-hotel-pool-chlorine-incident/5310087"
+        }
+      ]
+    },
+    {
+      "rank": 6,
       "title": "Spain's Canary Islands flooded by thousands of migrants as country declares emergency",
       "score": 5.5,
       "rating": "Elevated",
@@ -121,7 +167,7 @@
       ]
     },
     {
-      "rank": 5,
+      "rank": 7,
       "title": "Russian attacks kill three in Ukraine, EU accuses Moscow of prolonging war",
       "score": 5.5,
       "rating": "Elevated",
@@ -144,7 +190,7 @@
       ]
     },
     {
-      "rank": 6,
+      "rank": 8,
       "title": "Jordan bans Telegram app over 'radicalisation' claims",
       "score": 5.5,
       "rating": "Elevated",
@@ -156,8 +202,8 @@
         "DW (Germany)"
       ],
       "latest_utc": "2026-11-16T10:22:00+00:00",
-      "rationale": "Reported by 1 source (DW (Germany)); perspectives: Cultural (radicali); severity wording: deadly, dead, attack, threat.",
-      "finding": "Jordan has imposed a ban on Telegram over a deadly church attack which left seven people dead. The kingdom claims that content on the messaging app poses a threat to \"national interests.\"",
+      "rationale": "Reported by 1 source (DW (Germany)); perspectives: Cultural (radicali); severity wording: deadly, dead, attack, ban.",
+      "finding": "Jordan has imposed a ban on Telegram over a deadly church attack which left seven people dead. Iraq later followed with a partial ban to compel the company to review its content.",
       "links": [
         {
           "source": "DW (Germany)",
@@ -167,30 +213,7 @@
       ]
     },
     {
-      "rank": 7,
-      "title": "Coles investigates cyber-attack and apologises to customers",
-      "score": 5.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Technical"
-      ],
-      "sources": [
-        "The Guardian World"
-      ],
-      "latest_utc": "2026-11-16T04:04:37+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Technical (cyber); severity wording: attack, threat.",
-      "finding": "Supermarket giant says no customer, team or supplier data compromised but recommends updating passwords as a precaution Get our breaking news email , free app or daily news podcast Australia’s second-largest retailer has been targeted in a cyber-attack, though it is still too early to tell whether any of its data has...",
-      "links": [
-        {
-          "source": "The Guardian World",
-          "title": "Coles investigates cyber-attack and apologises to customers",
-          "url": "https://www.theguardian.com/business/2026/nov/16/coles-cyber-attack-incident-data"
-        }
-      ]
-    },
-    {
-      "rank": 8,
+      "rank": 9,
       "title": "‘The blood of these brothers cries out’: Pope Leo demands justice for people killed protecting the Amazon",
       "score": 5.5,
       "rating": "Elevated",
@@ -213,7 +236,7 @@
       ]
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Microsoft lifts Indian cloud prices by 15 percent, cuts costs in China",
       "score": 5.5,
       "rating": "Elevated",
@@ -232,29 +255,6 @@
           "source": "The Register",
           "title": "Microsoft lifts Indian cloud prices by 15 percent, cuts costs in China",
           "url": "https://www.theregister.com/off-prem/2026/11/15/microsoft-lifts-indian-cloud-prices-by-15-percent-cuts-costs-in-china/5309993"
-        }
-      ]
-    },
-    {
-      "rank": 10,
-      "title": "Iran launches drone attacks against US military base in Bahrain",
-      "score": 5.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social"
-      ],
-      "sources": [
-        "The Guardian World"
-      ],
-      "latest_utc": "2026-11-15T18:03:56+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (strike); severity wording: attack, escalat*.",
-      "finding": "Strikes cast further doubt on peace talks between Tehran and Washington with increasing risk of escalation Iran has launched drone attacks against a US military base in Bahrain, casting further doubt on peace talks between Tehran and Washington and raising the spectre of escalation. Blasts sounded over the Gulf nation...",
-      "links": [
-        {
-          "source": "The Guardian World",
-          "title": "Iran launches drone attacks against US military base in Bahrain",
-          "url": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain"
         }
       ]
     }
