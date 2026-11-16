@@ -1,12 +1,12 @@
 {
   "version": "2.0.0",
-  "generated_utc": "2026-11-15T13:53:52.479775+00:00",
+  "generated_utc": "2026-11-16T13:46:50.025532+00:00",
   "method": "Scores (0-10) combine perspective breadth, severity wording, cross-source corroboration and momentum. They measure attention and concern in public reporting - not probability, not a forecast. Read the sources before acting.",
   "summary": [
-    "Scanned 420 items from 12 of 13 sources; 76 matched a perspective and were grouped into 73 distinct issues.",
+    "Scanned 423 items from 12 of 13 sources; 78 matched a perspective and were grouped into 73 distinct issues.",
     "Top list ratings: Elevated 10 (10 threats, 0 watch items).",
-    "Perspective mix: Social 8, Technical 3, Cultural 1.",
-    "Momentum baseline still building (1 of 3 days collected)."
+    "Perspective mix: Social 6, Technical 4, Cultural 3.",
+    "Momentum baseline still building (2 of 3 days collected)."
   ],
   "rising_terms": [],
   "feed_status": {
@@ -17,7 +17,7 @@
     "Fox News World": "ok (25 items)",
     "WSJ World": "ok (20 items)",
     "Al Jazeera": "ok (25 items)",
-    "DW (Germany)": "ok (127 items)",
+    "DW (Germany)": "ok (130 items)",
     "France 24": "ok (24 items)",
     "UN News": "ok (30 items)",
     "Ars Technica": "ok (20 items)",
@@ -27,7 +27,7 @@
   "issues": [
     {
       "rank": 1,
-      "title": "Macron says limiting Ukraine aid would pave way to 'another war'",
+      "title": "Ukraine strikes Crimea bridge as Zelensky says Starshield caps helping Russian attacks",
       "score": 6.0,
       "rating": "Elevated",
       "type": "Threat",
@@ -38,20 +38,44 @@
       "sources": [
         "France 24"
       ],
-      "latest_utc": "2026-11-14T20:15:43+00:00",
-      "rationale": "Reported by 1 source (France 24); perspectives: Social (war); Technical (ai); severity wording: war.",
-      "finding": "French President Emmanuel Macron on Saturday warned that limiting aid to Ukraine would force Kyiv into an \"unjust peace\" and risk another war. His statement comes as the United States pushes ahead with efforts to negotiate between Ukraine and Moscow.",
+      "latest_utc": "2026-11-16T11:18:47+00:00",
+      "rationale": "Reported by 1 source (France 24); perspectives: Social (strike); Technical (infrastructure); severity wording: attack.",
+      "finding": "Ukraine has struck the bridge linking Russia and ⁠Crimea across the Kerch strait, limiting the flow of traffic, the peninsula's Russian-backed governor Sergei Aksyonov ⁠said on Monday. It comes after Russia struck energy and railway infrastructure across Ukraine over the weekend, in attacks President Volodymyr...",
       "links": [
         {
           "source": "France 24",
-          "title": "Macron says limiting Ukraine aid would pave way to 'another war'",
-          "url": "https://www.france24.com/en/europe/20261114-macron-says-limiting-ukraine-aid-would-pave-way-to-another-war"
+          "title": "Ukraine strikes Crimea bridge as Zelensky says Starshield caps helping Russian attacks",
+          "url": "https://www.france24.com/en/video/20261116-ukraine-strikes-crimea-bridge-as-zelensky-says-starshield-caps-helping-russian-attacks"
         }
       ]
     },
     {
       "rank": 2,
-      "title": "Inside Arab nation's battle against radicalism as top official warns of threat brewing on Europe's streets",
+      "title": "Albanese treads tightrope in upcoming Trump meeting, wanting Indo-Pacific engagement and end to Iran and Ukraine wars",
+      "score": 6.0,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-16T09:40:29+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (war); Technical (ai); severity wording: war.",
+      "finding": "Quad leaders’ summit in Philippines is Trump’s first, as Australia joins US and Japan to protect AI technologies in face of China efforts to dominate Get our daily political email , free app or daily news podcast Anthony Albanese will attempt to walk a tightrope in his relationship with Donald Trump when the pair...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "Albanese treads tightrope in upcoming Trump meeting, wanting Indo-Pacific engagement and end to Iran and Ukraine wars",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/16/albanese-treads-tightrope-in-upcoming-trump-meeting-wanting-indo-pacific-engagement-and-end-to-iran-and-ukraine-wars"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "Monday briefing: The many stages of the UK-EU relationship – and what’s next",
       "score": 6.0,
       "rating": "Elevated",
       "type": "Threat",
@@ -60,22 +84,22 @@
         "Social"
       ],
       "sources": [
-        "Fox News World"
+        "The Guardian World"
       ],
-      "latest_utc": "2026-11-14T12:00:53+00:00",
-      "rationale": "Reported by 1 source (Fox News World); perspectives: Cultural (radicali); Social (education, protest); severity wording: threat, protest.",
-      "finding": "A senior United Arab Emirates official warns that European protests have crossed into national security threats, urging coexistence education first.",
+      "latest_utc": "2026-11-16T06:46:27+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (media, speech); Social (climate, education, unemployment); severity wording: war.",
+      "finding": "In today’s newsletter: From situationship to a possible makeup, a look at the evolving relationship, and the bloc’s big feelings about the future Good morning. Ahead of the hotly anticipated UK-EU summit this Friday, Andy Burnham is expected to make the reset of our relationship with Europe the pivotal theme of his...",
       "links": [
         {
-          "source": "Fox News World",
-          "title": "Inside Arab nation's battle against radicalism as top official warns of threat brewing on Europe's streets",
-          "url": "https://www.foxnews.com/world/inside-arab-nations-battle-against-radicalism-top-official-warns-threat-brewing-europes-streets"
+          "source": "The Guardian World",
+          "title": "Monday briefing: The many stages of the UK-EU relationship – and what’s next",
+          "url": "https://www.theguardian.com/world/2026/nov/16/monday-briefing-the-many-stages-of-the-uk-eu-relationship-and-whats-next"
         }
       ]
     },
     {
-      "rank": 3,
-      "title": "Ukrainian drones strike Russia's petrochemical capital in overnight assault",
+      "rank": 4,
+      "title": "Spain's Canary Islands flooded by thousands of migrants as country declares emergency",
       "score": 5.5,
       "rating": "Elevated",
       "type": "Threat",
@@ -83,22 +107,137 @@
         "Social"
       ],
       "sources": [
-        "France 24"
+        "Fox News World"
       ],
-      "latest_utc": "2026-11-15T13:36:53+00:00",
-      "rationale": "Reported by 1 source (France 24); perspectives: Social (strike); severity wording: kill*.",
-      "finding": "Russian officials confirmed Sunday that the central industrial city of Nizhnekamsk had endured \"prolonged\" Ukrainian airstrikes overnight, damaging a residential building and sparking a fire at a major petrochemical complex, injuring three people. Separate overnight strikes on Taganrog city killed an electricity...",
+      "latest_utc": "2026-11-16T13:39:43+00:00",
+      "rationale": "Reported by 1 source (Fox News World); perspectives: Social (housing, migra, protest); severity wording: emergency, protest.",
+      "finding": "Spain's Canary Islands processed over 2,200 migrants in two days as violent protests over housing costs and skyrocketing rents erupted nationwide.",
       "links": [
         {
-          "source": "France 24",
-          "title": "Ukrainian drones strike Russia's petrochemical capital in overnight assault",
-          "url": "https://www.france24.com/en/europe/20261115-ukrainian-drones-strike-russia-s-petrochemical-capital-in-overnight-assault"
+          "source": "Fox News World",
+          "title": "Spain's Canary Islands flooded by thousands of migrants as country declares emergency",
+          "url": "https://www.foxnews.com/world/spain-canary-islands-flooded-thousands-migrants-country-declares-emergency"
         }
       ]
     },
     {
-      "rank": 4,
-      "title": "Saudi Arabia, Qatar, Jordan, Egypt condemn Iranian attack on Bahrain - Middle East crisis live",
+      "rank": 5,
+      "title": "Russian attacks kill three in Ukraine, EU accuses Moscow of prolonging war",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "Al Jazeera"
+      ],
+      "latest_utc": "2026-11-16T13:28:23+00:00",
+      "rationale": "Reported by 1 source (Al Jazeera); perspectives: Social (war); severity wording: kill*, attack, war.",
+      "finding": "EU foreign policy chief Kaja Kallas says Russian President Vladimir Putin is making maximalist demands.",
+      "links": [
+        {
+          "source": "Al Jazeera",
+          "title": "Russian attacks kill three in Ukraine, EU accuses Moscow of prolonging war",
+          "url": "https://www.aljazeera.com/news/2026/11/16/russian-attacks-kill-three-in-ukraine-eu-accuses-moscow-of-prolonging-war?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "Jordan bans Telegram app over 'radicalisation' claims",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Cultural"
+      ],
+      "sources": [
+        "DW (Germany)"
+      ],
+      "latest_utc": "2026-11-16T10:22:00+00:00",
+      "rationale": "Reported by 1 source (DW (Germany)); perspectives: Cultural (radicali); severity wording: deadly, dead, attack, threat.",
+      "finding": "Jordan has imposed a ban on Telegram over a deadly church attack which left seven people dead. The kingdom claims that content on the messaging app poses a threat to \"national interests.\"",
+      "links": [
+        {
+          "source": "DW (Germany)",
+          "title": "Jordan bans Telegram app over 'radicalisation' claims",
+          "url": "https://www.dw.com/en/jordan-bans-telegram-app-over-radicalisation-claims/a-79956706?maca=en-rss-en-all-1573-rdf"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "Coles investigates cyber-attack and apologises to customers",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Technical"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-16T04:04:37+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Technical (cyber); severity wording: attack, threat.",
+      "finding": "Supermarket giant says no customer, team or supplier data compromised but recommends updating passwords as a precaution Get our breaking news email , free app or daily news podcast Australia’s second-largest retailer has been targeted in a cyber-attack, though it is still too early to tell whether any of its data has...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "Coles investigates cyber-attack and apologises to customers",
+          "url": "https://www.theguardian.com/business/2026/nov/16/coles-cyber-attack-incident-data"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "‘The blood of these brothers cries out’: Pope Leo demands justice for people killed protecting the Amazon",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Cultural"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-16T01:13:44+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (speech); severity wording: kill*.",
+      "finding": "Pontiff delivers forceful speech in Peru as he travels from high in the Andes into the Amazon Pope Leo XIV has demanded justice for environmental defenders killed for protecting the Amazon and backed efforts by Indigenous peoples to stop their lands from being ravaged by logging and illegal mining. On the penultimate...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "‘The blood of these brothers cries out’: Pope Leo demands justice for people killed protecting the Amazon",
+          "url": "https://www.theguardian.com/world/2026/nov/16/pope-leo-speech-peru-justice-for-amazon-activists-environment"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "Microsoft lifts Indian cloud prices by 15 percent, cuts costs in China",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Technical"
+      ],
+      "sources": [
+        "The Register"
+      ],
+      "latest_utc": "2026-11-15T23:46:01+00:00",
+      "rationale": "Reported by 1 source (The Register); perspectives: Technical (chip, cloud, outage); severity wording: dead, outage, ban.",
+      "finding": "PLUS: SEGA Japan suffers outage and data leak; India bans dead battery exports; Alibaba chip unit to float; and more",
+      "links": [
+        {
+          "source": "The Register",
+          "title": "Microsoft lifts Indian cloud prices by 15 percent, cuts costs in China",
+          "url": "https://www.theregister.com/off-prem/2026/11/15/microsoft-lifts-indian-cloud-prices-by-15-percent-cuts-costs-in-china/5309993"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "Iran launches drone attacks against US military base in Bahrain",
       "score": 5.5,
       "rating": "Elevated",
       "type": "Threat",
@@ -108,152 +247,14 @@
       "sources": [
         "The Guardian World"
       ],
-      "latest_utc": "2026-11-15T13:34:32+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (strike); severity wording: attack, crisis, escalat*.",
-      "finding": "Iran has targeted airbase in Bahrain in latest resumption of strikes since september The state-run Bahrain news agency is also carrying the statements of each country in the region responding to Iran’s actions targeting their Gulf neighbour this morning. Jordan, Egypt, Saudi Arabia, and Qatar have all strongly...",
+      "latest_utc": "2026-11-15T18:03:56+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (strike); severity wording: attack, escalat*.",
+      "finding": "Strikes cast further doubt on peace talks between Tehran and Washington with increasing risk of escalation Iran has launched drone attacks against a US military base in Bahrain, casting further doubt on peace talks between Tehran and Washington and raising the spectre of escalation. Blasts sounded over the Gulf nation...",
       "links": [
         {
           "source": "The Guardian World",
-          "title": "Saudi Arabia, Qatar, Jordan, Egypt condemn Iranian attack on Bahrain - Middle East crisis live",
-          "url": "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "title": "Are we too reliant on technology? Questions arise after Microsoft's widespread outages",
-      "score": 5.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Technical"
-      ],
-      "sources": [
-        "France 24"
-      ],
-      "latest_utc": "2026-11-15T11:44:50+00:00",
-      "rationale": "Reported by 1 source (France 24); perspectives: Technical (outage); severity wording: outage, disruption.",
-      "finding": "This week's Microsoft outage highlighted the risks of relying on a single technology provider for essential services. The disruption lasted nearly 24 hours, impacting millions of users across more than 70 countries – from government agencies to airlines to hospitals and small businesses. Are we too reliant on...",
-      "links": [
-        {
-          "source": "France 24",
-          "title": "Are we too reliant on technology? Questions arise after Microsoft's widespread outages",
-          "url": "https://www.france24.com/en/are-we-too-reliant-on-technology-questions-arise-after-microsoft-s-widespread-outages"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "title": "Drone attacks on power stations plunge Sudan’s cities into darkness",
-      "score": 5.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Technical"
-      ],
-      "sources": [
-        "Al Jazeera"
-      ],
-      "latest_utc": "2026-11-15T09:59:37+00:00",
-      "rationale": "Reported by 1 source (Al Jazeera); perspectives: Technical (outage); severity wording: attack, outage.",
-      "finding": "Sudan's power stations are being targeted in waves of drone attacks, resulting in power outages.",
-      "links": [
-        {
-          "source": "Al Jazeera",
-          "title": "Drone attacks on power stations plunge Sudan’s cities into darkness",
-          "url": "https://www.aljazeera.com/features/2026/11/15/drone-strikes-on-power-stations-plunges-sudans-cities-into-darkness?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "title": "Three sentenced to death over Jordan church attack",
-      "score": 5.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social"
-      ],
-      "sources": [
-        "France 24"
-      ],
-      "latest_utc": "2026-11-15T08:53:39+00:00",
-      "rationale": "Reported by 1 source (France 24); perspectives: Social (strike); severity wording: kill*, attack.",
-      "finding": "A Jordanian court on Sunday sentenced the three gunmen responsible for a terror attack on a church funeral procession in the village of Hamoud that killed nine and wounded others. The attack prompted retaliatory strikes on \"terrorist organisations\" in neighbouring Syria.",
-      "links": [
-        {
-          "source": "France 24",
-          "title": "Three sentenced to death over Jordan church attack",
-          "url": "https://www.france24.com/en/middle-east/20261115-three-sentenced-to-death-over-jordan-church-attack"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "title": "Thousands in Portugal protest against surging rental prices",
-      "score": 5.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social"
-      ],
-      "sources": [
-        "Al Jazeera"
-      ],
-      "latest_utc": "2026-11-15T08:40:37+00:00",
-      "rationale": "Reported by 1 source (Al Jazeera); perspectives: Social (housing, protest); severity wording: crisis, protest.",
-      "finding": "Thousands of people across Portugal are angry about rising rental prices, demanding action to end the housing crisis.",
-      "links": [
-        {
-          "source": "Al Jazeera",
-          "title": "Thousands in Portugal protest against surging rental prices",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/thousands-in-portugal-protest-against-surging-rental-prices?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "rank": 9,
-      "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
-      "score": 5.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social"
-      ],
-      "sources": [
-        "BBC World"
-      ],
-      "latest_utc": "2026-11-15T08:17:41+00:00",
-      "rationale": "Reported by 1 source (BBC World); perspectives: Social (strike); severity wording: kill*.",
-      "finding": "Both Hamas and IDF officials confirm the death of Samir Abu Younis, commander of the Rafah Brigade.",
-      "links": [
-        {
-          "source": "BBC World",
-          "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
-          "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "rank": 10,
-      "title": "Germany news: Germany holds national day of remembrance",
-      "score": 5.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social"
-      ],
-      "sources": [
-        "DW (Germany)"
-      ],
-      "latest_utc": "2026-11-15T07:23:00+00:00",
-      "rationale": "Reported by 1 source (DW (Germany)); perspectives: Social (war); severity wording: war, crisis.",
-      "finding": "Events are being held for Volkstrauertag, a day commemorating victims of war and oppression. Meanwhile, experts say the country is headed for a budget crisis. DW has more.",
-      "links": [
-        {
-          "source": "DW (Germany)",
-          "title": "Germany news: Germany holds national day of remembrance",
-          "url": "https://www.dw.com/en/germany-news-germany-holds-national-day-of-remembrance/live-79947500?maca=en-rss-en-all-1573-rdf"
+          "title": "Iran launches drone attacks against US military base in Bahrain",
+          "url": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain"
         }
       ]
     }
