@@ -48,7 +48,7 @@ APP_DIR = Path(__file__).resolve().parent
 EPOCH = datetime(1970, 1, 1, tzinfo=timezone.utc)
 MAX_FEED_BYTES = 25 * 1024 * 1024
 RATING_BANDS = ((7.0, "High"), (5.0, "Elevated"), (3.0, "Moderate"), (0.0, "Low"))
-ADV_BANDS = ((7.0, "Major"), (5.0, "Notable"), (3.0, "Emerging"), (0.0, "Minor"))
+ADV_BANDS = ((8.0, "Major"), (6.0, "Notable"), (4.0, "Emerging"), (0.0, "Minor"))
 # Stage of an advancement, checked in this order against the issue's text.
 STAGES = (
     ("Approval", re.compile(r"\b(approv\w*|clearance|cleared|authori[sz]\w*|certifi\w*)\b")),
@@ -393,8 +393,11 @@ def term_counts(issues: list[Issue]) -> Counter:
     return counts
 
 
-def rising_terms(today: Counter, history: dict, today_key: str, window: int = 7) -> tuple[list[str], int]:
-    previous = sorted(k for k in history if k < today_key)[-window:]
+def rising_terms(today: Counter, history: dict, today_key: str, window: int = 7,
+                 prefix: str = "") -> tuple[list[str], int]:
+    # Only days that recorded this list's terms count towards the baseline.
+    previous = sorted(k for k in history if k < today_key
+                      and (not prefix or any(t.startswith(prefix) for t in history[k])))[-window:]
     if len(previous) < MIN_BASELINE_DAYS:
         return [], len(previous)
     rising = []
@@ -486,7 +489,7 @@ def stage_of(issue: Issue) -> str:
 def score_advance(issue: Issue, rising: set[str]) -> None:
     fields = issue.themes
     issue.rising = sorted({t for terms in fields.values() for t in terms} & rising)
-    breadth = 2.0 if len(fields) == 1 else 3.0
+    breadth = min(3.0, 2.0 + 0.5 * (len(fields) - 1))
     progress = min(4, sum(issue.severity.values()))
     corroboration = min(2, len(issue.sources) - 1)
     momentum = 1 if issue.rising else 0
@@ -516,14 +519,14 @@ def analyse_advances(stories: list[Story], config: dict, history: dict, now: dat
         if sum(risk.classify(text)[1].values()) >= 3:
             continue  # threat stories belong in the risk list
         story.themes, story.severity = matcher.classify(text)
-        if story.themes and story.severity:
+        if story.themes and sum(story.severity.values()) >= int(adv.get("min_signal", 2)):
             matched.append(story)
 
     generic = generic_words({"themes": adv["fields"], "severity": adv["signals"]})
     issues = cluster(matched, float(adv.get("cluster_similarity", 0.3)), generic, mode="advance")
     today_key = now.strftime("%Y-%m-%d")
     counts = Counter({f"adv:{t}": c for t, c in term_counts(issues).items()})
-    rising, baseline_days = rising_terms(counts, history, today_key)
+    rising, baseline_days = rising_terms(counts, history, today_key, prefix="adv:")
     rising = [t[4:] for t in rising]
     for issue in issues:
         issue.stage = stage_of(issue)

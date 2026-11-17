@@ -34,14 +34,14 @@ Keyword lists and feeds are not neutral in themselves. Review `config.json` and 
 
 | Signal | Points | Meaning |
 |---|---|---|
-| Field | 2, or 3 if it spans two or more fields | AI & Computing, Chips & Hardware, Energy & Climate, Health & Biotech, Space, Robotics & Mobility, Materials & Science, Connectivity |
+| Field | 2, plus 0.5 per extra field, max 3 | AI & Computing, Chips & Hardware, Energy & Climate, Health & Biotech, Space, Robotics & Mobility, Materials & Science, Connectivity |
 | Progress wording | sum of word weights, max 4 | e.g. *breakthrough* 3, *world's first* 3, *unveils* 2, *record* 2, *approves* 2, *new* 1 |
 | Corroboration | +1 per extra outlet, max 2 | The same development reported by several outlets |
 | Momentum | +1 | Its topics are mentioned noticeably more than the 7-day average |
 
-**Ratings:** Major ≥ 7 · Notable ≥ 5 · Emerging ≥ 3 · Minor < 3. **Stage:** *Approval* (regulator clearance), *Launch* (product released), *Research* (lab or study result), otherwise *Development*.
+**Ratings:** Major ≥ 8 · Notable ≥ 6 · Emerging ≥ 4 · Minor < 4. **Stage:** *Approval* (regulator clearance), *Launch* (product released), *Research* (lab or study result), otherwise *Development*.
 
-Shopping deals, reviews, business and legal stories are left out, and so are threat stories (attacks, breaches), which belong in the risk tab. Sources: MIT Technology Review, IEEE Spectrum, TechCrunch, The Verge, Wired, New Scientist, ScienceDaily, Phys.org, NASA, BBC Technology, Ars Technica and The Register.
+A story needs real progress wording (score 2 or more) to qualify. Shopping deals, pre-orders, reviews, setbacks (fails, delayed, recalled), business and legal stories are left out, and so are threat stories (attacks, breaches), which belong in the risk tab. Sources: MIT Technology Review, IEEE Spectrum, TechCrunch, The Verge, Wired, New Scientist, ScienceDaily, Phys.org, NASA, BBC Technology, Ars Technica and The Register.
 
 ## Quick start
 

@@ -286,9 +286,9 @@
       "unveil": 2,
       "debut": 2,
       "launch": 2,
-      "release": 1,
+      "release": 2,
       "announce": 1,
-      "introduc*": 1,
+      "introduc*": 2,
       "develop": 1,
       "invent*": 2,
       "discover": 2,
@@ -335,7 +335,27 @@
       "fined",
       "stock",
       "shares",
-      "earnings"
-    ]
+      "earnings",
+      "loses",
+      "lost",
+      "fails",
+      "failed",
+      "failure",
+      "crash*",
+      "explod*",
+      "recall*",
+      "delay*",
+      "scrap*",
+      "cancel*",
+      "outage",
+      "naughty",
+      "warns",
+      "worst",
+      "ban",
+      "banned",
+      "preorder",
+      "pre-order"
+    ],
+    "min_signal": 2
   }
 }

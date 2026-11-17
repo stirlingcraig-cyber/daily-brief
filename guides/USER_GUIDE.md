@@ -16,7 +16,7 @@ The top 10 new technology developments from 12 technology and science sources.
 
 | Part | Meaning |
 |---|---|
-| **Rating and score** | Major ≥ 7, Notable ≥ 5, Emerging ≥ 3, Minor < 3. This shows how strongly a development is being reported, not whether it will succeed. |
+| **Rating and score** | Major ≥ 8, Notable ≥ 6, Emerging ≥ 4, Minor < 4. This shows how strongly a development is being reported, not whether it will succeed. |
 | **Stage** | *Approval* = regulator cleared it · *Launch* = released or unveiled · *Research* = a lab or study result · *Development* = anything else |
 | **Field tags** | AI & Computing, Chips & Hardware, Energy & Climate, Health & Biotech, Space, Robotics & Mobility, Materials & Science, Connectivity |
 | **Rationale** | Sources, the field keywords matched, the progress words found (*breakthrough*, *first*, *unveils*...) and the stage |
