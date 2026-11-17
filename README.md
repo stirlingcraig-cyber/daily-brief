@@ -1,6 +1,11 @@
 # Daily Brief
 
-A daily early-warning digest of the **top 10 social, cultural and technical issues**, built from public news feeds. Each issue gets a **risk rating, a score out of 10, a rationale and a summary finding**, and the brief opens with summary findings for the day.
+A daily digest with two tabs, built from public news feeds:
+
+- **Risks & threats**: the top 10 social, cultural and technical issues, each with a **risk rating, a score out of 10, a rationale and a summary finding**.
+- **Tech advancements**: the top 10 new technology developments (launches, research results, approvals), each with an **impact rating, a stage, a score out of 10, a rationale and a summary finding**.
+
+Each tab opens with summary findings for the day.
 
 It runs on **Windows** (desktop icon, Start menu, Ctrl+Alt+B hotkey and a daily scheduled run), on **GitHub** (a free daily run that publishes a web page) and on **iPhone** (that page saved to your Home Screen as an app icon).
 
@@ -24,6 +29,19 @@ How it reduces bias:
 - **Guaranteed mix:** at least one item from each perspective appears in the top 10 when there is material for it.
 
 Keyword lists and feeds are not neutral in themselves. Review `config.json` and adjust it to suit you.
+
+## How a technology advancement is scored (0–10)
+
+| Signal | Points | Meaning |
+|---|---|---|
+| Field | 2, or 3 if it spans two or more fields | AI & Computing, Chips & Hardware, Energy & Climate, Health & Biotech, Space, Robotics & Mobility, Materials & Science, Connectivity |
+| Progress wording | sum of word weights, max 4 | e.g. *breakthrough* 3, *world's first* 3, *unveils* 2, *record* 2, *approves* 2, *new* 1 |
+| Corroboration | +1 per extra outlet, max 2 | The same development reported by several outlets |
+| Momentum | +1 | Its topics are mentioned noticeably more than the 7-day average |
+
+**Ratings:** Major ≥ 7 · Notable ≥ 5 · Emerging ≥ 3 · Minor < 3. **Stage:** *Approval* (regulator clearance), *Launch* (product released), *Research* (lab or study result), otherwise *Development*.
+
+Shopping deals, reviews, business and legal stories are left out, and so are threat stories (attacks, breaches), which belong in the risk tab. Sources: MIT Technology Review, IEEE Spectrum, TechCrunch, The Verge, Wired, New Scientist, ScienceDaily, Phys.org, NASA, BBC Technology, Ars Technica and The Register.
 
 ## Quick start
 

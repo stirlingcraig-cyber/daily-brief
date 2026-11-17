@@ -3,10 +3,11 @@ name: Daily Brief
 on:
   schedule:
     - cron: "17 6 * * *"     # every day 06:17 UTC (06:17 UK winter / 07:17 UK summer)
+    - cron: "47 8 * * *"     # backup run 08:47 UTC - GitHub sometimes delays or skips scheduled runs
   workflow_dispatch:          # "Run workflow" button - also works from the GitHub iPhone app
   push:
     branches: [main]
-    paths: ["daily_brief.py", "config.json", "tests/**"]
+    paths: ["daily_brief.py", "config.json", "tests/**", ".github/workflows/**"]
 
 permissions:
   contents: write
@@ -27,7 +28,7 @@ jobs:
           python-version: "3.12"
 
       - name: Run tests
-        run: python -m unittest discover -s tests -v
+        run: python -m unittest -v tests.test_daily_brief   # only Daily Brief's own tests
 
       - name: Build brief
         run: |

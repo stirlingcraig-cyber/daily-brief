@@ -21,9 +21,10 @@ Usage:
 
 from __future__ import annotations
 
-__version__ = "2.0.0"
+__version__ = "2.1.0"
 
 import argparse
+import gzip
 import html
 import json
 import logging
@@ -36,7 +37,7 @@ import webbrowser
 import xml.etree.ElementTree as ET
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
@@ -45,8 +46,15 @@ from urllib.request import Request, urlopen
 
 APP_DIR = Path(__file__).resolve().parent
 EPOCH = datetime(1970, 1, 1, tzinfo=timezone.utc)
-MAX_FEED_BYTES = 5 * 1024 * 1024
+MAX_FEED_BYTES = 25 * 1024 * 1024
 RATING_BANDS = ((7.0, "High"), (5.0, "Elevated"), (3.0, "Moderate"), (0.0, "Low"))
+ADV_BANDS = ((7.0, "Major"), (5.0, "Notable"), (3.0, "Emerging"), (0.0, "Minor"))
+# Stage of an advancement, checked in this order against the issue's text.
+STAGES = (
+    ("Approval", re.compile(r"\b(approv\w*|clearance|cleared|authori[sz]\w*|certifi\w*)\b")),
+    ("Launch", re.compile(r"\b(launch\w*|releas\w*|unveil\w*|debut\w*|rolls? out|rollout|now available|ships|introduc\w*)\b")),
+    ("Research", re.compile(r"\b(research\w*|scientists?|study|studies|paper|lab|laboratory|universit\w*|prototype|experiment\w*|discover\w*)\b")),
+)
 MIN_BASELINE_DAYS = 3
 
 STOP_WORDS = {
@@ -89,6 +97,11 @@ def load_config(*paths: Path) -> dict:
     if not config.get("feeds") or not config.get("themes"):
         raise SystemExit("Config must define 'feeds' and 'themes'.")
     config["feeds"] = {k: v for k, v in config["feeds"].items() if v}
+    adv = config.get("advancements")
+    if adv and adv.get("enabled", True) and adv.get("feeds") and adv.get("fields") and adv.get("signals"):
+        adv["feeds"] = {k: v for k, v in adv["feeds"].items() if v}
+    else:
+        config.pop("advancements", None)
     config.setdefault("severity", {})
     config.setdefault("settings", {})
     return config
@@ -145,6 +158,8 @@ class Issue:
     stories: list[Story]
     score: float = 0.0
     rising: list[str] = field(default_factory=list)
+    mode: str = "risk"          # "risk" or "advance"
+    stage: str = ""             # advancements only: Approval / Launch / Research / Development
 
     @property
     def sources(self) -> list[str]:
@@ -176,11 +191,25 @@ class Issue:
 
     @property
     def kind(self) -> str:
+        if self.mode == "advance":
+            return self.stage or "Development"
         return "Threat" if sum(self.severity.values()) >= 3 else "Watch"
 
     @property
     def rating(self) -> str:
-        return next(label for floor, label in RATING_BANDS if self.score >= floor)
+        bands = ADV_BANDS if self.mode == "advance" else RATING_BANDS
+        return next(label for floor, label in bands if self.score >= floor)
+
+
+@dataclass
+class Section:
+    """The technology-advancements list."""
+    issues: list[Issue]
+    items_matched: int
+    issue_count: int
+    rising_terms: list[str]
+    baseline_days: int
+    feed_status: dict[str, str]
 
 
 @dataclass
@@ -194,6 +223,7 @@ class Brief:
     baseline_days: int
     feed_status: dict[str, str]
     update_notice: str | None = None
+    advances: Section | None = None
 
 
 # --------------------------------------------------------------------------- feeds
@@ -279,7 +309,9 @@ def http_get(url: str, timeout: float, limit: int = MAX_FEED_BYTES) -> bytes:
         data = response.read(limit + 1)
     if len(data) > limit:
         raise ValueError("response too large")
-    return data
+    if data[:2] == b"\x1f\x8b":  # some servers gzip even when not asked
+        data = gzip.decompress(data)
+    return data.lstrip(b"\xef\xbb\xbf \t\r\n")
 
 
 def fetch_feed(source: str, url: str, timeout: float, attempts: int = 2) -> tuple[list[Story], str]:
@@ -337,7 +369,7 @@ def similarity(a: set[str], b: set[str], generic=(frozenset(), ())) -> float:
     return jaccard(a, b) if specific else 0.0
 
 
-def cluster(stories: list[Story], threshold: float, generic=(frozenset(), ())) -> list[Issue]:
+def cluster(stories: list[Story], threshold: float, generic=(frozenset(), ()), mode: str = "risk") -> list[Issue]:
     """Group headlines about the same event so one story can't fill the list."""
     issues: list[Issue] = []
     for story in sorted(stories, key=lambda s: s.published or EPOCH, reverse=True):
@@ -349,7 +381,7 @@ def cluster(stories: list[Story], threshold: float, generic=(frozenset(), ())) -
         if best is not None and best_sim >= threshold:
             best.stories.append(story)
         else:
-            issues.append(Issue(stories=[story]))
+            issues.append(Issue(stories=[story], mode=mode))
     return issues
 
 
@@ -446,6 +478,64 @@ def analyse(stories: list[Story], config: dict, history: dict, now: datetime,
     return brief, history
 
 
+def stage_of(issue: Issue) -> str:
+    text = " ".join(f"{s.title} {s.summary}" for s in issue.stories).lower()
+    return next((name for name, pattern in STAGES if pattern.search(text)), "Development")
+
+
+def score_advance(issue: Issue, rising: set[str]) -> None:
+    fields = issue.themes
+    issue.rising = sorted({t for terms in fields.values() for t in terms} & rising)
+    breadth = 2.0 if len(fields) == 1 else 3.0
+    progress = min(4, sum(issue.severity.values()))
+    corroboration = min(2, len(issue.sources) - 1)
+    momentum = 1 if issue.rising else 0
+    issue.score = round(min(10.0, breadth + progress + corroboration + momentum), 1)
+
+
+def analyse_advances(stories: list[Story], config: dict, history: dict, now: datetime,
+                     feed_status: dict[str, str]) -> tuple[Section, dict[str, int]]:
+    """Rank new technology advancements. Returns the section and today's term counts."""
+    adv = config["advancements"]
+    settings = config["settings"]
+    matcher = Matcher({"themes": adv["fields"], "severity": adv["signals"]})
+    risk = Matcher(config)
+    exclude = [compile_term(t) for t in adv.get("exclude", [])]
+    cutoff = now - timedelta(hours=float(settings.get("max_age_hours", 48)))
+
+    matched, seen = [], set()
+    for original in stories:
+        story = replace(original, themes={}, severity={})
+        if story.published and story.published < cutoff:
+            continue
+        key = " ".join(sorted(story.tokens)) or story.title.lower()
+        if key in seen or any(p.search(story.title.lower()) for p in exclude):
+            continue
+        seen.add(key)
+        text = f"{story.title} {story.summary}"
+        if sum(risk.classify(text)[1].values()) >= 3:
+            continue  # threat stories belong in the risk list
+        story.themes, story.severity = matcher.classify(text)
+        if story.themes and story.severity:
+            matched.append(story)
+
+    generic = generic_words({"themes": adv["fields"], "severity": adv["signals"]})
+    issues = cluster(matched, float(adv.get("cluster_similarity", 0.3)), generic, mode="advance")
+    today_key = now.strftime("%Y-%m-%d")
+    counts = Counter({f"adv:{t}": c for t, c in term_counts(issues).items()})
+    rising, baseline_days = rising_terms(counts, history, today_key)
+    rising = [t[4:] for t in rising]
+    for issue in issues:
+        issue.stage = stage_of(issue)
+        score_advance(issue, set(rising))
+
+    top = select_top(issues, int(adv.get("top_n", settings.get("top_n", 10))), list(adv["fields"]))
+    status = {name: feed_status.get(name, "not fetched") for name in adv["feeds"]}
+    section = Section(issues=top, items_matched=len(matched), issue_count=len(issues),
+                      rising_terms=rising[:8], baseline_days=baseline_days, feed_status=status)
+    return section, dict(counts)
+
+
 # --------------------------------------------------------------------------- text helpers
 
 def trim(text: str, limit: int = 320) -> str:
@@ -457,10 +547,16 @@ def trim(text: str, limit: int = 320) -> str:
 def rationale(issue: Issue) -> str:
     n = len(issue.sources)
     parts = [f"Reported by {n} source{'s' if n != 1 else ''} ({', '.join(issue.sources)})"]
-    parts.append("perspectives: " + "; ".join(
+    label = "fields" if issue.mode == "advance" else "perspectives"
+    parts.append(f"{label}: " + "; ".join(
         f"{name} ({', '.join(sorted(t.rstrip('*') for t in terms)[:3])})" for name, terms in sorted(issue.themes.items())))
-    severity = sorted(issue.severity, key=lambda t: -issue.severity[t])
-    parts.append("severity wording: " + ", ".join(severity[:4]) if severity else "no severity wording")
+    words = sorted(issue.severity, key=lambda t: -issue.severity[t])
+    words = [w.rstrip("*") for w in words[:4]]
+    if issue.mode == "advance":
+        parts.append("progress signals: " + ", ".join(words))
+        parts.append(f"stage: {issue.kind}")
+    else:
+        parts.append("severity wording: " + ", ".join(words) if words else "no severity wording")
     if issue.rising:
         parts.append("rising versus recent days: " + ", ".join(issue.rising[:4]))
     return "; ".join(parts) + "."
@@ -471,81 +567,131 @@ def finding(issue: Issue) -> str:
     return trim(lead.summary) if lead.summary else "Headline only - open the source for detail."
 
 
+def momentum_line(rising: list[str], baseline_days: int) -> str:
+    if rising:
+        return "Rising topics versus recent days: " + ", ".join(rising) + "."
+    if baseline_days >= MIN_BASELINE_DAYS:
+        return "No topics rising sharply versus recent days."
+    return f"Momentum baseline still building ({baseline_days} of {MIN_BASELINE_DAYS} days collected)."
+
+
+def most_reported(issues: list[Issue]) -> list[str]:
+    if issues:
+        most = max(issues, key=lambda i: len(i.sources))
+        if len(most.sources) > 1:
+            return [f"Most widely reported: \"{most.lead.title}\" ({len(most.sources)} sources)."]
+    return []
+
+
 def summary_lines(brief: Brief) -> list[str]:
     ok = sum(1 for s in brief.feed_status.values() if s.startswith("ok"))
     ratings = Counter(i.rating for i in brief.issues)
     kinds = Counter(i.kind for i in brief.issues)
     themes = Counter(t for i in brief.issues for t in i.themes)
-    lines = [
+    return [
         f"Scanned {brief.items_scanned} items from {ok} of {len(brief.feed_status)} sources; "
         f"{brief.items_matched} matched a perspective and were grouped into {brief.issue_count} distinct issues.",
         "Top list ratings: " + ", ".join(f"{label} {ratings[label]}" for _, label in RATING_BANDS if ratings[label])
         + f" ({kinds['Threat']} threats, {kinds['Watch']} watch items).",
         "Perspective mix: " + ", ".join(f"{t} {c}" for t, c in themes.most_common()) + ".",
-    ]
-    if brief.rising_terms:
-        lines.append("Rising topics versus recent days: " + ", ".join(brief.rising_terms) + ".")
-    else:
-        lines.append(
-            "No topics rising sharply versus recent days." if brief.baseline_days >= MIN_BASELINE_DAYS
-            else f"Momentum baseline still building ({brief.baseline_days} of {MIN_BASELINE_DAYS} days collected).")
-    if brief.issues:
-        most = max(brief.issues, key=lambda i: len(i.sources))
-        if len(most.sources) > 1:
-            lines.append(f"Most widely reported: \"{most.lead.title}\" ({len(most.sources)} sources).")
-    return lines
+        momentum_line(brief.rising_terms, brief.baseline_days),
+    ] + most_reported(brief.issues)
+
+
+def adv_summary_lines(section: Section) -> list[str]:
+    ok = sum(1 for s in section.feed_status.values() if s.startswith("ok"))
+    lines = [f"Found {section.items_matched} advancement stories from {ok} of {len(section.feed_status)} "
+             f"technology sources, grouped into {section.issue_count} distinct developments."]
+    if section.issues:
+        ratings = Counter(i.rating for i in section.issues)
+        stages = Counter(i.kind for i in section.issues)
+        fields = Counter(t for i in section.issues for t in i.themes)
+        lines += [
+            "Top list ratings: " + ", ".join(f"{label} {ratings[label]}" for _, label in ADV_BANDS if ratings[label])
+            + "; stages: " + ", ".join(f"{k} {v}" for k, v in stages.most_common()) + ".",
+            "Field mix: " + ", ".join(f"{t} {c}" for t, c in fields.most_common()) + ".",
+        ]
+    return lines + [momentum_line(section.rising_terms, section.baseline_days)] + most_reported(section.issues)
 
 
 METHOD_NOTE = ("Scores (0-10) combine perspective breadth, severity wording, cross-source corroboration "
                "and momentum. They measure attention and concern in public reporting - not probability, "
                "not a forecast. Read the sources before acting.")
+ADV_METHOD_NOTE = ("Scores (0-10) combine the technology field, progress wording (breakthrough, unveils, first, "
+                   "approved...), cross-source corroboration and momentum. They show how strongly a development "
+                   "is being reported - not its proven impact or commercial success.")
 
 
 # --------------------------------------------------------------------------- output
 
-def render_text(brief: Brief) -> str:
-    out = [f"DAILY BRIEF - {brief.generated:%A %d %B %Y, %H:%M} UTC", METHOD_NOTE, ""]
-    if brief.update_notice:
-        out += [f"UPDATE: {brief.update_notice}", ""]
-    out.append("SUMMARY FINDINGS")
-    out += [f"  - {line}" for line in summary_lines(brief)]
-    out.append("")
-    if not brief.issues:
-        out.append("No matching stories were retrieved. Run with --check-feeds to test your sources.")
-    for rank, issue in enumerate(brief.issues, 1):
+def text_items(issues: list[Issue], label: str) -> list[str]:
+    out = []
+    for rank, issue in enumerate(issues, 1):
         date = f"{issue.published:%d %b %H:%M} UTC" if issue.published else "date unavailable"
         out.append(f"{rank:>2}. [{issue.rating} | {issue.score}/10 | {issue.kind}] {issue.lead.title}")
-        out.append(f"    Perspectives: {', '.join(sorted(issue.themes))} | Latest: {date}")
+        out.append(f"    {label}: {', '.join(sorted(issue.themes))} | Latest: {date}")
         out.append(f"    Rationale: {rationale(issue)}")
         out.append(f"    Finding: {finding(issue)}")
         if issue.lead.link:
             out.append(f"    Link: {issue.lead.link}")
         out.append("")
+    return out
+
+
+def render_text(brief: Brief) -> str:
+    out = [f"DAILY BRIEF - {brief.generated:%A %d %B %Y, %H:%M} UTC", METHOD_NOTE, ""]
+    if brief.update_notice:
+        out += [f"UPDATE: {brief.update_notice}", ""]
+    out.append("TOP RISKS & THREATS - SUMMARY FINDINGS")
+    out += [f"  - {line}" for line in summary_lines(brief)]
+    out.append("")
+    if not brief.issues:
+        out.append("No matching stories were retrieved. Run with --check-feeds to test your sources.")
+    out += text_items(brief.issues, "Perspectives")
+    if brief.advances is not None:
+        out += ["=" * 72, "TOP TECHNOLOGY ADVANCEMENTS - SUMMARY FINDINGS", ADV_METHOD_NOTE]
+        out += [f"  - {line}" for line in adv_summary_lines(brief.advances)]
+        out.append("")
+        out += text_items(brief.advances.issues, "Fields")
     return "\n".join(out)
 
 
-def to_json(brief: Brief) -> dict:
+def issue_json(rank: int, issue: Issue, label: str) -> dict:
     return {
+        "rank": rank,
+        "title": issue.lead.title,
+        "score": issue.score,
+        "rating": issue.rating,
+        ("stage" if issue.mode == "advance" else "type"): issue.kind,
+        label: sorted(issue.themes),
+        "sources": issue.sources,
+        "latest_utc": issue.published.isoformat() if issue.published else None,
+        "rationale": rationale(issue),
+        "finding": finding(issue),
+        "links": [{"source": s.source, "title": s.title, "url": s.link} for s in issue.stories if s.link],
+    }
+
+
+def to_json(brief: Brief) -> dict:
+    data = {
         "version": __version__,
         "generated_utc": brief.generated.isoformat(),
         "method": METHOD_NOTE,
         "summary": summary_lines(brief),
         "rising_terms": brief.rising_terms,
         "feed_status": brief.feed_status,
-        "issues": [{
-            "rank": rank,
-            "title": issue.lead.title,
-            "score": issue.score,
-            "rating": issue.rating,
-            "type": issue.kind,
-            "perspectives": sorted(issue.themes),
-            "sources": issue.sources,
-            "latest_utc": issue.published.isoformat() if issue.published else None,
-            "rationale": rationale(issue),
-            "finding": finding(issue),
-            "links": [{"source": s.source, "title": s.title, "url": s.link} for s in issue.stories if s.link],
-        } for rank, issue in enumerate(brief.issues, 1)],
+        "issues": [issue_json(r, i, "perspectives") for r, i in enumerate(brief.issues, 1)],
     }
+    if brief.advances is not None:
+        adv = brief.advances
+        data["advancements"] = {
+            "method": ADV_METHOD_NOTE,
+            "summary": adv_summary_lines(adv),
+            "rising_terms": adv.rising_terms,
+            "feed_status": adv.feed_status,
+            "items": [issue_json(r, i, "fields") for r, i in enumerate(adv.issues, 1)],
+        }
+    return data
 
 
 HTML_TEMPLATE = """<!DOCTYPE html>
@@ -561,12 +707,15 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <title>Daily Brief - {date}</title>
 <style>
 :root{{--bg:#f4f6f9;--card:#fff;--ink:#14202b;--muted:#5b6876;--line:#dde3ea;--accent:#1f6feb;
---high:#c62828;--elev:#e2711d;--mod:#b38600;--low:#3d7a52}}
+--high:#c62828;--elev:#e2711d;--mod:#b38600;--low:#3d7a52;--major:#7c3aed;--notable:#1f6feb;--emerging:#0f8a7a;--minor:#6b7785}}
 @media (prefers-color-scheme:dark){{:root{{--bg:#0d141b;--card:#16202a;--ink:#e6edf3;--muted:#93a1b0;--line:#26323e;--accent:#58a6ff}}}}
 *{{box-sizing:border-box}}body{{margin:0;font:16px/1.5 -apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink)}}
 header{{background:#0b1f33;color:#fff;padding:calc(18px + env(safe-area-inset-top)) 20px 18px;display:flex;gap:14px;align-items:center}}
 header img{{width:44px;height:44px;border-radius:10px}}header h1{{margin:0;font-size:1.3rem}}header p{{margin:2px 0 0;opacity:.8;font-size:.9rem}}
 main{{max-width:880px;margin:0 auto;padding:16px}}
+.tabs{{display:flex;gap:6px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:5px;margin-bottom:14px;position:sticky;top:6px;z-index:2}}
+.tabs button{{flex:1;border:0;background:none;color:var(--ink);font:inherit;font-weight:600;font-size:.95rem;padding:9px 6px;border-radius:9px;cursor:pointer}}
+.tabs button.on{{background:#0b1f33;color:#fff}}
 .box{{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:14px}}
 .box h2{{font-size:1rem;margin:0 0 6px}}.box ul{{margin:0;padding-left:20px}}.note{{color:var(--muted);font-size:.85rem}}
 .update{{border-color:var(--accent)}}
@@ -586,29 +735,43 @@ details{{margin-top:6px}}footer{{text-align:center;color:var(--muted);font-size:
 <header><img src="assets/icon-192.png" alt=""><div><h1>Daily Brief</h1><p>{date_long} &middot; generated {time} UTC</p></div></header>
 <main>
 {update}
-<section class="box"><h2>Summary findings</h2><ul>{summary}</ul><p class="note">{method}</p></section>
-<div class="chips" id="chips"><button class="on" data-f="all">All</button>{chips}<button data-f="Threat">Threats only</button></div>
+{tabs}
+<div class="pane" id="pane-risks">
+<section class="box"><h2>Top risks &amp; threats - summary findings</h2><ul>{summary}</ul><p class="note">{method}</p></section>
+<div class="chips"><button class="on" data-f="all">All</button>{chips}<button data-f="Threat">Threats only</button></div>
 {cards}
+</div>
+{adv_pane}
 <section class="box"><details><summary>Source status</summary><ul>{status}</ul></details></section>
 {archive}
 </main>
 <footer>Daily Brief v{version} &middot; public RSS sources &middot; heuristic ranking, not a forecast</footer>
 <script>
-document.getElementById('chips').addEventListener('click',function(e){{
+function showPane(p){{
+ var pane=document.getElementById('pane-'+p); if(!pane)return;
+ document.querySelectorAll('.pane').forEach(function(x){{x.hidden=(x!==pane);}});
+ document.querySelectorAll('.tabs button').forEach(function(b){{b.classList.toggle('on',b.dataset.pane===p);}});
+ try{{history.replaceState(null,'','#'+p);}}catch(err){{}}
+}}
+document.querySelectorAll('.tabs button').forEach(function(b){{b.addEventListener('click',function(){{showPane(b.dataset.pane);window.scrollTo(0,0);}});}});
+if(location.hash==='#advances')showPane('advances');
+document.querySelectorAll('.chips').forEach(function(bar){{bar.addEventListener('click',function(e){{
  var f=e.target.getAttribute('data-f'); if(!f)return;
- document.querySelectorAll('#chips button').forEach(function(b){{b.classList.toggle('on',b===e.target)}});
- document.querySelectorAll('.card').forEach(function(c){{
+ bar.querySelectorAll('button').forEach(function(b){{b.classList.toggle('on',b===e.target);}});
+ bar.parentNode.querySelectorAll('.card').forEach(function(c){{
   c.style.display=(f==='all'||c.dataset.themes.split(',').indexOf(f)>-1||c.dataset.kind===f)?'':'none';}});
-}});
+}});}});
 </script></body></html>"""
 
-RATING_COLOURS = {"High": "var(--high)", "Elevated": "var(--elev)", "Moderate": "var(--mod)", "Low": "var(--low)"}
+RATING_COLOURS = {"High": "var(--high)", "Elevated": "var(--elev)", "Moderate": "var(--mod)", "Low": "var(--low)",
+                  "Major": "var(--major)", "Notable": "var(--notable)", "Emerging": "var(--emerging)",
+                  "Minor": "var(--minor)"}
 
 
-def render_html(brief: Brief, archive: list[str]) -> str:
+def render_cards(issues: list[Issue], empty: str) -> str:
     e = html.escape
     cards = []
-    for rank, issue in enumerate(brief.issues, 1):
+    for rank, issue in enumerate(issues, 1):
         lead = issue.lead
         title = f'<a href="{e(lead.link)}" target="_blank" rel="noopener">{e(lead.title)}</a>' if lead.link else e(lead.title)
         date = f"{issue.published:%d %b %H:%M} UTC" if issue.published else "date unavailable"
@@ -621,29 +784,54 @@ def render_html(brief: Brief, archive: list[str]) -> str:
         tags = "".join(f'<span class="tag">{e(t)}</span>' for t in sorted(issue.themes))
         cards.append(
             f'<article class="card" style="--c:{RATING_COLOURS[issue.rating]}" '
-            f'data-themes="{e(",".join(sorted(issue.themes)))}" data-kind="{issue.kind}">'
+            f'data-themes="{e(",".join(sorted(issue.themes)))}" data-kind="{e(issue.kind)}">'
             f'<div class="tags"><b>#{rank}</b><span class="pill">{issue.rating} &middot; {issue.score}/10</span>'
-            f'<span class="tag">{issue.kind}</span>{tags}</div>'
+            f'<span class="tag">{e(issue.kind)}</span>{tags}</div>'
             f'<h3>{title}</h3><div class="bar"><i style="width:{issue.score * 10:.0f}%"></i></div>'
             f'<p><b>Finding:</b> {e(finding(issue))}</p><p><b>Rationale:</b> {e(rationale(issue))}</p>'
             f'<p class="note">{e(lead.source)} &middot; latest {date}</p>{more}</article>')
-    if not cards:
-        cards.append('<section class="box">No matching stories were retrieved today. '
-                     'Check the source status below.</section>')
+    return "\n".join(cards) if cards else f'<section class="box">{empty}</section>'
+
+
+def chip_buttons(values) -> str:
+    e = html.escape
+    return "".join(f'<button data-f="{e(v)}">{e(v)}</button>' for v in sorted(values))
+
+
+def render_html(brief: Brief, archive: list[str]) -> str:
+    e = html.escape
     archive_html = ""
     if archive:
         archive_html = ('<section class="box archive"><h2>Previous briefs</h2>' + "".join(
             f'<a href="{e(name)}">{e(name[6:16])}</a>' for name in archive) + "</section>")
     update = f'<section class="box update"><b>Update available:</b> {e(brief.update_notice)}</section>' \
         if brief.update_notice else ""
+    status = dict(brief.feed_status)
+    tabs = adv_pane = ""
+    adv = brief.advances
+    if adv is not None:
+        status.update(adv.feed_status)
+        tabs = ('<nav class="tabs"><button class="on" data-pane="risks">Risks &amp; threats</button>'
+                '<button data-pane="advances">Tech advancements</button></nav>')
+        stages = {i.kind for i in adv.issues}
+        adv_pane = (
+            '<div class="pane" id="pane-advances" hidden>'
+            '<section class="box"><h2>Top technology advancements - summary findings</h2><ul>'
+            + "".join(f"<li>{e(line)}</li>" for line in adv_summary_lines(adv))
+            + f'</ul><p class="note">{e(ADV_METHOD_NOTE)}</p></section>'
+            '<div class="chips"><button class="on" data-f="all">All</button>'
+            + chip_buttons({t for i in adv.issues for t in i.themes}) + chip_buttons(stages) + "</div>"
+            + render_cards(adv.issues, "No technology advancements were found today. Check the source status below.")
+            + "</div>")
     return HTML_TEMPLATE.format(
         date=f"{brief.generated:%Y-%m-%d}", date_long=f"{brief.generated:%A %d %B %Y}",
-        time=f"{brief.generated:%H:%M}", version=__version__, update=update,
+        time=f"{brief.generated:%H:%M}", version=__version__, update=update, tabs=tabs,
         summary="".join(f"<li>{e(line)}</li>" for line in summary_lines(brief)),
         method=e(METHOD_NOTE),
-        chips="".join(f'<button data-f="{e(t)}">{e(t)}</button>' for t in sorted({t for i in brief.issues for t in i.themes})),
-        cards="\n".join(cards),
-        status="".join(f"<li>{e(k)}: {e(v)}</li>" for k, v in sorted(brief.feed_status.items())),
+        chips=chip_buttons({t for i in brief.issues for t in i.themes}),
+        cards=render_cards(brief.issues, "No matching stories were retrieved today. Check the source status below."),
+        adv_pane=adv_pane,
+        status="".join(f"<li>{e(k)}: {e(v)}</li>" for k, v in sorted(status.items())),
         archive=archive_html,
     )
 
@@ -750,16 +938,29 @@ def main(argv: list[str] | None = None) -> int:
         settings["top_n"] = max(1, args.top)
     timeout = float(settings.get("timeout_seconds", 15))
 
+    all_feeds = dict(config["feeds"])
+    if "advancements" in config:
+        all_feeds.update(config["advancements"]["feeds"])
+    workers = int(settings.get("max_workers", 8))
+
     if args.check_feeds:
-        _, status = collect(config["feeds"], timeout, int(settings.get("max_workers", 8)))
+        _, status = collect(all_feeds, timeout, workers)
         width = max(map(len, status))
         for name, result in sorted(status.items()):
             print(f"{name:<{width}}  {result}")
         return 0 if any(v.startswith("ok") for v in status.values()) else 1
 
-    stories, status = collect(config["feeds"], timeout, int(settings.get("max_workers", 8)))
+    stories, status = collect(all_feeds, timeout, workers)
+    now = datetime.now(timezone.utc)
     history_path = args.history or home / "history.json"
-    brief, history = analyse(stories, config, load_history(history_path), datetime.now(timezone.utc), status)
+    risk_stories = [s for s in stories if s.source in config["feeds"]]
+    risk_status = {name: status[name] for name in config["feeds"]}
+    brief, history = analyse(risk_stories, config, load_history(history_path), now, risk_status)
+    if "advancements" in config:
+        adv_feeds = config["advancements"]["feeds"]
+        brief.advances, adv_counts = analyse_advances(
+            [s for s in stories if s.source in adv_feeds], config, history, now, status)
+        history[now.strftime("%Y-%m-%d")].update(adv_counts)
     if settings.get("check_for_updates", True) and not args.no_update_check:
         brief.update_notice = check_for_update()
 

@@ -96,6 +96,47 @@ class Analysis(unittest.TestCase):
         self.assertIn("2026-11-14", new_history)
 
 
+class Advancements(unittest.TestCase):
+    def run_adv(self, stories, history=None):
+        return db.analyse_advances(stories, CONFIG, history or {}, NOW, {})
+
+    def test_launch_ranked_and_threats_and_deals_excluded(self):
+        stories = [
+            make_story("Startup unveils world's first solid-state battery for electric cars", "TechCrunch",
+                       "The new battery charges in ten minutes."),
+            make_story("First solid-state battery for electric cars unveiled by startup", "The Verge"),
+            make_story("Ransomware attack hits chip maker", "The Register"),
+            make_story("Best laptop deals this week", "The Verge"),
+        ]
+        section, counts = self.run_adv(stories)
+        self.assertEqual(section.issue_count, 1)
+        top = section.issues[0]
+        self.assertEqual(top.mode, "advance")
+        self.assertEqual(top.kind, "Launch")
+        self.assertEqual(len(top.sources), 2)
+        self.assertIn(top.rating, ("Major", "Notable"))
+        self.assertTrue(all(k.startswith("adv:") for k in counts))
+
+    def test_research_stage_and_field_coverage(self):
+        heads = ["Nvidia unveils Blackwell successor chip", "Google releases Gemini model upgrade",
+                 "IBM demonstrates 1000-qubit quantum processor", "Samsung launches foldable display",
+                 "Tesla debuts humanoid robot factory pilot", "Intel announces 2nm transistor milestone",
+                 "OpenAI launches agent platform for developers", "Apple introduces satellite messaging in Europe",
+                 "Qualcomm unveils laptop processor", "Meta releases open-source language model",
+                 "Microsoft achieves record supercomputer benchmark"]
+        stories = [make_story(h, f"S{i}") for i, h in enumerate(heads)]
+        stories.append(make_story("Scientists discover new way to grow lunar habitats", "NASA News"))
+        section, _ = self.run_adv(stories)
+        self.assertEqual(len(section.issues), 10)
+        space = [i for i in section.issues if "Space" in i.themes]
+        self.assertTrue(space)
+        self.assertEqual(space[0].kind, "Research")
+
+    def test_no_signal_no_entry(self):
+        section, _ = self.run_adv([make_story("Satellite operators meet in Paris", "X")])
+        self.assertEqual(section.items_matched, 0)
+
+
 class Output(unittest.TestCase):
     def test_html_is_escaped_and_files_written(self):
         story = make_story("<script>alert(1)</script> cyber breach", "Evil")
@@ -105,7 +146,29 @@ class Output(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             index = db.write_outputs(brief, Path(tmp), 30)
             self.assertTrue(index.is_file())
+            self.assertNotIn("pane-advances", index.read_text())
             self.assertTrue((Path(tmp) / "latest.json").is_file())
+
+    def test_two_tabs_with_advancements(self):
+        risk, _ = db.analyse([make_story("Election protest grows in capital", "A")], CONFIG, {}, NOW, {"A": "ok"})
+        risk.advances, _ = db.analyse_advances(
+            [make_story("<b>Robot</b> breakthrough: humanoid learns to cook", "B")], CONFIG, {}, NOW, {"B": "ok"})
+        page = db.render_html(risk, [])
+        self.assertIn('id="pane-advances"', page)
+        self.assertIn("Tech advancements", page)
+        self.assertNotIn("<b>Robot</b>", page)
+        data = db.to_json(risk)
+        self.assertEqual(data["advancements"]["items"][0]["stage"], "Development")
+        self.assertIn("TOP TECHNOLOGY ADVANCEMENTS", db.render_text(risk))
+
+    def test_gzip_and_bom_feeds(self):
+        import gzip as gz
+        from unittest import mock
+        body = gz.compress(b"\xef\xbb\xbf" + RSS)
+        fake = mock.MagicMock()
+        fake.__enter__.return_value.read.return_value = body
+        with mock.patch.object(db, "urlopen", return_value=fake):
+            self.assertEqual(len(db.parse_feed("Z", db.http_get("https://x", 5))), 2)
 
     def test_version_file_matches(self):
         self.assertEqual((db.APP_DIR / "VERSION").read_text().strip(), db.__version__)

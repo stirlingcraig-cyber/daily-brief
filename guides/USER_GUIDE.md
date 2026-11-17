@@ -8,6 +8,23 @@
 
 ## Reading it
 
+The brief has two tabs at the top: **Risks & threats** and **Tech advancements**. To open straight on advancements, add `#advances` to the end of the link, e.g. `https://<you>.github.io/daily-brief/#advances`. Saving that link to your iPhone Home Screen makes the icon open on that tab.
+
+### Tech advancements tab
+
+The top 10 new technology developments from 12 technology and science sources.
+
+| Part | Meaning |
+|---|---|
+| **Rating and score** | Major ≥ 7, Notable ≥ 5, Emerging ≥ 3, Minor < 3. This shows how strongly a development is being reported, not whether it will succeed. |
+| **Stage** | *Approval* = regulator cleared it · *Launch* = released or unveiled · *Research* = a lab or study result · *Development* = anything else |
+| **Field tags** | AI & Computing, Chips & Hardware, Energy & Climate, Health & Biotech, Space, Robotics & Mobility, Materials & Science, Connectivity |
+| **Rationale** | Sources, the field keywords matched, the progress words found (*breakthrough*, *first*, *unveils*...) and the stage |
+
+Use the filter buttons to show one field or one stage. Each field gets at least one place in the top 10 when there's material for it.
+
+### Risks & threats tab
+
 **Summary findings** (top box) give the day at a glance:
 - How many items were scanned, how many sources worked, and how many distinct issues were found
 - The rating mix of the top list, and how many items are threats versus watch items
@@ -51,6 +68,7 @@ Open **Start → Daily Brief → Settings**, which opens `user_config.json` in N
 - **Add a feed:** give it a name and an RSS/Atom address. **Remove one:** set it to `null`.
 - **Keywords:** a `themes` list in your file *replaces* that whole perspective list, so copy the full list from `config.json` and edit it. Matching is whole-word and also catches simple plurals (`protest` matches *protests*). End a word with `*` to match anything starting with it (`cyber*` matches *cyberattack*).
 - **Severity weights:** use 1 to 4. A higher number pushes stories with that word up the list.
+- **Tech advancements** have their own `advancements` section with `feeds`, `fields`, `signals` (progress words and weights) and `exclude` (headline words that drop a story, e.g. *deal*, *review*). Set `"advancements": {"enabled": false}` to switch the tab off.
 - Settings in `settings`: `top_n`, `max_age_hours` (ignore older stories), `cluster_similarity` (0–1, higher means less grouping of similar headlines), `keep_reports_days`, `check_for_updates`.
 - After editing, run `--check-feeds` to confirm your new sources work.
 
