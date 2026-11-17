@@ -1,23 +1,33 @@
 {
   "version": "2.0.0",
-  "generated_utc": "2026-11-16T15:41:13.744396+00:00",
+  "generated_utc": "2026-11-17T15:56:56.990939+00:00",
   "method": "Scores (0-10) combine perspective breadth, severity wording, cross-source corroboration and momentum. They measure attention and concern in public reporting - not probability, not a forecast. Read the sources before acting.",
   "summary": [
-    "Scanned 393 items from 11 of 13 sources; 76 matched a perspective and were grouped into 75 distinct issues.",
-    "Top list ratings: Elevated 10 (10 threats, 0 watch items).",
-    "Perspective mix: Social 6, Technical 4, Cultural 3.",
-    "Momentum baseline still building (2 of 3 days collected)."
+    "Scanned 395 items from 11 of 13 sources; 113 matched a perspective and were grouped into 107 distinct issues.",
+    "Top list ratings: High 6, Elevated 4 (10 threats, 0 watch items).",
+    "Perspective mix: Social 9, Technical 5, Cultural 1.",
+    "Rising topics versus recent days: chip, protest, election, cloud, infrastructure, human rights, migra*, asylum.",
+    "Most widely reported: \"Third US aircraft carrier arrives in the Middle East as Iran targets Bahrain\" (2 sources)."
   ],
-  "rising_terms": [],
+  "rising_terms": [
+    "chip",
+    "protest",
+    "election",
+    "cloud",
+    "infrastructure",
+    "human rights",
+    "migra*",
+    "asylum"
+  ],
   "feed_status": {
-    "BBC World": "ok (23 items)",
+    "BBC World": "ok (21 items)",
     "BBC Technology": "ok (21 items)",
     "The Guardian World": "ok (45 items)",
     "NPR World": "ok (10 items)",
     "Fox News World": "ok (25 items)",
     "WSJ World": "ok (20 items)",
     "Al Jazeera": "ok (25 items)",
-    "DW (Germany)": "ok (130 items)",
+    "DW (Germany)": "ok (134 items)",
     "France 24": "ok (24 items)",
     "UN News": "FAILED - invalid XML: not well-formed (invalid token): line 1, column 0",
     "Ars Technica": "ok (20 items)",
@@ -27,126 +37,215 @@
   "issues": [
     {
       "rank": 1,
-      "title": "Ukraine strikes Crimea bridge as Zelensky says Starshield caps helping Russian attacks",
-      "score": 6.0,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social",
-        "Technical"
-      ],
-      "sources": [
-        "France 24"
-      ],
-      "latest_utc": "2026-11-16T11:18:47+00:00",
-      "rationale": "Reported by 1 source (France 24); perspectives: Social (strike); Technical (infrastructure); severity wording: attack.",
-      "finding": "Ukraine has struck the bridge linking Russia and ⁠Crimea across the Kerch strait, limiting the flow of traffic, the peninsula's Russian-backed governor Sergei Aksyonov ⁠said on Monday. It comes after Russia struck energy and railway infrastructure across Ukraine over the weekend, in attacks President Volodymyr...",
-      "links": [
-        {
-          "source": "France 24",
-          "title": "Ukraine strikes Crimea bridge as Zelensky says Starshield caps helping Russian attacks",
-          "url": "https://www.france24.com/en/video/20261116-ukraine-strikes-crimea-bridge-as-zelensky-says-starshield-caps-helping-russian-attacks"
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "title": "Albanese treads tightrope in upcoming Trump meeting, wanting Indo-Pacific engagement and end to Iran and Ukraine wars",
-      "score": 6.0,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social",
-        "Technical"
-      ],
-      "sources": [
-        "The Guardian World"
-      ],
-      "latest_utc": "2026-11-16T09:40:29+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (war); Technical (ai); severity wording: war.",
-      "finding": "Quad leaders’ summit in Philippines is Trump’s first, as Australia joins US and Japan to protect AI technologies in face of China efforts to dominate Get our daily political email , free app or daily news podcast Anthony Albanese will attempt to walk a tightrope in his relationship with Donald Trump when the pair...",
-      "links": [
-        {
-          "source": "The Guardian World",
-          "title": "Albanese treads tightrope in upcoming Trump meeting, wanting Indo-Pacific engagement and end to Iran and Ukraine wars",
-          "url": "https://www.theguardian.com/australia-news/2026/nov/16/albanese-treads-tightrope-in-upcoming-trump-meeting-wanting-indo-pacific-engagement-and-end-to-iran-and-ukraine-wars"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "title": "Monday briefing: The many stages of the UK-EU relationship – and what’s next",
-      "score": 6.0,
-      "rating": "Elevated",
+      "title": "Third US aircraft carrier arrives in the Middle East as Iran targets Bahrain",
+      "score": 8.0,
+      "rating": "High",
       "type": "Threat",
       "perspectives": [
         "Cultural",
         "Social"
       ],
       "sources": [
+        "France 24",
         "The Guardian World"
       ],
-      "latest_utc": "2026-11-16T06:46:27+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (media, speech); Social (climate, education, unemployment); severity wording: war.",
-      "finding": "In today’s newsletter: From situationship to a possible makeup, a look at the evolving relationship, and the bloc’s big feelings about the future Good morning. Ahead of the hotly anticipated UK-EU summit this Friday, Andy Burnham is expected to make the reset of our relationship with Europe the pivotal theme of his...",
+      "latest_utc": "2026-11-17T10:46:27+00:00",
+      "rationale": "Reported by 2 sources (France 24, The Guardian World); perspectives: Cultural (media, social media); Social (strike, war); severity wording: attack, war, threat.",
+      "finding": "A third American aircraft carrier has arrived in the Middle East, US Central Command said in a social media post Monday, making a dramatic show of military might as President Donald Trump keeps his options open for next steps in the Iran war. It comes as Tehran said Sunday that its forces carried out a drone attack on...",
+      "links": [
+        {
+          "source": "France 24",
+          "title": "Third US aircraft carrier arrives in the Middle East as Iran targets Bahrain",
+          "url": "https://www.france24.com/en/video/20261117-third-us-aircraft-carrier-arrives-in-the-middle-east-as-iran-targets-bahrain"
+        },
+        {
+          "source": "The Guardian World",
+          "title": "Third US aircraft carrier brings thousands more troops to Middle East",
+          "url": "https://www.theguardian.com/us-news/2026/nov/16/aircraft-middle-east-trump-military"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "Jensen Huang’s departure as Nvidia CEO becomes a political proxy war",
+      "score": 8.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-17T14:50:24+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (war); Technical (infrastructure, outage); severity wording: critical, war, outage; rising versus recent days: infrastructure.",
+      "finding": "Huang’s exit sharpens debate over US stance towards Beijing; and as outages increase, do you get the feeling nothing works? This was originally published in TechScape, a newsletter about how technology shapes our lives. Sign up to receive it here . Hello, and welcome to TechScape. I’m your host, Blake Montgomery, US...",
       "links": [
         {
           "source": "The Guardian World",
-          "title": "Monday briefing: The many stages of the UK-EU relationship – and what’s next",
-          "url": "https://www.theguardian.com/world/2026/nov/16/monday-briefing-the-many-stages-of-the-uk-eu-relationship-and-whats-next"
+          "title": "Jensen Huang’s departure as Nvidia CEO becomes a political proxy war",
+          "url": "https://www.theguardian.com/global/2026/nov/16/jensen-huang-nvidia-ceo-china"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "Hundreds arrested in anti-Trump protests in Philippines amid anger over Iran war and AI pact",
+      "score": 8.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-17T11:00:39+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (protest, war); Technical (ai); severity wording: war, protest; rising versus recent days: protest.",
+      "finding": "Organisers say up to 10,000 people could join next round of demonstrations as US president arrives for Asean summit Asean and Apec summits – live updates Hundreds of people have been arrested in heated demonstrations against Donald Trump in Manila, as the US president arrived in the city for a leaders’ summit....",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "Hundreds arrested in anti-Trump protests in Philippines amid anger over Iran war and AI pact",
+          "url": "https://www.theguardian.com/world/2026/nov/17/hundreds-arrested-manila-anti-trump-protests-philippines"
         }
       ]
     },
     {
       "rank": 4,
-      "title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
-      "score": 5.5,
+      "title": "Mozambique opposition leader goes on trial for terrorism over deadly election protests",
+      "score": 7.5,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "Al Jazeera",
+        "BBC World"
+      ],
+      "latest_utc": "2026-11-17T15:19:19+00:00",
+      "rationale": "Reported by 2 sources (Al Jazeera, BBC World); perspectives: Social (election, protest); severity wording: deadly, dead, protest; rising versus recent days: election, protest.",
+      "finding": "Venâncio Mondlane faces several charges over 2024 post-election protests that left hundreds of people dead.",
+      "links": [
+        {
+          "source": "BBC World",
+          "title": "Mozambique opposition leader goes on trial for terrorism over deadly election protests",
+          "url": "https://www.bbc.co.uk/news/articles/crq5vl1l6z2po?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source": "Al Jazeera",
+          "title": "Mozambique’s opposition leader stands trial over deadly 2024 protests",
+          "url": "https://www.aljazeera.com/news/2026/11/17/mozambiques-opposition-leader-stands-trial-over-deadly-2024-protests?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "Iranians fear more civilian infrastructure could be targeted in new US war",
+      "score": 7.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "Al Jazeera"
+      ],
+      "latest_utc": "2026-11-17T12:50:12+00:00",
+      "rationale": "Reported by 1 source (Al Jazeera); perspectives: Social (war); Technical (infrastructure); severity wording: war; rising versus recent days: infrastructure.",
+      "finding": "Energy facilities, industrial units, ports and bridges, schools, hospitals and apartment buildings have already been hit",
+      "links": [
+        {
+          "source": "Al Jazeera",
+          "title": "Iranians fear more civilian infrastructure could be targeted in new US war",
+          "url": "https://www.aljazeera.com/news/2026/11/17/iranians-fear-more-civilian-infrastructure-could-be-targeted-in-new-us-war?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "Ukraine updates: Russia-Crimea bridge appears destroyed after strike",
+      "score": 7.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "DW (Germany)"
+      ],
+      "latest_utc": "2026-11-17T11:13:00+00:00",
+      "rationale": "Reported by 1 source (DW (Germany)); perspectives: Social (strike); Technical (infrastructure); severity wording: attack; rising versus recent days: infrastructure.",
+      "finding": "Zelenskyy said a strike on the Kerch bridge in Crimea was in response to continued Russian attacks targeting his country's infrastructure. Meanwhile, two bridges were hit in Russian attacks on Kyiv. DW has more.",
+      "links": [
+        {
+          "source": "DW (Germany)",
+          "title": "Ukraine updates: Russia-Crimea bridge appears destroyed after strike",
+          "url": "https://www.dw.com/en/ukraine-updates-russia-crimea-bridge-appears-destroyed-after-strike/live-79964446?maca=en-rss-en-all-1573-rdf"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "Ukraine strikes major Russian bridge in Crimea with drones and missiles",
+      "score": 6.5,
       "rating": "Elevated",
       "type": "Threat",
       "perspectives": [
         "Social"
       ],
       "sources": [
-        "BBC World"
+        "France 24",
+        "NPR World"
       ],
-      "latest_utc": "2026-11-16T14:58:12+00:00",
-      "rationale": "Reported by 1 source (BBC World); perspectives: Social (war); severity wording: attack, war.",
-      "finding": "Russia said Ukraine had launched over 2,000 drones over the course of a day, while Kyiv came under a record 17 air raid alerts.",
+      "latest_utc": "2026-11-17T12:17:34+00:00",
+      "rationale": "Reported by 2 sources (France 24, NPR World); perspectives: Social (strike); severity wording: attack, escalat*.",
+      "finding": "Ukrainian drones and missiles struck a vital bridge linking Russia to the occupied Crimean Peninsula, Ukrainian President Volodymyr Zelensky said Tuesday, calling it an “unprecedented” operation as Russia reported that its forces downed a record number of Ukrainian drones for the second straight day. Meanwhile, Russia...",
       "links": [
         {
-          "source": "BBC World",
-          "title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
-          "url": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss"
+          "source": "France 24",
+          "title": "Ukraine strikes major Russian bridge in Crimea with drones and missiles",
+          "url": "https://www.france24.com/en/video/20261117-ukraine-strikes-major-russian-bridge-in-crimea-with-drones-and-missiles"
+        },
+        {
+          "source": "NPR World",
+          "title": "Ukraine strikes major Russian bridge with drones and missiles as aerial attacks escalate",
+          "url": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war"
         }
       ]
     },
     {
-      "rank": 5,
-      "title": "Microsoft Outlook outage blamed after 15 injured in hotel pool chlorine incident",
-      "score": 5.5,
+      "rank": 8,
+      "title": "Rio Tinto agrees to pay US$250m to begin repairing ‘devastation’ left by Panguna mine",
+      "score": 6.5,
       "rating": "Elevated",
       "type": "Threat",
       "perspectives": [
-        "Technical"
+        "Social"
       ],
       "sources": [
-        "The Register"
+        "The Guardian World"
       ],
-      "latest_utc": "2026-11-16T14:42:00+00:00",
-      "rationale": "Reported by 1 source (The Register); perspectives: Technical (outage); severity wording: outage, warning.",
-      "finding": "A safety warning went missing, chemical levels soared, and five guests ended up in hospital",
+      "latest_utc": "2026-11-17T02:02:30+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (protest, war); severity wording: war, protest; rising versus recent days: protest.",
+      "finding": "Community leader says fund gives chance to find solutions to ‘huge problems we have been living with since the days of the mine’s operation’ Anglo-Australian miner Rio Tinto has agreed to pay a quarter-of-a-billion dollars to begin the clean-up of the toxic Panguna mine site it abandoned more than three decades ago....",
       "links": [
         {
-          "source": "The Register",
-          "title": "Microsoft Outlook outage blamed after 15 injured in hotel pool chlorine incident",
-          "url": "https://www.theregister.com/saas/2026/11/16/microsoft-outlook-outage-blamed-after-15-injured-in-hotel-pool-chlorine-incident/5310087"
+          "source": "The Guardian World",
+          "title": "Rio Tinto agrees to pay US$250m to begin repairing ‘devastation’ left by Panguna mine",
+          "url": "https://www.theguardian.com/world/2026/nov/17/rio-tinto-250m-panguna-mine-clean-up-bougainville-png"
         }
       ]
     },
     {
-      "rank": 6,
+      "rank": 9,
       "title": "Spain's Canary Islands flooded by thousands of migrants as country declares emergency",
-      "score": 5.5,
+      "score": 6.5,
       "rating": "Elevated",
       "type": "Threat",
       "perspectives": [
@@ -156,7 +255,7 @@
         "Fox News World"
       ],
       "latest_utc": "2026-11-16T13:39:43+00:00",
-      "rationale": "Reported by 1 source (Fox News World); perspectives: Social (housing, migra, protest); severity wording: emergency, protest.",
+      "rationale": "Reported by 1 source (Fox News World); perspectives: Social (housing, migra, protest); severity wording: emergency, protest; rising versus recent days: migra*, protest.",
       "finding": "Spain's Canary Islands processed over 2,200 migrants in two days as violent protests over housing costs and skyrocketing rents erupted nationwide.",
       "links": [
         {
@@ -167,78 +266,9 @@
       ]
     },
     {
-      "rank": 7,
-      "title": "Russian attacks kill three in Ukraine, EU accuses Moscow of prolonging war",
-      "score": 5.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social"
-      ],
-      "sources": [
-        "Al Jazeera"
-      ],
-      "latest_utc": "2026-11-16T13:28:23+00:00",
-      "rationale": "Reported by 1 source (Al Jazeera); perspectives: Social (war); severity wording: kill*, attack, war.",
-      "finding": "EU foreign policy chief Kaja Kallas says Russian President Vladimir Putin is making maximalist demands.",
-      "links": [
-        {
-          "source": "Al Jazeera",
-          "title": "Russian attacks kill three in Ukraine, EU accuses Moscow of prolonging war",
-          "url": "https://www.aljazeera.com/news/2026/11/16/russian-attacks-kill-three-in-ukraine-eu-accuses-moscow-of-prolonging-war?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "title": "Jordan bans Telegram app over 'radicalisation' claims",
-      "score": 5.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Cultural"
-      ],
-      "sources": [
-        "DW (Germany)"
-      ],
-      "latest_utc": "2026-11-16T10:22:00+00:00",
-      "rationale": "Reported by 1 source (DW (Germany)); perspectives: Cultural (radicali); severity wording: deadly, dead, attack, ban.",
-      "finding": "Jordan has imposed a ban on Telegram over a deadly church attack which left seven people dead. Iraq later followed with a partial ban to compel the company to review its content.",
-      "links": [
-        {
-          "source": "DW (Germany)",
-          "title": "Jordan bans Telegram app over 'radicalisation' claims",
-          "url": "https://www.dw.com/en/jordan-bans-telegram-app-over-radicalisation-claims/a-79956706?maca=en-rss-en-all-1573-rdf"
-        }
-      ]
-    },
-    {
-      "rank": 9,
-      "title": "‘The blood of these brothers cries out’: Pope Leo demands justice for people killed protecting the Amazon",
-      "score": 5.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Cultural"
-      ],
-      "sources": [
-        "The Guardian World"
-      ],
-      "latest_utc": "2026-11-16T01:13:44+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (speech); severity wording: kill*.",
-      "finding": "Pontiff delivers forceful speech in Peru as he travels from high in the Andes into the Amazon Pope Leo XIV has demanded justice for environmental defenders killed for protecting the Amazon and backed efforts by Indigenous peoples to stop their lands from being ravaged by logging and illegal mining. On the penultimate...",
-      "links": [
-        {
-          "source": "The Guardian World",
-          "title": "‘The blood of these brothers cries out’: Pope Leo demands justice for people killed protecting the Amazon",
-          "url": "https://www.theguardian.com/world/2026/nov/16/pope-leo-speech-peru-justice-for-amazon-activists-environment"
-        }
-      ]
-    },
-    {
       "rank": 10,
       "title": "Microsoft lifts Indian cloud prices by 15 percent, cuts costs in China",
-      "score": 5.5,
+      "score": 6.5,
       "rating": "Elevated",
       "type": "Threat",
       "perspectives": [
@@ -248,7 +278,7 @@
         "The Register"
       ],
       "latest_utc": "2026-11-15T23:46:01+00:00",
-      "rationale": "Reported by 1 source (The Register); perspectives: Technical (chip, cloud, outage); severity wording: dead, outage, ban.",
+      "rationale": "Reported by 1 source (The Register); perspectives: Technical (chip, cloud, outage); severity wording: dead, outage, ban; rising versus recent days: chip, cloud.",
       "finding": "PLUS: SEGA Japan suffers outage and data leak; India bans dead battery exports; Alibaba chip unit to float; and more",
       "links": [
         {

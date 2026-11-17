@@ -1,0 +1,292 @@
+{
+  "version": "2.0.0",
+  "generated_utc": "2026-11-17T15:56:56.990939+00:00",
+  "method": "Scores (0-10) combine perspective breadth, severity wording, cross-source corroboration and momentum. They measure attention and concern in public reporting - not probability, not a forecast. Read the sources before acting.",
+  "summary": [
+    "Scanned 395 items from 11 of 13 sources; 113 matched a perspective and were grouped into 107 distinct issues.",
+    "Top list ratings: High 6, Elevated 4 (10 threats, 0 watch items).",
+    "Perspective mix: Social 9, Technical 5, Cultural 1.",
+    "Rising topics versus recent days: chip, protest, election, cloud, infrastructure, human rights, migra*, asylum.",
+    "Most widely reported: \"Third US aircraft carrier arrives in the Middle East as Iran targets Bahrain\" (2 sources)."
+  ],
+  "rising_terms": [
+    "chip",
+    "protest",
+    "election",
+    "cloud",
+    "infrastructure",
+    "human rights",
+    "migra*",
+    "asylum"
+  ],
+  "feed_status": {
+    "BBC World": "ok (21 items)",
+    "BBC Technology": "ok (21 items)",
+    "The Guardian World": "ok (45 items)",
+    "NPR World": "ok (10 items)",
+    "Fox News World": "ok (25 items)",
+    "WSJ World": "ok (20 items)",
+    "Al Jazeera": "ok (25 items)",
+    "DW (Germany)": "ok (134 items)",
+    "France 24": "ok (24 items)",
+    "UN News": "FAILED - invalid XML: not well-formed (invalid token): line 1, column 0",
+    "Ars Technica": "ok (20 items)",
+    "The Register": "ok (50 items)",
+    "CISA Advisories (US Gov)": "FAILED - response too large"
+  },
+  "issues": [
+    {
+      "rank": 1,
+      "title": "Third US aircraft carrier arrives in the Middle East as Iran targets Bahrain",
+      "score": 8.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Cultural",
+        "Social"
+      ],
+      "sources": [
+        "France 24",
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-17T10:46:27+00:00",
+      "rationale": "Reported by 2 sources (France 24, The Guardian World); perspectives: Cultural (media, social media); Social (strike, war); severity wording: attack, war, threat.",
+      "finding": "A third American aircraft carrier has arrived in the Middle East, US Central Command said in a social media post Monday, making a dramatic show of military might as President Donald Trump keeps his options open for next steps in the Iran war. It comes as Tehran said Sunday that its forces carried out a drone attack on...",
+      "links": [
+        {
+          "source": "France 24",
+          "title": "Third US aircraft carrier arrives in the Middle East as Iran targets Bahrain",
+          "url": "https://www.france24.com/en/video/20261117-third-us-aircraft-carrier-arrives-in-the-middle-east-as-iran-targets-bahrain"
+        },
+        {
+          "source": "The Guardian World",
+          "title": "Third US aircraft carrier brings thousands more troops to Middle East",
+          "url": "https://www.theguardian.com/us-news/2026/nov/16/aircraft-middle-east-trump-military"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "Jensen Huang’s departure as Nvidia CEO becomes a political proxy war",
+      "score": 8.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-17T14:50:24+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (war); Technical (infrastructure, outage); severity wording: critical, war, outage; rising versus recent days: infrastructure.",
+      "finding": "Huang’s exit sharpens debate over US stance towards Beijing; and as outages increase, do you get the feeling nothing works? This was originally published in TechScape, a newsletter about how technology shapes our lives. Sign up to receive it here . Hello, and welcome to TechScape. I’m your host, Blake Montgomery, US...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "Jensen Huang’s departure as Nvidia CEO becomes a political proxy war",
+          "url": "https://www.theguardian.com/global/2026/nov/16/jensen-huang-nvidia-ceo-china"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "Hundreds arrested in anti-Trump protests in Philippines amid anger over Iran war and AI pact",
+      "score": 8.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-17T11:00:39+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (protest, war); Technical (ai); severity wording: war, protest; rising versus recent days: protest.",
+      "finding": "Organisers say up to 10,000 people could join next round of demonstrations as US president arrives for Asean summit Asean and Apec summits – live updates Hundreds of people have been arrested in heated demonstrations against Donald Trump in Manila, as the US president arrived in the city for a leaders’ summit....",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "Hundreds arrested in anti-Trump protests in Philippines amid anger over Iran war and AI pact",
+          "url": "https://www.theguardian.com/world/2026/nov/17/hundreds-arrested-manila-anti-trump-protests-philippines"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "Mozambique opposition leader goes on trial for terrorism over deadly election protests",
+      "score": 7.5,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "Al Jazeera",
+        "BBC World"
+      ],
+      "latest_utc": "2026-11-17T15:19:19+00:00",
+      "rationale": "Reported by 2 sources (Al Jazeera, BBC World); perspectives: Social (election, protest); severity wording: deadly, dead, protest; rising versus recent days: election, protest.",
+      "finding": "Venâncio Mondlane faces several charges over 2024 post-election protests that left hundreds of people dead.",
+      "links": [
+        {
+          "source": "BBC World",
+          "title": "Mozambique opposition leader goes on trial for terrorism over deadly election protests",
+          "url": "https://www.bbc.co.uk/news/articles/crq5vl1l6z2po?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source": "Al Jazeera",
+          "title": "Mozambique’s opposition leader stands trial over deadly 2024 protests",
+          "url": "https://www.aljazeera.com/news/2026/11/17/mozambiques-opposition-leader-stands-trial-over-deadly-2024-protests?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "Iranians fear more civilian infrastructure could be targeted in new US war",
+      "score": 7.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "Al Jazeera"
+      ],
+      "latest_utc": "2026-11-17T12:50:12+00:00",
+      "rationale": "Reported by 1 source (Al Jazeera); perspectives: Social (war); Technical (infrastructure); severity wording: war; rising versus recent days: infrastructure.",
+      "finding": "Energy facilities, industrial units, ports and bridges, schools, hospitals and apartment buildings have already been hit",
+      "links": [
+        {
+          "source": "Al Jazeera",
+          "title": "Iranians fear more civilian infrastructure could be targeted in new US war",
+          "url": "https://www.aljazeera.com/news/2026/11/17/iranians-fear-more-civilian-infrastructure-could-be-targeted-in-new-us-war?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "Ukraine updates: Russia-Crimea bridge appears destroyed after strike",
+      "score": 7.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "DW (Germany)"
+      ],
+      "latest_utc": "2026-11-17T11:13:00+00:00",
+      "rationale": "Reported by 1 source (DW (Germany)); perspectives: Social (strike); Technical (infrastructure); severity wording: attack; rising versus recent days: infrastructure.",
+      "finding": "Zelenskyy said a strike on the Kerch bridge in Crimea was in response to continued Russian attacks targeting his country's infrastructure. Meanwhile, two bridges were hit in Russian attacks on Kyiv. DW has more.",
+      "links": [
+        {
+          "source": "DW (Germany)",
+          "title": "Ukraine updates: Russia-Crimea bridge appears destroyed after strike",
+          "url": "https://www.dw.com/en/ukraine-updates-russia-crimea-bridge-appears-destroyed-after-strike/live-79964446?maca=en-rss-en-all-1573-rdf"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "Ukraine strikes major Russian bridge in Crimea with drones and missiles",
+      "score": 6.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "France 24",
+        "NPR World"
+      ],
+      "latest_utc": "2026-11-17T12:17:34+00:00",
+      "rationale": "Reported by 2 sources (France 24, NPR World); perspectives: Social (strike); severity wording: attack, escalat*.",
+      "finding": "Ukrainian drones and missiles struck a vital bridge linking Russia to the occupied Crimean Peninsula, Ukrainian President Volodymyr Zelensky said Tuesday, calling it an “unprecedented” operation as Russia reported that its forces downed a record number of Ukrainian drones for the second straight day. Meanwhile, Russia...",
+      "links": [
+        {
+          "source": "France 24",
+          "title": "Ukraine strikes major Russian bridge in Crimea with drones and missiles",
+          "url": "https://www.france24.com/en/video/20261117-ukraine-strikes-major-russian-bridge-in-crimea-with-drones-and-missiles"
+        },
+        {
+          "source": "NPR World",
+          "title": "Ukraine strikes major Russian bridge with drones and missiles as aerial attacks escalate",
+          "url": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "Rio Tinto agrees to pay US$250m to begin repairing ‘devastation’ left by Panguna mine",
+      "score": 6.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-17T02:02:30+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (protest, war); severity wording: war, protest; rising versus recent days: protest.",
+      "finding": "Community leader says fund gives chance to find solutions to ‘huge problems we have been living with since the days of the mine’s operation’ Anglo-Australian miner Rio Tinto has agreed to pay a quarter-of-a-billion dollars to begin the clean-up of the toxic Panguna mine site it abandoned more than three decades ago....",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "Rio Tinto agrees to pay US$250m to begin repairing ‘devastation’ left by Panguna mine",
+          "url": "https://www.theguardian.com/world/2026/nov/17/rio-tinto-250m-panguna-mine-clean-up-bougainville-png"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "Spain's Canary Islands flooded by thousands of migrants as country declares emergency",
+      "score": 6.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "Fox News World"
+      ],
+      "latest_utc": "2026-11-16T13:39:43+00:00",
+      "rationale": "Reported by 1 source (Fox News World); perspectives: Social (housing, migra, protest); severity wording: emergency, protest; rising versus recent days: migra*, protest.",
+      "finding": "Spain's Canary Islands processed over 2,200 migrants in two days as violent protests over housing costs and skyrocketing rents erupted nationwide.",
+      "links": [
+        {
+          "source": "Fox News World",
+          "title": "Spain's Canary Islands flooded by thousands of migrants as country declares emergency",
+          "url": "https://www.foxnews.com/world/spain-canary-islands-flooded-thousands-migrants-country-declares-emergency"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "Microsoft lifts Indian cloud prices by 15 percent, cuts costs in China",
+      "score": 6.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Technical"
+      ],
+      "sources": [
+        "The Register"
+      ],
+      "latest_utc": "2026-11-15T23:46:01+00:00",
+      "rationale": "Reported by 1 source (The Register); perspectives: Technical (chip, cloud, outage); severity wording: dead, outage, ban; rising versus recent days: chip, cloud.",
+      "finding": "PLUS: SEGA Japan suffers outage and data leak; India bans dead battery exports; Alibaba chip unit to float; and more",
+      "links": [
+        {
+          "source": "The Register",
+          "title": "Microsoft lifts Indian cloud prices by 15 percent, cuts costs in China",
+          "url": "https://www.theregister.com/off-prem/2026/11/15/microsoft-lifts-indian-cloud-prices-by-15-percent-cuts-costs-in-china/5309993"
+        }
+      ]
+    }
+  ]
+}
