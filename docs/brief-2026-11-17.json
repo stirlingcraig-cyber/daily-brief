@@ -1,9 +1,9 @@
 {
   "version": "2.1.0",
-  "generated_utc": "2026-11-17T16:58:22.117482+00:00",
+  "generated_utc": "2026-11-17T16:59:43.447350+00:00",
   "method": "Scores (0-10) combine perspective breadth, severity wording, cross-source corroboration and momentum. They measure attention and concern in public reporting - not probability, not a forecast. Read the sources before acting.",
   "summary": [
-    "Scanned 455 items from 13 of 13 sources; 133 matched a perspective and were grouped into 126 distinct issues.",
+    "Scanned 456 items from 13 of 13 sources; 134 matched a perspective and were grouped into 127 distinct issues.",
     "Top list ratings: High 8, Elevated 2 (10 threats, 0 watch items).",
     "Perspective mix: Technical 8, Social 7, Cultural 3.",
     "Rising topics versus recent days: ai, infrastructure, vulnerabilit*, cyber*, chip, election, cloud, human rights.",
@@ -20,7 +20,7 @@
     "human rights"
   ],
   "feed_status": {
-    "BBC World": "ok (21 items)",
+    "BBC World": "ok (22 items)",
     "BBC Technology": "ok (21 items)",
     "The Guardian World": "ok (45 items)",
     "NPR World": "ok (10 items)",
@@ -299,21 +299,12 @@
   "advancements": {
     "method": "Scores (0-10) combine the technology field, progress wording (breakthrough, unveils, first, approved...), cross-source corroboration and momentum. They show how strongly a development is being reported - not its proven impact or commercial success.",
     "summary": [
-      "Found 41 advancement stories from 12 of 12 technology sources, grouped into 41 distinct developments.",
-      "Top list ratings: Major 9, Notable 1; stages: Research 5, Launch 4, Development 1.",
-      "Field mix: AI & Computing 5, Materials & Science 5, Chips & Hardware 4, Connectivity 3, Energy & Climate 2, Robotics & Mobility 1, Space 1, Health & Biotech 1.",
-      "Rising topics versus recent days: ai, material, network, data center, chip, semiconductor, quantum, display."
+      "Found 23 advancement stories from 12 of 12 technology sources, grouped into 23 distinct developments.",
+      "Top list ratings: Notable 9, Emerging 1; stages: Research 6, Launch 2, Development 2.",
+      "Field mix: Materials & Science 6, AI & Computing 5, Chips & Hardware 5, Robotics & Mobility 2, Energy & Climate 2, Connectivity 1, Space 1.",
+      "Momentum baseline still building (0 of 3 days collected)."
     ],
-    "rising_terms": [
-      "ai",
-      "material",
-      "network",
-      "data center",
-      "chip",
-      "semiconductor",
-      "quantum",
-      "display"
-    ],
+    "rising_terms": [],
     "feed_status": {
       "MIT Technology Review": "ok (10 items)",
       "IEEE Spectrum": "ok (30 items)",
@@ -332,8 +323,8 @@
       {
         "rank": 1,
         "title": "AI Is Giving Optical Computing Another Shot",
-        "score": 8.0,
-        "rating": "Major",
+        "score": 7.0,
+        "rating": "Notable",
         "stage": "Launch",
         "fields": [
           "AI & Computing",
@@ -346,7 +337,7 @@
           "IEEE Spectrum"
         ],
         "latest_utc": "2026-11-17T14:00:03+00:00",
-        "rationale": "Reported by 1 source (IEEE Spectrum); fields: AI & Computing (ai, algorithm, data center); Chips & Hardware (chip, display, gpu); Connectivity (fiber, network); Materials & Science (laser, metamaterial, photonic); Robotics & Mobility (manufactur); progress signals: first, prototype, demonstrat, release; stage: Launch; rising versus recent days: ai, algorithm, chip, data center.",
+        "rationale": "Reported by 1 source (IEEE Spectrum); fields: AI & Computing (ai, algorithm, data center); Chips & Hardware (chip, display, gpu); Connectivity (fiber, network); Materials & Science (laser, metamaterial, photonic); Robotics & Mobility (manufactur); progress signals: first, release, prototype, demonstrat; stage: Launch.",
         "finding": "The idea of computing with light has been around for over 70 years, but until recently it’s remained largely in the realm of research. Over the past few years, though, optical computing has emerged as a fast-growing industry: Market valuation of companies in this sector now totals US $2.22 billion, up from $0.4...",
         "links": [
           {
@@ -358,33 +349,9 @@
       },
       {
         "rank": 2,
-        "title": "A material just one atom thick reveals a strange quantum secret",
-        "score": 8.0,
-        "rating": "Major",
-        "stage": "Research",
-        "fields": [
-          "AI & Computing",
-          "Materials & Science"
-        ],
-        "sources": [
-          "ScienceDaily Technology"
-        ],
-        "latest_utc": "2026-11-17T01:25:39+00:00",
-        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: AI & Computing (quantum); Materials & Science (material); progress signals: first, discover, new; stage: Research; rising versus recent days: material, quantum.",
-        "finding": "Researchers at the University of Osaka have discovered a remarkable quantum state forming at the boundary between a one-atom-thick material and a metal. They observed electrons behaving as though they were unusually heavy, including a previously unseen state created by interactions between the ultrathin layer and the...",
-        "links": [
-          {
-            "source": "ScienceDaily Technology",
-            "title": "A material just one atom thick reveals a strange quantum secret",
-            "url": "https://www.sciencedaily.com/releases/2026/11/261115085554.htm"
-          }
-        ]
-      },
-      {
-        "rank": 3,
         "title": "Physicists defy expectations by controlling the magnetic heart of a single atom",
-        "score": 8.0,
-        "rating": "Major",
+        "score": 7.0,
+        "rating": "Notable",
         "stage": "Research",
         "fields": [
           "AI & Computing",
@@ -395,7 +362,7 @@
           "ScienceDaily Technology"
         ],
         "latest_utc": "2026-11-16T02:56:02+00:00",
-        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: AI & Computing (quantum); Chips & Hardware (memory); Materials & Science (physicist); progress signals: breakthrough, discover; stage: Research; rising versus recent days: memory, quantum.",
+        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: AI & Computing (quantum); Chips & Hardware (memory); Materials & Science (physicist); progress signals: breakthrough, discover; stage: Research.",
         "finding": "Scientists have unexpectedly discovered how to control the magnetic spin inside a single atom's nucleus using radio waves, overturning previous assumptions about atomic behavior. The breakthrough could pave the way for more reliable quantum memory, although researchers are still trying to understand why it works.",
         "links": [
           {
@@ -406,57 +373,34 @@
         ]
       },
       {
+        "rank": 3,
+        "title": "A material just one atom thick reveals a strange quantum secret",
+        "score": 6.5,
+        "rating": "Notable",
+        "stage": "Research",
+        "fields": [
+          "AI & Computing",
+          "Materials & Science"
+        ],
+        "sources": [
+          "ScienceDaily Technology"
+        ],
+        "latest_utc": "2026-11-17T01:25:39+00:00",
+        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: AI & Computing (quantum); Materials & Science (material); progress signals: first, discover, new; stage: Research.",
+        "finding": "Researchers at the University of Osaka have discovered a remarkable quantum state forming at the boundary between a one-atom-thick material and a metal. They observed electrons behaving as though they were unusually heavy, including a previously unseen state created by interactions between the ultrathin layer and the...",
+        "links": [
+          {
+            "source": "ScienceDaily Technology",
+            "title": "A material just one atom thick reveals a strange quantum secret",
+            "url": "https://www.sciencedaily.com/releases/2026/11/261115085554.htm"
+          }
+        ]
+      },
+      {
         "rank": 4,
-        "title": "Amazon loses first batch of broadband satellites launched on custom rocket",
-        "score": 8.0,
-        "rating": "Major",
-        "stage": "Launch",
-        "fields": [
-          "Connectivity",
-          "Space"
-        ],
-        "sources": [
-          "The Register"
-        ],
-        "latest_utc": "2026-11-16T01:32:57+00:00",
-        "rationale": "Reported by 1 source (The Register); fields: Connectivity (broadband); Space (orbit, rocket, satellite); progress signals: first, launch; stage: Launch; rising versus recent days: satellite.",
-        "finding": "United Launch Alliance’s Vulcan LEO didn’t reach orbit",
-        "links": [
-          {
-            "source": "The Register",
-            "title": "Amazon loses first batch of broadband satellites launched on custom rocket",
-            "url": "https://www.theregister.com/networks/2026/11/16/amazon-loses-first-batch-of-broadband-satellites-launched-on-custom-rocket/5310000"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "title": "You can now preorder the Flipper One that puts a Linux computer in your pocket",
-        "score": 7.0,
-        "rating": "Major",
-        "stage": "Launch",
-        "fields": [
-          "Connectivity"
-        ],
-        "sources": [
-          "The Verge"
-        ],
-        "latest_utc": "2026-11-17T16:00:00+00:00",
-        "rationale": "Reported by 1 source (The Verge); fields: Connectivity (network); progress signals: first, launch; stage: Launch; rising versus recent days: network.",
-        "finding": "After first announcing its Flipper One last May, which the company describes as an \"open Linux multi-tool built for high-performance computing and IP networking,\" Flipper Devices has launched a Kickstarter crowdfunding campaign where you can preorder the device for $399 with shipping expected to start in July 2027....",
-        "links": [
-          {
-            "source": "The Verge",
-            "title": "You can now preorder the Flipper One that puts a Linux computer in your pocket",
-            "url": "https://www.theverge.com/tech/1034392/flipper-devices-one-zero-pocket-linux-computer-multi-tool-preorder-kickstarte"
-          }
-        ]
-      },
-      {
-        "rank": 6,
         "title": "This E Ink photo frame can double as your family’s digital dashboard",
-        "score": 7.0,
-        "rating": "Major",
+        "score": 6.0,
+        "rating": "Notable",
         "stage": "Launch",
         "fields": [
           "Chips & Hardware"
@@ -465,7 +409,7 @@
           "The Verge"
         ],
         "latest_utc": "2026-11-17T14:49:21+00:00",
-        "rationale": "Reported by 1 source (The Verge); fields: Chips & Hardware (display); progress signals: first, introduc, new; stage: Launch; rising versus recent days: display.",
+        "rationale": "Reported by 1 source (The Verge); fields: Chips & Hardware (display); progress signals: first, introduc, new; stage: Launch.",
         "finding": "Trmnl, a company best known for its highly customizable E Ink dashboards that can function as anything from a desktop calendar to a stock tracker, has introduced a new display that's also well suited for showing artwork and photos. It's not the company's first color E Ink device, but instead of being limited to just...",
         "links": [
           {
@@ -476,34 +420,10 @@
         ]
       },
       {
-        "rank": 7,
-        "title": "This remarkable new material could solve a major carbon capture problem",
-        "score": 7.0,
-        "rating": "Major",
-        "stage": "Research",
-        "fields": [
-          "Energy & Climate",
-          "Materials & Science"
-        ],
-        "sources": [
-          "ScienceDaily Technology"
-        ],
-        "latest_utc": "2026-11-17T11:29:36+00:00",
-        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Energy & Climate (carbon capture); Materials & Science (material); progress signals: develop, cheaper, new; stage: Research; rising versus recent days: material.",
-        "finding": "Scientists have developed a new carbon capture material that turns moisture from an obstacle into an advantage, potentially solving a major problem with removing CO2 from industrial emissions. The material works even in extremely humid conditions and can be reused repeatedly, offering a promising path toward cheaper...",
-        "links": [
-          {
-            "source": "ScienceDaily Technology",
-            "title": "This remarkable new material could solve a major carbon capture problem",
-            "url": "https://www.sciencedaily.com/releases/2026/11/261116023405.htm"
-          }
-        ]
-      },
-      {
-        "rank": 8,
+        "rank": 5,
         "title": "Quantum computers are getting too powerful to check. Scientists have a solution",
-        "score": 7.0,
-        "rating": "Major",
+        "score": 6.0,
+        "rating": "Notable",
         "stage": "Research",
         "fields": [
           "AI & Computing"
@@ -512,7 +432,7 @@
           "ScienceDaily Technology"
         ],
         "latest_utc": "2026-11-17T00:20:40+00:00",
-        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: AI & Computing (quantum, qubit); progress signals: demonstrat, develop, new; stage: Research; rising versus recent days: quantum.",
+        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: AI & Computing (quantum, qubit); progress signals: demonstrat, develop, new; stage: Research.",
         "finding": "Scientists have developed a new way to determine whether quantum simulations can be trusted, solving a growing problem as quantum computers become too powerful for conventional machines to check. Demonstrated on a 51-qubit system, the technique measures uncertainty and provides verifiable error margins that could help...",
         "links": [
           {
@@ -523,10 +443,10 @@
         ]
       },
       {
-        "rank": 9,
+        "rank": 6,
         "title": "Vibration-harvesting model could help engineers design devices powered by everyday motion",
-        "score": 7.0,
-        "rating": "Major",
+        "score": 6.0,
+        "rating": "Notable",
         "stage": "Research",
         "fields": [
           "Chips & Hardware",
@@ -537,7 +457,7 @@
           "Phys.org Technology"
         ],
         "latest_utc": "2026-11-16T19:40:01+00:00",
-        "rationale": "Reported by 1 source (Phys.org Technology); fields: Chips & Hardware (wearable); Energy & Climate (batteries); Materials & Science (material); progress signals: develop, new, advance; stage: Research; rising versus recent days: material.",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: Chips & Hardware (wearable); Energy & Climate (batteries); Materials & Science (material); progress signals: develop, new, advance; stage: Research.",
         "finding": "New technology could allow wearables to one day rely less on batteries and more on vibrations generated by the user. The model, developed by the University of Surrey and its spinoff company Z-PULSE, predicts how much electricity small generators can make from vibrations. The work is published in the journal Advanced...",
         "links": [
           {
@@ -548,26 +468,97 @@
         ]
       },
       {
-        "rank": 10,
-        "title": "AI toys are on the naughty list again this year",
-        "score": 5.0,
+        "rank": 7,
+        "title": "Measuring GitHub popularity could reveal which software flaws need fixes first",
+        "score": 6.0,
+        "rating": "Notable",
+        "stage": "Research",
+        "fields": [
+          "AI & Computing"
+        ],
+        "sources": [
+          "Phys.org Technology"
+        ],
+        "latest_utc": "2026-11-16T18:20:10+00:00",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: AI & Computing (software); progress signals: first, develop, new; stage: Research.",
+        "finding": "The number of cyberattacks is growing rapidly and there are too many software vulnerabilities to fix them all. Researchers at Leiden University have developed a new method to help identify which vulnerabilities deserve attention first: the GitHub Popularity Metric.",
+        "links": [
+          {
+            "source": "Phys.org Technology",
+            "title": "Measuring GitHub popularity could reveal which software flaws need fixes first",
+            "url": "https://techxplore.com/news/2026-11-github-popularity-reveal-software-flaws.html"
+          }
+        ]
+      },
+      {
+        "rank": 8,
+        "title": "NASA is offering $1 million for bold ideas to help build a Moon base",
+        "score": 6.0,
         "rating": "Notable",
         "stage": "Development",
         "fields": [
-          "AI & Computing",
-          "Health & Biotech"
+          "Space"
         ],
         "sources": [
-          "The Register"
+          "ScienceDaily Technology"
         ],
-        "latest_utc": "2026-11-17T13:00:00+00:00",
-        "rationale": "Reported by 1 source (The Register); fields: AI & Computing (ai); Health & Biotech (drug); progress signals: new; stage: Development; rising versus recent days: ai.",
-        "finding": "Last year's offenders mostly cleaned up their acts, but a new batch is just as ready to talk sex, drugs, and where to find the knives with your kids",
+        "latest_utc": "2026-11-16T14:02:10+00:00",
+        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Space (lunar, mars, moon); progress signals: first, develop, new; stage: Development.",
+        "finding": "NASA is offering $1 million in its new Moon Base Challenge, inviting U.S. students to develop innovative solutions for building humanity’s first permanent lunar outpost. From power systems to astronaut safety, their ideas could help make long-term life on the Moon possible and pave the way to Mars.",
         "links": [
           {
-            "source": "The Register",
-            "title": "AI toys are on the naughty list again this year",
-            "url": "https://www.theregister.com/offbeat/2026/11/17/ai-toys-are-on-the-naughty-list-again-this-year/5310261"
+            "source": "ScienceDaily Technology",
+            "title": "NASA is offering $1 million for bold ideas to help build a Moon base",
+            "url": "https://www.sciencedaily.com/releases/2026/11/261115085542.htm"
+          }
+        ]
+      },
+      {
+        "rank": 9,
+        "title": "Advanced Metrology for Defect Detection, Tool Health, and Semiconductor Yield Enhancement",
+        "score": 6.0,
+        "rating": "Notable",
+        "stage": "Development",
+        "fields": [
+          "Chips & Hardware",
+          "Materials & Science",
+          "Robotics & Mobility"
+        ],
+        "sources": [
+          "IEEE Spectrum"
+        ],
+        "latest_utc": "2026-11-16T11:00:03+00:00",
+        "rationale": "Reported by 1 source (IEEE Spectrum); fields: Chips & Hardware (chip, nanometer, semiconductor); Materials & Science (material); Robotics & Mobility (manufactur); progress signals: first, advance; stage: Development.",
+        "finding": "In advanced semiconductor manufacturing, small defects can have a large effect on yield. Thin film deposition tools must stay stable and qualified. Process drift must be caught early. When a defect does appear, engineers need to know where it came from and how it affects device performance. This webinar shows how...",
+        "links": [
+          {
+            "source": "IEEE Spectrum",
+            "title": "Advanced Metrology for Defect Detection, Tool Health, and Semiconductor Yield Enhancement",
+            "url": "https://event.on24.com/wcc/mr/7058967/655F0A675F5C3415546D597247025DA8?utm_source=evident122&utm_medium=IEEE&utm_campaign=series1"
+          }
+        ]
+      },
+      {
+        "rank": 10,
+        "title": "This remarkable new material could solve a major carbon capture problem",
+        "score": 5.5,
+        "rating": "Emerging",
+        "stage": "Research",
+        "fields": [
+          "Energy & Climate",
+          "Materials & Science"
+        ],
+        "sources": [
+          "ScienceDaily Technology"
+        ],
+        "latest_utc": "2026-11-17T11:29:36+00:00",
+        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Energy & Climate (carbon capture); Materials & Science (material); progress signals: develop, cheaper, new; stage: Research.",
+        "finding": "Scientists have developed a new carbon capture material that turns moisture from an obstacle into an advantage, potentially solving a major problem with removing CO2 from industrial emissions. The material works even in extremely humid conditions and can be reused repeatedly, offering a promising path toward cheaper...",
+        "links": [
+          {
+            "source": "ScienceDaily Technology",
+            "title": "This remarkable new material could solve a major carbon capture problem",
+            "url": "https://www.sciencedaily.com/releases/2026/11/261116023405.htm"
           }
         ]
       }
