@@ -1,0 +1,583 @@
+{
+  "version": "2.1.0",
+  "generated_utc": "2026-11-18T15:36:41.632338+00:00",
+  "method": "Scores (0-10) combine perspective breadth, severity wording, cross-source corroboration and momentum. They measure attention and concern in public reporting - not probability, not a forecast. Read the sources before acting.",
+  "summary": [
+    "Scanned 462 items from 13 of 13 sources; 143 matched a perspective and were grouped into 132 distinct issues.",
+    "Top list ratings: High 7, Elevated 3 (10 threats, 0 watch items).",
+    "Perspective mix: Technical 8, Cultural 5, Social 4.",
+    "Rising topics versus recent days: cyber*, vulnerabilit*, strike, infrastructure, human rights, violence, migra*, hack*.",
+    "Most widely reported: \"‘Zero’ evidence that recent cascade of tech outages are linked, says Rubio\" (2 sources)."
+  ],
+  "rising_terms": [
+    "cyber*",
+    "vulnerabilit*",
+    "strike",
+    "infrastructure",
+    "human rights",
+    "violence",
+    "migra*",
+    "hack*"
+  ],
+  "feed_status": {
+    "BBC World": "ok (29 items)",
+    "BBC Technology": "ok (21 items)",
+    "The Guardian World": "ok (45 items)",
+    "NPR World": "ok (10 items)",
+    "Fox News World": "ok (25 items)",
+    "WSJ World": "ok (20 items)",
+    "Al Jazeera": "ok (25 items)",
+    "DW (Germany)": "ok (133 items)",
+    "France 24": "ok (24 items)",
+    "UN News": "ok (30 items)",
+    "Ars Technica": "ok (20 items)",
+    "The Register": "ok (50 items)",
+    "CISA Advisories (US Gov)": "ok (30 items)"
+  },
+  "issues": [
+    {
+      "rank": 1,
+      "title": "‘Zero’ evidence that recent cascade of tech outages are linked, says Rubio",
+      "score": 9.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Cultural",
+        "Technical"
+      ],
+      "sources": [
+        "France 24",
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-18T14:46:49+00:00",
+      "rationale": "Reported by 2 sources (France 24, The Guardian World); perspectives: Cultural (language); Technical (outage, vulnerabilit); severity wording: attack, outage; rising versus recent days: language, vulnerabilit*.",
+      "finding": "US secretary of state’s comments come as vulnerability in programming language Java highlighted There is “zero evidence” that a wave of IT outages – which have grounded flights, cut off work access, limited bank access, affected Apple and disrupted classified communications – are related to each other or are the work...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "‘Zero’ evidence that recent cascade of tech outages are linked, says Rubio",
+          "url": "https://www.theguardian.com/us-news/2026/nov/18/zero-evidence-recent-tech-outages-linked-marco-rubio"
+        },
+        {
+          "source": "France 24",
+          "title": "Rubio says 'zero' information that US tech outages are linked",
+          "url": "https://www.france24.com/en/video/20261118-rubio-says-zero-information-that-us-tech-outages-are-linked"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "House Democrats begin leadership elections, with Hakeem Jeffries poised to clinch speaker nomination – live",
+      "score": 8.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-18T15:18:52+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (election); Technical (cyber, outage); severity wording: attack, outage; rising versus recent days: cyber*.",
+      "finding": "If elected, Jeffries would become the first Black person to hold the gavel in US history Trump in China for Apec summit – follow live Sign up for US breaking News email Linked to that, the White House held a briefing call with several reporters today about the wave of tech outages affecting several industries. CNN...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "House Democrats begin leadership elections, with Hakeem Jeffries poised to clinch speaker nomination – live",
+          "url": "https://www.theguardian.com/us-news/live/2026/nov/18/donald-trump-mary-peltola-alaska-hakeem-jeffries-democrats-republicans-congress-house-senate-midterms-latest-news-updates"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "Costa Rican journalist shot dead in first such killing in 25 years",
+      "score": 8.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Cultural",
+        "Social"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-17T17:19:12+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (journalis); Social (violence); severity wording: kill, dead; rising versus recent days: journalis*, violence.",
+      "finding": "Camilo Rodriguez’s death comes as the country grapples with a surge in drug violence The Costa Rican journalist Camilo Rodríguez, who gained prominence for publishing allegations against ⁠suspected drug traffickers and politicians, was shot dead on Monday, authorities said. The first known killing of a journalist ⁠in...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "Costa Rican journalist shot dead in first such killing in 25 years",
+          "url": "https://www.theguardian.com/world/2026/nov/17/costa-rica-journalist-camilo-rodriguez-shot-dead"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "Siemens ROS#",
+      "score": 8.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Cultural",
+        "Technical"
+      ],
+      "sources": [
+        "CISA Advisories (US Gov)"
+      ],
+      "latest_utc": "2026-11-17T12:00:00+00:00",
+      "rationale": "Reported by 1 source (CISA Advisories (US Gov)); perspectives: Cultural (trust); Technical (cyber, infrastructure, vulnerabilit); severity wording: critical, warning; rising versus recent days: cyber*, infrastructure, vulnerabilit*.",
+      "finding": "View CSAF Summary ROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker that is able to pass a crafted message definition file to the user to inject arbitrary code into the generated program. Siemens has released a new version for ROS# and recommends to update to the latest...",
+      "links": [
+        {
+          "source": "CISA Advisories (US Gov)",
+          "title": "Siemens ROS#",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06"
+        },
+        {
+          "source": "CISA Advisories (US Gov)",
+          "title": "Siemens SIMATIC",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08"
+        },
+        {
+          "source": "CISA Advisories (US Gov)",
+          "title": "Siemens SIMATIC WinCC",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09"
+        },
+        {
+          "source": "CISA Advisories (US Gov)",
+          "title": "Siemens meta-iot2050",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "Security flaw found in Java, world's third-largest programming language",
+      "score": 7.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Cultural",
+        "Technical"
+      ],
+      "sources": [
+        "BBC Technology"
+      ],
+      "latest_utc": "2026-11-18T08:47:06+00:00",
+      "rationale": "Reported by 1 source (BBC Technology); perspectives: Cultural (language); Technical (ai, software); severity wording: critical; rising versus recent days: language.",
+      "finding": "The same tech start-up that discovered a PHP flaw used AI to uncover a critical software bug in one of the world's most popular computer language programs.",
+      "links": [
+        {
+          "source": "BBC Technology",
+          "title": "Security flaw found in Java, world's third-largest programming language",
+          "url": "https://www.bbc.co.uk/news/articles/cke89jevqm1vo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "Siemens Industrial Software Products",
+      "score": 7.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Cultural",
+        "Technical"
+      ],
+      "sources": [
+        "CISA Advisories (US Gov)"
+      ],
+      "latest_utc": "2026-11-17T12:00:00+00:00",
+      "rationale": "Reported by 1 source (CISA Advisories (US Gov)); perspectives: Cultural (polari); Technical (automation, cyber, infrastructure); severity wording: critical; rising versus recent days: automation, cyber*, infrastructure, vulnerabilit*.",
+      "finding": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remote attacker to cause...",
+      "links": [
+        {
+          "source": "CISA Advisories (US Gov)",
+          "title": "Siemens Industrial Software Products",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04"
+        },
+        {
+          "source": "CISA Advisories (US Gov)",
+          "title": "Siemens Industrial Automation Software Products",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "Hundreds arrested in anti-Trump protests in Philippines amid anger over Iran war and AI pact",
+      "score": 7.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-17T11:00:39+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (protest, war); Technical (ai); severity wording: war, protest.",
+      "finding": "Organisers say up to 10,000 people could join next round of demonstrations as US president arrives for Asean summit Asean and Apec summits – as it happened Hundreds of people have been arrested in heated demonstrations against Donald Trump in Manila, as the US president arrived in the city for a leaders’ summit....",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "Hundreds arrested in anti-Trump protests in Philippines amid anger over Iran war and AI pact",
+          "url": "https://www.theguardian.com/world/2026/nov/17/hundreds-arrested-manila-anti-trump-protests-philippines"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "Officials seek dismissal of lawsuit over stabbing of Ukrainian refugee on train in Charlotte",
+      "score": 6.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-18T15:05:20+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (refugee); severity wording: kill, lawsuit; rising versus recent days: refugee.",
+      "finding": "Uncle of Iryna Zarutska, a 23-year-old who was murdered on the train, filed a wrongful death lawsuit against the city Officials in Charlotte, North Carolina, have petitioned a judge to dismiss the wrongful death lawsuit over the murder of Iryna Zarutska, a 23-year-old Ukrainian refugee who was killed by a man on a...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "Officials seek dismissal of lawsuit over stabbing of Ukrainian refugee on train in Charlotte",
+          "url": "https://www.theguardian.com/us-news/2026/nov/18/ukrainian-refugee-stabbing-lawsuit"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "AI-powered cyber threats are changing the rules of enterprise recovery",
+      "score": 6.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Technical"
+      ],
+      "sources": [
+        "The Register"
+      ],
+      "latest_utc": "2026-11-18T15:00:00+00:00",
+      "rationale": "Reported by 1 source (The Register); perspectives: Technical (ai, cyber); severity wording: critical, threat; rising versus recent days: cyber*.",
+      "finding": "SPONSORED POST: As cyberattacks become more sophisticated, organizations need to look beyond prevention and ensure they can recover critical data quickly and reliably",
+      "links": [
+        {
+          "source": "The Register",
+          "title": "AI-powered cyber threats are changing the rules of enterprise recovery",
+          "url": "https://www.theregister.com/security/2026/11/18/sponsored-ai-powered-cyber-threats-are-changing-the-rules-of-enterprise-recovery/5310515"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "Hacks, AI or just overdue updates - why have there been so many outages?",
+      "score": 6.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Technical"
+      ],
+      "sources": [
+        "BBC Technology"
+      ],
+      "latest_utc": "2026-11-18T13:16:53+00:00",
+      "rationale": "Reported by 1 source (BBC Technology); perspectives: Technical (ai, hack, outage); severity wording: outage, disruption; rising versus recent days: hack*.",
+      "finding": "There is no evidence these are linked, but the constant series of tech disruptions can be unnerving.",
+      "links": [
+        {
+          "source": "BBC Technology",
+          "title": "Hacks, AI or just overdue updates - why have there been so many outages?",
+          "url": "https://www.bbc.co.uk/news/articles/c6z0kly2lll7o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    }
+  ],
+  "advancements": {
+    "method": "Scores (0-10) combine the technology field, progress wording (breakthrough, unveils, first, approved...), cross-source corroboration and momentum. They show how strongly a development is being reported - not its proven impact or commercial success.",
+    "summary": [
+      "Found 27 advancement stories from 12 of 12 technology sources, grouped into 25 distinct developments.",
+      "Top list ratings: Major 1, Notable 7, Emerging 2; stages: Research 5, Launch 2, Approval 2, Development 1.",
+      "Field mix: AI & Computing 7, Materials & Science 5, Robotics & Mobility 3, Chips & Hardware 3, Energy & Climate 2, Space 1, Connectivity 1.",
+      "Momentum baseline still building (1 of 3 days collected).",
+      "Most widely reported: \"Space robot legend Voyager 1 is now more than 1 light-day away\" (3 sources)."
+    ],
+    "rising_terms": [],
+    "feed_status": {
+      "MIT Technology Review": "ok (10 items)",
+      "IEEE Spectrum": "ok (30 items)",
+      "TechCrunch": "ok (20 items)",
+      "The Verge": "ok (10 items)",
+      "Wired": "ok (50 items)",
+      "New Scientist Technology": "ok (10 items)",
+      "ScienceDaily Technology": "ok (60 items)",
+      "Phys.org Technology": "ok (30 items)",
+      "NASA News": "ok (10 items)",
+      "BBC Technology": "ok (21 items)",
+      "Ars Technica": "ok (20 items)",
+      "The Register": "ok (50 items)"
+    },
+    "items": [
+      {
+        "rank": 1,
+        "title": "Space robot legend Voyager 1 is now more than 1 light-day away",
+        "score": 8.5,
+        "rating": "Major",
+        "stage": "Launch",
+        "fields": [
+          "Robotics & Mobility",
+          "Space"
+        ],
+        "sources": [
+          "The Register",
+          "The Verge",
+          "Wired"
+        ],
+        "latest_utc": "2026-11-18T14:57:00+00:00",
+        "rationale": "Reported by 3 sources (The Register, The Verge, Wired); fields: Robotics & Mobility (robot); Space (nasa, spacecraft); progress signals: launch, milestone, first; stage: Launch.",
+        "finding": "As the world is hit by IT snafu after IT snafu, Voyager sails on, almost half a century after launch",
+        "links": [
+          {
+            "source": "The Register",
+            "title": "Space robot legend Voyager 1 is now more than 1 light-day away",
+            "url": "https://www.theregister.com/science/2026/11/18/space-robot-legend-voyager-1-is-now-more-than-1-light-day-away/5310751"
+          },
+          {
+            "source": "The Verge",
+            "title": "NASA’s Voyager 1 probe is now 1 light-day away",
+            "url": "https://www.theverge.com/science/1036431/nasa-voyager-1-light-day-milestone"
+          },
+          {
+            "source": "Wired",
+            "title": "Voyager 1 Beat the Odds and Is Still Working a Light-Day Away From Earth",
+            "url": "https://www.wired.com/story/voyager-1-beat-still-working-light-day-away/"
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "title": "Electron fingerprints help AI predict complex alloy properties with little training data",
+        "score": 7.0,
+        "rating": "Notable",
+        "stage": "Research",
+        "fields": [
+          "AI & Computing",
+          "Chips & Hardware",
+          "Materials & Science"
+        ],
+        "sources": [
+          "Phys.org Technology"
+        ],
+        "latest_utc": "2026-11-18T15:20:01+00:00",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: AI & Computing (ai); Chips & Hardware (semiconductor); Materials & Science (alloy, material); progress signals: invent, discover, new; stage: Research.",
+        "finding": "Inventions often depend on what's available. Edison's light bulb did not work until he could make durable filaments; LED lights languished for years until researchers discovered the right combination of semiconductors. But what if engineers could invent new technologies without waiting for the right materials?",
+        "links": [
+          {
+            "source": "Phys.org Technology",
+            "title": "Electron fingerprints help AI predict complex alloy properties with little training data",
+            "url": "https://techxplore.com/news/2026-11-electron-fingerprints-ai-complex-alloy.html"
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "title": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems",
+        "score": 7.0,
+        "rating": "Notable",
+        "stage": "Approval",
+        "fields": [
+          "AI & Computing",
+          "Materials & Science",
+          "Robotics & Mobility"
+        ],
+        "sources": [
+          "IEEE Spectrum"
+        ],
+        "latest_utc": "2026-11-17T19:00:03+00:00",
+        "rationale": "Reported by 1 source (IEEE Spectrum); fields: AI & Computing (ai, artificial intelligence); Materials & Science (material); Robotics & Mobility (autonomous); progress signals: first, launch, release, introduc; stage: Approval.",
+        "finding": "Policymakers, technologists, and members of the public have raised concerns about the harm AI’s rapid advancement might cause to society. Their concerns include bias, data privacy violations, the spread of misinformation, and losing control of AI agents. Those issues are relatively new to many people, but the IEEE...",
+        "links": [
+          {
+            "source": "IEEE Spectrum",
+            "title": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems",
+            "url": "https://spectrum.ieee.org/ieee-ethics-ai-systems"
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "title": "AI Is Giving Optical Computing Another Shot",
+        "score": 7.0,
+        "rating": "Notable",
+        "stage": "Launch",
+        "fields": [
+          "AI & Computing",
+          "Chips & Hardware",
+          "Connectivity",
+          "Materials & Science",
+          "Robotics & Mobility"
+        ],
+        "sources": [
+          "IEEE Spectrum"
+        ],
+        "latest_utc": "2026-11-17T14:00:03+00:00",
+        "rationale": "Reported by 1 source (IEEE Spectrum); fields: AI & Computing (ai, algorithm, data center); Chips & Hardware (chip, display, gpu); Connectivity (fiber, network); Materials & Science (laser, metamaterial, photonic); Robotics & Mobility (manufactur); progress signals: first, release, prototype, demonstrat; stage: Launch.",
+        "finding": "The idea of computing with light has been around for over 70 years, but until recently it’s remained largely in the realm of research. Over the past few years, though, optical computing has emerged as a fast-growing industry: Market valuation of companies in this sector now totals US $2.22 billion, up from $0.4...",
+        "links": [
+          {
+            "source": "IEEE Spectrum",
+            "title": "AI Is Giving Optical Computing Another Shot",
+            "url": "https://spectrum.ieee.org/optical-computing-ai"
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "title": "A material just one atom thick reveals a strange quantum secret",
+        "score": 6.5,
+        "rating": "Notable",
+        "stage": "Research",
+        "fields": [
+          "AI & Computing",
+          "Materials & Science"
+        ],
+        "sources": [
+          "ScienceDaily Technology"
+        ],
+        "latest_utc": "2026-11-17T01:25:39+00:00",
+        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: AI & Computing (quantum); Materials & Science (material); progress signals: first, discover, new; stage: Research.",
+        "finding": "Researchers at the University of Osaka have discovered a remarkable quantum state forming at the boundary between a one-atom-thick material and a metal. They observed electrons behaving as though they were unusually heavy, including a previously unseen state created by interactions between the ultrathin layer and the...",
+        "links": [
+          {
+            "source": "ScienceDaily Technology",
+            "title": "A material just one atom thick reveals a strange quantum secret",
+            "url": "https://www.sciencedaily.com/releases/2026/11/261115085554.htm"
+          }
+        ]
+      },
+      {
+        "rank": 6,
+        "title": "Scientists create a remarkable new rechargeable battery using vitamin B12",
+        "score": 6.0,
+        "rating": "Notable",
+        "stage": "Research",
+        "fields": [
+          "Energy & Climate"
+        ],
+        "sources": [
+          "ScienceDaily Technology"
+        ],
+        "latest_utc": "2026-11-18T12:26:20+00:00",
+        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Energy & Climate (batteries, battery, charging); progress signals: prototype, develop, cheaper, new; stage: Research.",
+        "finding": "Scientists have found a surprising new use for vitamin B12, developing a rechargeable battery that uses the essential nutrient to help generate and store electricity. The prototype survived up to 250 charging cycles and could open the door to safer, cheaper, and more environmentally friendly alternatives to...",
+        "links": [
+          {
+            "source": "ScienceDaily Technology",
+            "title": "Scientists create a remarkable new rechargeable battery using vitamin B12",
+            "url": "https://www.sciencedaily.com/releases/2026/11/261117033909.htm"
+          }
+        ]
+      },
+      {
+        "rank": 7,
+        "title": "New discovery reveals what may be holding back room-temperature superconductors",
+        "score": 6.0,
+        "rating": "Notable",
+        "stage": "Research",
+        "fields": [
+          "Materials & Science"
+        ],
+        "sources": [
+          "ScienceDaily Technology"
+        ],
+        "latest_utc": "2026-11-18T12:16:46+00:00",
+        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Materials & Science (superconduct); progress signals: breakthrough, discover, new; stage: Research.",
+        "finding": "A major breakthrough in superconductivity research has revealed that one of the essential ingredients for electricity to flow without resistance can exist at room temperature. Scientists discovered that electrons can form stable pairs at much higher temperatures than previously understood, suggesting that a different...",
+        "links": [
+          {
+            "source": "ScienceDaily Technology",
+            "title": "New discovery reveals what may be holding back room-temperature superconductors",
+            "url": "https://www.sciencedaily.com/releases/2026/11/261116023358.htm"
+          }
+        ]
+      },
+      {
+        "rank": 8,
+        "title": "Quantum computers are getting too powerful to check. Scientists have a solution",
+        "score": 6.0,
+        "rating": "Notable",
+        "stage": "Research",
+        "fields": [
+          "AI & Computing"
+        ],
+        "sources": [
+          "ScienceDaily Technology"
+        ],
+        "latest_utc": "2026-11-17T00:20:40+00:00",
+        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: AI & Computing (quantum, qubit); progress signals: demonstrat, develop, new; stage: Research.",
+        "finding": "Scientists have developed a new way to determine whether quantum simulations can be trusted, solving a growing problem as quantum computers become too powerful for conventional machines to check. Demonstrated on a 51-qubit system, the technique measures uncertainty and provides verifiable error margins that could help...",
+        "links": [
+          {
+            "source": "ScienceDaily Technology",
+            "title": "Quantum computers are getting too powerful to check. Scientists have a solution",
+            "url": "https://www.sciencedaily.com/releases/2026/11/261115085557.htm"
+          }
+        ]
+      },
+      {
+        "rank": 9,
+        "title": "Rivian spinoff Also pauses e-bike deliveries over battery and software bugs",
+        "score": 5.5,
+        "rating": "Emerging",
+        "stage": "Development",
+        "fields": [
+          "AI & Computing",
+          "Energy & Climate"
+        ],
+        "sources": [
+          "The Verge"
+        ],
+        "latest_utc": "2026-11-18T14:56:43+00:00",
+        "rationale": "Reported by 1 source (The Verge); fields: AI & Computing (software); Energy & Climate (battery); progress signals: first, new; stage: Development.",
+        "finding": "Also, the mobility startup that spun out of Rivian last year, has run into another speed bump. The company was already struggling to get its first e-bikes to customers due to a litany of supply chain headaches and the complexity of building a futuristic bike powered almost entirely by software. Now there is a new […]",
+        "links": [
+          {
+            "source": "The Verge",
+            "title": "Rivian spinoff Also pauses e-bike deliveries over battery and software bugs",
+            "url": "https://www.theverge.com/transportation/1036460/also-rivian-spinoff-tm-b-ebike-delivery-delay-software-battery-issues"
+          }
+        ]
+      },
+      {
+        "rank": 10,
+        "title": "Nvidia isn’t selling any more AI chips to China",
+        "score": 5.5,
+        "rating": "Emerging",
+        "stage": "Approval",
+        "fields": [
+          "AI & Computing",
+          "Chips & Hardware"
+        ],
+        "sources": [
+          "The Verge"
+        ],
+        "latest_utc": "2026-11-18T13:01:05+00:00",
+        "rationale": "Reported by 1 source (The Verge); fields: AI & Computing (ai); Chips & Hardware (chip); progress signals: approv, advance; stage: Approval.",
+        "finding": "Nvidia has stopped sending its advanced AI chips to China despite the approval it received from the White House to do so in December last year. The announcement was made by interim Nvidia CEO Colette Kress during an earnings call on Tuesday, marking a notable shift for the company that, under former CEO Jensen Huang...",
+        "links": [
+          {
+            "source": "The Verge",
+            "title": "Nvidia isn’t selling any more AI chips to China",
+            "url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling"
+          }
+        ]
+      }
+    ]
+  }
+}

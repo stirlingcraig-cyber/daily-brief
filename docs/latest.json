@@ -1,33 +1,33 @@
 {
   "version": "2.1.0",
-  "generated_utc": "2026-11-17T16:59:43.447350+00:00",
+  "generated_utc": "2026-11-18T15:36:41.632338+00:00",
   "method": "Scores (0-10) combine perspective breadth, severity wording, cross-source corroboration and momentum. They measure attention and concern in public reporting - not probability, not a forecast. Read the sources before acting.",
   "summary": [
-    "Scanned 456 items from 13 of 13 sources; 134 matched a perspective and were grouped into 127 distinct issues.",
-    "Top list ratings: High 8, Elevated 2 (10 threats, 0 watch items).",
-    "Perspective mix: Technical 8, Social 7, Cultural 3.",
-    "Rising topics versus recent days: ai, infrastructure, vulnerabilit*, cyber*, chip, election, cloud, human rights.",
-    "Most widely reported: \"Third US aircraft carrier arrives in the Middle East as Iran targets Bahrain\" (2 sources)."
+    "Scanned 462 items from 13 of 13 sources; 143 matched a perspective and were grouped into 132 distinct issues.",
+    "Top list ratings: High 7, Elevated 3 (10 threats, 0 watch items).",
+    "Perspective mix: Technical 8, Cultural 5, Social 4.",
+    "Rising topics versus recent days: cyber*, vulnerabilit*, strike, infrastructure, human rights, violence, migra*, hack*.",
+    "Most widely reported: \"‘Zero’ evidence that recent cascade of tech outages are linked, says Rubio\" (2 sources)."
   ],
   "rising_terms": [
-    "ai",
-    "infrastructure",
-    "vulnerabilit*",
     "cyber*",
-    "chip",
-    "election",
-    "cloud",
-    "human rights"
+    "vulnerabilit*",
+    "strike",
+    "infrastructure",
+    "human rights",
+    "violence",
+    "migra*",
+    "hack*"
   ],
   "feed_status": {
-    "BBC World": "ok (22 items)",
+    "BBC World": "ok (29 items)",
     "BBC Technology": "ok (21 items)",
     "The Guardian World": "ok (45 items)",
     "NPR World": "ok (10 items)",
     "Fox News World": "ok (25 items)",
     "WSJ World": "ok (20 items)",
     "Al Jazeera": "ok (25 items)",
-    "DW (Germany)": "ok (134 items)",
+    "DW (Germany)": "ok (133 items)",
     "France 24": "ok (24 items)",
     "UN News": "ok (30 items)",
     "Ars Technica": "ok (20 items)",
@@ -37,37 +37,37 @@
   "issues": [
     {
       "rank": 1,
-      "title": "Third US aircraft carrier arrives in the Middle East as Iran targets Bahrain",
-      "score": 8.0,
+      "title": "‘Zero’ evidence that recent cascade of tech outages are linked, says Rubio",
+      "score": 9.0,
       "rating": "High",
       "type": "Threat",
       "perspectives": [
         "Cultural",
-        "Social"
+        "Technical"
       ],
       "sources": [
         "France 24",
         "The Guardian World"
       ],
-      "latest_utc": "2026-11-17T10:46:27+00:00",
-      "rationale": "Reported by 2 sources (France 24, The Guardian World); perspectives: Cultural (media, social media); Social (strike, war); severity wording: attack, war, threat.",
-      "finding": "A third American aircraft carrier has arrived in the Middle East, US Central Command said in a social media post Monday, making a dramatic show of military might as President Donald Trump keeps his options open for next steps in the Iran war. It comes as Tehran said Sunday that its forces carried out a drone attack on...",
+      "latest_utc": "2026-11-18T14:46:49+00:00",
+      "rationale": "Reported by 2 sources (France 24, The Guardian World); perspectives: Cultural (language); Technical (outage, vulnerabilit); severity wording: attack, outage; rising versus recent days: language, vulnerabilit*.",
+      "finding": "US secretary of state’s comments come as vulnerability in programming language Java highlighted There is “zero evidence” that a wave of IT outages – which have grounded flights, cut off work access, limited bank access, affected Apple and disrupted classified communications – are related to each other or are the work...",
       "links": [
         {
-          "source": "France 24",
-          "title": "Third US aircraft carrier arrives in the Middle East as Iran targets Bahrain",
-          "url": "https://www.france24.com/en/video/20261117-third-us-aircraft-carrier-arrives-in-the-middle-east-as-iran-targets-bahrain"
+          "source": "The Guardian World",
+          "title": "‘Zero’ evidence that recent cascade of tech outages are linked, says Rubio",
+          "url": "https://www.theguardian.com/us-news/2026/nov/18/zero-evidence-recent-tech-outages-linked-marco-rubio"
         },
         {
-          "source": "The Guardian World",
-          "title": "Third US aircraft carrier brings thousands more troops to Middle East",
-          "url": "https://www.theguardian.com/us-news/2026/nov/16/aircraft-middle-east-trump-military"
+          "source": "France 24",
+          "title": "Rubio says 'zero' information that US tech outages are linked",
+          "url": "https://www.france24.com/en/video/20261118-rubio-says-zero-information-that-us-tech-outages-are-linked"
         }
       ]
     },
     {
       "rank": 2,
-      "title": "Jensen Huang’s departure as Nvidia CEO becomes a political proxy war",
+      "title": "House Democrats begin leadership elections, with Hakeem Jeffries poised to clinch speaker nomination – live",
       "score": 8.0,
       "rating": "High",
       "type": "Threat",
@@ -78,20 +78,44 @@
       "sources": [
         "The Guardian World"
       ],
-      "latest_utc": "2026-11-17T14:50:24+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (war); Technical (infrastructure, outage); severity wording: critical, war, outage; rising versus recent days: infrastructure.",
-      "finding": "Huang’s exit sharpens debate over US stance towards Beijing; and as outages increase, do you get the feeling nothing works? This was originally published in TechScape, a newsletter about how technology shapes our lives. Sign up to receive it here . Hello, and welcome to TechScape. I’m your host, Blake Montgomery, US...",
+      "latest_utc": "2026-11-18T15:18:52+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (election); Technical (cyber, outage); severity wording: attack, outage; rising versus recent days: cyber*.",
+      "finding": "If elected, Jeffries would become the first Black person to hold the gavel in US history Trump in China for Apec summit – follow live Sign up for US breaking News email Linked to that, the White House held a briefing call with several reporters today about the wave of tech outages affecting several industries. CNN...",
       "links": [
         {
           "source": "The Guardian World",
-          "title": "Jensen Huang’s departure as Nvidia CEO becomes a political proxy war",
-          "url": "https://www.theguardian.com/global/2026/nov/16/jensen-huang-nvidia-ceo-china"
+          "title": "House Democrats begin leadership elections, with Hakeem Jeffries poised to clinch speaker nomination – live",
+          "url": "https://www.theguardian.com/us-news/live/2026/nov/18/donald-trump-mary-peltola-alaska-hakeem-jeffries-democrats-republicans-congress-house-senate-midterms-latest-news-updates"
         }
       ]
     },
     {
       "rank": 3,
-      "title": "Siemens SIMATIC WinCC",
+      "title": "Costa Rican journalist shot dead in first such killing in 25 years",
+      "score": 8.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Cultural",
+        "Social"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-17T17:19:12+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (journalis); Social (violence); severity wording: kill, dead; rising versus recent days: journalis*, violence.",
+      "finding": "Camilo Rodriguez’s death comes as the country grapples with a surge in drug violence The Costa Rican journalist Camilo Rodríguez, who gained prominence for publishing allegations against ⁠suspected drug traffickers and politicians, was shot dead on Monday, authorities said. The first known killing of a journalist ⁠in...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "Costa Rican journalist shot dead in first such killing in 25 years",
+          "url": "https://www.theguardian.com/world/2026/nov/17/costa-rica-journalist-camilo-rodriguez-shot-dead"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "Siemens ROS#",
       "score": 8.0,
       "rating": "High",
       "type": "Threat",
@@ -104,8 +128,18 @@
       ],
       "latest_utc": "2026-11-17T12:00:00+00:00",
       "rationale": "Reported by 1 source (CISA Advisories (US Gov)); perspectives: Cultural (trust); Technical (cyber, infrastructure, vulnerabilit); severity wording: critical, warning; rising versus recent days: cyber*, infrastructure, vulnerabilit*.",
-      "finding": "View CSAF Summary Graphics Designer of SIMATIC WinCC before V8.2 contains an implicit active content execution vulnerability upon opening files, which could allow an attacker to cause arbitrary code execution on the device. Siemens is preparing fixes and recommends specific mitigations for products where fixes are not...",
+      "finding": "View CSAF Summary ROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker that is able to pass a crafted message definition file to the user to inject arbitrary code into the generated program. Siemens has released a new version for ROS# and recommends to update to the latest...",
       "links": [
+        {
+          "source": "CISA Advisories (US Gov)",
+          "title": "Siemens ROS#",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06"
+        },
+        {
+          "source": "CISA Advisories (US Gov)",
+          "title": "Siemens SIMATIC",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08"
+        },
         {
           "source": "CISA Advisories (US Gov)",
           "title": "Siemens SIMATIC WinCC",
@@ -113,85 +147,37 @@
         },
         {
           "source": "CISA Advisories (US Gov)",
-          "title": "Siemens SIMATIC",
-          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08"
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "title": "Hundreds arrested in anti-Trump protests in Philippines amid anger over Iran war and AI pact",
-      "score": 8.0,
-      "rating": "High",
-      "type": "Threat",
-      "perspectives": [
-        "Social",
-        "Technical"
-      ],
-      "sources": [
-        "The Guardian World"
-      ],
-      "latest_utc": "2026-11-17T11:00:39+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (protest, war); Technical (ai); severity wording: war, protest; rising versus recent days: ai.",
-      "finding": "Organisers say up to 10,000 people could join next round of demonstrations as US president arrives for Asean summit Asean and Apec summits – live updates Hundreds of people have been arrested in heated demonstrations against Donald Trump in Manila, as the US president arrived in the city for a leaders’ summit....",
-      "links": [
-        {
-          "source": "The Guardian World",
-          "title": "Hundreds arrested in anti-Trump protests in Philippines amid anger over Iran war and AI pact",
-          "url": "https://www.theguardian.com/world/2026/nov/17/hundreds-arrested-manila-anti-trump-protests-philippines"
+          "title": "Siemens meta-iot2050",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11"
         }
       ]
     },
     {
       "rank": 5,
-      "title": "Iranians fear more civilian infrastructure could be targeted in new US war",
+      "title": "Security flaw found in Java, world's third-largest programming language",
       "score": 7.0,
       "rating": "High",
       "type": "Threat",
       "perspectives": [
-        "Social",
+        "Cultural",
         "Technical"
       ],
       "sources": [
-        "Al Jazeera"
+        "BBC Technology"
       ],
-      "latest_utc": "2026-11-17T12:50:12+00:00",
-      "rationale": "Reported by 1 source (Al Jazeera); perspectives: Social (war); Technical (infrastructure); severity wording: war; rising versus recent days: infrastructure.",
-      "finding": "Energy facilities, industrial units, ports and bridges, schools, hospitals and apartment buildings have already been hit",
+      "latest_utc": "2026-11-18T08:47:06+00:00",
+      "rationale": "Reported by 1 source (BBC Technology); perspectives: Cultural (language); Technical (ai, software); severity wording: critical; rising versus recent days: language.",
+      "finding": "The same tech start-up that discovered a PHP flaw used AI to uncover a critical software bug in one of the world's most popular computer language programs.",
       "links": [
         {
-          "source": "Al Jazeera",
-          "title": "Iranians fear more civilian infrastructure could be targeted in new US war",
-          "url": "https://www.aljazeera.com/news/2026/11/17/iranians-fear-more-civilian-infrastructure-could-be-targeted-in-new-us-war?traffic_source=rss"
+          "source": "BBC Technology",
+          "title": "Security flaw found in Java, world's third-largest programming language",
+          "url": "https://www.bbc.co.uk/news/articles/cke89jevqm1vo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
       "rank": 6,
-      "title": "Winter rains deepen Gaza crisis amid restricted access and aid cuts",
-      "score": 7.0,
-      "rating": "High",
-      "type": "Threat",
-      "perspectives": [
-        "Social",
-        "Technical"
-      ],
-      "sources": [
-        "UN News"
-      ],
-      "latest_utc": "2026-11-17T12:00:00+00:00",
-      "rationale": "Reported by 1 source (UN News); perspectives: Social (displace, food security); Technical (ai); severity wording: crisis; rising versus recent days: ai.",
-      "finding": "Gaza is facing a deepening shelter, sanitation and food security crisis as winter rains flood makeshift shelters, destroy scarce food supplies and leave displaced families struggling to stay warm and fed.",
-      "links": [
-        {
-          "source": "UN News",
-          "title": "Winter rains deepen Gaza crisis amid restricted access and aid cuts",
-          "url": "https://news.un.org/feed/view/en/story/2026/11/1168821"
-        }
-      ]
-    },
-    {
-      "rank": 7,
       "title": "Siemens Industrial Software Products",
       "score": 7.0,
       "rating": "High",
@@ -220,8 +206,8 @@
       ]
     },
     {
-      "rank": 8,
-      "title": "Ukraine updates: Russia-Crimea bridge appears destroyed after strike",
+      "rank": 7,
+      "title": "Hundreds arrested in anti-Trump protests in Philippines amid anger over Iran war and AI pact",
       "score": 7.0,
       "rating": "High",
       "type": "Threat",
@@ -230,22 +216,22 @@
         "Technical"
       ],
       "sources": [
-        "DW (Germany)"
+        "The Guardian World"
       ],
-      "latest_utc": "2026-11-17T11:13:00+00:00",
-      "rationale": "Reported by 1 source (DW (Germany)); perspectives: Social (strike); Technical (infrastructure); severity wording: attack; rising versus recent days: infrastructure.",
-      "finding": "Zelenskyy said a strike on the Kerch bridge in Crimea was in response to continued Russian attacks targeting his country's infrastructure. Meanwhile, two bridges were hit in Russian attacks on Kyiv. DW has more.",
+      "latest_utc": "2026-11-17T11:00:39+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (protest, war); Technical (ai); severity wording: war, protest.",
+      "finding": "Organisers say up to 10,000 people could join next round of demonstrations as US president arrives for Asean summit Asean and Apec summits – as it happened Hundreds of people have been arrested in heated demonstrations against Donald Trump in Manila, as the US president arrived in the city for a leaders’ summit....",
       "links": [
         {
-          "source": "DW (Germany)",
-          "title": "Ukraine updates: Russia-Crimea bridge appears destroyed after strike",
-          "url": "https://www.dw.com/en/ukraine-updates-russia-crimea-bridge-appears-destroyed-after-strike/live-79964446?maca=en-rss-en-all-1573-rdf"
+          "source": "The Guardian World",
+          "title": "Hundreds arrested in anti-Trump protests in Philippines amid anger over Iran war and AI pact",
+          "url": "https://www.theguardian.com/world/2026/nov/17/hundreds-arrested-manila-anti-trump-protests-philippines"
         }
       ]
     },
     {
-      "rank": 9,
-      "title": "Ukraine strikes major Russian bridge in Crimea with drones and missiles",
+      "rank": 8,
+      "title": "Officials seek dismissal of lawsuit over stabbing of Ukrainian refugee on train in Charlotte",
       "score": 6.5,
       "rating": "Elevated",
       "type": "Threat",
@@ -253,28 +239,22 @@
         "Social"
       ],
       "sources": [
-        "France 24",
-        "NPR World"
+        "The Guardian World"
       ],
-      "latest_utc": "2026-11-17T12:17:34+00:00",
-      "rationale": "Reported by 2 sources (France 24, NPR World); perspectives: Social (strike); severity wording: attack, escalat.",
-      "finding": "Ukrainian drones and missiles struck a vital bridge linking Russia to the occupied Crimean Peninsula, Ukrainian President Volodymyr Zelensky said Tuesday, calling it an “unprecedented” operation as Russia reported that its forces downed a record number of Ukrainian drones for the second straight day. Meanwhile, Russia...",
+      "latest_utc": "2026-11-18T15:05:20+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (refugee); severity wording: kill, lawsuit; rising versus recent days: refugee.",
+      "finding": "Uncle of Iryna Zarutska, a 23-year-old who was murdered on the train, filed a wrongful death lawsuit against the city Officials in Charlotte, North Carolina, have petitioned a judge to dismiss the wrongful death lawsuit over the murder of Iryna Zarutska, a 23-year-old Ukrainian refugee who was killed by a man on a...",
       "links": [
         {
-          "source": "France 24",
-          "title": "Ukraine strikes major Russian bridge in Crimea with drones and missiles",
-          "url": "https://www.france24.com/en/video/20261117-ukraine-strikes-major-russian-bridge-in-crimea-with-drones-and-missiles"
-        },
-        {
-          "source": "NPR World",
-          "title": "Ukraine strikes major Russian bridge with drones and missiles as aerial attacks escalate",
-          "url": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war"
+          "source": "The Guardian World",
+          "title": "Officials seek dismissal of lawsuit over stabbing of Ukrainian refugee on train in Charlotte",
+          "url": "https://www.theguardian.com/us-news/2026/nov/18/ukrainian-refugee-stabbing-lawsuit"
         }
       ]
     },
     {
-      "rank": 10,
-      "title": "Dorsett Controls InfoScan",
+      "rank": 9,
+      "title": "AI-powered cyber threats are changing the rules of enterprise recovery",
       "score": 6.5,
       "rating": "Elevated",
       "type": "Threat",
@@ -282,16 +262,39 @@
         "Technical"
       ],
       "sources": [
-        "CISA Advisories (US Gov)"
+        "The Register"
       ],
-      "latest_utc": "2026-11-17T12:00:00+00:00",
-      "rationale": "Reported by 1 source (CISA Advisories (US Gov)); perspectives: Technical (automation, cyber, encryption); severity wording: critical, attack; rising versus recent days: automation, cyber*, infrastructure, phishing.",
-      "finding": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authorization, recover stored credentials, or intercept and manipulate network communications. The following versions of Dorsett Controls InfoScan are...",
+      "latest_utc": "2026-11-18T15:00:00+00:00",
+      "rationale": "Reported by 1 source (The Register); perspectives: Technical (ai, cyber); severity wording: critical, threat; rising versus recent days: cyber*.",
+      "finding": "SPONSORED POST: As cyberattacks become more sophisticated, organizations need to look beyond prevention and ensure they can recover critical data quickly and reliably",
       "links": [
         {
-          "source": "CISA Advisories (US Gov)",
-          "title": "Dorsett Controls InfoScan",
-          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01"
+          "source": "The Register",
+          "title": "AI-powered cyber threats are changing the rules of enterprise recovery",
+          "url": "https://www.theregister.com/security/2026/11/18/sponsored-ai-powered-cyber-threats-are-changing-the-rules-of-enterprise-recovery/5310515"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "Hacks, AI or just overdue updates - why have there been so many outages?",
+      "score": 6.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Technical"
+      ],
+      "sources": [
+        "BBC Technology"
+      ],
+      "latest_utc": "2026-11-18T13:16:53+00:00",
+      "rationale": "Reported by 1 source (BBC Technology); perspectives: Technical (ai, hack, outage); severity wording: outage, disruption; rising versus recent days: hack*.",
+      "finding": "There is no evidence these are linked, but the constant series of tech disruptions can be unnerving.",
+      "links": [
+        {
+          "source": "BBC Technology",
+          "title": "Hacks, AI or just overdue updates - why have there been so many outages?",
+          "url": "https://www.bbc.co.uk/news/articles/c6z0kly2lll7o?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
@@ -299,10 +302,11 @@
   "advancements": {
     "method": "Scores (0-10) combine the technology field, progress wording (breakthrough, unveils, first, approved...), cross-source corroboration and momentum. They show how strongly a development is being reported - not its proven impact or commercial success.",
     "summary": [
-      "Found 23 advancement stories from 12 of 12 technology sources, grouped into 23 distinct developments.",
-      "Top list ratings: Notable 9, Emerging 1; stages: Research 6, Launch 2, Development 2.",
-      "Field mix: Materials & Science 6, AI & Computing 5, Chips & Hardware 5, Robotics & Mobility 2, Energy & Climate 2, Connectivity 1, Space 1.",
-      "Momentum baseline still building (0 of 3 days collected)."
+      "Found 27 advancement stories from 12 of 12 technology sources, grouped into 25 distinct developments.",
+      "Top list ratings: Major 1, Notable 7, Emerging 2; stages: Research 5, Launch 2, Approval 2, Development 1.",
+      "Field mix: AI & Computing 7, Materials & Science 5, Robotics & Mobility 3, Chips & Hardware 3, Energy & Climate 2, Space 1, Connectivity 1.",
+      "Momentum baseline still building (1 of 3 days collected).",
+      "Most widely reported: \"Space robot legend Voyager 1 is now more than 1 light-day away\" (3 sources)."
     ],
     "rising_terms": [],
     "feed_status": {
@@ -322,6 +326,92 @@
     "items": [
       {
         "rank": 1,
+        "title": "Space robot legend Voyager 1 is now more than 1 light-day away",
+        "score": 8.5,
+        "rating": "Major",
+        "stage": "Launch",
+        "fields": [
+          "Robotics & Mobility",
+          "Space"
+        ],
+        "sources": [
+          "The Register",
+          "The Verge",
+          "Wired"
+        ],
+        "latest_utc": "2026-11-18T14:57:00+00:00",
+        "rationale": "Reported by 3 sources (The Register, The Verge, Wired); fields: Robotics & Mobility (robot); Space (nasa, spacecraft); progress signals: launch, milestone, first; stage: Launch.",
+        "finding": "As the world is hit by IT snafu after IT snafu, Voyager sails on, almost half a century after launch",
+        "links": [
+          {
+            "source": "The Register",
+            "title": "Space robot legend Voyager 1 is now more than 1 light-day away",
+            "url": "https://www.theregister.com/science/2026/11/18/space-robot-legend-voyager-1-is-now-more-than-1-light-day-away/5310751"
+          },
+          {
+            "source": "The Verge",
+            "title": "NASA’s Voyager 1 probe is now 1 light-day away",
+            "url": "https://www.theverge.com/science/1036431/nasa-voyager-1-light-day-milestone"
+          },
+          {
+            "source": "Wired",
+            "title": "Voyager 1 Beat the Odds and Is Still Working a Light-Day Away From Earth",
+            "url": "https://www.wired.com/story/voyager-1-beat-still-working-light-day-away/"
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "title": "Electron fingerprints help AI predict complex alloy properties with little training data",
+        "score": 7.0,
+        "rating": "Notable",
+        "stage": "Research",
+        "fields": [
+          "AI & Computing",
+          "Chips & Hardware",
+          "Materials & Science"
+        ],
+        "sources": [
+          "Phys.org Technology"
+        ],
+        "latest_utc": "2026-11-18T15:20:01+00:00",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: AI & Computing (ai); Chips & Hardware (semiconductor); Materials & Science (alloy, material); progress signals: invent, discover, new; stage: Research.",
+        "finding": "Inventions often depend on what's available. Edison's light bulb did not work until he could make durable filaments; LED lights languished for years until researchers discovered the right combination of semiconductors. But what if engineers could invent new technologies without waiting for the right materials?",
+        "links": [
+          {
+            "source": "Phys.org Technology",
+            "title": "Electron fingerprints help AI predict complex alloy properties with little training data",
+            "url": "https://techxplore.com/news/2026-11-electron-fingerprints-ai-complex-alloy.html"
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "title": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems",
+        "score": 7.0,
+        "rating": "Notable",
+        "stage": "Approval",
+        "fields": [
+          "AI & Computing",
+          "Materials & Science",
+          "Robotics & Mobility"
+        ],
+        "sources": [
+          "IEEE Spectrum"
+        ],
+        "latest_utc": "2026-11-17T19:00:03+00:00",
+        "rationale": "Reported by 1 source (IEEE Spectrum); fields: AI & Computing (ai, artificial intelligence); Materials & Science (material); Robotics & Mobility (autonomous); progress signals: first, launch, release, introduc; stage: Approval.",
+        "finding": "Policymakers, technologists, and members of the public have raised concerns about the harm AI’s rapid advancement might cause to society. Their concerns include bias, data privacy violations, the spread of misinformation, and losing control of AI agents. Those issues are relatively new to many people, but the IEEE...",
+        "links": [
+          {
+            "source": "IEEE Spectrum",
+            "title": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems",
+            "url": "https://spectrum.ieee.org/ieee-ethics-ai-systems"
+          }
+        ]
+      },
+      {
+        "rank": 4,
         "title": "AI Is Giving Optical Computing Another Shot",
         "score": 7.0,
         "rating": "Notable",
@@ -348,32 +438,7 @@
         ]
       },
       {
-        "rank": 2,
-        "title": "Physicists defy expectations by controlling the magnetic heart of a single atom",
-        "score": 7.0,
-        "rating": "Notable",
-        "stage": "Research",
-        "fields": [
-          "AI & Computing",
-          "Chips & Hardware",
-          "Materials & Science"
-        ],
-        "sources": [
-          "ScienceDaily Technology"
-        ],
-        "latest_utc": "2026-11-16T02:56:02+00:00",
-        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: AI & Computing (quantum); Chips & Hardware (memory); Materials & Science (physicist); progress signals: breakthrough, discover; stage: Research.",
-        "finding": "Scientists have unexpectedly discovered how to control the magnetic spin inside a single atom's nucleus using radio waves, overturning previous assumptions about atomic behavior. The breakthrough could pave the way for more reliable quantum memory, although researchers are still trying to understand why it works.",
-        "links": [
-          {
-            "source": "ScienceDaily Technology",
-            "title": "Physicists defy expectations by controlling the magnetic heart of a single atom",
-            "url": "https://www.sciencedaily.com/releases/2026/11/261114202232.htm"
-          }
-        ]
-      },
-      {
-        "rank": 3,
+        "rank": 5,
         "title": "A material just one atom thick reveals a strange quantum secret",
         "score": 6.5,
         "rating": "Notable",
@@ -397,30 +462,53 @@
         ]
       },
       {
-        "rank": 4,
-        "title": "This E Ink photo frame can double as your family’s digital dashboard",
+        "rank": 6,
+        "title": "Scientists create a remarkable new rechargeable battery using vitamin B12",
         "score": 6.0,
         "rating": "Notable",
-        "stage": "Launch",
+        "stage": "Research",
         "fields": [
-          "Chips & Hardware"
+          "Energy & Climate"
         ],
         "sources": [
-          "The Verge"
+          "ScienceDaily Technology"
         ],
-        "latest_utc": "2026-11-17T14:49:21+00:00",
-        "rationale": "Reported by 1 source (The Verge); fields: Chips & Hardware (display); progress signals: first, introduc, new; stage: Launch.",
-        "finding": "Trmnl, a company best known for its highly customizable E Ink dashboards that can function as anything from a desktop calendar to a stock tracker, has introduced a new display that's also well suited for showing artwork and photos. It's not the company's first color E Ink device, but instead of being limited to just...",
+        "latest_utc": "2026-11-18T12:26:20+00:00",
+        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Energy & Climate (batteries, battery, charging); progress signals: prototype, develop, cheaper, new; stage: Research.",
+        "finding": "Scientists have found a surprising new use for vitamin B12, developing a rechargeable battery that uses the essential nutrient to help generate and store electricity. The prototype survived up to 250 charging cycles and could open the door to safer, cheaper, and more environmentally friendly alternatives to...",
         "links": [
           {
-            "source": "The Verge",
-            "title": "This E Ink photo frame can double as your family’s digital dashboard",
-            "url": "https://www.theverge.com/tech/1035258/trmnl-e-ink-spectra-6-frame-dashboard-display-poster-photos"
+            "source": "ScienceDaily Technology",
+            "title": "Scientists create a remarkable new rechargeable battery using vitamin B12",
+            "url": "https://www.sciencedaily.com/releases/2026/11/261117033909.htm"
           }
         ]
       },
       {
-        "rank": 5,
+        "rank": 7,
+        "title": "New discovery reveals what may be holding back room-temperature superconductors",
+        "score": 6.0,
+        "rating": "Notable",
+        "stage": "Research",
+        "fields": [
+          "Materials & Science"
+        ],
+        "sources": [
+          "ScienceDaily Technology"
+        ],
+        "latest_utc": "2026-11-18T12:16:46+00:00",
+        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Materials & Science (superconduct); progress signals: breakthrough, discover, new; stage: Research.",
+        "finding": "A major breakthrough in superconductivity research has revealed that one of the essential ingredients for electricity to flow without resistance can exist at room temperature. Scientists discovered that electrons can form stable pairs at much higher temperatures than previously understood, suggesting that a different...",
+        "links": [
+          {
+            "source": "ScienceDaily Technology",
+            "title": "New discovery reveals what may be holding back room-temperature superconductors",
+            "url": "https://www.sciencedaily.com/releases/2026/11/261116023358.htm"
+          }
+        ]
+      },
+      {
+        "rank": 8,
         "title": "Quantum computers are getting too powerful to check. Scientists have a solution",
         "score": 6.0,
         "rating": "Notable",
@@ -443,122 +531,50 @@
         ]
       },
       {
-        "rank": 6,
-        "title": "Vibration-harvesting model could help engineers design devices powered by everyday motion",
-        "score": 6.0,
-        "rating": "Notable",
-        "stage": "Research",
-        "fields": [
-          "Chips & Hardware",
-          "Energy & Climate",
-          "Materials & Science"
-        ],
-        "sources": [
-          "Phys.org Technology"
-        ],
-        "latest_utc": "2026-11-16T19:40:01+00:00",
-        "rationale": "Reported by 1 source (Phys.org Technology); fields: Chips & Hardware (wearable); Energy & Climate (batteries); Materials & Science (material); progress signals: develop, new, advance; stage: Research.",
-        "finding": "New technology could allow wearables to one day rely less on batteries and more on vibrations generated by the user. The model, developed by the University of Surrey and its spinoff company Z-PULSE, predicts how much electricity small generators can make from vibrations. The work is published in the journal Advanced...",
-        "links": [
-          {
-            "source": "Phys.org Technology",
-            "title": "Vibration-harvesting model could help engineers design devices powered by everyday motion",
-            "url": "https://techxplore.com/news/2026-11-vibration-harvesting-devices-powered-everyday.html"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "title": "Measuring GitHub popularity could reveal which software flaws need fixes first",
-        "score": 6.0,
-        "rating": "Notable",
-        "stage": "Research",
-        "fields": [
-          "AI & Computing"
-        ],
-        "sources": [
-          "Phys.org Technology"
-        ],
-        "latest_utc": "2026-11-16T18:20:10+00:00",
-        "rationale": "Reported by 1 source (Phys.org Technology); fields: AI & Computing (software); progress signals: first, develop, new; stage: Research.",
-        "finding": "The number of cyberattacks is growing rapidly and there are too many software vulnerabilities to fix them all. Researchers at Leiden University have developed a new method to help identify which vulnerabilities deserve attention first: the GitHub Popularity Metric.",
-        "links": [
-          {
-            "source": "Phys.org Technology",
-            "title": "Measuring GitHub popularity could reveal which software flaws need fixes first",
-            "url": "https://techxplore.com/news/2026-11-github-popularity-reveal-software-flaws.html"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "title": "NASA is offering $1 million for bold ideas to help build a Moon base",
-        "score": 6.0,
-        "rating": "Notable",
-        "stage": "Development",
-        "fields": [
-          "Space"
-        ],
-        "sources": [
-          "ScienceDaily Technology"
-        ],
-        "latest_utc": "2026-11-16T14:02:10+00:00",
-        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Space (lunar, mars, moon); progress signals: first, develop, new; stage: Development.",
-        "finding": "NASA is offering $1 million in its new Moon Base Challenge, inviting U.S. students to develop innovative solutions for building humanity’s first permanent lunar outpost. From power systems to astronaut safety, their ideas could help make long-term life on the Moon possible and pave the way to Mars.",
-        "links": [
-          {
-            "source": "ScienceDaily Technology",
-            "title": "NASA is offering $1 million for bold ideas to help build a Moon base",
-            "url": "https://www.sciencedaily.com/releases/2026/11/261115085542.htm"
-          }
-        ]
-      },
-      {
         "rank": 9,
-        "title": "Advanced Metrology for Defect Detection, Tool Health, and Semiconductor Yield Enhancement",
-        "score": 6.0,
-        "rating": "Notable",
+        "title": "Rivian spinoff Also pauses e-bike deliveries over battery and software bugs",
+        "score": 5.5,
+        "rating": "Emerging",
         "stage": "Development",
         "fields": [
-          "Chips & Hardware",
-          "Materials & Science",
-          "Robotics & Mobility"
+          "AI & Computing",
+          "Energy & Climate"
         ],
         "sources": [
-          "IEEE Spectrum"
+          "The Verge"
         ],
-        "latest_utc": "2026-11-16T11:00:03+00:00",
-        "rationale": "Reported by 1 source (IEEE Spectrum); fields: Chips & Hardware (chip, nanometer, semiconductor); Materials & Science (material); Robotics & Mobility (manufactur); progress signals: first, advance; stage: Development.",
-        "finding": "In advanced semiconductor manufacturing, small defects can have a large effect on yield. Thin film deposition tools must stay stable and qualified. Process drift must be caught early. When a defect does appear, engineers need to know where it came from and how it affects device performance. This webinar shows how...",
+        "latest_utc": "2026-11-18T14:56:43+00:00",
+        "rationale": "Reported by 1 source (The Verge); fields: AI & Computing (software); Energy & Climate (battery); progress signals: first, new; stage: Development.",
+        "finding": "Also, the mobility startup that spun out of Rivian last year, has run into another speed bump. The company was already struggling to get its first e-bikes to customers due to a litany of supply chain headaches and the complexity of building a futuristic bike powered almost entirely by software. Now there is a new […]",
         "links": [
           {
-            "source": "IEEE Spectrum",
-            "title": "Advanced Metrology for Defect Detection, Tool Health, and Semiconductor Yield Enhancement",
-            "url": "https://event.on24.com/wcc/mr/7058967/655F0A675F5C3415546D597247025DA8?utm_source=evident122&utm_medium=IEEE&utm_campaign=series1"
+            "source": "The Verge",
+            "title": "Rivian spinoff Also pauses e-bike deliveries over battery and software bugs",
+            "url": "https://www.theverge.com/transportation/1036460/also-rivian-spinoff-tm-b-ebike-delivery-delay-software-battery-issues"
           }
         ]
       },
       {
         "rank": 10,
-        "title": "This remarkable new material could solve a major carbon capture problem",
+        "title": "Nvidia isn’t selling any more AI chips to China",
         "score": 5.5,
         "rating": "Emerging",
-        "stage": "Research",
+        "stage": "Approval",
         "fields": [
-          "Energy & Climate",
-          "Materials & Science"
+          "AI & Computing",
+          "Chips & Hardware"
         ],
         "sources": [
-          "ScienceDaily Technology"
+          "The Verge"
         ],
-        "latest_utc": "2026-11-17T11:29:36+00:00",
-        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Energy & Climate (carbon capture); Materials & Science (material); progress signals: develop, cheaper, new; stage: Research.",
-        "finding": "Scientists have developed a new carbon capture material that turns moisture from an obstacle into an advantage, potentially solving a major problem with removing CO2 from industrial emissions. The material works even in extremely humid conditions and can be reused repeatedly, offering a promising path toward cheaper...",
+        "latest_utc": "2026-11-18T13:01:05+00:00",
+        "rationale": "Reported by 1 source (The Verge); fields: AI & Computing (ai); Chips & Hardware (chip); progress signals: approv, advance; stage: Approval.",
+        "finding": "Nvidia has stopped sending its advanced AI chips to China despite the approval it received from the White House to do so in December last year. The announcement was made by interim Nvidia CEO Colette Kress during an earnings call on Tuesday, marking a notable shift for the company that, under former CEO Jensen Huang...",
         "links": [
           {
-            "source": "ScienceDaily Technology",
-            "title": "This remarkable new material could solve a major carbon capture problem",
-            "url": "https://www.sciencedaily.com/releases/2026/11/261116023405.htm"
+            "source": "The Verge",
+            "title": "Nvidia isn’t selling any more AI chips to China",
+            "url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling"
           }
         ]
       }
