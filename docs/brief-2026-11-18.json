@@ -1,26 +1,26 @@
 {
   "version": "2.1.0",
-  "generated_utc": "2026-11-18T15:36:41.632338+00:00",
+  "generated_utc": "2026-11-18T17:35:06.115052+00:00",
   "method": "Scores (0-10) combine perspective breadth, severity wording, cross-source corroboration and momentum. They measure attention and concern in public reporting - not probability, not a forecast. Read the sources before acting.",
   "summary": [
-    "Scanned 462 items from 13 of 13 sources; 143 matched a perspective and were grouped into 132 distinct issues.",
-    "Top list ratings: High 7, Elevated 3 (10 threats, 0 watch items).",
-    "Perspective mix: Technical 8, Cultural 5, Social 4.",
-    "Rising topics versus recent days: cyber*, vulnerabilit*, strike, infrastructure, human rights, violence, migra*, hack*.",
-    "Most widely reported: \"‘Zero’ evidence that recent cascade of tech outages are linked, says Rubio\" (2 sources)."
+    "Scanned 465 items from 13 of 13 sources; 148 matched a perspective and were grouped into 139 distinct issues.",
+    "Top list ratings: High 6, Elevated 4 (10 threats, 0 watch items).",
+    "Perspective mix: Technical 7, Social 5, Cultural 4.",
+    "Rising topics versus recent days: cyber*, vulnerabilit*, strike, infrastructure, migra*, human rights, violence, hack*.",
+    "Most widely reported: \"Israel begins new military operation in Gaza\" (2 sources)."
   ],
   "rising_terms": [
     "cyber*",
     "vulnerabilit*",
     "strike",
     "infrastructure",
+    "migra*",
     "human rights",
     "violence",
-    "migra*",
     "hack*"
   ],
   "feed_status": {
-    "BBC World": "ok (29 items)",
+    "BBC World": "ok (32 items)",
     "BBC Technology": "ok (21 items)",
     "The Guardian World": "ok (45 items)",
     "NPR World": "ok (10 items)",
@@ -37,38 +37,8 @@
   "issues": [
     {
       "rank": 1,
-      "title": "‘Zero’ evidence that recent cascade of tech outages are linked, says Rubio",
+      "title": "Israel begins new military operation in Gaza",
       "score": 9.0,
-      "rating": "High",
-      "type": "Threat",
-      "perspectives": [
-        "Cultural",
-        "Technical"
-      ],
-      "sources": [
-        "France 24",
-        "The Guardian World"
-      ],
-      "latest_utc": "2026-11-18T14:46:49+00:00",
-      "rationale": "Reported by 2 sources (France 24, The Guardian World); perspectives: Cultural (language); Technical (outage, vulnerabilit); severity wording: attack, outage; rising versus recent days: language, vulnerabilit*.",
-      "finding": "US secretary of state’s comments come as vulnerability in programming language Java highlighted There is “zero evidence” that a wave of IT outages – which have grounded flights, cut off work access, limited bank access, affected Apple and disrupted classified communications – are related to each other or are the work...",
-      "links": [
-        {
-          "source": "The Guardian World",
-          "title": "‘Zero’ evidence that recent cascade of tech outages are linked, says Rubio",
-          "url": "https://www.theguardian.com/us-news/2026/nov/18/zero-evidence-recent-tech-outages-linked-marco-rubio"
-        },
-        {
-          "source": "France 24",
-          "title": "Rubio says 'zero' information that US tech outages are linked",
-          "url": "https://www.france24.com/en/video/20261118-rubio-says-zero-information-that-us-tech-outages-are-linked"
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "title": "House Democrats begin leadership elections, with Hakeem Jeffries poised to clinch speaker nomination – live",
-      "score": 8.0,
       "rating": "High",
       "type": "Threat",
       "perspectives": [
@@ -76,21 +46,27 @@
         "Technical"
       ],
       "sources": [
-        "The Guardian World"
+        "Al Jazeera",
+        "France 24"
       ],
-      "latest_utc": "2026-11-18T15:18:52+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (election); Technical (cyber, outage); severity wording: attack, outage; rising versus recent days: cyber*.",
-      "finding": "If elected, Jeffries would become the first Black person to hold the gavel in US history Trump in China for Apec summit – follow live Sign up for US breaking News email Linked to that, the White House held a briefing call with several reporters today about the wave of tech outages affecting several industries. CNN...",
+      "latest_utc": "2026-11-18T16:12:30+00:00",
+      "rationale": "Reported by 2 sources (Al Jazeera, France 24); perspectives: Social (refugee, strike); Technical (infrastructure); severity wording: kill, threat; rising versus recent days: infrastructure, strike.",
+      "finding": "Israeli tanks advanced in an area of the central Gaza Strip on Wednesday, witnesses said, and the Israeli military said its ​forces were targeting ‌Hamas infrastructure outside the \"Yellow Line\" that sets the boundary of the part of the enclave controlled by Israel \"The IDF launched a precise operation within the Gaza...",
       "links": [
         {
-          "source": "The Guardian World",
-          "title": "House Democrats begin leadership elections, with Hakeem Jeffries poised to clinch speaker nomination – live",
-          "url": "https://www.theguardian.com/us-news/live/2026/nov/18/donald-trump-mary-peltola-alaska-hakeem-jeffries-democrats-republicans-congress-house-senate-midterms-latest-news-updates"
+          "source": "France 24",
+          "title": "Israel begins new military operation in Gaza",
+          "url": "https://www.france24.com/en/video/20261118-israel-begins-new-military-operation-in-gaza"
+        },
+        {
+          "source": "Al Jazeera",
+          "title": "Palestinians flee refugee camp as Israel begins operation in central Gaza",
+          "url": "https://www.aljazeera.com/news/2026/11/18/palestinians-flee-refugee-camp-as-israel-begins-operation-in-central-gaza?traffic_source=rss"
         }
       ]
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "Costa Rican journalist shot dead in first such killing in 25 years",
       "score": 8.0,
       "rating": "High",
@@ -114,7 +90,7 @@
       ]
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Siemens ROS#",
       "score": 8.0,
       "rating": "High",
@@ -153,31 +129,31 @@
       ]
     },
     {
-      "rank": 5,
-      "title": "Security flaw found in Java, world's third-largest programming language",
+      "rank": 4,
+      "title": "Anti-vaccine group once led by RFK Jr back on Facebook and Instagram after being banned",
       "score": 7.0,
       "rating": "High",
       "type": "Threat",
       "perspectives": [
         "Cultural",
-        "Technical"
+        "Social"
       ],
       "sources": [
-        "BBC Technology"
+        "The Guardian World"
       ],
-      "latest_utc": "2026-11-18T08:47:06+00:00",
-      "rationale": "Reported by 1 source (BBC Technology); perspectives: Cultural (language); Technical (ai, software); severity wording: critical; rising versus recent days: language.",
-      "finding": "The same tech start-up that discovered a PHP flaw used AI to uncover a critical software bug in one of the world's most popular computer language programs.",
+      "latest_utc": "2026-11-18T17:13:23+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (misinformation); Social (outbreak); severity wording: deadly, banned.",
+      "finding": "Children’s Health Defense was removed from Facebook and Instagram in 2022. Meta declined to comment on why it allowed the group back An anti-vaccine group led for years by Robert F Kennedy Jr has been allowed back on Facebook and Instagram, four years after Meta removed the group for repeatedly violating its...",
       "links": [
         {
-          "source": "BBC Technology",
-          "title": "Security flaw found in Java, world's third-largest programming language",
-          "url": "https://www.bbc.co.uk/news/articles/cke89jevqm1vo?at_medium=RSS&at_campaign=rss"
+          "source": "The Guardian World",
+          "title": "Anti-vaccine group once led by RFK Jr back on Facebook and Instagram after being banned",
+          "url": "https://www.theguardian.com/us-news/2026/nov/18/rfk-jr-childrens-health-defense-meta"
         }
       ]
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Siemens Industrial Software Products",
       "score": 7.0,
       "rating": "High",
@@ -206,7 +182,7 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Hundreds arrested in anti-Trump protests in Philippines amid anger over Iran war and AI pact",
       "score": 7.0,
       "rating": "High",
@@ -230,8 +206,31 @@
       ]
     },
     {
+      "rank": 7,
+      "title": "US senators urge White House AI chief to fix vulnerabilities after mass outages",
+      "score": 6.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Technical"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-18T17:25:00+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Technical (ai, cyber, infrastructure); severity wording: attack, breach, outage, concern; rising versus recent days: cyber*, infrastructure, vulnerabilit*.",
+      "finding": "As Democrats flag AI bank breaches and cyber-attacks in Japan, Jay Clayton says system failures happen US politics live – latest updates A bipartisan pair of US senators are calling on Jay Clayton, the director of national intelligence and AI czar, to identify and fix vulnerabilities in the US’s infrastructure...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "US senators urge White House AI chief to fix vulnerabilities after mass outages",
+          "url": "https://www.theguardian.com/us-news/2026/nov/18/jay-clayton-ai-tech-outages-infrastructure"
+        }
+      ]
+    },
+    {
       "rank": 8,
-      "title": "Officials seek dismissal of lawsuit over stabbing of Ukrainian refugee on train in Charlotte",
+      "title": "Russian attacks on Ukraine kill at least five people",
       "score": 6.5,
       "rating": "Elevated",
       "type": "Threat",
@@ -239,16 +238,16 @@
         "Social"
       ],
       "sources": [
-        "The Guardian World"
+        "Al Jazeera"
       ],
-      "latest_utc": "2026-11-18T15:05:20+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (refugee); severity wording: kill, lawsuit; rising versus recent days: refugee.",
-      "finding": "Uncle of Iryna Zarutska, a 23-year-old who was murdered on the train, filed a wrongful death lawsuit against the city Officials in Charlotte, North Carolina, have petitioned a judge to dismiss the wrongful death lawsuit over the murder of Iryna Zarutska, a 23-year-old Ukrainian refugee who was killed by a man on a...",
+      "latest_utc": "2026-11-18T15:32:01+00:00",
+      "rationale": "Reported by 1 source (Al Jazeera); perspectives: Social (strike); severity wording: kill, attack; rising versus recent days: strike.",
+      "finding": "Most of the casualties were in strikes on Odesa that President Volodymyr Zelenskyy described as 'brutal'.",
       "links": [
         {
-          "source": "The Guardian World",
-          "title": "Officials seek dismissal of lawsuit over stabbing of Ukrainian refugee on train in Charlotte",
-          "url": "https://www.theguardian.com/us-news/2026/nov/18/ukrainian-refugee-stabbing-lawsuit"
+          "source": "Al Jazeera",
+          "title": "Russian attacks on Ukraine kill at least five people",
+          "url": "https://www.aljazeera.com/news/2026/11/18/russian-attacks-on-ukraine-kill-at-least-five-people?traffic_source=rss"
         }
       ]
     },
@@ -302,7 +301,7 @@
   "advancements": {
     "method": "Scores (0-10) combine the technology field, progress wording (breakthrough, unveils, first, approved...), cross-source corroboration and momentum. They show how strongly a development is being reported - not its proven impact or commercial success.",
     "summary": [
-      "Found 27 advancement stories from 12 of 12 technology sources, grouped into 25 distinct developments.",
+      "Found 28 advancement stories from 12 of 12 technology sources, grouped into 26 distinct developments.",
       "Top list ratings: Major 1, Notable 7, Emerging 2; stages: Research 5, Launch 2, Approval 2, Development 1.",
       "Field mix: AI & Computing 7, Materials & Science 5, Robotics & Mobility 3, Chips & Hardware 3, Energy & Climate 2, Space 1, Connectivity 1.",
       "Momentum baseline still building (1 of 3 days collected).",
