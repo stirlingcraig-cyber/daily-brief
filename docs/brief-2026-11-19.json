@@ -1,25 +1,26 @@
 {
   "version": "2.1.0",
-  "generated_utc": "2026-11-19T15:42:02.788781+00:00",
+  "generated_utc": "2026-11-19T17:40:32.640596+00:00",
   "method": "Scores (0-10) combine perspective breadth, severity wording, cross-source corroboration and momentum. They measure attention and concern in public reporting - not probability, not a forecast. Read the sources before acting.",
   "summary": [
-    "Scanned 471 items from 13 of 13 sources; 120 matched a perspective and were grouped into 113 distinct issues.",
-    "Top list ratings: High 1, Elevated 9 (9 threats, 1 watch items).",
-    "Perspective mix: Social 7, Cultural 5, Technical 1.",
-    "Rising topics versus recent days: crime, artificial intelligence, tradition, religio*, violence, ceasefire, privacy.",
-    "Most widely reported: \"Myanmar committed genocide against Rohingya minority, world’s top court rules\" (2 sources)."
+    "Scanned 470 items from 13 of 13 sources; 123 matched a perspective and were grouped into 119 distinct issues.",
+    "Top list ratings: High 3, Elevated 7 (8 threats, 2 watch items).",
+    "Perspective mix: Social 7, Cultural 4, Technical 3.",
+    "Rising topics versus recent days: crime, religio*, violence, tradition, artificial intelligence, phishing, speech, ceasefire.",
+    "Most widely reported: \"Myanmar committed genocide against Rohingya minority, world’s top court rules\" (3 sources)."
   ],
   "rising_terms": [
     "crime",
-    "artificial intelligence",
-    "tradition",
     "religio*",
     "violence",
-    "ceasefire",
-    "privacy"
+    "tradition",
+    "artificial intelligence",
+    "phishing",
+    "speech",
+    "ceasefire"
   ],
   "feed_status": {
-    "BBC World": "ok (36 items)",
+    "BBC World": "ok (35 items)",
     "BBC Technology": "ok (21 items)",
     "The Guardian World": "ok (45 items)",
     "NPR World": "ok (10 items)",
@@ -47,8 +48,8 @@
       "sources": [
         "The Guardian World"
       ],
-      "latest_utc": "2026-11-19T15:08:47+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (media, speech); Social (crime, election, war); severity wording: attack, war; rising versus recent days: crime.",
+      "latest_utc": "2026-11-19T17:29:33+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (media, speech); Social (crime, election, war); severity wording: attack, war; rising versus recent days: crime, speech.",
       "finding": "The Guardian’s UK politics blogger is conducting a live Q&A These are from my colleague Peter Walker , who was at the Tory event where James Cleverly was named as the party’s candidate for London mayor. Peter posted this before the result was announced. Khan (who may or may not stand a 4th time) has thus far faced a...",
       "links": [
         {
@@ -60,25 +61,55 @@
     },
     {
       "rank": 2,
+      "title": "Syria's Christian leaders warn of 'grave' threat to community's future amid wave of attacks",
+      "score": 8.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Cultural",
+        "Social"
+      ],
+      "sources": [
+        "Fox News World"
+      ],
+      "latest_utc": "2026-11-19T15:55:51+00:00",
+      "rationale": "Reported by 1 source (Fox News World); perspectives: Cultural (religio); Social (violence); severity wording: attack, threat, escalat, concern; rising versus recent days: religio*, violence.",
+      "finding": "Syria's top Christian leaders warn that escalating attacks, kidnappings and violence threaten their community's future, as the State Department voices concern over religious persecution.",
+      "links": [
+        {
+          "source": "Fox News World",
+          "title": "Syria's Christian leaders warn of 'grave' threat to community's future amid wave of attacks",
+          "url": "https://www.foxnews.com/world/syrias-christian-leaders-warn-grave-threat-communitys-future-amid-wave-attacks"
+        }
+      ]
+    },
+    {
+      "rank": 3,
       "title": "Myanmar committed genocide against Rohingya minority, world’s top court rules",
-      "score": 6.5,
-      "rating": "Elevated",
+      "score": 7.5,
+      "rating": "High",
       "type": "Threat",
       "perspectives": [
         "Social"
       ],
       "sources": [
         "DW (Germany)",
-        "The Guardian World"
+        "The Guardian World",
+        "UN News"
       ],
       "latest_utc": "2026-11-19T13:52:10+00:00",
-      "rationale": "Reported by 2 sources (DW (Germany), The Guardian World); perspectives: Social (conflict, crime, refugee); severity wording: critical; rising versus recent days: crime.",
+      "rationale": "Reported by 3 sources (DW (Germany), The Guardian World, UN News); perspectives: Social (conflict, crime, refugee); severity wording: critical; rising versus recent days: crime.",
       "finding": "Judgment finds ‘intent to destroy a substantial part of the Rohingya population’ after case seen as critical test for dealing with most serious of state crimes Myanmar committed genocide against its Rohingya minority during a 2017 military campaign, the world’s highest court has ruled, in a historic and unprecedented...",
       "links": [
         {
           "source": "The Guardian World",
           "title": "Myanmar committed genocide against Rohingya minority, world’s top court rules",
           "url": "https://www.theguardian.com/world/2026/nov/19/genocide-rohingya-international-court-of-justice-ruling-myanmar"
+        },
+        {
+          "source": "UN News",
+          "title": "World’s top court finds Myanmar guilty of genocide against Rohingya",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168836"
         },
         {
           "source": "DW (Germany)",
@@ -88,7 +119,99 @@
       ]
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "title": "ICJ ruling on Myanmar genocide: ‘Historic victory for Rohingya, landmark for international justice’",
+      "score": 6.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "France 24"
+      ],
+      "latest_utc": "2026-11-19T15:54:42+00:00",
+      "rationale": "Reported by 1 source (France 24); perspectives: Social (conflict, crime, human rights); severity wording: war, warning; rising versus recent days: crime.",
+      "finding": "Erin Ogunkeye welcomes Reed Brody, Member of the International Commission of Jurists, Human Rights Lawyer and veteran war crimes prosecutor. The International Court of Justice's ruling on Myanmar marks, according to Brody, \"a historic victory for the Rohingya, but also a landmark for international justice.\" He...",
+      "links": [
+        {
+          "source": "France 24",
+          "title": "ICJ ruling on Myanmar genocide: ‘Historic victory for Rohingya, landmark for international justice’",
+          "url": "https://www.france24.com/en/icj-ruling-on-myanmar-genocide-historic-victory-for-rohingya-landmark-for-international-justice"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "Elecbrakes EB2, VM1, ELBC2000",
+      "score": 6.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Technical"
+      ],
+      "sources": [
+        "CISA Advisories (US Gov)"
+      ],
+      "latest_utc": "2026-11-19T12:00:00+00:00",
+      "rationale": "Reported by 1 source (CISA Advisories (US Gov)); perspectives: Technical (cyber, infrastructure, phishing); severity wording: critical, attack; rising versus recent days: phishing.",
+      "finding": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain control of the brakes of a trailer, modify the firmware, disable the brake lights, modify the brake conditions or disable other critical safety features. The following versions of Elecbrakes EB2, VM1, ELBC2000 are...",
+      "links": [
+        {
+          "source": "CISA Advisories (US Gov)",
+          "title": "Elecbrakes EB2, VM1, ELBC2000",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "libumqtt",
+      "score": 6.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Technical"
+      ],
+      "sources": [
+        "CISA Advisories (US Gov)"
+      ],
+      "latest_utc": "2026-11-19T12:00:00+00:00",
+      "rationale": "Reported by 1 source (CISA Advisories (US Gov)); perspectives: Technical (cyber, infrastructure, phishing); severity wording: critical, attack; rising versus recent days: phishing.",
+      "finding": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure. The following versions of libumqtt are affected: libumqtt <=1.1.1 (CVE-2026-125132) CVSS Vendor Equipment v3 8.6 libumqtt libumqtt 1 Vulnerability...",
+      "links": [
+        {
+          "source": "CISA Advisories (US Gov)",
+          "title": "libumqtt",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "Autonomy Logic OpenPLC Runtime",
+      "score": 6.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Technical"
+      ],
+      "sources": [
+        "CISA Advisories (US Gov)"
+      ],
+      "latest_utc": "2026-11-19T12:00:00+00:00",
+      "rationale": "Reported by 1 source (CISA Advisories (US Gov)); perspectives: Technical (cyber, infrastructure, phishing); severity wording: critical, attack; rising versus recent days: phishing.",
+      "finding": "View CSAF Summary Successful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created. The following versions of Autonomy Logic OpenPLC Runtime are affected: OpenPLC Runtime <=4.2.4 (CVE-2026-126088) CVSS Vendor Equipment v3 8.1 Autonomy Logic OpenPLC Runtime 1 Vulnerability...",
+      "links": [
+        {
+          "source": "CISA Advisories (US Gov)",
+          "title": "Autonomy Logic OpenPLC Runtime",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01"
+        }
+      ]
+    },
+    {
+      "rank": 8,
       "title": "Violent protests and killings in Bangladesh ahead of exiled Sheikh Hasina’s planned return",
       "score": 6.5,
       "rating": "Elevated",
@@ -111,7 +234,31 @@
       ]
     },
     {
-      "rank": 4,
+      "rank": 9,
+      "title": "Mark Speakman resigns and says Liberals face ‘existential threat’ as NSW exodus continues",
+      "score": 6.0,
+      "rating": "Elevated",
+      "type": "Watch",
+      "perspectives": [
+        "Cultural",
+        "Social"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-19T11:23:41+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (speech); Social (election); severity wording: threat; rising versus recent days: speech.",
+      "finding": "Former NSW opposition leader warns party against becoming ‘Labor lite’ or ‘One Nation lite’ in late-night speech Get our breaking news email , free app or daily news podcast Former New South Wales opposition leader, Mark Speakman, will not contest his seat at the March state election, the latest in a mass exodus of...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "Mark Speakman resigns and says Liberals face ‘existential threat’ as NSW exodus continues",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/19/mark-speakman-resigns-and-says-liberals-face-existential-threat-as-nsw-exodus-continues"
+        }
+      ]
+    },
+    {
+      "rank": 10,
       "title": "Fears grow that US will put Nobel-winning judge under sanctions after Myanmar genocide ruling",
       "score": 6.0,
       "rating": "Elevated",
@@ -133,153 +280,14 @@
           "url": "https://www.theguardian.com/world/2026/nov/18/us-sanctions-icj-judges-myanmar-genocide-ruling-israel-gaza-court"
         }
       ]
-    },
-    {
-      "rank": 5,
-      "title": "Security flaw found in Java, world's third-largest programming language",
-      "score": 6.0,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Cultural",
-        "Technical"
-      ],
-      "sources": [
-        "BBC Technology"
-      ],
-      "latest_utc": "2026-11-18T08:47:06+00:00",
-      "rationale": "Reported by 1 source (BBC Technology); perspectives: Cultural (language); Technical (ai, software); severity wording: critical.",
-      "finding": "The same tech start-up that discovered a PHP flaw used AI to uncover a critical software bug in one of the world's most popular computer language programs.",
-      "links": [
-        {
-          "source": "BBC Technology",
-          "title": "Security flaw found in Java, world's third-largest programming language",
-          "url": "https://www.bbc.co.uk/news/articles/cke89jevqm1vo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "title": "In South Korea, women forced into prostitution on US military bases seek justice",
-      "score": 5.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social"
-      ],
-      "sources": [
-        "France 24"
-      ],
-      "latest_utc": "2026-11-19T13:21:41+00:00",
-      "rationale": "Reported by 1 source (France 24); perspectives: Social (war); severity wording: war, sanction.",
-      "finding": "Tens of thousands of women were forced to work in South Korean state-sanctioned brothels used by American soldiers based in the country after the Korean War. They were raped, physically abused and forcibly confined. Now, after decades of silence, some of these women are speaking out.",
-      "links": [
-        {
-          "source": "France 24",
-          "title": "In South Korea, women forced into prostitution on US military bases seek justice",
-          "url": "https://www.france24.com/en/tv-shows/focus/20261119-in-south-korea-women-forced-into-prostitution-on-us-military-bases-seek-justice"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "title": "Guardian Australia takes home two Walkley awards for excellence in journalism",
-      "score": 5.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Cultural"
-      ],
-      "sources": [
-        "The Guardian World"
-      ],
-      "latest_utc": "2026-11-19T11:13:32+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (journalis); severity wording: kill.",
-      "finding": "Stories revealing Pauline Hanson’s US trip with Gina Rinehart and the systemic betrayal of Kardell Lomas before her death recognised Guardian Australia journalists have won two Walkley awards, one for a story about the systemic betrayal of a woman who was killed by her partner, and another for an exclusive story that...",
-      "links": [
-        {
-          "source": "The Guardian World",
-          "title": "Guardian Australia takes home two Walkley awards for excellence in journalism",
-          "url": "https://www.theguardian.com/australia-news/2026/nov/19/guardian-australia-takes-home-two-walkley-awards-for-excellence-in-journalism"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "title": "Florida pastor found guilty over 2021 assassination of Haitian president",
-      "score": 5.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Cultural"
-      ],
-      "sources": [
-        "The Guardian World"
-      ],
-      "latest_utc": "2026-11-18T22:31:41+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (conspiracy); severity wording: kill.",
-      "finding": "Christian Emmanuel Sanon faces life in prison after conviction on charges arising from killing of Jovenel Moïse A Florida pastor with dual Haitian-American citizenship was convicted on Wednesday of US charges arising from the 2021 assassination of the Haitian president Jovenel Moïse. Christian Emmanuel Sanon was found...",
-      "links": [
-        {
-          "source": "The Guardian World",
-          "title": "Florida pastor found guilty over 2021 assassination of Haitian president",
-          "url": "https://www.theguardian.com/us-news/2026/nov/18/florida-pastor-guilty-haiti-president-assassination"
-        }
-      ]
-    },
-    {
-      "rank": 9,
-      "title": "Rare anti-government protests erupt in Iran over workers' deaths",
-      "score": 5.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social"
-      ],
-      "sources": [
-        "Fox News World"
-      ],
-      "latest_utc": "2026-11-18T16:20:00+00:00",
-      "rationale": "Reported by 1 source (Fox News World); perspectives: Social (protest); severity wording: kill, protest.",
-      "finding": "Hundreds of Iranians chanted \"Death to the dictator!\" in Abdanan after a bus crash killed 13 oil refinery employees, with at least seven people arrested.",
-      "links": [
-        {
-          "source": "Fox News World",
-          "title": "Rare anti-government protests erupt in Iran over workers' deaths",
-          "url": "https://www.foxnews.com/world/rare-anti-government-protests-erupt-iran-workers-deaths"
-        }
-      ]
-    },
-    {
-      "rank": 10,
-      "title": "Protesters call for regime change in Iran following deadly crash that killed 13 oil and gas workers",
-      "score": 5.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social"
-      ],
-      "sources": [
-        "Fox News World"
-      ],
-      "latest_utc": "2026-11-18T16:17:58+00:00",
-      "rationale": "Reported by 1 source (Fox News World); perspectives: Social (protest); severity wording: deadly, kill, escalat, protest.",
-      "finding": "Hundreds take to the streets in western Iran after 13 oil workers are killed, with demonstrations escalating into political protests against Tehran's leadership.",
-      "links": [
-        {
-          "source": "Fox News World",
-          "title": "Protesters call for regime change in Iran following deadly crash that killed 13 oil and gas workers",
-          "url": "https://www.foxnews.com/world/protesters-call-regime-change-iran-following-deadly-crash-killed-13-oil-gas-workers"
-        }
-      ]
     }
   ],
   "advancements": {
     "method": "Scores (0-10) combine the technology field, progress wording (breakthrough, unveils, first, approved...), cross-source corroboration and momentum. They show how strongly a development is being reported - not its proven impact or commercial success.",
     "summary": [
-      "Found 25 advancement stories from 12 of 12 technology sources, grouped into 25 distinct developments.",
-      "Top list ratings: Notable 8, Emerging 2; stages: Launch 6, Development 2, Approval 1, Research 1.",
-      "Field mix: Space 5, AI & Computing 4, Robotics & Mobility 2, Connectivity 1, Materials & Science 1, Energy & Climate 1, Health & Biotech 1, Chips & Hardware 1.",
+      "Found 22 advancement stories from 12 of 12 technology sources, grouped into 22 distinct developments.",
+      "Top list ratings: Notable 9, Emerging 1; stages: Launch 5, Research 3, Approval 1, Development 1.",
+      "Field mix: Space 5, AI & Computing 3, Robotics & Mobility 2, Materials & Science 2, Connectivity 1, Energy & Climate 1, Chips & Hardware 1.",
       "Momentum baseline still building (2 of 3 days collected)."
     ],
     "rising_terms": [],
@@ -374,25 +382,24 @@
       },
       {
         "rank": 4,
-        "title": "Blue Origin will launch Google’s AI server satellites in 2029",
-        "score": 6.5,
+        "title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
+        "score": 6.0,
         "rating": "Notable",
-        "stage": "Launch",
+        "stage": "Research",
         "fields": [
-          "AI & Computing",
           "Space"
         ],
         "sources": [
-          "The Verge"
+          "NASA News"
         ],
-        "latest_utc": "2026-11-19T13:53:38+00:00",
-        "rationale": "Reported by 1 source (The Verge); fields: AI & Computing (ai); Space (rocket, satellite); progress signals: first, launch, announce, new; stage: Launch.",
-        "finding": "Google is teaming up with Jeff Bezos' Blue Origin to launch its AI server satellites. The companies announced on Thursday that Blue Origin's New Glenn rocket will shuttle satellites equipped with Google's Tensor Processing Units (TPUs) into space in the first quarter of 2029. The partnership is part of Google's...",
+        "latest_utc": "2026-11-19T15:33:55+00:00",
+        "rationale": "Reported by 1 source (NASA News); fields: Space (nasa); progress signals: discover, develop, faster, new; stage: Research.",
+        "finding": "Open data from NASA’s Fermi mission helped an international team of scientists develop a method for finding pulsars about a million times faster than before.",
         "links": [
           {
-            "source": "The Verge",
-            "title": "Blue Origin will launch Google’s AI server satellites in 2029",
-            "url": "https://www.theverge.com/tech/1037535/google-blue-origin-project-suncatcher-2029"
+            "source": "NASA News",
+            "title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
+            "url": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/"
           }
         ]
       },
@@ -490,24 +497,24 @@
       },
       {
         "rank": 9,
-        "title": "Roblox money is pushing a controversial anorexia treatment",
-        "score": 4.0,
-        "rating": "Emerging",
-        "stage": "Development",
+        "title": "New discovery reveals what may be holding back room-temperature superconductors",
+        "score": 6.0,
+        "rating": "Notable",
+        "stage": "Research",
         "fields": [
-          "Health & Biotech"
+          "Materials & Science"
         ],
         "sources": [
-          "The Verge"
+          "ScienceDaily Technology"
         ],
-        "latest_utc": "2026-11-19T12:00:00+00:00",
-        "rationale": "Reported by 1 source (The Verge); fields: Health & Biotech (therapy, treatment); progress signals: first; stage: Development.",
-        "finding": "In a dark room, a man with a camera makes his pitch: Therapy isn't the first treatment you should get if you have anorexia or bulimia, he says. He's in his late 20s, wearing a backward camo baseball cap and a silver chain. \"Instead of going straight to the therapy, let's do a keto diet […]",
+        "latest_utc": "2026-11-18T12:16:46+00:00",
+        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Materials & Science (superconduct); progress signals: breakthrough, discover, new; stage: Research.",
+        "finding": "A major breakthrough in superconductivity research has revealed that one of the essential ingredients for electricity to flow without resistance can exist at room temperature. Scientists discovered that electrons can form stable pairs at much higher temperatures than previously understood, suggesting that a different...",
         "links": [
           {
-            "source": "The Verge",
-            "title": "Roblox money is pushing a controversial anorexia treatment",
-            "url": "https://www.theverge.com/features/1034740/ketogenic-diet-anorexia-roblox-medical-funding"
+            "source": "ScienceDaily Technology",
+            "title": "New discovery reveals what may be holding back room-temperature superconductors",
+            "url": "https://www.sciencedaily.com/releases/2026/11/261116023358.htm"
           }
         ]
       },
