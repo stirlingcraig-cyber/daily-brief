@@ -1,33 +1,32 @@
 {
   "version": "2.1.0",
-  "generated_utc": "2026-11-18T17:35:06.115052+00:00",
+  "generated_utc": "2026-11-19T15:42:02.788781+00:00",
   "method": "Scores (0-10) combine perspective breadth, severity wording, cross-source corroboration and momentum. They measure attention and concern in public reporting - not probability, not a forecast. Read the sources before acting.",
   "summary": [
-    "Scanned 465 items from 13 of 13 sources; 148 matched a perspective and were grouped into 139 distinct issues.",
-    "Top list ratings: High 6, Elevated 4 (10 threats, 0 watch items).",
-    "Perspective mix: Technical 7, Social 5, Cultural 4.",
-    "Rising topics versus recent days: cyber*, vulnerabilit*, strike, infrastructure, migra*, human rights, violence, hack*.",
-    "Most widely reported: \"Israel begins new military operation in Gaza\" (2 sources)."
+    "Scanned 471 items from 13 of 13 sources; 120 matched a perspective and were grouped into 113 distinct issues.",
+    "Top list ratings: High 1, Elevated 9 (9 threats, 1 watch items).",
+    "Perspective mix: Social 7, Cultural 5, Technical 1.",
+    "Rising topics versus recent days: crime, artificial intelligence, tradition, religio*, violence, ceasefire, privacy.",
+    "Most widely reported: \"Myanmar committed genocide against Rohingya minority, world’s top court rules\" (2 sources)."
   ],
   "rising_terms": [
-    "cyber*",
-    "vulnerabilit*",
-    "strike",
-    "infrastructure",
-    "migra*",
-    "human rights",
+    "crime",
+    "artificial intelligence",
+    "tradition",
+    "religio*",
     "violence",
-    "hack*"
+    "ceasefire",
+    "privacy"
   ],
   "feed_status": {
-    "BBC World": "ok (32 items)",
+    "BBC World": "ok (36 items)",
     "BBC Technology": "ok (21 items)",
     "The Guardian World": "ok (45 items)",
     "NPR World": "ok (10 items)",
     "Fox News World": "ok (25 items)",
     "WSJ World": "ok (20 items)",
     "Al Jazeera": "ok (25 items)",
-    "DW (Germany)": "ok (133 items)",
+    "DW (Germany)": "ok (135 items)",
     "France 24": "ok (24 items)",
     "UN News": "ok (30 items)",
     "Ars Technica": "ok (20 items)",
@@ -37,103 +36,86 @@
   "issues": [
     {
       "rank": 1,
-      "title": "Israel begins new military operation in Gaza",
-      "score": 9.0,
+      "title": "Election date? Brexit reset outcome? Farage’s survival chances? Andrew Sparrow answers your questions",
+      "score": 8.0,
       "rating": "High",
       "type": "Threat",
       "perspectives": [
-        "Social",
-        "Technical"
+        "Cultural",
+        "Social"
       ],
       "sources": [
-        "Al Jazeera",
-        "France 24"
+        "The Guardian World"
       ],
-      "latest_utc": "2026-11-18T16:12:30+00:00",
-      "rationale": "Reported by 2 sources (Al Jazeera, France 24); perspectives: Social (refugee, strike); Technical (infrastructure); severity wording: kill, threat; rising versus recent days: infrastructure, strike.",
-      "finding": "Israeli tanks advanced in an area of the central Gaza Strip on Wednesday, witnesses said, and the Israeli military said its ​forces were targeting ‌Hamas infrastructure outside the \"Yellow Line\" that sets the boundary of the part of the enclave controlled by Israel \"The IDF launched a precise operation within the Gaza...",
+      "latest_utc": "2026-11-19T15:08:47+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (media, speech); Social (crime, election, war); severity wording: attack, war; rising versus recent days: crime.",
+      "finding": "The Guardian’s UK politics blogger is conducting a live Q&A These are from my colleague Peter Walker , who was at the Tory event where James Cleverly was named as the party’s candidate for London mayor. Peter posted this before the result was announced. Khan (who may or may not stand a 4th time) has thus far faced a...",
       "links": [
         {
-          "source": "France 24",
-          "title": "Israel begins new military operation in Gaza",
-          "url": "https://www.france24.com/en/video/20261118-israel-begins-new-military-operation-in-gaza"
-        },
-        {
-          "source": "Al Jazeera",
-          "title": "Palestinians flee refugee camp as Israel begins operation in central Gaza",
-          "url": "https://www.aljazeera.com/news/2026/11/18/palestinians-flee-refugee-camp-as-israel-begins-operation-in-central-gaza?traffic_source=rss"
+          "source": "The Guardian World",
+          "title": "Election date? Brexit reset outcome? Farage’s survival chances? Andrew Sparrow answers your questions",
+          "url": "https://www.theguardian.com/politics/live/2026/nov/19/kemi-badenoch-andy-burnham-uk-politics-latest-news-updates"
         }
       ]
     },
     {
       "rank": 2,
-      "title": "Costa Rican journalist shot dead in first such killing in 25 years",
-      "score": 8.0,
-      "rating": "High",
+      "title": "Myanmar committed genocide against Rohingya minority, world’s top court rules",
+      "score": 6.5,
+      "rating": "Elevated",
       "type": "Threat",
       "perspectives": [
-        "Cultural",
         "Social"
       ],
       "sources": [
+        "DW (Germany)",
         "The Guardian World"
       ],
-      "latest_utc": "2026-11-17T17:19:12+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (journalis); Social (violence); severity wording: kill, dead; rising versus recent days: journalis*, violence.",
-      "finding": "Camilo Rodriguez’s death comes as the country grapples with a surge in drug violence The Costa Rican journalist Camilo Rodríguez, who gained prominence for publishing allegations against ⁠suspected drug traffickers and politicians, was shot dead on Monday, authorities said. The first known killing of a journalist ⁠in...",
+      "latest_utc": "2026-11-19T13:52:10+00:00",
+      "rationale": "Reported by 2 sources (DW (Germany), The Guardian World); perspectives: Social (conflict, crime, refugee); severity wording: critical; rising versus recent days: crime.",
+      "finding": "Judgment finds ‘intent to destroy a substantial part of the Rohingya population’ after case seen as critical test for dealing with most serious of state crimes Myanmar committed genocide against its Rohingya minority during a 2017 military campaign, the world’s highest court has ruled, in a historic and unprecedented...",
       "links": [
         {
           "source": "The Guardian World",
-          "title": "Costa Rican journalist shot dead in first such killing in 25 years",
-          "url": "https://www.theguardian.com/world/2026/nov/17/costa-rica-journalist-camilo-rodriguez-shot-dead"
+          "title": "Myanmar committed genocide against Rohingya minority, world’s top court rules",
+          "url": "https://www.theguardian.com/world/2026/nov/19/genocide-rohingya-international-court-of-justice-ruling-myanmar"
+        },
+        {
+          "source": "DW (Germany)",
+          "title": "Myanmar committed genocide against Rohingya, top UN court rules",
+          "url": "https://www.dw.com/en/myanmar-committed-genocide-against-rohingya-top-un-court-rules/a-79987898?maca=en-rss-en-all-1573-rdf"
         }
       ]
     },
     {
       "rank": 3,
-      "title": "Siemens ROS#",
-      "score": 8.0,
-      "rating": "High",
+      "title": "Violent protests and killings in Bangladesh ahead of exiled Sheikh Hasina’s planned return",
+      "score": 6.5,
+      "rating": "Elevated",
       "type": "Threat",
       "perspectives": [
-        "Cultural",
-        "Technical"
+        "Social"
       ],
       "sources": [
-        "CISA Advisories (US Gov)"
+        "The Guardian World"
       ],
-      "latest_utc": "2026-11-17T12:00:00+00:00",
-      "rationale": "Reported by 1 source (CISA Advisories (US Gov)); perspectives: Cultural (trust); Technical (cyber, infrastructure, vulnerabilit); severity wording: critical, warning; rising versus recent days: cyber*, infrastructure, vulnerabilit*.",
-      "finding": "View CSAF Summary ROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker that is able to pass a crafted message definition file to the user to inject arbitrary code into the generated program. Siemens has released a new version for ROS# and recommends to update to the latest...",
+      "latest_utc": "2026-11-19T06:58:33+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (protest, violence); severity wording: kill, attack, protest; rising versus recent days: violence.",
+      "finding": "Awami League party called for ⁠nationwide protest on Thursday after the government rejected Hasina’s request for passport Parts of Bangladesh were shut down Thursday as protests by supporters of former prime minister Sheikh Hasina sparked clashes, bomb blasts and arson attacks, with the ancestral home ⁠of former...",
       "links": [
         {
-          "source": "CISA Advisories (US Gov)",
-          "title": "Siemens ROS#",
-          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06"
-        },
-        {
-          "source": "CISA Advisories (US Gov)",
-          "title": "Siemens SIMATIC",
-          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08"
-        },
-        {
-          "source": "CISA Advisories (US Gov)",
-          "title": "Siemens SIMATIC WinCC",
-          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09"
-        },
-        {
-          "source": "CISA Advisories (US Gov)",
-          "title": "Siemens meta-iot2050",
-          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11"
+          "source": "The Guardian World",
+          "title": "Violent protests and killings in Bangladesh ahead of exiled Sheikh Hasina’s planned return",
+          "url": "https://www.theguardian.com/world/2026/nov/19/bangladesh-violent-protest-sheikh-hasina-planned-return"
         }
       ]
     },
     {
       "rank": 4,
-      "title": "Anti-vaccine group once led by RFK Jr back on Facebook and Instagram after being banned",
-      "score": 7.0,
-      "rating": "High",
-      "type": "Threat",
+      "title": "Fears grow that US will put Nobel-winning judge under sanctions after Myanmar genocide ruling",
+      "score": 6.0,
+      "rating": "Elevated",
+      "type": "Watch",
       "perspectives": [
         "Cultural",
         "Social"
@@ -141,159 +123,153 @@
       "sources": [
         "The Guardian World"
       ],
-      "latest_utc": "2026-11-18T17:13:23+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (misinformation); Social (outbreak); severity wording: deadly, banned.",
-      "finding": "Children’s Health Defense was removed from Facebook and Instagram in 2022. Meta declined to comment on why it allowed the group back An anti-vaccine group led for years by Robert F Kennedy Jr has been allowed back on Facebook and Instagram, four years after Meta removed the group for repeatedly violating its...",
+      "latest_utc": "2026-11-18T09:58:28+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (religio); Social (crime); severity wording: sanction; rising versus recent days: crime, religio*.",
+      "finding": "A ruling against Myanmar could set precedent for court’s judgment on Israel’s actions in Gaza Fears are growing that the US could impose sanctions on judges at the international court of justice, including this year’s Nobel peace prize winner, Navi Pillay , if the court rules on Thursday that the Myanmar government...",
       "links": [
         {
           "source": "The Guardian World",
-          "title": "Anti-vaccine group once led by RFK Jr back on Facebook and Instagram after being banned",
-          "url": "https://www.theguardian.com/us-news/2026/nov/18/rfk-jr-childrens-health-defense-meta"
+          "title": "Fears grow that US will put Nobel-winning judge under sanctions after Myanmar genocide ruling",
+          "url": "https://www.theguardian.com/world/2026/nov/18/us-sanctions-icj-judges-myanmar-genocide-ruling-israel-gaza-court"
         }
       ]
     },
     {
       "rank": 5,
-      "title": "Siemens Industrial Software Products",
-      "score": 7.0,
-      "rating": "High",
+      "title": "Security flaw found in Java, world's third-largest programming language",
+      "score": 6.0,
+      "rating": "Elevated",
       "type": "Threat",
       "perspectives": [
         "Cultural",
         "Technical"
       ],
       "sources": [
-        "CISA Advisories (US Gov)"
+        "BBC Technology"
       ],
-      "latest_utc": "2026-11-17T12:00:00+00:00",
-      "rationale": "Reported by 1 source (CISA Advisories (US Gov)); perspectives: Cultural (polari); Technical (automation, cyber, infrastructure); severity wording: critical; rising versus recent days: automation, cyber*, infrastructure, vulnerabilit*.",
-      "finding": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remote attacker to cause...",
+      "latest_utc": "2026-11-18T08:47:06+00:00",
+      "rationale": "Reported by 1 source (BBC Technology); perspectives: Cultural (language); Technical (ai, software); severity wording: critical.",
+      "finding": "The same tech start-up that discovered a PHP flaw used AI to uncover a critical software bug in one of the world's most popular computer language programs.",
       "links": [
         {
-          "source": "CISA Advisories (US Gov)",
-          "title": "Siemens Industrial Software Products",
-          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04"
-        },
-        {
-          "source": "CISA Advisories (US Gov)",
-          "title": "Siemens Industrial Automation Software Products",
-          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03"
+          "source": "BBC Technology",
+          "title": "Security flaw found in Java, world's third-largest programming language",
+          "url": "https://www.bbc.co.uk/news/articles/cke89jevqm1vo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
       "rank": 6,
-      "title": "Hundreds arrested in anti-Trump protests in Philippines amid anger over Iran war and AI pact",
-      "score": 7.0,
-      "rating": "High",
-      "type": "Threat",
-      "perspectives": [
-        "Social",
-        "Technical"
-      ],
-      "sources": [
-        "The Guardian World"
-      ],
-      "latest_utc": "2026-11-17T11:00:39+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (protest, war); Technical (ai); severity wording: war, protest.",
-      "finding": "Organisers say up to 10,000 people could join next round of demonstrations as US president arrives for Asean summit Asean and Apec summits – as it happened Hundreds of people have been arrested in heated demonstrations against Donald Trump in Manila, as the US president arrived in the city for a leaders’ summit....",
-      "links": [
-        {
-          "source": "The Guardian World",
-          "title": "Hundreds arrested in anti-Trump protests in Philippines amid anger over Iran war and AI pact",
-          "url": "https://www.theguardian.com/world/2026/nov/17/hundreds-arrested-manila-anti-trump-protests-philippines"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "title": "US senators urge White House AI chief to fix vulnerabilities after mass outages",
-      "score": 6.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Technical"
-      ],
-      "sources": [
-        "The Guardian World"
-      ],
-      "latest_utc": "2026-11-18T17:25:00+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Technical (ai, cyber, infrastructure); severity wording: attack, breach, outage, concern; rising versus recent days: cyber*, infrastructure, vulnerabilit*.",
-      "finding": "As Democrats flag AI bank breaches and cyber-attacks in Japan, Jay Clayton says system failures happen US politics live – latest updates A bipartisan pair of US senators are calling on Jay Clayton, the director of national intelligence and AI czar, to identify and fix vulnerabilities in the US’s infrastructure...",
-      "links": [
-        {
-          "source": "The Guardian World",
-          "title": "US senators urge White House AI chief to fix vulnerabilities after mass outages",
-          "url": "https://www.theguardian.com/us-news/2026/nov/18/jay-clayton-ai-tech-outages-infrastructure"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "title": "Russian attacks on Ukraine kill at least five people",
-      "score": 6.5,
+      "title": "In South Korea, women forced into prostitution on US military bases seek justice",
+      "score": 5.5,
       "rating": "Elevated",
       "type": "Threat",
       "perspectives": [
         "Social"
       ],
       "sources": [
-        "Al Jazeera"
+        "France 24"
       ],
-      "latest_utc": "2026-11-18T15:32:01+00:00",
-      "rationale": "Reported by 1 source (Al Jazeera); perspectives: Social (strike); severity wording: kill, attack; rising versus recent days: strike.",
-      "finding": "Most of the casualties were in strikes on Odesa that President Volodymyr Zelenskyy described as 'brutal'.",
+      "latest_utc": "2026-11-19T13:21:41+00:00",
+      "rationale": "Reported by 1 source (France 24); perspectives: Social (war); severity wording: war, sanction.",
+      "finding": "Tens of thousands of women were forced to work in South Korean state-sanctioned brothels used by American soldiers based in the country after the Korean War. They were raped, physically abused and forcibly confined. Now, after decades of silence, some of these women are speaking out.",
       "links": [
         {
-          "source": "Al Jazeera",
-          "title": "Russian attacks on Ukraine kill at least five people",
-          "url": "https://www.aljazeera.com/news/2026/11/18/russian-attacks-on-ukraine-kill-at-least-five-people?traffic_source=rss"
+          "source": "France 24",
+          "title": "In South Korea, women forced into prostitution on US military bases seek justice",
+          "url": "https://www.france24.com/en/tv-shows/focus/20261119-in-south-korea-women-forced-into-prostitution-on-us-military-bases-seek-justice"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "Guardian Australia takes home two Walkley awards for excellence in journalism",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Cultural"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-19T11:13:32+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (journalis); severity wording: kill.",
+      "finding": "Stories revealing Pauline Hanson’s US trip with Gina Rinehart and the systemic betrayal of Kardell Lomas before her death recognised Guardian Australia journalists have won two Walkley awards, one for a story about the systemic betrayal of a woman who was killed by her partner, and another for an exclusive story that...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "Guardian Australia takes home two Walkley awards for excellence in journalism",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/19/guardian-australia-takes-home-two-walkley-awards-for-excellence-in-journalism"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "Florida pastor found guilty over 2021 assassination of Haitian president",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Cultural"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-18T22:31:41+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (conspiracy); severity wording: kill.",
+      "finding": "Christian Emmanuel Sanon faces life in prison after conviction on charges arising from killing of Jovenel Moïse A Florida pastor with dual Haitian-American citizenship was convicted on Wednesday of US charges arising from the 2021 assassination of the Haitian president Jovenel Moïse. Christian Emmanuel Sanon was found...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "Florida pastor found guilty over 2021 assassination of Haitian president",
+          "url": "https://www.theguardian.com/us-news/2026/nov/18/florida-pastor-guilty-haiti-president-assassination"
         }
       ]
     },
     {
       "rank": 9,
-      "title": "AI-powered cyber threats are changing the rules of enterprise recovery",
-      "score": 6.5,
+      "title": "Rare anti-government protests erupt in Iran over workers' deaths",
+      "score": 5.5,
       "rating": "Elevated",
       "type": "Threat",
       "perspectives": [
-        "Technical"
+        "Social"
       ],
       "sources": [
-        "The Register"
+        "Fox News World"
       ],
-      "latest_utc": "2026-11-18T15:00:00+00:00",
-      "rationale": "Reported by 1 source (The Register); perspectives: Technical (ai, cyber); severity wording: critical, threat; rising versus recent days: cyber*.",
-      "finding": "SPONSORED POST: As cyberattacks become more sophisticated, organizations need to look beyond prevention and ensure they can recover critical data quickly and reliably",
+      "latest_utc": "2026-11-18T16:20:00+00:00",
+      "rationale": "Reported by 1 source (Fox News World); perspectives: Social (protest); severity wording: kill, protest.",
+      "finding": "Hundreds of Iranians chanted \"Death to the dictator!\" in Abdanan after a bus crash killed 13 oil refinery employees, with at least seven people arrested.",
       "links": [
         {
-          "source": "The Register",
-          "title": "AI-powered cyber threats are changing the rules of enterprise recovery",
-          "url": "https://www.theregister.com/security/2026/11/18/sponsored-ai-powered-cyber-threats-are-changing-the-rules-of-enterprise-recovery/5310515"
+          "source": "Fox News World",
+          "title": "Rare anti-government protests erupt in Iran over workers' deaths",
+          "url": "https://www.foxnews.com/world/rare-anti-government-protests-erupt-iran-workers-deaths"
         }
       ]
     },
     {
       "rank": 10,
-      "title": "Hacks, AI or just overdue updates - why have there been so many outages?",
-      "score": 6.5,
+      "title": "Protesters call for regime change in Iran following deadly crash that killed 13 oil and gas workers",
+      "score": 5.5,
       "rating": "Elevated",
       "type": "Threat",
       "perspectives": [
-        "Technical"
+        "Social"
       ],
       "sources": [
-        "BBC Technology"
+        "Fox News World"
       ],
-      "latest_utc": "2026-11-18T13:16:53+00:00",
-      "rationale": "Reported by 1 source (BBC Technology); perspectives: Technical (ai, hack, outage); severity wording: outage, disruption; rising versus recent days: hack*.",
-      "finding": "There is no evidence these are linked, but the constant series of tech disruptions can be unnerving.",
+      "latest_utc": "2026-11-18T16:17:58+00:00",
+      "rationale": "Reported by 1 source (Fox News World); perspectives: Social (protest); severity wording: deadly, kill, escalat, protest.",
+      "finding": "Hundreds take to the streets in western Iran after 13 oil workers are killed, with demonstrations escalating into political protests against Tehran's leadership.",
       "links": [
         {
-          "source": "BBC Technology",
-          "title": "Hacks, AI or just overdue updates - why have there been so many outages?",
-          "url": "https://www.bbc.co.uk/news/articles/c6z0kly2lll7o?at_medium=RSS&at_campaign=rss"
+          "source": "Fox News World",
+          "title": "Protesters call for regime change in Iran following deadly crash that killed 13 oil and gas workers",
+          "url": "https://www.foxnews.com/world/protesters-call-regime-change-iran-following-deadly-crash-killed-13-oil-gas-workers"
         }
       ]
     }
@@ -301,11 +277,10 @@
   "advancements": {
     "method": "Scores (0-10) combine the technology field, progress wording (breakthrough, unveils, first, approved...), cross-source corroboration and momentum. They show how strongly a development is being reported - not its proven impact or commercial success.",
     "summary": [
-      "Found 28 advancement stories from 12 of 12 technology sources, grouped into 26 distinct developments.",
-      "Top list ratings: Major 1, Notable 7, Emerging 2; stages: Research 5, Launch 2, Approval 2, Development 1.",
-      "Field mix: AI & Computing 7, Materials & Science 5, Robotics & Mobility 3, Chips & Hardware 3, Energy & Climate 2, Space 1, Connectivity 1.",
-      "Momentum baseline still building (1 of 3 days collected).",
-      "Most widely reported: \"Space robot legend Voyager 1 is now more than 1 light-day away\" (3 sources)."
+      "Found 25 advancement stories from 12 of 12 technology sources, grouped into 25 distinct developments.",
+      "Top list ratings: Notable 8, Emerging 2; stages: Launch 6, Development 2, Approval 1, Research 1.",
+      "Field mix: Space 5, AI & Computing 4, Robotics & Mobility 2, Connectivity 1, Materials & Science 1, Energy & Climate 1, Health & Biotech 1, Chips & Hardware 1.",
+      "Momentum baseline still building (2 of 3 days collected)."
     ],
     "rising_terms": [],
     "feed_status": {
@@ -325,67 +300,31 @@
     "items": [
       {
         "rank": 1,
-        "title": "Space robot legend Voyager 1 is now more than 1 light-day away",
-        "score": 8.5,
-        "rating": "Major",
+        "title": "Build a Personal Brand to Help Employers Find You",
+        "score": 7.0,
+        "rating": "Notable",
         "stage": "Launch",
         "fields": [
-          "Robotics & Mobility",
-          "Space"
+          "AI & Computing",
+          "Connectivity",
+          "Robotics & Mobility"
         ],
         "sources": [
-          "The Register",
-          "The Verge",
-          "Wired"
+          "IEEE Spectrum"
         ],
-        "latest_utc": "2026-11-18T14:57:00+00:00",
-        "rationale": "Reported by 3 sources (The Register, The Verge, Wired); fields: Robotics & Mobility (robot); Space (nasa, spacecraft); progress signals: launch, milestone, first; stage: Launch.",
-        "finding": "As the world is hit by IT snafu after IT snafu, Voyager sails on, almost half a century after launch",
+        "latest_utc": "2026-11-18T17:33:26+00:00",
+        "rationale": "Reported by 1 source (IEEE Spectrum); fields: AI & Computing (ai); Connectivity (network); Robotics & Mobility (humanoid, robot); progress signals: first, release, achieve, outperform; stage: Launch.",
+        "finding": "This article is crossposted from IEEE Spectrum ’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written i n partnership with tech career development company Parsity and delivered to your inbox for free! In one year, the number of developers working for themselves has...",
         "links": [
           {
-            "source": "The Register",
-            "title": "Space robot legend Voyager 1 is now more than 1 light-day away",
-            "url": "https://www.theregister.com/science/2026/11/18/space-robot-legend-voyager-1-is-now-more-than-1-light-day-away/5310751"
-          },
-          {
-            "source": "The Verge",
-            "title": "NASA’s Voyager 1 probe is now 1 light-day away",
-            "url": "https://www.theverge.com/science/1036431/nasa-voyager-1-light-day-milestone"
-          },
-          {
-            "source": "Wired",
-            "title": "Voyager 1 Beat the Odds and Is Still Working a Light-Day Away From Earth",
-            "url": "https://www.wired.com/story/voyager-1-beat-still-working-light-day-away/"
+            "source": "IEEE Spectrum",
+            "title": "Build a Personal Brand to Help Employers Find You",
+            "url": "https://spectrum.ieee.org/personal-branding-for-engineers"
           }
         ]
       },
       {
         "rank": 2,
-        "title": "Electron fingerprints help AI predict complex alloy properties with little training data",
-        "score": 7.0,
-        "rating": "Notable",
-        "stage": "Research",
-        "fields": [
-          "AI & Computing",
-          "Chips & Hardware",
-          "Materials & Science"
-        ],
-        "sources": [
-          "Phys.org Technology"
-        ],
-        "latest_utc": "2026-11-18T15:20:01+00:00",
-        "rationale": "Reported by 1 source (Phys.org Technology); fields: AI & Computing (ai); Chips & Hardware (semiconductor); Materials & Science (alloy, material); progress signals: invent, discover, new; stage: Research.",
-        "finding": "Inventions often depend on what's available. Edison's light bulb did not work until he could make durable filaments; LED lights languished for years until researchers discovered the right combination of semiconductors. But what if engineers could invent new technologies without waiting for the right materials?",
-        "links": [
-          {
-            "source": "Phys.org Technology",
-            "title": "Electron fingerprints help AI predict complex alloy properties with little training data",
-            "url": "https://techxplore.com/news/2026-11-electron-fingerprints-ai-complex-alloy.html"
-          }
-        ]
-      },
-      {
-        "rank": 3,
         "title": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems",
         "score": 7.0,
         "rating": "Notable",
@@ -410,58 +349,124 @@
         ]
       },
       {
-        "rank": 4,
-        "title": "AI Is Giving Optical Computing Another Shot",
-        "score": 7.0,
+        "rank": 3,
+        "title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
+        "score": 6.5,
         "rating": "Notable",
         "stage": "Launch",
         "fields": [
           "AI & Computing",
-          "Chips & Hardware",
-          "Connectivity",
-          "Materials & Science",
-          "Robotics & Mobility"
+          "Space"
         ],
         "sources": [
-          "IEEE Spectrum"
+          "The Verge"
         ],
-        "latest_utc": "2026-11-17T14:00:03+00:00",
-        "rationale": "Reported by 1 source (IEEE Spectrum); fields: AI & Computing (ai, algorithm, data center); Chips & Hardware (chip, display, gpu); Connectivity (fiber, network); Materials & Science (laser, metamaterial, photonic); Robotics & Mobility (manufactur); progress signals: first, release, prototype, demonstrat; stage: Launch.",
-        "finding": "The idea of computing with light has been around for over 70 years, but until recently it’s remained largely in the realm of research. Over the past few years, though, optical computing has emerged as a fast-growing industry: Market valuation of companies in this sector now totals US $2.22 billion, up from $0.4...",
+        "latest_utc": "2026-11-19T14:25:37+00:00",
+        "rationale": "Reported by 1 source (The Verge); fields: AI & Computing (ai); Space (spacex); progress signals: debut, milestone, new; stage: Launch.",
+        "finding": "Today is a new beginning for Anthropic: a years-in-the-making IPO that beat out SpaceX for most valuable of all time, having raised $81.3 billion and set an important precedent for the other public AI lab debuts to come. But it's not simply a financial milestone. Anthropic was founded on the idea that it prioritized...",
         "links": [
           {
-            "source": "IEEE Spectrum",
-            "title": "AI Is Giving Optical Computing Another Shot",
-            "url": "https://spectrum.ieee.org/optical-computing-ai"
+            "source": "The Verge",
+            "title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure"
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "title": "Blue Origin will launch Google’s AI server satellites in 2029",
+        "score": 6.5,
+        "rating": "Notable",
+        "stage": "Launch",
+        "fields": [
+          "AI & Computing",
+          "Space"
+        ],
+        "sources": [
+          "The Verge"
+        ],
+        "latest_utc": "2026-11-19T13:53:38+00:00",
+        "rationale": "Reported by 1 source (The Verge); fields: AI & Computing (ai); Space (rocket, satellite); progress signals: first, launch, announce, new; stage: Launch.",
+        "finding": "Google is teaming up with Jeff Bezos' Blue Origin to launch its AI server satellites. The companies announced on Thursday that Blue Origin's New Glenn rocket will shuttle satellites equipped with Google's Tensor Processing Units (TPUs) into space in the first quarter of 2029. The partnership is part of Google's...",
+        "links": [
+          {
+            "source": "The Verge",
+            "title": "Blue Origin will launch Google’s AI server satellites in 2029",
+            "url": "https://www.theverge.com/tech/1037535/google-blue-origin-project-suncatcher-2029"
           }
         ]
       },
       {
         "rank": 5,
-        "title": "A material just one atom thick reveals a strange quantum secret",
-        "score": 6.5,
+        "title": "NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
+        "score": 6.0,
         "rating": "Notable",
-        "stage": "Research",
+        "stage": "Development",
         "fields": [
-          "AI & Computing",
-          "Materials & Science"
+          "Space"
         ],
         "sources": [
-          "ScienceDaily Technology"
+          "NASA News"
         ],
-        "latest_utc": "2026-11-17T01:25:39+00:00",
-        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: AI & Computing (quantum); Materials & Science (material); progress signals: first, discover, new; stage: Research.",
-        "finding": "Researchers at the University of Osaka have discovered a remarkable quantum state forming at the boundary between a one-atom-thick material and a metal. They observed electrons behaving as though they were unusually heavy, including a previously unseen state created by interactions between the ultrathin layer and the...",
+        "latest_utc": "2026-11-19T14:31:15+00:00",
+        "rationale": "Reported by 1 source (NASA News); fields: Space (nasa, spacecraft); progress signals: achieve, milestone; stage: Development.",
+        "finding": "NASA’s Voyager 1 probe, humanity’s farthest-flying spacecraft, has reached one light-day from Earth, after more than 49 years of constant travel. A light-day is the distance light travels in 24 hours, equaling about 16.1 billion miles (25.9 billion kilometers). The spacecraft achieved the milestone at 2:16 a.m. PST...",
         "links": [
           {
-            "source": "ScienceDaily Technology",
-            "title": "A material just one atom thick reveals a strange quantum secret",
-            "url": "https://www.sciencedaily.com/releases/2026/11/261115085554.htm"
+            "source": "NASA News",
+            "title": "NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
+            "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
           }
         ]
       },
       {
         "rank": 6,
+        "title": "Anthropic to begin trading after record-breaking market debut tops SpaceX record",
+        "score": 6.0,
+        "rating": "Notable",
+        "stage": "Launch",
+        "fields": [
+          "Space"
+        ],
+        "sources": [
+          "Phys.org Technology"
+        ],
+        "latest_utc": "2026-11-19T11:16:00+00:00",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: Space (spacex); progress signals: record, debut, new; stage: Launch.",
+        "finding": "Anthropic will begin trading on Thursday on the Nasdaq exchange after pricing its initial public offering at $83 a share, above its expected range and toppling SpaceX's IPO to set a new record.",
+        "links": [
+          {
+            "source": "Phys.org Technology",
+            "title": "Anthropic to begin trading after record-breaking market debut tops SpaceX record",
+            "url": "https://techxplore.com/news/2026-11-anthropic-debut-tops-spacex.html"
+          }
+        ]
+      },
+      {
+        "rank": 7,
+        "title": "NASA Announces Mid-Power Electric Rocket Challenge for US Companies",
+        "score": 6.0,
+        "rating": "Notable",
+        "stage": "Launch",
+        "fields": [
+          "Space"
+        ],
+        "sources": [
+          "NASA News"
+        ],
+        "latest_utc": "2026-11-18T18:12:32+00:00",
+        "rationale": "Reported by 1 source (NASA News); fields: Space (nasa, rocket, satellite); progress signals: launch, prototype, announce, new; stage: Launch.",
+        "finding": "NASA launched a new competition inviting U.S. companies to produce prototypes of mid-power Hall effect thrusters – a type of electric propulsion system considered crucial for future space operations and exploration. Hall effect thrusters use an electric field to accelerate a propellant gas, producing efficient thrust...",
+        "links": [
+          {
+            "source": "NASA News",
+            "title": "NASA Announces Mid-Power Electric Rocket Challenge for US Companies",
+            "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-announces-mid-power-electric-rocket-challenge-for-us-companies/"
+          }
+        ]
+      },
+      {
+        "rank": 8,
         "title": "Scientists create a remarkable new rechargeable battery using vitamin B12",
         "score": 6.0,
         "rating": "Notable",
@@ -484,96 +489,48 @@
         ]
       },
       {
-        "rank": 7,
-        "title": "New discovery reveals what may be holding back room-temperature superconductors",
-        "score": 6.0,
-        "rating": "Notable",
-        "stage": "Research",
-        "fields": [
-          "Materials & Science"
-        ],
-        "sources": [
-          "ScienceDaily Technology"
-        ],
-        "latest_utc": "2026-11-18T12:16:46+00:00",
-        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Materials & Science (superconduct); progress signals: breakthrough, discover, new; stage: Research.",
-        "finding": "A major breakthrough in superconductivity research has revealed that one of the essential ingredients for electricity to flow without resistance can exist at room temperature. Scientists discovered that electrons can form stable pairs at much higher temperatures than previously understood, suggesting that a different...",
-        "links": [
-          {
-            "source": "ScienceDaily Technology",
-            "title": "New discovery reveals what may be holding back room-temperature superconductors",
-            "url": "https://www.sciencedaily.com/releases/2026/11/261116023358.htm"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "title": "Quantum computers are getting too powerful to check. Scientists have a solution",
-        "score": 6.0,
-        "rating": "Notable",
-        "stage": "Research",
-        "fields": [
-          "AI & Computing"
-        ],
-        "sources": [
-          "ScienceDaily Technology"
-        ],
-        "latest_utc": "2026-11-17T00:20:40+00:00",
-        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: AI & Computing (quantum, qubit); progress signals: demonstrat, develop, new; stage: Research.",
-        "finding": "Scientists have developed a new way to determine whether quantum simulations can be trusted, solving a growing problem as quantum computers become too powerful for conventional machines to check. Demonstrated on a 51-qubit system, the technique measures uncertainty and provides verifiable error margins that could help...",
-        "links": [
-          {
-            "source": "ScienceDaily Technology",
-            "title": "Quantum computers are getting too powerful to check. Scientists have a solution",
-            "url": "https://www.sciencedaily.com/releases/2026/11/261115085557.htm"
-          }
-        ]
-      },
-      {
         "rank": 9,
-        "title": "Rivian spinoff Also pauses e-bike deliveries over battery and software bugs",
-        "score": 5.5,
+        "title": "Roblox money is pushing a controversial anorexia treatment",
+        "score": 4.0,
         "rating": "Emerging",
         "stage": "Development",
         "fields": [
-          "AI & Computing",
-          "Energy & Climate"
+          "Health & Biotech"
         ],
         "sources": [
           "The Verge"
         ],
-        "latest_utc": "2026-11-18T14:56:43+00:00",
-        "rationale": "Reported by 1 source (The Verge); fields: AI & Computing (software); Energy & Climate (battery); progress signals: first, new; stage: Development.",
-        "finding": "Also, the mobility startup that spun out of Rivian last year, has run into another speed bump. The company was already struggling to get its first e-bikes to customers due to a litany of supply chain headaches and the complexity of building a futuristic bike powered almost entirely by software. Now there is a new […]",
+        "latest_utc": "2026-11-19T12:00:00+00:00",
+        "rationale": "Reported by 1 source (The Verge); fields: Health & Biotech (therapy, treatment); progress signals: first; stage: Development.",
+        "finding": "In a dark room, a man with a camera makes his pitch: Therapy isn't the first treatment you should get if you have anorexia or bulimia, he says. He's in his late 20s, wearing a backward camo baseball cap and a silver chain. \"Instead of going straight to the therapy, let's do a keto diet […]",
         "links": [
           {
             "source": "The Verge",
-            "title": "Rivian spinoff Also pauses e-bike deliveries over battery and software bugs",
-            "url": "https://www.theverge.com/transportation/1036460/also-rivian-spinoff-tm-b-ebike-delivery-delay-software-battery-issues"
+            "title": "Roblox money is pushing a controversial anorexia treatment",
+            "url": "https://www.theverge.com/features/1034740/ketogenic-diet-anorexia-roblox-medical-funding"
           }
         ]
       },
       {
         "rank": 10,
-        "title": "Nvidia isn’t selling any more AI chips to China",
-        "score": 5.5,
+        "title": "GPU giants throw HPC users some tasty crumbs",
+        "score": 4.0,
         "rating": "Emerging",
-        "stage": "Approval",
+        "stage": "Launch",
         "fields": [
-          "AI & Computing",
           "Chips & Hardware"
         ],
         "sources": [
-          "The Verge"
+          "The Register"
         ],
-        "latest_utc": "2026-11-18T13:01:05+00:00",
-        "rationale": "Reported by 1 source (The Verge); fields: AI & Computing (ai); Chips & Hardware (chip); progress signals: approv, advance; stage: Approval.",
-        "finding": "Nvidia has stopped sending its advanced AI chips to China despite the approval it received from the White House to do so in December last year. The announcement was made by interim Nvidia CEO Colette Kress during an earnings call on Tuesday, marking a notable shift for the company that, under former CEO Jensen Huang...",
+        "latest_utc": "2026-11-17T22:37:46+00:00",
+        "rationale": "Reported by 1 source (The Register); fields: Chips & Hardware (gpu); progress signals: unveil; stage: Launch.",
+        "finding": "Nvidia unveils an HPC-optimized Rubin GPU to challenge AMD's 288 teraFLOPS MI430X",
         "links": [
           {
-            "source": "The Verge",
-            "title": "Nvidia isn’t selling any more AI chips to China",
-            "url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling"
+            "source": "The Register",
+            "title": "GPU giants throw HPC users some tasty crumbs",
+            "url": "https://www.theregister.com/hpc/2026/11/17/gpu-giants-throw-hpc-users-some-tasty-crumbs/5310611"
           }
         ]
       }
