@@ -1,26 +1,25 @@
 {
   "version": "2.1.0",
-  "generated_utc": "2026-11-20T15:24:21.659535+00:00",
+  "generated_utc": "2026-11-20T17:18:32.180371+00:00",
   "method": "Scores (0-10) combine perspective breadth, severity wording, cross-source corroboration and momentum. They measure attention and concern in public reporting - not probability, not a forecast. Read the sources before acting.",
   "summary": [
-    "Scanned 472 items from 13 of 13 sources; 125 matched a perspective and were grouped into 120 distinct issues.",
-    "Top list ratings: High 1, Elevated 9 (8 threats, 2 watch items).",
-    "Perspective mix: Social 6, Technical 5, Cultural 2.",
-    "Rising topics versus recent days: climate, refugee, violence, culture, phishing, speech, ceasefire, tradition.",
+    "Scanned 457 items from 13 of 13 sources; 116 matched a perspective and were grouped into 111 distinct issues.",
+    "Top list ratings: High 1, Elevated 9 (9 threats, 1 watch items).",
+    "Perspective mix: Social 6, Technical 4, Cultural 1.",
+    "Rising topics versus recent days: climate, phishing, refugee, cultural, speech, ceasefire, cost of living.",
     "Most widely reported: \"White House removes cyber-security chief after series of tech outages\" (3 sources)."
   ],
   "rising_terms": [
     "climate",
-    "refugee",
-    "violence",
-    "culture",
     "phishing",
+    "refugee",
+    "cultural",
     "speech",
     "ceasefire",
-    "tradition"
+    "cost of living"
   ],
   "feed_status": {
-    "BBC World": "ok (36 items)",
+    "BBC World": "ok (21 items)",
     "BBC Technology": "ok (21 items)",
     "The Guardian World": "ok (45 items)",
     "NPR World": "ok (10 items)",
@@ -38,7 +37,7 @@
     {
       "rank": 1,
       "title": "Syria's Christian leaders warn of 'grave' threat to community's future amid wave of attacks",
-      "score": 8.0,
+      "score": 7.0,
       "rating": "High",
       "type": "Threat",
       "perspectives": [
@@ -49,7 +48,7 @@
         "Fox News World"
       ],
       "latest_utc": "2026-11-19T15:55:51+00:00",
-      "rationale": "Reported by 1 source (Fox News World); perspectives: Cultural (religio); Social (violence); severity wording: attack, threat, escalat, concern; rising versus recent days: violence.",
+      "rationale": "Reported by 1 source (Fox News World); perspectives: Cultural (religio); Social (violence); severity wording: attack, threat, escalat, concern.",
       "finding": "Syria's top Christian leaders warn that escalating attacks, kidnappings and violence threaten their community's future, as the State Department voices concern over religious persecution.",
       "links": [
         {
@@ -61,52 +60,6 @@
     },
     {
       "rank": 2,
-      "title": "South Africa: High Court examines asylum seekers' detention at Lindela centre",
-      "score": 6.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social"
-      ],
-      "sources": [
-        "France 24"
-      ],
-      "latest_utc": "2026-11-20T11:23:35+00:00",
-      "rationale": "Reported by 1 source (France 24); perspectives: Social (asylum, conflict, violence); severity wording: deadly, concern; rising versus recent days: violence.",
-      "finding": "South Africa's High Court judges visited the Lindela Repatriation Centre in Krugersdorp this week, ahead of delivering a ruling on 33 urgent applications concerning the detention of asylum seekers. The court is examining conflicting interpretations of a Constitutional Court ruling that prohibits the deportation of...",
-      "links": [
-        {
-          "source": "France 24",
-          "title": "South Africa: High Court examines asylum seekers' detention at Lindela centre",
-          "url": "https://www.france24.com/en/video/20261120-south-africa-high-court-examines-asylum-seekers-detention-at-lindela-centre"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "title": "Nearly 600 women killed in South Africa within three months",
-      "score": 6.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social"
-      ],
-      "sources": [
-        "BBC World"
-      ],
-      "latest_utc": "2026-11-20T10:56:02+00:00",
-      "rationale": "Reported by 1 source (BBC World); perspectives: Social (violence); severity wording: kill; rising versus recent days: violence.",
-      "finding": "Police officials called for \"greater efforts to prevent... violence\" against women and children.",
-      "links": [
-        {
-          "source": "BBC World",
-          "title": "Nearly 600 women killed in South Africa within three months",
-          "url": "https://www.bbc.co.uk/news/articles/c69vwyjp0339o?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "rank": 4,
       "title": "‘Everyone struggled for this justice’: tears in court as Rohingya vindicated in Myanmar genocide ruling",
       "score": 6.5,
       "rating": "Elevated",
@@ -129,7 +82,7 @@
       ]
     },
     {
-      "rank": 5,
+      "rank": 3,
       "title": "Elecbrakes EB2, VM1, ELBC2000",
       "score": 6.5,
       "rating": "Elevated",
@@ -152,7 +105,7 @@
       ]
     },
     {
-      "rank": 6,
+      "rank": 4,
       "title": "libumqtt",
       "score": 6.5,
       "rating": "Elevated",
@@ -175,7 +128,7 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 5,
       "title": "Autonomy Logic OpenPLC Runtime",
       "score": 6.5,
       "rating": "Elevated",
@@ -198,55 +151,7 @@
       ]
     },
     {
-      "rank": 8,
-      "title": "Violent protests and killings in Bangladesh ahead of exiled Sheikh Hasina’s planned return",
-      "score": 6.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social"
-      ],
-      "sources": [
-        "The Guardian World"
-      ],
-      "latest_utc": "2026-11-19T06:58:33+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (protest, violence); severity wording: kill, attack, protest; rising versus recent days: violence.",
-      "finding": "Awami League party called for ⁠nationwide protest on Thursday after the government rejected Hasina’s request for passport Parts of Bangladesh were shut down Thursday as protests by supporters of former prime minister Sheikh Hasina sparked clashes, bomb blasts and arson attacks, with the ancestral home ⁠of former...",
-      "links": [
-        {
-          "source": "The Guardian World",
-          "title": "Violent protests and killings in Bangladesh ahead of exiled Sheikh Hasina’s planned return",
-          "url": "https://www.theguardian.com/world/2026/nov/19/bangladesh-violent-protest-sheikh-hasina-planned-return"
-        }
-      ]
-    },
-    {
-      "rank": 9,
-      "title": "First Thing: Blockbuster Anthropic IPO fails to halt global slide in AI stocks",
-      "score": 6.0,
-      "rating": "Elevated",
-      "type": "Watch",
-      "perspectives": [
-        "Cultural",
-        "Social",
-        "Technical"
-      ],
-      "sources": [
-        "The Guardian World"
-      ],
-      "latest_utc": "2026-11-20T12:26:42+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (journalis); Social (refugee); Technical (ai, cyber, outage); severity wording: outage; rising versus recent days: refugee.",
-      "finding": "Record-breaking IPO for company behind Claude comes amid tumbling prices for other AI stocks. Plus why the humble potato could be vital for future space missions Good morning. Global stock markets have slumped as Anthropic’s record-breaking IPO failed to stem a sell-off in AI-linked companies. The sell-off followed...",
-      "links": [
-        {
-          "source": "The Guardian World",
-          "title": "First Thing: Blockbuster Anthropic IPO fails to halt global slide in AI stocks",
-          "url": "https://www.theguardian.com/us-news/2026/nov/20/first-thing-blockbuster-anthropic-ipo-fails-to-halt-global-slide-in-ai-stocks"
-        }
-      ]
-    },
-    {
-      "rank": 10,
+      "rank": 6,
       "title": "White House removes cyber-security chief after series of tech outages",
       "score": 5.5,
       "rating": "Elevated",
@@ -279,19 +184,115 @@
           "url": "https://www.dw.com/en/white-house-replaces-cyber-security-chief-after-tech-outages/a-79998531?maca=en-rss-en-all-1573-rdf"
         }
       ]
+    },
+    {
+      "rank": 7,
+      "title": "Myanmar committed genocide against Rohingya minority, world’s top court rules",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "The Guardian World",
+        "UN News"
+      ],
+      "latest_utc": "2026-11-19T13:52:10+00:00",
+      "rationale": "Reported by 2 sources (The Guardian World, UN News); perspectives: Social (crime); severity wording: critical.",
+      "finding": "Judgment finds ‘intent to destroy a substantial part of the Rohingya population’ after case seen as critical test for dealing with most serious of state crimes Myanmar committed genocide against its Rohingya minority during a 2017 military campaign, the world’s highest court has ruled, in a historic and unprecedented...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "Myanmar committed genocide against Rohingya minority, world’s top court rules",
+          "url": "https://www.theguardian.com/world/2026/nov/19/genocide-rohingya-international-court-of-justice-ruling-myanmar"
+        },
+        {
+          "source": "UN News",
+          "title": "World’s top court finds Myanmar guilty of genocide against Rohingya",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168836"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "White supremacist convicted of planning bomb attack on asylum seekers in Hull",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-20T16:48:31+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (asylum); severity wording: kill, attack.",
+      "finding": "Mikka Anderson stockpiled weapons and tried to recruit accomplice for attack on Royal Hotel A white supremacist has been found guilty of planning a firebomb terror attack on asylum seekers in Hull. Mikka Anderson, 24, stockpiled weapons including napalm, knives and a crossbow for an assault designed to kill as many...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "White supremacist convicted of planning bomb attack on asylum seekers in Hull",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/20/white-supremacist-mikka-anderson-convicted-planning-bomb-attack-asylum-seekers-hull"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "Nearly 600 women killed in South Africa within three months",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "BBC World"
+      ],
+      "latest_utc": "2026-11-20T15:55:16+00:00",
+      "rationale": "Reported by 1 source (BBC World); perspectives: Social (violence); severity wording: kill.",
+      "finding": "Police officials called for \"greater efforts to prevent... violence\" against women and children.",
+      "links": [
+        {
+          "source": "BBC World",
+          "title": "Nearly 600 women killed in South Africa within three months",
+          "url": "https://www.bbc.co.uk/news/articles/c69vwyjp0339o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "Russia pummels Ukraine with massive strikes, missile hits Poland",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "France 24"
+      ],
+      "latest_utc": "2026-11-20T14:36:48+00:00",
+      "rationale": "Reported by 1 source (France 24); perspectives: Social (strike); severity wording: kill.",
+      "finding": "Moscow pounded Ukraine with massive strikes Friday, with Kyiv saying at least six people were killed in the capital, and neighbouring Poland reporting two Russian missiles likely landed in the south-east corner of the NATO country, accusing Moscow of a \"provocation.\" Hours earlier, Russia's Vladimir Putin vowed a...",
+      "links": [
+        {
+          "source": "France 24",
+          "title": "Russia pummels Ukraine with massive strikes, missile hits Poland",
+          "url": "https://www.france24.com/en/video/20261120-russia-pummels-ukraine-with-massive-strikes-missile-hits-poland"
+        }
+      ]
     }
   ],
   "advancements": {
     "method": "Scores (0-10) combine the technology field, progress wording (breakthrough, unveils, first, approved...), cross-source corroboration and momentum. They show how strongly a development is being reported - not its proven impact or commercial success.",
     "summary": [
-      "Found 16 advancement stories from 12 of 12 technology sources, grouped into 15 distinct developments.",
+      "Found 15 advancement stories from 12 of 12 technology sources, grouped into 14 distinct developments.",
       "Top list ratings: Notable 6, Emerging 4; stages: Launch 4, Research 3, Development 2, Approval 1.",
-      "Field mix: AI & Computing 4, Space 4, Connectivity 2, Robotics & Mobility 2, Materials & Science 2, Chips & Hardware 1, Health & Biotech 1, Energy & Climate 1.",
-      "Rising topics versus recent days: space station."
+      "Field mix: AI & Computing 4, Robotics & Mobility 3, Space 3, Chips & Hardware 2, Connectivity 2, Materials & Science 2, Health & Biotech 1, Energy & Climate 1.",
+      "No topics rising sharply versus recent days."
     ],
-    "rising_terms": [
-      "space station"
-    ],
+    "rising_terms": [],
     "feed_status": {
       "MIT Technology Review": "ok (10 items)",
       "IEEE Spectrum": "ok (30 items)",
@@ -505,47 +506,48 @@
       },
       {
         "rank": 9,
-        "title": "Lake Pelku",
-        "score": 5.0,
+        "title": "SpaceX lenders don’t want Elon Musk launching their collateral into space",
+        "score": 4.5,
         "rating": "Emerging",
-        "stage": "Development",
+        "stage": "Launch",
         "fields": [
+          "Chips & Hardware",
           "Space"
         ],
         "sources": [
-          "NASA News"
+          "Ars Technica"
         ],
-        "latest_utc": "2026-11-19T15:32:39+00:00",
-        "rationale": "Reported by 1 source (NASA News); fields: Space (orbit, space station); progress signals: record; stage: Development; rising versus recent days: space station.",
-        "finding": "An astronaut on the International Space Station captured this photograph of Lake Pelku (near center) as the station orbited above Asia. The International Space Station serves as a unique platform for observing Earth with both hands-on and automated equipment. Station crew members have produced hundreds of thousands of...",
+        "latest_utc": "2026-11-20T14:15:21+00:00",
+        "rationale": "Reported by 1 source (Ars Technica); fields: Chips & Hardware (chip); Space (spacex); progress signals: launch; stage: Launch.",
+        "finding": "Bondholders want SpaceX’s valuable chip collateral kept on Earth and within reach.",
         "links": [
           {
-            "source": "NASA News",
-            "title": "Lake Pelku",
-            "url": "https://www.nasa.gov/image-article/lake-pelku/"
+            "source": "Ars Technica",
+            "title": "SpaceX lenders don’t want Elon Musk launching their collateral into space",
+            "url": "https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space/"
           }
         ]
       },
       {
         "rank": 10,
-        "title": "NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch",
-        "score": 5.0,
+        "title": "Outdoor 3D tracking technology uses a drone's flight path as a 'moving ruler'",
+        "score": 4.0,
         "rating": "Emerging",
-        "stage": "Launch",
+        "stage": "Development",
         "fields": [
-          "Space"
+          "Robotics & Mobility"
         ],
         "sources": [
-          "NASA News"
+          "Phys.org Technology"
         ],
-        "latest_utc": "2026-11-18T22:19:17+00:00",
-        "rationale": "Reported by 1 source (NASA News); fields: Space (nasa, space station, spacex); progress signals: launch; stage: Launch; rising versus recent days: space station.",
-        "finding": "NASA, Northrop Grumman, and SpaceX are targeting no earlier than 10:47 a.m. EST, Sunday, Nov. 29, for the next launch delivering science investigations, supplies, and equipment to the International Space Station. The agency also will hold a prelaunch media teleconference on Monday, Nov. 23. Filled with approximately...",
+        "latest_utc": "2026-11-20T16:00:28+00:00",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: Robotics & Mobility (drone); progress signals: record; stage: Development.",
+        "finding": "The secret behind the lifelike movements of the characters in the film \"Avatar\" was motion capture, a technology that records movement in three dimensions by attaching markers to actors' bodies and filming them with multiple cameras inside a studio. However, bringing such precise measurement into wide outdoor spaces...",
         "links": [
           {
-            "source": "NASA News",
-            "title": "NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch",
-            "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/"
+            "source": "Phys.org Technology",
+            "title": "Outdoor 3D tracking technology uses a drone's flight path as a 'moving ruler'",
+            "url": "https://techxplore.com/news/2026-11-outdoor-3d-tracking-technology-drone.html"
           }
         ]
       }
