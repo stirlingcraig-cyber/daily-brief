@@ -1,33 +1,33 @@
 {
   "version": "2.1.0",
-  "generated_utc": "2026-11-19T17:40:32.640596+00:00",
+  "generated_utc": "2026-11-20T15:24:21.659535+00:00",
   "method": "Scores (0-10) combine perspective breadth, severity wording, cross-source corroboration and momentum. They measure attention and concern in public reporting - not probability, not a forecast. Read the sources before acting.",
   "summary": [
-    "Scanned 470 items from 13 of 13 sources; 123 matched a perspective and were grouped into 119 distinct issues.",
-    "Top list ratings: High 3, Elevated 7 (8 threats, 2 watch items).",
-    "Perspective mix: Social 7, Cultural 4, Technical 3.",
-    "Rising topics versus recent days: crime, religio*, violence, tradition, artificial intelligence, phishing, speech, ceasefire.",
-    "Most widely reported: \"Myanmar committed genocide against Rohingya minority, world’s top court rules\" (3 sources)."
+    "Scanned 472 items from 13 of 13 sources; 125 matched a perspective and were grouped into 120 distinct issues.",
+    "Top list ratings: High 1, Elevated 9 (8 threats, 2 watch items).",
+    "Perspective mix: Social 6, Technical 5, Cultural 2.",
+    "Rising topics versus recent days: climate, refugee, violence, culture, phishing, speech, ceasefire, tradition.",
+    "Most widely reported: \"White House removes cyber-security chief after series of tech outages\" (3 sources)."
   ],
   "rising_terms": [
-    "crime",
-    "religio*",
+    "climate",
+    "refugee",
     "violence",
-    "tradition",
-    "artificial intelligence",
+    "culture",
     "phishing",
     "speech",
-    "ceasefire"
+    "ceasefire",
+    "tradition"
   ],
   "feed_status": {
-    "BBC World": "ok (35 items)",
+    "BBC World": "ok (36 items)",
     "BBC Technology": "ok (21 items)",
     "The Guardian World": "ok (45 items)",
     "NPR World": "ok (10 items)",
     "Fox News World": "ok (25 items)",
     "WSJ World": "ok (20 items)",
     "Al Jazeera": "ok (25 items)",
-    "DW (Germany)": "ok (135 items)",
+    "DW (Germany)": "ok (136 items)",
     "France 24": "ok (24 items)",
     "UN News": "ok (30 items)",
     "Ars Technica": "ok (20 items)",
@@ -37,30 +37,6 @@
   "issues": [
     {
       "rank": 1,
-      "title": "Election date? Brexit reset outcome? Farage’s survival chances? Andrew Sparrow answers your questions",
-      "score": 8.0,
-      "rating": "High",
-      "type": "Threat",
-      "perspectives": [
-        "Cultural",
-        "Social"
-      ],
-      "sources": [
-        "The Guardian World"
-      ],
-      "latest_utc": "2026-11-19T17:29:33+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (media, speech); Social (crime, election, war); severity wording: attack, war; rising versus recent days: crime, speech.",
-      "finding": "The Guardian’s UK politics blogger is conducting a live Q&A These are from my colleague Peter Walker , who was at the Tory event where James Cleverly was named as the party’s candidate for London mayor. Peter posted this before the result was announced. Khan (who may or may not stand a 4th time) has thus far faced a...",
-      "links": [
-        {
-          "source": "The Guardian World",
-          "title": "Election date? Brexit reset outcome? Farage’s survival chances? Andrew Sparrow answers your questions",
-          "url": "https://www.theguardian.com/politics/live/2026/nov/19/kemi-badenoch-andy-burnham-uk-politics-latest-news-updates"
-        }
-      ]
-    },
-    {
-      "rank": 2,
       "title": "Syria's Christian leaders warn of 'grave' threat to community's future amid wave of attacks",
       "score": 8.0,
       "rating": "High",
@@ -73,7 +49,7 @@
         "Fox News World"
       ],
       "latest_utc": "2026-11-19T15:55:51+00:00",
-      "rationale": "Reported by 1 source (Fox News World); perspectives: Cultural (religio); Social (violence); severity wording: attack, threat, escalat, concern; rising versus recent days: religio*, violence.",
+      "rationale": "Reported by 1 source (Fox News World); perspectives: Cultural (religio); Social (violence); severity wording: attack, threat, escalat, concern; rising versus recent days: violence.",
       "finding": "Syria's top Christian leaders warn that escalating attacks, kidnappings and violence threaten their community's future, as the State Department voices concern over religious persecution.",
       "links": [
         {
@@ -84,43 +60,8 @@
       ]
     },
     {
-      "rank": 3,
-      "title": "Myanmar committed genocide against Rohingya minority, world’s top court rules",
-      "score": 7.5,
-      "rating": "High",
-      "type": "Threat",
-      "perspectives": [
-        "Social"
-      ],
-      "sources": [
-        "DW (Germany)",
-        "The Guardian World",
-        "UN News"
-      ],
-      "latest_utc": "2026-11-19T13:52:10+00:00",
-      "rationale": "Reported by 3 sources (DW (Germany), The Guardian World, UN News); perspectives: Social (conflict, crime, refugee); severity wording: critical; rising versus recent days: crime.",
-      "finding": "Judgment finds ‘intent to destroy a substantial part of the Rohingya population’ after case seen as critical test for dealing with most serious of state crimes Myanmar committed genocide against its Rohingya minority during a 2017 military campaign, the world’s highest court has ruled, in a historic and unprecedented...",
-      "links": [
-        {
-          "source": "The Guardian World",
-          "title": "Myanmar committed genocide against Rohingya minority, world’s top court rules",
-          "url": "https://www.theguardian.com/world/2026/nov/19/genocide-rohingya-international-court-of-justice-ruling-myanmar"
-        },
-        {
-          "source": "UN News",
-          "title": "World’s top court finds Myanmar guilty of genocide against Rohingya",
-          "url": "https://news.un.org/feed/view/en/story/2026/11/1168836"
-        },
-        {
-          "source": "DW (Germany)",
-          "title": "Myanmar committed genocide against Rohingya, top UN court rules",
-          "url": "https://www.dw.com/en/myanmar-committed-genocide-against-rohingya-top-un-court-rules/a-79987898?maca=en-rss-en-all-1573-rdf"
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "title": "ICJ ruling on Myanmar genocide: ‘Historic victory for Rohingya, landmark for international justice’",
+      "rank": 2,
+      "title": "South Africa: High Court examines asylum seekers' detention at Lindela centre",
       "score": 6.5,
       "rating": "Elevated",
       "type": "Threat",
@@ -130,14 +71,60 @@
       "sources": [
         "France 24"
       ],
-      "latest_utc": "2026-11-19T15:54:42+00:00",
-      "rationale": "Reported by 1 source (France 24); perspectives: Social (conflict, crime, human rights); severity wording: war, warning; rising versus recent days: crime.",
-      "finding": "Erin Ogunkeye welcomes Reed Brody, Member of the International Commission of Jurists, Human Rights Lawyer and veteran war crimes prosecutor. The International Court of Justice's ruling on Myanmar marks, according to Brody, \"a historic victory for the Rohingya, but also a landmark for international justice.\" He...",
+      "latest_utc": "2026-11-20T11:23:35+00:00",
+      "rationale": "Reported by 1 source (France 24); perspectives: Social (asylum, conflict, violence); severity wording: deadly, concern; rising versus recent days: violence.",
+      "finding": "South Africa's High Court judges visited the Lindela Repatriation Centre in Krugersdorp this week, ahead of delivering a ruling on 33 urgent applications concerning the detention of asylum seekers. The court is examining conflicting interpretations of a Constitutional Court ruling that prohibits the deportation of...",
       "links": [
         {
           "source": "France 24",
-          "title": "ICJ ruling on Myanmar genocide: ‘Historic victory for Rohingya, landmark for international justice’",
-          "url": "https://www.france24.com/en/icj-ruling-on-myanmar-genocide-historic-victory-for-rohingya-landmark-for-international-justice"
+          "title": "South Africa: High Court examines asylum seekers' detention at Lindela centre",
+          "url": "https://www.france24.com/en/video/20261120-south-africa-high-court-examines-asylum-seekers-detention-at-lindela-centre"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "Nearly 600 women killed in South Africa within three months",
+      "score": 6.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "BBC World"
+      ],
+      "latest_utc": "2026-11-20T10:56:02+00:00",
+      "rationale": "Reported by 1 source (BBC World); perspectives: Social (violence); severity wording: kill; rising versus recent days: violence.",
+      "finding": "Police officials called for \"greater efforts to prevent... violence\" against women and children.",
+      "links": [
+        {
+          "source": "BBC World",
+          "title": "Nearly 600 women killed in South Africa within three months",
+          "url": "https://www.bbc.co.uk/news/articles/c69vwyjp0339o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "‘Everyone struggled for this justice’: tears in court as Rohingya vindicated in Myanmar genocide ruling",
+      "score": 6.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-19T16:15:52+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (refugee); severity wording: kill; rising versus recent days: refugee.",
+      "finding": "Relief in the immediate aftermath of a landmark ruling, but what happens next is in the hands of governments around the world There were tears in the halls of The Hague in the Netherlands and an eruption of applause in the refugee camps of Bangladesh as the scattered communities of Rohingya watched the UN’s top court...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "‘Everyone struggled for this justice’: tears in court as Rohingya vindicated in Myanmar genocide ruling",
+          "url": "https://www.theguardian.com/global-development/2026/nov/19/everyone-struggled-for-this-justice-tears-in-court-as-rohingya-vindicated-in-myanmar-genocide-ruling"
         }
       ]
     },
@@ -235,49 +222,61 @@
     },
     {
       "rank": 9,
-      "title": "Mark Speakman resigns and says Liberals face ‘existential threat’ as NSW exodus continues",
+      "title": "First Thing: Blockbuster Anthropic IPO fails to halt global slide in AI stocks",
       "score": 6.0,
       "rating": "Elevated",
       "type": "Watch",
       "perspectives": [
         "Cultural",
-        "Social"
+        "Social",
+        "Technical"
       ],
       "sources": [
         "The Guardian World"
       ],
-      "latest_utc": "2026-11-19T11:23:41+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (speech); Social (election); severity wording: threat; rising versus recent days: speech.",
-      "finding": "Former NSW opposition leader warns party against becoming ‘Labor lite’ or ‘One Nation lite’ in late-night speech Get our breaking news email , free app or daily news podcast Former New South Wales opposition leader, Mark Speakman, will not contest his seat at the March state election, the latest in a mass exodus of...",
+      "latest_utc": "2026-11-20T12:26:42+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (journalis); Social (refugee); Technical (ai, cyber, outage); severity wording: outage; rising versus recent days: refugee.",
+      "finding": "Record-breaking IPO for company behind Claude comes amid tumbling prices for other AI stocks. Plus why the humble potato could be vital for future space missions Good morning. Global stock markets have slumped as Anthropic’s record-breaking IPO failed to stem a sell-off in AI-linked companies. The sell-off followed...",
       "links": [
         {
           "source": "The Guardian World",
-          "title": "Mark Speakman resigns and says Liberals face ‘existential threat’ as NSW exodus continues",
-          "url": "https://www.theguardian.com/australia-news/2026/nov/19/mark-speakman-resigns-and-says-liberals-face-existential-threat-as-nsw-exodus-continues"
+          "title": "First Thing: Blockbuster Anthropic IPO fails to halt global slide in AI stocks",
+          "url": "https://www.theguardian.com/us-news/2026/nov/20/first-thing-blockbuster-anthropic-ipo-fails-to-halt-global-slide-in-ai-stocks"
         }
       ]
     },
     {
       "rank": 10,
-      "title": "Fears grow that US will put Nobel-winning judge under sanctions after Myanmar genocide ruling",
-      "score": 6.0,
+      "title": "White House removes cyber-security chief after series of tech outages",
+      "score": 5.5,
       "rating": "Elevated",
       "type": "Watch",
       "perspectives": [
-        "Cultural",
-        "Social"
+        "Technical"
       ],
       "sources": [
-        "The Guardian World"
+        "BBC Technology",
+        "BBC World",
+        "DW (Germany)"
       ],
-      "latest_utc": "2026-11-18T09:58:28+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (religio); Social (crime); severity wording: sanction; rising versus recent days: crime, religio*.",
-      "finding": "A ruling against Myanmar could set precedent for court’s judgment on Israel’s actions in Gaza Fears are growing that the US could impose sanctions on judges at the international court of justice, including this year’s Nobel peace prize winner, Navi Pillay , if the court rules on Thursday that the Myanmar government...",
+      "latest_utc": "2026-11-20T13:28:32+00:00",
+      "rationale": "Reported by 3 sources (BBC Technology, BBC World, DW (Germany)); perspectives: Technical (cyber, outage); severity wording: outage.",
+      "finding": "CBS is reporting he has been fired after losing the confidence of White House chief of staff Stephen Miller.",
       "links": [
         {
-          "source": "The Guardian World",
-          "title": "Fears grow that US will put Nobel-winning judge under sanctions after Myanmar genocide ruling",
-          "url": "https://www.theguardian.com/world/2026/nov/18/us-sanctions-icj-judges-myanmar-genocide-ruling-israel-gaza-court"
+          "source": "BBC World",
+          "title": "White House removes cyber-security chief after series of tech outages",
+          "url": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source": "BBC Technology",
+          "title": "White House removes cyber-security chief after series of tech outages",
+          "url": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source": "DW (Germany)",
+          "title": "White House replaces cyber security chief after tech outages",
+          "url": "https://www.dw.com/en/white-house-replaces-cyber-security-chief-after-tech-outages/a-79998531?maca=en-rss-en-all-1573-rdf"
         }
       ]
     }
@@ -285,12 +284,14 @@
   "advancements": {
     "method": "Scores (0-10) combine the technology field, progress wording (breakthrough, unveils, first, approved...), cross-source corroboration and momentum. They show how strongly a development is being reported - not its proven impact or commercial success.",
     "summary": [
-      "Found 22 advancement stories from 12 of 12 technology sources, grouped into 22 distinct developments.",
-      "Top list ratings: Notable 9, Emerging 1; stages: Launch 5, Research 3, Approval 1, Development 1.",
-      "Field mix: Space 5, AI & Computing 3, Robotics & Mobility 2, Materials & Science 2, Connectivity 1, Energy & Climate 1, Chips & Hardware 1.",
-      "Momentum baseline still building (2 of 3 days collected)."
+      "Found 16 advancement stories from 12 of 12 technology sources, grouped into 15 distinct developments.",
+      "Top list ratings: Notable 6, Emerging 4; stages: Launch 4, Research 3, Development 2, Approval 1.",
+      "Field mix: AI & Computing 4, Space 4, Connectivity 2, Robotics & Mobility 2, Materials & Science 2, Chips & Hardware 1, Health & Biotech 1, Energy & Climate 1.",
+      "Rising topics versus recent days: space station."
     ],
-    "rising_terms": [],
+    "rising_terms": [
+      "space station"
+    ],
     "feed_status": {
       "MIT Technology Review": "ok (10 items)",
       "IEEE Spectrum": "ok (30 items)",
@@ -308,6 +309,31 @@
     "items": [
       {
         "rank": 1,
+        "title": "Community-Focused Academic Brings AI Tools to Colorado Farmers",
+        "score": 7.0,
+        "rating": "Notable",
+        "stage": "Launch",
+        "fields": [
+          "AI & Computing",
+          "Chips & Hardware",
+          "Connectivity"
+        ],
+        "sources": [
+          "IEEE Spectrum"
+        ],
+        "latest_utc": "2026-11-19T19:00:02+00:00",
+        "rationale": "Reported by 1 source (IEEE Spectrum); fields: AI & Computing (ai, artificial intelligence, chatbot); Chips & Hardware (smartphone); Connectivity (network); progress signals: launch, invent, new, advance; stage: Launch.",
+        "finding": "Many farmers and ranchers in eastern Colorado are curious about artificial intelligence, but they don’t have a local tech-savvy person to show them how to use it. Xue “Alice” Dong has made that her job. Dong, an IEEE senior member, is an extension regional specialist with the Colorado State University Extension ...",
+        "links": [
+          {
+            "source": "IEEE Spectrum",
+            "title": "Community-Focused Academic Brings AI Tools to Colorado Farmers",
+            "url": "https://spectrum.ieee.org/ai-tools-for-rural-communities"
+          }
+        ]
+      },
+      {
+        "rank": 2,
         "title": "Build a Personal Brand to Help Employers Find You",
         "score": 7.0,
         "rating": "Notable",
@@ -332,56 +358,58 @@
         ]
       },
       {
-        "rank": 2,
-        "title": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems",
-        "score": 7.0,
-        "rating": "Notable",
-        "stage": "Approval",
-        "fields": [
-          "AI & Computing",
-          "Materials & Science",
-          "Robotics & Mobility"
-        ],
-        "sources": [
-          "IEEE Spectrum"
-        ],
-        "latest_utc": "2026-11-17T19:00:03+00:00",
-        "rationale": "Reported by 1 source (IEEE Spectrum); fields: AI & Computing (ai, artificial intelligence); Materials & Science (material); Robotics & Mobility (autonomous); progress signals: first, launch, release, introduc; stage: Approval.",
-        "finding": "Policymakers, technologists, and members of the public have raised concerns about the harm AI’s rapid advancement might cause to society. Their concerns include bias, data privacy violations, the spread of misinformation, and losing control of AI agents. Those issues are relatively new to many people, but the IEEE...",
-        "links": [
-          {
-            "source": "IEEE Spectrum",
-            "title": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems",
-            "url": "https://spectrum.ieee.org/ieee-ethics-ai-systems"
-          }
-        ]
-      },
-      {
         "rank": 3,
-        "title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
-        "score": 6.5,
+        "title": "CERN scientists finally find evidence of a particle decay so rare it took 40 years to detect",
+        "score": 6.0,
         "rating": "Notable",
-        "stage": "Launch",
+        "stage": "Research",
         "fields": [
-          "AI & Computing",
-          "Space"
+          "Materials & Science"
         ],
         "sources": [
-          "The Verge"
+          "ScienceDaily Technology"
         ],
-        "latest_utc": "2026-11-19T14:25:37+00:00",
-        "rationale": "Reported by 1 source (The Verge); fields: AI & Computing (ai); Space (spacex); progress signals: debut, milestone, new; stage: Launch.",
-        "finding": "Today is a new beginning for Anthropic: a years-in-the-making IPO that beat out SpaceX for most valuable of all time, having raised $81.3 billion and set an important precedent for the other public AI lab debuts to come. But it's not simply a financial milestone. Anthropic was founded on the idea that it prioritized...",
+        "latest_utc": "2026-11-20T12:23:23+00:00",
+        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Materials & Science (microscop, physicist); progress signals: breakthrough, first; stage: Research.",
+        "finding": "Scientists at CERN have found the first evidence of an incredibly rare particle decay after more than 40 years of searching, detecting a process expected to occur just once in every 10 billion beauty particles. The breakthrough could help physicists explore a mysterious microscopic realm where unknown particles and...",
         "links": [
           {
-            "source": "The Verge",
-            "title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
-            "url": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure"
+            "source": "ScienceDaily Technology",
+            "title": "CERN scientists finally find evidence of a particle decay so rare it took 40 years to detect",
+            "url": "https://www.sciencedaily.com/releases/2026/11/261119194530.htm"
           }
         ]
       },
       {
         "rank": 4,
+        "title": "Anthropic soars in record Wall Street debut",
+        "score": 6.0,
+        "rating": "Notable",
+        "stage": "Launch",
+        "fields": [
+          "AI & Computing"
+        ],
+        "sources": [
+          "Phys.org Technology"
+        ],
+        "latest_utc": "2026-11-20T09:20:01+00:00",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: AI & Computing (ai); progress signals: record, debut; stage: Launch.",
+        "finding": "Anthropic shares closed 17% higher in their record Nasdaq debut on Thursday, defying a broad Wall Street sell-off as investors shrugged off the Nvidia spy scandal and fears of a tech bubble to back the AI giant.",
+        "links": [
+          {
+            "source": "Phys.org Technology",
+            "title": "Anthropic soars in record Wall Street debut",
+            "url": "https://techxplore.com/news/2026-11-anthropic-soars-wall-street-debut-1.html"
+          },
+          {
+            "source": "Phys.org Technology",
+            "title": "Anthropic soars in Wall Street debut despite AI jitters",
+            "url": "https://techxplore.com/news/2026-11-anthropic-soars-wall-street-debut.html"
+          }
+        ]
+      },
+      {
+        "rank": 5,
         "title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
         "score": 6.0,
         "rating": "Notable",
@@ -404,7 +432,7 @@
         ]
       },
       {
-        "rank": 5,
+        "rank": 6,
         "title": "NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
         "score": 6.0,
         "rating": "Notable",
@@ -427,33 +455,82 @@
         ]
       },
       {
-        "rank": 6,
-        "title": "Anthropic to begin trading after record-breaking market debut tops SpaceX record",
-        "score": 6.0,
-        "rating": "Notable",
-        "stage": "Launch",
+        "rank": 7,
+        "title": "Adaptive AI agent connects experimental planning with robotic control in wastewater treatment test",
+        "score": 5.0,
+        "rating": "Emerging",
+        "stage": "Research",
         "fields": [
-          "Space"
+          "AI & Computing",
+          "Health & Biotech",
+          "Materials & Science",
+          "Robotics & Mobility"
         ],
         "sources": [
           "Phys.org Technology"
         ],
-        "latest_utc": "2026-11-19T11:16:00+00:00",
-        "rationale": "Reported by 1 source (Phys.org Technology); fields: Space (spacex); progress signals: record, debut, new; stage: Launch.",
-        "finding": "Anthropic will begin trading on Thursday on the Nasdaq exchange after pricing its initial public offering at $83 a share, above its expected range and toppling SpaceX's IPO to set a new record.",
+        "latest_utc": "2026-11-20T13:00:08+00:00",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: AI & Computing (ai, artificial intelligence); Health & Biotech (drug, treatment); Materials & Science (material); Robotics & Mobility (robot); progress signals: discover; stage: Research.",
+        "finding": "Artificial intelligence systems are now widely used in research settings, primarily to analyze data, make predictions and discover promising materials, drugs or solutions. Most of the agents used for research are disembodied, which means that they are computer-based and require humans or separate automated systems to...",
         "links": [
           {
             "source": "Phys.org Technology",
-            "title": "Anthropic to begin trading after record-breaking market debut tops SpaceX record",
-            "url": "https://techxplore.com/news/2026-11-anthropic-debut-tops-spacex.html"
+            "title": "Adaptive AI agent connects experimental planning with robotic control in wastewater treatment test",
+            "url": "https://techxplore.com/news/2026-11-ai-agent-experimental-robotic-wastewater.html"
           }
         ]
       },
       {
-        "rank": 7,
-        "title": "NASA Announces Mid-Power Electric Rocket Challenge for US Companies",
-        "score": 6.0,
-        "rating": "Notable",
+        "rank": 8,
+        "title": "Blockchain system could secure cross-border renewable energy and carbon certificate trade",
+        "score": 5.0,
+        "rating": "Emerging",
+        "stage": "Approval",
+        "fields": [
+          "Energy & Climate"
+        ],
+        "sources": [
+          "Phys.org Technology"
+        ],
+        "latest_utc": "2026-11-19T18:40:29+00:00",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: Energy & Climate (renewable); progress signals: record, develop; stage: Approval.",
+        "finding": "Researchers have developed a blockchain-based system to improve the security of cross-border renewable energy trade and environmental certificates. A blockchain is a digital record-keeping system in which information is stored in linked blocks and shared across computers, making records very difficult, if not...",
+        "links": [
+          {
+            "source": "Phys.org Technology",
+            "title": "Blockchain system could secure cross-border renewable energy and carbon certificate trade",
+            "url": "https://techxplore.com/news/2026-11-blockchain-border-renewable-energy-carbon.html"
+          }
+        ]
+      },
+      {
+        "rank": 9,
+        "title": "Lake Pelku",
+        "score": 5.0,
+        "rating": "Emerging",
+        "stage": "Development",
+        "fields": [
+          "Space"
+        ],
+        "sources": [
+          "NASA News"
+        ],
+        "latest_utc": "2026-11-19T15:32:39+00:00",
+        "rationale": "Reported by 1 source (NASA News); fields: Space (orbit, space station); progress signals: record; stage: Development; rising versus recent days: space station.",
+        "finding": "An astronaut on the International Space Station captured this photograph of Lake Pelku (near center) as the station orbited above Asia. The International Space Station serves as a unique platform for observing Earth with both hands-on and automated equipment. Station crew members have produced hundreds of thousands of...",
+        "links": [
+          {
+            "source": "NASA News",
+            "title": "Lake Pelku",
+            "url": "https://www.nasa.gov/image-article/lake-pelku/"
+          }
+        ]
+      },
+      {
+        "rank": 10,
+        "title": "NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch",
+        "score": 5.0,
+        "rating": "Emerging",
         "stage": "Launch",
         "fields": [
           "Space"
@@ -461,83 +538,14 @@
         "sources": [
           "NASA News"
         ],
-        "latest_utc": "2026-11-18T18:12:32+00:00",
-        "rationale": "Reported by 1 source (NASA News); fields: Space (nasa, rocket, satellite); progress signals: launch, prototype, announce, new; stage: Launch.",
-        "finding": "NASA launched a new competition inviting U.S. companies to produce prototypes of mid-power Hall effect thrusters – a type of electric propulsion system considered crucial for future space operations and exploration. Hall effect thrusters use an electric field to accelerate a propellant gas, producing efficient thrust...",
+        "latest_utc": "2026-11-18T22:19:17+00:00",
+        "rationale": "Reported by 1 source (NASA News); fields: Space (nasa, space station, spacex); progress signals: launch; stage: Launch; rising versus recent days: space station.",
+        "finding": "NASA, Northrop Grumman, and SpaceX are targeting no earlier than 10:47 a.m. EST, Sunday, Nov. 29, for the next launch delivering science investigations, supplies, and equipment to the International Space Station. The agency also will hold a prelaunch media teleconference on Monday, Nov. 23. Filled with approximately...",
         "links": [
           {
             "source": "NASA News",
-            "title": "NASA Announces Mid-Power Electric Rocket Challenge for US Companies",
-            "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-announces-mid-power-electric-rocket-challenge-for-us-companies/"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "title": "Scientists create a remarkable new rechargeable battery using vitamin B12",
-        "score": 6.0,
-        "rating": "Notable",
-        "stage": "Research",
-        "fields": [
-          "Energy & Climate"
-        ],
-        "sources": [
-          "ScienceDaily Technology"
-        ],
-        "latest_utc": "2026-11-18T12:26:20+00:00",
-        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Energy & Climate (batteries, battery, charging); progress signals: prototype, develop, cheaper, new; stage: Research.",
-        "finding": "Scientists have found a surprising new use for vitamin B12, developing a rechargeable battery that uses the essential nutrient to help generate and store electricity. The prototype survived up to 250 charging cycles and could open the door to safer, cheaper, and more environmentally friendly alternatives to...",
-        "links": [
-          {
-            "source": "ScienceDaily Technology",
-            "title": "Scientists create a remarkable new rechargeable battery using vitamin B12",
-            "url": "https://www.sciencedaily.com/releases/2026/11/261117033909.htm"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "title": "New discovery reveals what may be holding back room-temperature superconductors",
-        "score": 6.0,
-        "rating": "Notable",
-        "stage": "Research",
-        "fields": [
-          "Materials & Science"
-        ],
-        "sources": [
-          "ScienceDaily Technology"
-        ],
-        "latest_utc": "2026-11-18T12:16:46+00:00",
-        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Materials & Science (superconduct); progress signals: breakthrough, discover, new; stage: Research.",
-        "finding": "A major breakthrough in superconductivity research has revealed that one of the essential ingredients for electricity to flow without resistance can exist at room temperature. Scientists discovered that electrons can form stable pairs at much higher temperatures than previously understood, suggesting that a different...",
-        "links": [
-          {
-            "source": "ScienceDaily Technology",
-            "title": "New discovery reveals what may be holding back room-temperature superconductors",
-            "url": "https://www.sciencedaily.com/releases/2026/11/261116023358.htm"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "title": "GPU giants throw HPC users some tasty crumbs",
-        "score": 4.0,
-        "rating": "Emerging",
-        "stage": "Launch",
-        "fields": [
-          "Chips & Hardware"
-        ],
-        "sources": [
-          "The Register"
-        ],
-        "latest_utc": "2026-11-17T22:37:46+00:00",
-        "rationale": "Reported by 1 source (The Register); fields: Chips & Hardware (gpu); progress signals: unveil; stage: Launch.",
-        "finding": "Nvidia unveils an HPC-optimized Rubin GPU to challenge AMD's 288 teraFLOPS MI430X",
-        "links": [
-          {
-            "source": "The Register",
-            "title": "GPU giants throw HPC users some tasty crumbs",
-            "url": "https://www.theregister.com/hpc/2026/11/17/gpu-giants-throw-hpc-users-some-tasty-crumbs/5310611"
+            "title": "NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch",
+            "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/"
           }
         ]
       }

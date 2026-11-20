@@ -1,0 +1,554 @@
+{
+  "version": "2.1.0",
+  "generated_utc": "2026-11-20T15:24:21.659535+00:00",
+  "method": "Scores (0-10) combine perspective breadth, severity wording, cross-source corroboration and momentum. They measure attention and concern in public reporting - not probability, not a forecast. Read the sources before acting.",
+  "summary": [
+    "Scanned 472 items from 13 of 13 sources; 125 matched a perspective and were grouped into 120 distinct issues.",
+    "Top list ratings: High 1, Elevated 9 (8 threats, 2 watch items).",
+    "Perspective mix: Social 6, Technical 5, Cultural 2.",
+    "Rising topics versus recent days: climate, refugee, violence, culture, phishing, speech, ceasefire, tradition.",
+    "Most widely reported: \"White House removes cyber-security chief after series of tech outages\" (3 sources)."
+  ],
+  "rising_terms": [
+    "climate",
+    "refugee",
+    "violence",
+    "culture",
+    "phishing",
+    "speech",
+    "ceasefire",
+    "tradition"
+  ],
+  "feed_status": {
+    "BBC World": "ok (36 items)",
+    "BBC Technology": "ok (21 items)",
+    "The Guardian World": "ok (45 items)",
+    "NPR World": "ok (10 items)",
+    "Fox News World": "ok (25 items)",
+    "WSJ World": "ok (20 items)",
+    "Al Jazeera": "ok (25 items)",
+    "DW (Germany)": "ok (136 items)",
+    "France 24": "ok (24 items)",
+    "UN News": "ok (30 items)",
+    "Ars Technica": "ok (20 items)",
+    "The Register": "ok (50 items)",
+    "CISA Advisories (US Gov)": "ok (30 items)"
+  },
+  "issues": [
+    {
+      "rank": 1,
+      "title": "Syria's Christian leaders warn of 'grave' threat to community's future amid wave of attacks",
+      "score": 8.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Cultural",
+        "Social"
+      ],
+      "sources": [
+        "Fox News World"
+      ],
+      "latest_utc": "2026-11-19T15:55:51+00:00",
+      "rationale": "Reported by 1 source (Fox News World); perspectives: Cultural (religio); Social (violence); severity wording: attack, threat, escalat, concern; rising versus recent days: violence.",
+      "finding": "Syria's top Christian leaders warn that escalating attacks, kidnappings and violence threaten their community's future, as the State Department voices concern over religious persecution.",
+      "links": [
+        {
+          "source": "Fox News World",
+          "title": "Syria's Christian leaders warn of 'grave' threat to community's future amid wave of attacks",
+          "url": "https://www.foxnews.com/world/syrias-christian-leaders-warn-grave-threat-communitys-future-amid-wave-attacks"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "South Africa: High Court examines asylum seekers' detention at Lindela centre",
+      "score": 6.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "France 24"
+      ],
+      "latest_utc": "2026-11-20T11:23:35+00:00",
+      "rationale": "Reported by 1 source (France 24); perspectives: Social (asylum, conflict, violence); severity wording: deadly, concern; rising versus recent days: violence.",
+      "finding": "South Africa's High Court judges visited the Lindela Repatriation Centre in Krugersdorp this week, ahead of delivering a ruling on 33 urgent applications concerning the detention of asylum seekers. The court is examining conflicting interpretations of a Constitutional Court ruling that prohibits the deportation of...",
+      "links": [
+        {
+          "source": "France 24",
+          "title": "South Africa: High Court examines asylum seekers' detention at Lindela centre",
+          "url": "https://www.france24.com/en/video/20261120-south-africa-high-court-examines-asylum-seekers-detention-at-lindela-centre"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "Nearly 600 women killed in South Africa within three months",
+      "score": 6.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "BBC World"
+      ],
+      "latest_utc": "2026-11-20T10:56:02+00:00",
+      "rationale": "Reported by 1 source (BBC World); perspectives: Social (violence); severity wording: kill; rising versus recent days: violence.",
+      "finding": "Police officials called for \"greater efforts to prevent... violence\" against women and children.",
+      "links": [
+        {
+          "source": "BBC World",
+          "title": "Nearly 600 women killed in South Africa within three months",
+          "url": "https://www.bbc.co.uk/news/articles/c69vwyjp0339o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "‘Everyone struggled for this justice’: tears in court as Rohingya vindicated in Myanmar genocide ruling",
+      "score": 6.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-19T16:15:52+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (refugee); severity wording: kill; rising versus recent days: refugee.",
+      "finding": "Relief in the immediate aftermath of a landmark ruling, but what happens next is in the hands of governments around the world There were tears in the halls of The Hague in the Netherlands and an eruption of applause in the refugee camps of Bangladesh as the scattered communities of Rohingya watched the UN’s top court...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "‘Everyone struggled for this justice’: tears in court as Rohingya vindicated in Myanmar genocide ruling",
+          "url": "https://www.theguardian.com/global-development/2026/nov/19/everyone-struggled-for-this-justice-tears-in-court-as-rohingya-vindicated-in-myanmar-genocide-ruling"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "Elecbrakes EB2, VM1, ELBC2000",
+      "score": 6.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Technical"
+      ],
+      "sources": [
+        "CISA Advisories (US Gov)"
+      ],
+      "latest_utc": "2026-11-19T12:00:00+00:00",
+      "rationale": "Reported by 1 source (CISA Advisories (US Gov)); perspectives: Technical (cyber, infrastructure, phishing); severity wording: critical, attack; rising versus recent days: phishing.",
+      "finding": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain control of the brakes of a trailer, modify the firmware, disable the brake lights, modify the brake conditions or disable other critical safety features. The following versions of Elecbrakes EB2, VM1, ELBC2000 are...",
+      "links": [
+        {
+          "source": "CISA Advisories (US Gov)",
+          "title": "Elecbrakes EB2, VM1, ELBC2000",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "libumqtt",
+      "score": 6.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Technical"
+      ],
+      "sources": [
+        "CISA Advisories (US Gov)"
+      ],
+      "latest_utc": "2026-11-19T12:00:00+00:00",
+      "rationale": "Reported by 1 source (CISA Advisories (US Gov)); perspectives: Technical (cyber, infrastructure, phishing); severity wording: critical, attack; rising versus recent days: phishing.",
+      "finding": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure. The following versions of libumqtt are affected: libumqtt <=1.1.1 (CVE-2026-125132) CVSS Vendor Equipment v3 8.6 libumqtt libumqtt 1 Vulnerability...",
+      "links": [
+        {
+          "source": "CISA Advisories (US Gov)",
+          "title": "libumqtt",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "Autonomy Logic OpenPLC Runtime",
+      "score": 6.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Technical"
+      ],
+      "sources": [
+        "CISA Advisories (US Gov)"
+      ],
+      "latest_utc": "2026-11-19T12:00:00+00:00",
+      "rationale": "Reported by 1 source (CISA Advisories (US Gov)); perspectives: Technical (cyber, infrastructure, phishing); severity wording: critical, attack; rising versus recent days: phishing.",
+      "finding": "View CSAF Summary Successful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created. The following versions of Autonomy Logic OpenPLC Runtime are affected: OpenPLC Runtime <=4.2.4 (CVE-2026-126088) CVSS Vendor Equipment v3 8.1 Autonomy Logic OpenPLC Runtime 1 Vulnerability...",
+      "links": [
+        {
+          "source": "CISA Advisories (US Gov)",
+          "title": "Autonomy Logic OpenPLC Runtime",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "Violent protests and killings in Bangladesh ahead of exiled Sheikh Hasina’s planned return",
+      "score": 6.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-19T06:58:33+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (protest, violence); severity wording: kill, attack, protest; rising versus recent days: violence.",
+      "finding": "Awami League party called for ⁠nationwide protest on Thursday after the government rejected Hasina’s request for passport Parts of Bangladesh were shut down Thursday as protests by supporters of former prime minister Sheikh Hasina sparked clashes, bomb blasts and arson attacks, with the ancestral home ⁠of former...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "Violent protests and killings in Bangladesh ahead of exiled Sheikh Hasina’s planned return",
+          "url": "https://www.theguardian.com/world/2026/nov/19/bangladesh-violent-protest-sheikh-hasina-planned-return"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "First Thing: Blockbuster Anthropic IPO fails to halt global slide in AI stocks",
+      "score": 6.0,
+      "rating": "Elevated",
+      "type": "Watch",
+      "perspectives": [
+        "Cultural",
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-20T12:26:42+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (journalis); Social (refugee); Technical (ai, cyber, outage); severity wording: outage; rising versus recent days: refugee.",
+      "finding": "Record-breaking IPO for company behind Claude comes amid tumbling prices for other AI stocks. Plus why the humble potato could be vital for future space missions Good morning. Global stock markets have slumped as Anthropic’s record-breaking IPO failed to stem a sell-off in AI-linked companies. The sell-off followed...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "First Thing: Blockbuster Anthropic IPO fails to halt global slide in AI stocks",
+          "url": "https://www.theguardian.com/us-news/2026/nov/20/first-thing-blockbuster-anthropic-ipo-fails-to-halt-global-slide-in-ai-stocks"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "White House removes cyber-security chief after series of tech outages",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Watch",
+      "perspectives": [
+        "Technical"
+      ],
+      "sources": [
+        "BBC Technology",
+        "BBC World",
+        "DW (Germany)"
+      ],
+      "latest_utc": "2026-11-20T13:28:32+00:00",
+      "rationale": "Reported by 3 sources (BBC Technology, BBC World, DW (Germany)); perspectives: Technical (cyber, outage); severity wording: outage.",
+      "finding": "CBS is reporting he has been fired after losing the confidence of White House chief of staff Stephen Miller.",
+      "links": [
+        {
+          "source": "BBC World",
+          "title": "White House removes cyber-security chief after series of tech outages",
+          "url": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source": "BBC Technology",
+          "title": "White House removes cyber-security chief after series of tech outages",
+          "url": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source": "DW (Germany)",
+          "title": "White House replaces cyber security chief after tech outages",
+          "url": "https://www.dw.com/en/white-house-replaces-cyber-security-chief-after-tech-outages/a-79998531?maca=en-rss-en-all-1573-rdf"
+        }
+      ]
+    }
+  ],
+  "advancements": {
+    "method": "Scores (0-10) combine the technology field, progress wording (breakthrough, unveils, first, approved...), cross-source corroboration and momentum. They show how strongly a development is being reported - not its proven impact or commercial success.",
+    "summary": [
+      "Found 16 advancement stories from 12 of 12 technology sources, grouped into 15 distinct developments.",
+      "Top list ratings: Notable 6, Emerging 4; stages: Launch 4, Research 3, Development 2, Approval 1.",
+      "Field mix: AI & Computing 4, Space 4, Connectivity 2, Robotics & Mobility 2, Materials & Science 2, Chips & Hardware 1, Health & Biotech 1, Energy & Climate 1.",
+      "Rising topics versus recent days: space station."
+    ],
+    "rising_terms": [
+      "space station"
+    ],
+    "feed_status": {
+      "MIT Technology Review": "ok (10 items)",
+      "IEEE Spectrum": "ok (30 items)",
+      "TechCrunch": "ok (20 items)",
+      "The Verge": "ok (10 items)",
+      "Wired": "ok (50 items)",
+      "New Scientist Technology": "ok (10 items)",
+      "ScienceDaily Technology": "ok (60 items)",
+      "Phys.org Technology": "ok (30 items)",
+      "NASA News": "ok (10 items)",
+      "BBC Technology": "ok (21 items)",
+      "Ars Technica": "ok (20 items)",
+      "The Register": "ok (50 items)"
+    },
+    "items": [
+      {
+        "rank": 1,
+        "title": "Community-Focused Academic Brings AI Tools to Colorado Farmers",
+        "score": 7.0,
+        "rating": "Notable",
+        "stage": "Launch",
+        "fields": [
+          "AI & Computing",
+          "Chips & Hardware",
+          "Connectivity"
+        ],
+        "sources": [
+          "IEEE Spectrum"
+        ],
+        "latest_utc": "2026-11-19T19:00:02+00:00",
+        "rationale": "Reported by 1 source (IEEE Spectrum); fields: AI & Computing (ai, artificial intelligence, chatbot); Chips & Hardware (smartphone); Connectivity (network); progress signals: launch, invent, new, advance; stage: Launch.",
+        "finding": "Many farmers and ranchers in eastern Colorado are curious about artificial intelligence, but they don’t have a local tech-savvy person to show them how to use it. Xue “Alice” Dong has made that her job. Dong, an IEEE senior member, is an extension regional specialist with the Colorado State University Extension ...",
+        "links": [
+          {
+            "source": "IEEE Spectrum",
+            "title": "Community-Focused Academic Brings AI Tools to Colorado Farmers",
+            "url": "https://spectrum.ieee.org/ai-tools-for-rural-communities"
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "title": "Build a Personal Brand to Help Employers Find You",
+        "score": 7.0,
+        "rating": "Notable",
+        "stage": "Launch",
+        "fields": [
+          "AI & Computing",
+          "Connectivity",
+          "Robotics & Mobility"
+        ],
+        "sources": [
+          "IEEE Spectrum"
+        ],
+        "latest_utc": "2026-11-18T17:33:26+00:00",
+        "rationale": "Reported by 1 source (IEEE Spectrum); fields: AI & Computing (ai); Connectivity (network); Robotics & Mobility (humanoid, robot); progress signals: first, release, achieve, outperform; stage: Launch.",
+        "finding": "This article is crossposted from IEEE Spectrum ’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written i n partnership with tech career development company Parsity and delivered to your inbox for free! In one year, the number of developers working for themselves has...",
+        "links": [
+          {
+            "source": "IEEE Spectrum",
+            "title": "Build a Personal Brand to Help Employers Find You",
+            "url": "https://spectrum.ieee.org/personal-branding-for-engineers"
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "title": "CERN scientists finally find evidence of a particle decay so rare it took 40 years to detect",
+        "score": 6.0,
+        "rating": "Notable",
+        "stage": "Research",
+        "fields": [
+          "Materials & Science"
+        ],
+        "sources": [
+          "ScienceDaily Technology"
+        ],
+        "latest_utc": "2026-11-20T12:23:23+00:00",
+        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Materials & Science (microscop, physicist); progress signals: breakthrough, first; stage: Research.",
+        "finding": "Scientists at CERN have found the first evidence of an incredibly rare particle decay after more than 40 years of searching, detecting a process expected to occur just once in every 10 billion beauty particles. The breakthrough could help physicists explore a mysterious microscopic realm where unknown particles and...",
+        "links": [
+          {
+            "source": "ScienceDaily Technology",
+            "title": "CERN scientists finally find evidence of a particle decay so rare it took 40 years to detect",
+            "url": "https://www.sciencedaily.com/releases/2026/11/261119194530.htm"
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "title": "Anthropic soars in record Wall Street debut",
+        "score": 6.0,
+        "rating": "Notable",
+        "stage": "Launch",
+        "fields": [
+          "AI & Computing"
+        ],
+        "sources": [
+          "Phys.org Technology"
+        ],
+        "latest_utc": "2026-11-20T09:20:01+00:00",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: AI & Computing (ai); progress signals: record, debut; stage: Launch.",
+        "finding": "Anthropic shares closed 17% higher in their record Nasdaq debut on Thursday, defying a broad Wall Street sell-off as investors shrugged off the Nvidia spy scandal and fears of a tech bubble to back the AI giant.",
+        "links": [
+          {
+            "source": "Phys.org Technology",
+            "title": "Anthropic soars in record Wall Street debut",
+            "url": "https://techxplore.com/news/2026-11-anthropic-soars-wall-street-debut-1.html"
+          },
+          {
+            "source": "Phys.org Technology",
+            "title": "Anthropic soars in Wall Street debut despite AI jitters",
+            "url": "https://techxplore.com/news/2026-11-anthropic-soars-wall-street-debut.html"
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
+        "score": 6.0,
+        "rating": "Notable",
+        "stage": "Research",
+        "fields": [
+          "Space"
+        ],
+        "sources": [
+          "NASA News"
+        ],
+        "latest_utc": "2026-11-19T15:33:55+00:00",
+        "rationale": "Reported by 1 source (NASA News); fields: Space (nasa); progress signals: discover, develop, faster, new; stage: Research.",
+        "finding": "Open data from NASA’s Fermi mission helped an international team of scientists develop a method for finding pulsars about a million times faster than before.",
+        "links": [
+          {
+            "source": "NASA News",
+            "title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
+            "url": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/"
+          }
+        ]
+      },
+      {
+        "rank": 6,
+        "title": "NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
+        "score": 6.0,
+        "rating": "Notable",
+        "stage": "Development",
+        "fields": [
+          "Space"
+        ],
+        "sources": [
+          "NASA News"
+        ],
+        "latest_utc": "2026-11-19T14:31:15+00:00",
+        "rationale": "Reported by 1 source (NASA News); fields: Space (nasa, spacecraft); progress signals: achieve, milestone; stage: Development.",
+        "finding": "NASA’s Voyager 1 probe, humanity’s farthest-flying spacecraft, has reached one light-day from Earth, after more than 49 years of constant travel. A light-day is the distance light travels in 24 hours, equaling about 16.1 billion miles (25.9 billion kilometers). The spacecraft achieved the milestone at 2:16 a.m. PST...",
+        "links": [
+          {
+            "source": "NASA News",
+            "title": "NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
+            "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+          }
+        ]
+      },
+      {
+        "rank": 7,
+        "title": "Adaptive AI agent connects experimental planning with robotic control in wastewater treatment test",
+        "score": 5.0,
+        "rating": "Emerging",
+        "stage": "Research",
+        "fields": [
+          "AI & Computing",
+          "Health & Biotech",
+          "Materials & Science",
+          "Robotics & Mobility"
+        ],
+        "sources": [
+          "Phys.org Technology"
+        ],
+        "latest_utc": "2026-11-20T13:00:08+00:00",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: AI & Computing (ai, artificial intelligence); Health & Biotech (drug, treatment); Materials & Science (material); Robotics & Mobility (robot); progress signals: discover; stage: Research.",
+        "finding": "Artificial intelligence systems are now widely used in research settings, primarily to analyze data, make predictions and discover promising materials, drugs or solutions. Most of the agents used for research are disembodied, which means that they are computer-based and require humans or separate automated systems to...",
+        "links": [
+          {
+            "source": "Phys.org Technology",
+            "title": "Adaptive AI agent connects experimental planning with robotic control in wastewater treatment test",
+            "url": "https://techxplore.com/news/2026-11-ai-agent-experimental-robotic-wastewater.html"
+          }
+        ]
+      },
+      {
+        "rank": 8,
+        "title": "Blockchain system could secure cross-border renewable energy and carbon certificate trade",
+        "score": 5.0,
+        "rating": "Emerging",
+        "stage": "Approval",
+        "fields": [
+          "Energy & Climate"
+        ],
+        "sources": [
+          "Phys.org Technology"
+        ],
+        "latest_utc": "2026-11-19T18:40:29+00:00",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: Energy & Climate (renewable); progress signals: record, develop; stage: Approval.",
+        "finding": "Researchers have developed a blockchain-based system to improve the security of cross-border renewable energy trade and environmental certificates. A blockchain is a digital record-keeping system in which information is stored in linked blocks and shared across computers, making records very difficult, if not...",
+        "links": [
+          {
+            "source": "Phys.org Technology",
+            "title": "Blockchain system could secure cross-border renewable energy and carbon certificate trade",
+            "url": "https://techxplore.com/news/2026-11-blockchain-border-renewable-energy-carbon.html"
+          }
+        ]
+      },
+      {
+        "rank": 9,
+        "title": "Lake Pelku",
+        "score": 5.0,
+        "rating": "Emerging",
+        "stage": "Development",
+        "fields": [
+          "Space"
+        ],
+        "sources": [
+          "NASA News"
+        ],
+        "latest_utc": "2026-11-19T15:32:39+00:00",
+        "rationale": "Reported by 1 source (NASA News); fields: Space (orbit, space station); progress signals: record; stage: Development; rising versus recent days: space station.",
+        "finding": "An astronaut on the International Space Station captured this photograph of Lake Pelku (near center) as the station orbited above Asia. The International Space Station serves as a unique platform for observing Earth with both hands-on and automated equipment. Station crew members have produced hundreds of thousands of...",
+        "links": [
+          {
+            "source": "NASA News",
+            "title": "Lake Pelku",
+            "url": "https://www.nasa.gov/image-article/lake-pelku/"
+          }
+        ]
+      },
+      {
+        "rank": 10,
+        "title": "NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch",
+        "score": 5.0,
+        "rating": "Emerging",
+        "stage": "Launch",
+        "fields": [
+          "Space"
+        ],
+        "sources": [
+          "NASA News"
+        ],
+        "latest_utc": "2026-11-18T22:19:17+00:00",
+        "rationale": "Reported by 1 source (NASA News); fields: Space (nasa, space station, spacex); progress signals: launch; stage: Launch; rising versus recent days: space station.",
+        "finding": "NASA, Northrop Grumman, and SpaceX are targeting no earlier than 10:47 a.m. EST, Sunday, Nov. 29, for the next launch delivering science investigations, supplies, and equipment to the International Space Station. The agency also will hold a prelaunch media teleconference on Monday, Nov. 23. Filled with approximately...",
+        "links": [
+          {
+            "source": "NASA News",
+            "title": "NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch",
+            "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/"
+          }
+        ]
+      }
+    ]
+  }
+}
