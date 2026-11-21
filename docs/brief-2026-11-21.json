@@ -1,33 +1,32 @@
 {
   "version": "2.1.0",
-  "generated_utc": "2026-11-21T14:37:19.962895+00:00",
+  "generated_utc": "2026-11-21T16:23:46.520961+00:00",
   "method": "Scores (0-10) combine perspective breadth, severity wording, cross-source corroboration and momentum. They measure attention and concern in public reporting - not probability, not a forecast. Read the sources before acting.",
   "summary": [
-    "Scanned 460 items from 13 of 13 sources; 123 matched a perspective and were grouped into 120 distinct issues.",
-    "Top list ratings: High 4, Elevated 6 (9 threats, 1 watch items).",
-    "Perspective mix: Social 8, Cultural 7, Technical 6.",
-    "Rising topics versus recent days: hack*, cost of living, unrest, humanitarian, conspiracy, poverty, pandemic, privacy.",
+    "Scanned 463 items from 13 of 13 sources; 115 matched a perspective and were grouped into 112 distinct issues.",
+    "Top list ratings: High 3, Elevated 7 (10 threats, 0 watch items).",
+    "Perspective mix: Social 8, Cultural 6, Technical 5.",
+    "Rising topics versus recent days: hack*, cost of living, unrest, privacy, humanitarian, conspiracy, poverty.",
     "Most widely reported: \"Killer robots: U.N. talks fall short of hopes for legally binding rules\" (2 sources)."
   ],
   "rising_terms": [
     "hack*",
     "cost of living",
     "unrest",
+    "privacy",
     "humanitarian",
     "conspiracy",
-    "poverty",
-    "pandemic",
-    "privacy"
+    "poverty"
   ],
   "feed_status": {
-    "BBC World": "ok (24 items)",
+    "BBC World": "ok (25 items)",
     "BBC Technology": "ok (21 items)",
     "The Guardian World": "ok (45 items)",
     "NPR World": "ok (10 items)",
     "Fox News World": "ok (25 items)",
     "WSJ World": "ok (20 items)",
     "Al Jazeera": "ok (25 items)",
-    "DW (Germany)": "ok (136 items)",
+    "DW (Germany)": "ok (138 items)",
     "France 24": "ok (24 items)",
     "UN News": "ok (30 items)",
     "Ars Technica": "ok (20 items)",
@@ -116,30 +115,6 @@
     },
     {
       "rank": 4,
-      "title": "Syria's Christian leaders warn of 'grave' threat to community's future amid wave of attacks",
-      "score": 7.0,
-      "rating": "High",
-      "type": "Threat",
-      "perspectives": [
-        "Cultural",
-        "Social"
-      ],
-      "sources": [
-        "Fox News World"
-      ],
-      "latest_utc": "2026-11-19T15:55:51+00:00",
-      "rationale": "Reported by 1 source (Fox News World); perspectives: Cultural (religio); Social (violence); severity wording: attack, threat, escalat, concern.",
-      "finding": "Syria's top Christian leaders warn that escalating attacks, kidnappings and violence threaten their community's future, as the State Department voices concern over religious persecution.",
-      "links": [
-        {
-          "source": "Fox News World",
-          "title": "Syria's Christian leaders warn of 'grave' threat to community's future amid wave of attacks",
-          "url": "https://www.foxnews.com/world/syrias-christian-leaders-warn-grave-threat-communitys-future-amid-wave-attacks"
-        }
-      ]
-    },
-    {
-      "rank": 5,
       "title": "Indian man sentenced to 19 years in prison for conspiring to kill Sikh separatist in New York",
       "score": 6.5,
       "rating": "Elevated",
@@ -162,7 +137,7 @@
       ]
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Germany's religious freedom report: Authoritarian regimes, holy wars, and spies abroad",
       "score": 6.0,
       "rating": "Elevated",
@@ -187,7 +162,7 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Germany news: Support for Ukraine military aid waning, survey shows",
       "score": 6.0,
       "rating": "Elevated",
@@ -211,7 +186,7 @@
       ]
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Teenager allegedly organised arsons and kidnapping on Signal during Melbourne hospitality wars",
       "score": 6.0,
       "rating": "Elevated",
@@ -235,7 +210,7 @@
       ]
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "At COP31, conflict over climate science slows action on global warming",
       "score": 6.0,
       "rating": "Elevated",
@@ -259,26 +234,48 @@
       ]
     },
     {
-      "rank": 10,
-      "title": "AI boom threatens circuit board crunch to rival pandemic-era chip shortage",
-      "score": 6.0,
+      "rank": 9,
+      "title": "Russia strikes Zelenskyy's hometown, killing 2",
+      "score": 5.5,
       "rating": "Elevated",
-      "type": "Watch",
+      "type": "Threat",
       "perspectives": [
-        "Social",
-        "Technical"
+        "Social"
       ],
       "sources": [
-        "The Register"
+        "DW (Germany)"
       ],
-      "latest_utc": "2026-11-20T16:01:00+00:00",
-      "rationale": "Reported by 1 source (The Register); perspectives: Social (pandemic); Technical (ai, chip); severity wording: shortage; rising versus recent days: pandemic.",
-      "finding": "Trade body warns automotive, medical, and defense orders are being crowded out, with relief unlikely before mid-2028",
+      "latest_utc": "2026-11-21T14:44:00+00:00",
+      "rationale": "Reported by 1 source (DW (Germany)); perspectives: Social (strike); severity wording: kill, attack.",
+      "finding": "The attacks follow Russian President Vladimir Putin's vow of a \"painful\" response to Ukraine's attacks this week on the Kerch Bridge, linking Russian-occupied Crimea.",
       "links": [
         {
-          "source": "The Register",
-          "title": "AI boom threatens circuit board crunch to rival pandemic-era chip shortage",
-          "url": "https://www.theregister.com/systems/2026/11/20/ai-boom-threatens-circuit-board-crunch-to-rival-pandemic-era-chip-shortage/5311335"
+          "source": "DW (Germany)",
+          "title": "Russia strikes Zelenskyy's hometown, killing 2",
+          "url": "https://www.dw.com/en/russia-strikes-zelenskyy-s-hometown-killing-2/a-80009458?maca=en-rss-en-all-1573-rdf"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "Jerusalem Daily: Gaza faces deadly strikes and health crisis",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "Al Jazeera"
+      ],
+      "latest_utc": "2026-11-21T14:06:06+00:00",
+      "rationale": "Reported by 1 source (Al Jazeera); perspectives: Social (strike); severity wording: deadly, crisis.",
+      "finding": "Headline only - open the source for detail.",
+      "links": [
+        {
+          "source": "Al Jazeera",
+          "title": "Jerusalem Daily: Gaza faces deadly strikes and health crisis",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/jerusalem-daily-gaza-faces-deadly-strikes-and-health-crisis?traffic_source=rss"
         }
       ]
     }
@@ -288,7 +285,7 @@
     "summary": [
       "Found 16 advancement stories from 12 of 12 technology sources, grouped into 16 distinct developments.",
       "Top list ratings: Major 1, Notable 7, Emerging 2; stages: Research 4, Launch 3, Development 3.",
-      "Field mix: AI & Computing 6, Space 3, Chips & Hardware 2, Health & Biotech 2, Materials & Science 2, Connectivity 1, Robotics & Mobility 1, Energy & Climate 1.",
+      "Field mix: AI & Computing 7, Chips & Hardware 2, Health & Biotech 2, Materials & Science 2, Space 2, Connectivity 1, Robotics & Mobility 1, Energy & Climate 1.",
       "Rising topics versus recent days: artificial intelligence."
     ],
     "rising_terms": [
@@ -360,24 +357,24 @@
       },
       {
         "rank": 3,
-        "title": "NASA’s Voyager 1 is now so far away that light takes 24 hours to reach it",
+        "title": "AI may not work like the human brain after all, scientists discover",
         "score": 6.0,
         "rating": "Notable",
-        "stage": "Launch",
+        "stage": "Research",
         "fields": [
-          "Space"
+          "AI & Computing"
         ],
         "sources": [
           "ScienceDaily Technology"
         ],
-        "latest_utc": "2026-11-21T02:24:22+00:00",
-        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Space (nasa, spacecraft); progress signals: first, launch, milestone; stage: Launch.",
-        "finding": "NASA’s Voyager 1 has reached an extraordinary milestone, traveling 16.1 billion miles from Earth to become the first spacecraft so distant that its signals take a full day to reach us. Nearly 50 years after launch, the aging probe continues its historic journey through interstellar space, pushing the limits of human...",
+        "latest_utc": "2026-11-21T15:24:58+00:00",
+        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: AI & Computing (ai, artificial intelligence); progress signals: discover, new; stage: Research; rising versus recent days: artificial intelligence.",
+        "finding": "AI may not think like the human brain after all, according to a striking new discovery that challenges how scientists understand artificial intelligence. Researchers found that even AI models that closely predict brain activity may rely on internal processes the brain doesn't use, raising important questions about...",
         "links": [
           {
             "source": "ScienceDaily Technology",
-            "title": "NASA’s Voyager 1 is now so far away that light takes 24 hours to reach it",
-            "url": "https://www.sciencedaily.com/releases/2026/11/261120075554.htm"
+            "title": "AI may not work like the human brain after all, scientists discover",
+            "url": "https://www.sciencedaily.com/releases/2026/11/261120075701.htm"
           }
         ]
       },
@@ -432,6 +429,29 @@
       },
       {
         "rank": 6,
+        "title": "NASA’s Voyager 1 is now so far away that light takes 24 hours to reach it",
+        "score": 6.0,
+        "rating": "Notable",
+        "stage": "Launch",
+        "fields": [
+          "Space"
+        ],
+        "sources": [
+          "ScienceDaily Technology"
+        ],
+        "latest_utc": "2026-11-20T12:55:54+00:00",
+        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Space (nasa, spacecraft); progress signals: first, launch, milestone; stage: Launch.",
+        "finding": "NASA’s Voyager 1 has reached an extraordinary milestone, traveling 16.1 billion miles from Earth to become the first spacecraft so distant that its signals take a full day to reach us. Nearly 50 years after launch, the aging probe continues its historic journey through interstellar space, pushing the limits of human...",
+        "links": [
+          {
+            "source": "ScienceDaily Technology",
+            "title": "NASA’s Voyager 1 is now so far away that light takes 24 hours to reach it",
+            "url": "https://www.sciencedaily.com/releases/2026/11/261120075554.htm"
+          }
+        ]
+      },
+      {
+        "rank": 7,
         "title": "CERN scientists finally find evidence of a particle decay so rare it took 40 years to detect",
         "score": 6.0,
         "rating": "Notable",
@@ -454,7 +474,7 @@
         ]
       },
       {
-        "rank": 7,
+        "rank": 8,
         "title": "Anthropic soars in record Wall Street debut",
         "score": 6.0,
         "rating": "Notable",
@@ -473,29 +493,6 @@
             "source": "Phys.org Technology",
             "title": "Anthropic soars in record Wall Street debut",
             "url": "https://techxplore.com/news/2026-11-anthropic-soars-wall-street-debut-1.html"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
-        "score": 6.0,
-        "rating": "Notable",
-        "stage": "Research",
-        "fields": [
-          "Space"
-        ],
-        "sources": [
-          "NASA News"
-        ],
-        "latest_utc": "2026-11-19T15:33:55+00:00",
-        "rationale": "Reported by 1 source (NASA News); fields: Space (nasa); progress signals: discover, develop, faster, new; stage: Research.",
-        "finding": "Open data from NASA’s Fermi mission helped an international team of scientists develop a method for finding pulsars about a million times faster than before.",
-        "links": [
-          {
-            "source": "NASA News",
-            "title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
-            "url": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/"
           }
         ]
       },
