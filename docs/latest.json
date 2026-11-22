@@ -1,20 +1,19 @@
 {
   "version": "2.1.0",
-  "generated_utc": "2026-11-22T14:31:50.111473+00:00",
+  "generated_utc": "2026-11-22T16:39:16.207105+00:00",
   "method": "Scores (0-10) combine perspective breadth, severity wording, cross-source corroboration and momentum. They measure attention and concern in public reporting - not probability, not a forecast. Read the sources before acting.",
   "summary": [
-    "Scanned 468 items from 13 of 13 sources; 86 matched a perspective and were grouped into 83 distinct issues.",
+    "Scanned 469 items from 13 of 13 sources; 87 matched a perspective and were grouped into 83 distinct issues.",
     "Top list ratings: High 2, Elevated 8 (10 threats, 0 watch items).",
     "Perspective mix: Social 9, Technical 4, Cultural 3.",
-    "Rising topics versus recent days: cost of living, inequality.",
+    "Rising topics versus recent days: cost of living.",
     "Most widely reported: \"Killer robots: U.N. talks fall short of hopes for legally binding rules\" (2 sources)."
   ],
   "rising_terms": [
-    "cost of living",
-    "inequality"
+    "cost of living"
   ],
   "feed_status": {
-    "BBC World": "ok (28 items)",
+    "BBC World": "ok (29 items)",
     "BBC Technology": "ok (21 items)",
     "The Guardian World": "ok (45 items)",
     "NPR World": "ok (10 items)",
@@ -204,7 +203,7 @@
     },
     {
       "rank": 8,
-      "title": "Live: Ukrainian rescuers search for survivors in residential building rubble after Russian attack",
+      "title": "Live: Ukrainian rescuers search for survivors in rubble after Russian attack",
       "score": 5.5,
       "rating": "Elevated",
       "type": "Threat",
@@ -220,7 +219,7 @@
       "links": [
         {
           "source": "France 24",
-          "title": "Live: Ukrainian rescuers search for survivors in residential building rubble after Russian attack",
+          "title": "Live: Ukrainian rescuers search for survivors in rubble after Russian attack",
           "url": "https://www.france24.com/en/europe/20261122-live-finland-says-war-spilling-over-after-baltic-sea-drone-strike-on-russian-cargo-ship"
         }
       ]
@@ -275,9 +274,9 @@
   "advancements": {
     "method": "Scores (0-10) combine the technology field, progress wording (breakthrough, unveils, first, approved...), cross-source corroboration and momentum. They show how strongly a development is being reported - not its proven impact or commercial success.",
     "summary": [
-      "Found 10 advancement stories from 12 of 12 technology sources, grouped into 10 distinct developments.",
-      "Top list ratings: Notable 1, Emerging 9; stages: Development 6, Research 4.",
-      "Field mix: AI & Computing 6, Space 2, Chips & Hardware 2, Health & Biotech 1, Energy & Climate 1, Robotics & Mobility 1.",
+      "Found 9 advancement stories from 12 of 12 technology sources, grouped into 9 distinct developments.",
+      "Top list ratings: Notable 1, Emerging 8; stages: Development 5, Research 3, Launch 1.",
+      "Field mix: AI & Computing 5, Energy & Climate 2, Space 2, Chips & Hardware 2, Health & Biotech 1, Materials & Science 1.",
       "No topics rising sharply versus recent days."
     ],
     "rising_terms": [],
@@ -368,6 +367,30 @@
       },
       {
         "rank": 4,
+        "title": "Anode-free sodium batteries last longer thanks to an electrolyte that forms its own shield",
+        "score": 4.5,
+        "rating": "Emerging",
+        "stage": "Launch",
+        "fields": [
+          "Energy & Climate",
+          "Materials & Science"
+        ],
+        "sources": [
+          "Phys.org Technology"
+        ],
+        "latest_utc": "2026-11-22T16:20:01+00:00",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: Energy & Climate (batteries); Materials & Science (material); progress signals: release; stage: Launch.",
+        "finding": "Sodium batteries, which store and release electrical energy by moving sodium ions between their two electrodes, could be a more affordable alternative to lithium-based batteries. This is because sodium is highly abundant on Earth and can be sourced from widely available raw materials.",
+        "links": [
+          {
+            "source": "Phys.org Technology",
+            "title": "Anode-free sodium batteries last longer thanks to an electrolyte that forms its own shield",
+            "url": "https://techxplore.com/news/2026-11-anode-free-sodium-batteries-longer.html"
+          }
+        ]
+      },
+      {
+        "rank": 5,
         "title": "After 8 years in space, a groundbreaking X-ray telescope finally opens its eyes",
         "score": 4.5,
         "rating": "Emerging",
@@ -391,7 +414,7 @@
         ]
       },
       {
-        "rank": 5,
+        "rank": 6,
         "title": "From 'seeing' to 'recognizing': Intelligent ultraviolet image sensor developed with reduced afterimages",
         "score": 4.5,
         "rating": "Emerging",
@@ -415,7 +438,7 @@
         ]
       },
       {
-        "rank": 6,
+        "rank": 7,
         "title": "Your questions about Apple HomeView’s audio, answered",
         "score": 4.0,
         "rating": "Emerging",
@@ -434,29 +457,6 @@
             "source": "The Verge",
             "title": "Your questions about Apple HomeView’s audio, answered",
             "url": "https://www.theverge.com/tech/1038713/apple-homeview-audio-smart-speaker-spotify-airplay"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "title": "Can Anthropic afford to put safety first?",
-        "score": 4.0,
-        "rating": "Emerging",
-        "stage": "Research",
-        "fields": [
-          "AI & Computing"
-        ],
-        "sources": [
-          "The Verge"
-        ],
-        "latest_utc": "2026-11-21T15:00:00+00:00",
-        "rationale": "Reported by 1 source (The Verge); fields: AI & Computing (ai); progress signals: first; stage: Research.",
-        "finding": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to...",
-        "links": [
-          {
-            "source": "The Verge",
-            "title": "Can Anthropic afford to put safety first?",
-            "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure"
           }
         ]
       },
@@ -503,29 +503,6 @@
             "source": "NASA News",
             "title": "New NASA Seed Funding Primes Small Businesses for Innovation",
             "url": "https://www.nasa.gov/directorates/rtmd/new-nasa-seed-funding-primes-small-businesses-for-innovation/"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "title": "Outdoor 3D tracking technology uses a drone's flight path as a 'moving ruler'",
-        "score": 4.0,
-        "rating": "Emerging",
-        "stage": "Development",
-        "fields": [
-          "Robotics & Mobility"
-        ],
-        "sources": [
-          "Phys.org Technology"
-        ],
-        "latest_utc": "2026-11-20T16:00:28+00:00",
-        "rationale": "Reported by 1 source (Phys.org Technology); fields: Robotics & Mobility (drone); progress signals: record; stage: Development.",
-        "finding": "The secret behind the lifelike movements of the characters in the film \"Avatar\" was motion capture, a technology that records movement in three dimensions by attaching markers to actors' bodies and filming them with multiple cameras inside a studio. However, bringing such precise measurement into wide outdoor spaces...",
-        "links": [
-          {
-            "source": "Phys.org Technology",
-            "title": "Outdoor 3D tracking technology uses a drone's flight path as a 'moving ruler'",
-            "url": "https://techxplore.com/news/2026-11-outdoor-3d-tracking-technology-drone.html"
           }
         ]
       }
