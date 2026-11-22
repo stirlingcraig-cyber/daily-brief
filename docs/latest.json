@@ -1,32 +1,27 @@
 {
   "version": "2.1.0",
-  "generated_utc": "2026-11-21T16:23:46.520961+00:00",
+  "generated_utc": "2026-11-22T14:31:50.111473+00:00",
   "method": "Scores (0-10) combine perspective breadth, severity wording, cross-source corroboration and momentum. They measure attention and concern in public reporting - not probability, not a forecast. Read the sources before acting.",
   "summary": [
-    "Scanned 463 items from 13 of 13 sources; 115 matched a perspective and were grouped into 112 distinct issues.",
-    "Top list ratings: High 3, Elevated 7 (10 threats, 0 watch items).",
-    "Perspective mix: Social 8, Cultural 6, Technical 5.",
-    "Rising topics versus recent days: hack*, cost of living, unrest, privacy, humanitarian, conspiracy, poverty.",
+    "Scanned 468 items from 13 of 13 sources; 86 matched a perspective and were grouped into 83 distinct issues.",
+    "Top list ratings: High 2, Elevated 8 (10 threats, 0 watch items).",
+    "Perspective mix: Social 9, Technical 4, Cultural 3.",
+    "Rising topics versus recent days: cost of living, inequality.",
     "Most widely reported: \"Killer robots: U.N. talks fall short of hopes for legally binding rules\" (2 sources)."
   ],
   "rising_terms": [
-    "hack*",
     "cost of living",
-    "unrest",
-    "privacy",
-    "humanitarian",
-    "conspiracy",
-    "poverty"
+    "inequality"
   ],
   "feed_status": {
-    "BBC World": "ok (25 items)",
+    "BBC World": "ok (28 items)",
     "BBC Technology": "ok (21 items)",
     "The Guardian World": "ok (45 items)",
     "NPR World": "ok (10 items)",
     "Fox News World": "ok (25 items)",
     "WSJ World": "ok (20 items)",
     "Al Jazeera": "ok (25 items)",
-    "DW (Germany)": "ok (138 items)",
+    "DW (Germany)": "ok (140 items)",
     "France 24": "ok (24 items)",
     "UN News": "ok (30 items)",
     "Ars Technica": "ok (20 items)",
@@ -37,7 +32,7 @@
     {
       "rank": 1,
       "title": "Killer robots: U.N. talks fall short of hopes for legally binding rules",
-      "score": 9.0,
+      "score": 8.0,
       "rating": "High",
       "type": "Threat",
       "perspectives": [
@@ -49,7 +44,7 @@
         "NPR World"
       ],
       "latest_utc": "2026-11-21T14:18:17+00:00",
-      "rationale": "Reported by 2 sources (DW (Germany), NPR World); perspectives: Social (humanitarian); Technical (ai, robot); severity wording: kill, ban; rising versus recent days: humanitarian.",
+      "rationale": "Reported by 2 sources (DW (Germany), NPR World); perspectives: Social (humanitarian); Technical (ai, robot); severity wording: kill, ban.",
       "finding": "U.N. talks in Geneva have failed to deliver binding rules on autonomous weapons, as humanitarian groups warn that military AI is advancing far faster than diplomacy.",
       "links": [
         {
@@ -66,78 +61,54 @@
     },
     {
       "rank": 2,
-      "title": "USDA, FBI breached by hackers amid spate of tech outages – reports",
-      "score": 8.0,
+      "title": "Experts say ‘trusted messengers’ critical as Amish grapple with measles outbreak",
+      "score": 7.0,
       "rating": "High",
       "type": "Threat",
       "perspectives": [
         "Cultural",
+        "Social"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-22T14:00:33+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (trust); Social (outbreak, public health); severity wording: critical, crisis.",
+      "finding": "Unfolding crisis shows importance of ‘human connections’ over the long term – especially in under-vaccinated areas Tristan Sharratt, a family nurse practitioner and public health researcher, began serving an Amish community in central New York almost inadvertently. A friend told an Amish neighbor that Sharratt was...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "Experts say ‘trusted messengers’ critical as Amish grapple with measles outbreak",
+          "url": "https://www.theguardian.com/us-news/2026/nov/22/measles-amish-outbreak"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "‘Serious error of judgment’: outrage over military AI event at Berlin arts complex",
+      "score": 6.0,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
         "Social",
         "Technical"
       ],
       "sources": [
         "The Guardian World"
       ],
-      "latest_utc": "2026-11-21T14:09:02+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (media); Social (crime); Technical (hack, outage); severity wording: breach, outage, concern; rising versus recent days: hack*.",
-      "finding": "Latest intrusions targeted farmer-payment system at the USDA and the FBI’s National Crime Information Center Hackers breached the US Department of Agriculture (USDA) and the FBI , national media reported on Friday, amid deepening concerns over a spate of tech outages at key American institutions. The breaches were...",
+      "latest_utc": "2026-11-22T06:00:21+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (war); Technical (ai); severity wording: war.",
+      "finding": "Kraftwerk Berlin, part of same development as techno club Tresor, transformed into ‘war room’ for arms firm event With their cavernous post-industrial venues, teeth-grinding four-by-four beats and bouncers that look like Blade Runner extras, Berlin’s nightclubs trade on a reputation for bleakness. A recent event at...",
       "links": [
         {
           "source": "The Guardian World",
-          "title": "USDA, FBI breached by hackers amid spate of tech outages – reports",
-          "url": "https://www.theguardian.com/us-news/2026/nov/21/usda-fbi-outages-cyber-attack"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "title": "US Agriculture Department and FBI hit by cyberattacks, media report",
-      "score": 8.0,
-      "rating": "High",
-      "type": "Threat",
-      "perspectives": [
-        "Cultural",
-        "Technical"
-      ],
-      "sources": [
-        "France 24"
-      ],
-      "latest_utc": "2026-11-21T07:01:04+00:00",
-      "rationale": "Reported by 1 source (France 24); perspectives: Cultural (media); Technical (cyber, hack); severity wording: breach, disruption; rising versus recent days: hack*.",
-      "finding": "Hackers breached systerms at the US Agriculture Department and the FBI, US media reported, amid a recent wave of major technology disruptions across the country.",
-      "links": [
-        {
-          "source": "France 24",
-          "title": "US Agriculture Department and FBI hit by cyberattacks, media report",
-          "url": "https://www.france24.com/en/americas/20261121-us-agriculture-department-fbi-hit-by-cyberattacks-media-report"
+          "title": "‘Serious error of judgment’: outrage over military AI event at Berlin arts complex",
+          "url": "https://www.theguardian.com/world/2026/nov/22/military-ai-event-berlin-kraftwerk-arts-complex"
         }
       ]
     },
     {
       "rank": 4,
-      "title": "Indian man sentenced to 19 years in prison for conspiring to kill Sikh separatist in New York",
-      "score": 6.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Cultural"
-      ],
-      "sources": [
-        "The Guardian World"
-      ],
-      "latest_utc": "2026-11-20T18:24:12+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (conspiracy); severity wording: kill; rising versus recent days: conspiracy.",
-      "finding": "Nikhil Gupta admitted to plotting with Indian government official to hire hitman to murder dual US-Canadian citizen An Indian ⁠man was sentenced to more ⁠than 19 ​years in US prison on Friday after admitting to orchestrating a failed Indian government-backed plot to kill a Sikh separatist in New York ⁠City , in...",
-      "links": [
-        {
-          "source": "The Guardian World",
-          "title": "Indian man sentenced to 19 years in prison for conspiring to kill Sikh separatist in New York",
-          "url": "https://www.theguardian.com/us-news/2026/nov/20/indian-man-sentenced-prison-murder-plot-sikh-separatist"
-        }
-      ]
-    },
-    {
-      "rank": 5,
       "title": "Germany's religious freedom report: Authoritarian regimes, holy wars, and spies abroad",
       "score": 6.0,
       "rating": "Elevated",
@@ -162,56 +133,8 @@
       ]
     },
     {
-      "rank": 6,
-      "title": "Germany news: Support for Ukraine military aid waning, survey shows",
-      "score": 6.0,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social",
-        "Technical"
-      ],
-      "sources": [
-        "DW (Germany)"
-      ],
-      "latest_utc": "2026-11-21T10:10:00+00:00",
-      "rationale": "Reported by 1 source (DW (Germany)); perspectives: Social (war); Technical (ai); severity wording: war.",
-      "finding": "Nearly half of Germany's population wants to reduce military aid to Ukraine, a survey has found. Meanwhile, German consumers are set to pay more in energy bills next year due in part to the Iran war. DW has more.",
-      "links": [
-        {
-          "source": "DW (Germany)",
-          "title": "Germany news: Support for Ukraine military aid waning, survey shows",
-          "url": "https://www.dw.com/en/germany-news-support-for-ukraine-military-aid-waning-survey-shows/live-80008430?maca=en-rss-en-all-1573-rdf"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "title": "Teenager allegedly organised arsons and kidnapping on Signal during Melbourne hospitality wars",
-      "score": 6.0,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Cultural",
-        "Social"
-      ],
-      "sources": [
-        "The Guardian World"
-      ],
-      "latest_utc": "2026-11-21T04:44:00+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (identity); Social (war); severity wording: war.",
-      "finding": "Victoria police say boy, 17, communicated with offenders under username ‘Onepercent’ Get our breaking news email , free app or daily news podcast Victorian police allege a 17-year-old boy tasked others to carry out a series of arsons, home invasions and a mistaken identity kidnapping that resulted in the partial...",
-      "links": [
-        {
-          "source": "The Guardian World",
-          "title": "Teenager allegedly organised arsons and kidnapping on Signal during Melbourne hospitality wars",
-          "url": "https://www.theguardian.com/australia-news/2026/nov/21/teenager-allegedly-organised-arsons-and-kidnapping-on-signal-during-melbourne-hospitality-wars-ntwnfb"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "title": "At COP31, conflict over climate science slows action on global warming",
+      "rank": 5,
+      "title": "COP31: No agreement on climate science, disinformation spreading",
       "score": 6.0,
       "rating": "Elevated",
       "type": "Threat",
@@ -223,18 +146,110 @@
         "DW (Germany)"
       ],
       "latest_utc": "2026-11-20T20:34:00+00:00",
-      "rationale": "Reported by 1 source (DW (Germany)); perspectives: Cultural (disinformation); Social (climate, conflict); severity wording: attack.",
+      "rationale": "Reported by 1 source (DW (Germany)); perspectives: Cultural (disinformation); Social (climate); severity wording: attack.",
       "finding": "Attacks on climate science and disinformation risk delaying key measures at COP31 in Antalya. As the UN climate talks draw to a close, how will that affect efforts to come to an agreement?",
       "links": [
         {
           "source": "DW (Germany)",
-          "title": "At COP31, conflict over climate science slows action on global warming",
-          "url": "https://www.dw.com/en/at-cop31-conflict-over-climate-science-slows-action-on-global-warming/a-80004894?maca=en-rss-en-all-1573-rdf"
+          "title": "COP31: No agreement on climate science, disinformation spreading",
+          "url": "https://www.dw.com/en/cop31-no-agreement-on-climate-science-disinformation-spreading/a-80004894?maca=en-rss-en-all-1573-rdf"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "Israel investigates West Bank fires",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "France 24"
+      ],
+      "latest_utc": "2026-11-22T13:47:04+00:00",
+      "rationale": "Reported by 1 source (France 24); perspectives: Social (outbreak, violence, war); severity wording: kill, attack, war, sanction.",
+      "finding": "Israeli authorities have opened an investigation after Palestinian vehicles and properties were vandalised and set on fire in four villages in the occupied West Bank, in attacks local activists say were carried out by Israeli settlers. Around eight vehicles were reportedly torched and racist slogans sprayed on walls...",
+      "links": [
+        {
+          "source": "France 24",
+          "title": "Israel investigates West Bank fires",
+          "url": "https://www.france24.com/en/israel-investigates-west-bank-fires"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "Why have UN efforts to regulate ‘killer robots’ stalled?",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Technical"
+      ],
+      "sources": [
+        "Al Jazeera"
+      ],
+      "latest_utc": "2026-11-22T11:44:50+00:00",
+      "rationale": "Reported by 1 source (Al Jazeera); perspectives: Technical (robot); severity wording: kill.",
+      "finding": "CWC countries agree to 'elaborate' on potential accord regulating autonomous weapons in two years, prompting criticism.",
+      "links": [
+        {
+          "source": "Al Jazeera",
+          "title": "Why have UN efforts to regulate ‘killer robots’ stalled?",
+          "url": "https://www.aljazeera.com/news/2026/11/22/why-have-un-efforts-to-regulate-killer-robots-stalled?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "Live: Ukrainian rescuers search for survivors in residential building rubble after Russian attack",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "France 24"
+      ],
+      "latest_utc": "2026-11-22T06:15:38+00:00",
+      "rationale": "Reported by 1 source (France 24); perspectives: Social (strike, war); severity wording: kill, attack, war, collapse.",
+      "finding": "Ukrainian rescue teams on Sunday searched for survivors in the rubble of a collapsed residential building in Dymer, in the Kyiv region, after a Russian drone strike, which killed two people and wounded four others. Meanwhile, Finland warned the war was \"spilling over\" after a drone set fire to a Russian cargo ship in...",
+      "links": [
+        {
+          "source": "France 24",
+          "title": "Live: Ukrainian rescuers search for survivors in residential building rubble after Russian attack",
+          "url": "https://www.france24.com/en/europe/20261122-live-finland-says-war-spilling-over-after-baltic-sea-drone-strike-on-russian-cargo-ship"
         }
       ]
     },
     {
       "rank": 9,
+      "title": "Zelenskyy says Russia strikes hometown, criticizes Putin-Trump meeting",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "Fox News World"
+      ],
+      "latest_utc": "2026-11-21T19:25:55+00:00",
+      "rationale": "Reported by 1 source (Fox News World); perspectives: Social (strike); severity wording: kill.",
+      "finding": "Zelenskyy says a Russian strike on his hometown of Kryvyi Rih killed two people, including 7-year-old Tykhon, and wounded 58 others in a civilian area.",
+      "links": [
+        {
+          "source": "Fox News World",
+          "title": "Zelenskyy says Russia strikes hometown, criticizes Putin-Trump meeting",
+          "url": "https://www.foxnews.com/world/zelenskyy-says-russia-strikes-hometown-criticizes-putin-trump-meeting"
+        }
+      ]
+    },
+    {
+      "rank": 10,
       "title": "Russia strikes Zelenskyy's hometown, killing 2",
       "score": 5.5,
       "rating": "Elevated",
@@ -255,42 +270,17 @@
           "url": "https://www.dw.com/en/russia-strikes-zelenskyy-s-hometown-killing-2/a-80009458?maca=en-rss-en-all-1573-rdf"
         }
       ]
-    },
-    {
-      "rank": 10,
-      "title": "Jerusalem Daily: Gaza faces deadly strikes and health crisis",
-      "score": 5.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social"
-      ],
-      "sources": [
-        "Al Jazeera"
-      ],
-      "latest_utc": "2026-11-21T14:06:06+00:00",
-      "rationale": "Reported by 1 source (Al Jazeera); perspectives: Social (strike); severity wording: deadly, crisis.",
-      "finding": "Headline only - open the source for detail.",
-      "links": [
-        {
-          "source": "Al Jazeera",
-          "title": "Jerusalem Daily: Gaza faces deadly strikes and health crisis",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/jerusalem-daily-gaza-faces-deadly-strikes-and-health-crisis?traffic_source=rss"
-        }
-      ]
     }
   ],
   "advancements": {
     "method": "Scores (0-10) combine the technology field, progress wording (breakthrough, unveils, first, approved...), cross-source corroboration and momentum. They show how strongly a development is being reported - not its proven impact or commercial success.",
     "summary": [
-      "Found 16 advancement stories from 12 of 12 technology sources, grouped into 16 distinct developments.",
-      "Top list ratings: Major 1, Notable 7, Emerging 2; stages: Research 4, Launch 3, Development 3.",
-      "Field mix: AI & Computing 7, Chips & Hardware 2, Health & Biotech 2, Materials & Science 2, Space 2, Connectivity 1, Robotics & Mobility 1, Energy & Climate 1.",
-      "Rising topics versus recent days: artificial intelligence."
+      "Found 10 advancement stories from 12 of 12 technology sources, grouped into 10 distinct developments.",
+      "Top list ratings: Notable 1, Emerging 9; stages: Development 6, Research 4.",
+      "Field mix: AI & Computing 6, Space 2, Chips & Hardware 2, Health & Biotech 1, Energy & Climate 1, Robotics & Mobility 1.",
+      "No topics rising sharply versus recent days."
     ],
-    "rising_terms": [
-      "artificial intelligence"
-    ],
+    "rising_terms": [],
     "feed_status": {
       "MIT Technology Review": "ok (10 items)",
       "IEEE Spectrum": "ok (30 items)",
@@ -308,33 +298,8 @@
     "items": [
       {
         "rank": 1,
-        "title": "Community-Focused Academic Brings AI Tools to Colorado Farmers",
-        "score": 8.0,
-        "rating": "Major",
-        "stage": "Launch",
-        "fields": [
-          "AI & Computing",
-          "Chips & Hardware",
-          "Connectivity"
-        ],
-        "sources": [
-          "IEEE Spectrum"
-        ],
-        "latest_utc": "2026-11-19T19:00:02+00:00",
-        "rationale": "Reported by 1 source (IEEE Spectrum); fields: AI & Computing (ai, artificial intelligence, chatbot); Chips & Hardware (smartphone); Connectivity (network); progress signals: launch, invent, new, advance; stage: Launch; rising versus recent days: artificial intelligence.",
-        "finding": "Many farmers and ranchers in eastern Colorado are curious about artificial intelligence, but they don’t have a local tech-savvy person to show them how to use it. Xue “Alice” Dong has made that her job. Dong, an IEEE senior member, is an extension regional specialist with the Colorado State University Extension ...",
-        "links": [
-          {
-            "source": "IEEE Spectrum",
-            "title": "Community-Focused Academic Brings AI Tools to Colorado Farmers",
-            "url": "https://spectrum.ieee.org/ai-tools-for-rural-communities"
-          }
-        ]
-      },
-      {
-        "rank": 2,
         "title": "Noninvasive brain interface uses AI suggestions to convey messages nearly three times faster",
-        "score": 7.5,
+        "score": 6.5,
         "rating": "Notable",
         "stage": "Development",
         "fields": [
@@ -345,7 +310,7 @@
           "Phys.org Technology"
         ],
         "latest_utc": "2026-11-20T20:00:04+00:00",
-        "rationale": "Reported by 1 source (Phys.org Technology); fields: AI & Computing (ai, artificial intelligence); Health & Biotech (brain-computer); progress signals: record, develop, faster; stage: Development; rising versus recent days: artificial intelligence.",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: AI & Computing (ai, artificial intelligence); Health & Biotech (brain-computer); progress signals: record, develop, faster; stage: Development.",
         "finding": "Rutgers engineers have developed one of the fastest noninvasive brain-computer communication interfaces of its kind, leveraging artificial intelligence (AI) to translate brain activity into words and phrases at record-level speeds.",
         "links": [
           {
@@ -356,10 +321,10 @@
         ]
       },
       {
-        "rank": 3,
+        "rank": 2,
         "title": "AI may not work like the human brain after all, scientists discover",
-        "score": 6.0,
-        "rating": "Notable",
+        "score": 5.0,
+        "rating": "Emerging",
         "stage": "Research",
         "fields": [
           "AI & Computing"
@@ -368,7 +333,7 @@
           "ScienceDaily Technology"
         ],
         "latest_utc": "2026-11-21T15:24:58+00:00",
-        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: AI & Computing (ai, artificial intelligence); progress signals: discover, new; stage: Research; rising versus recent days: artificial intelligence.",
+        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: AI & Computing (ai, artificial intelligence); progress signals: discover, new; stage: Research.",
         "finding": "AI may not think like the human brain after all, according to a striking new discovery that challenges how scientists understand artificial intelligence. Researchers found that even AI models that closely predict brain activity may rely on internal processes the brain doesn't use, raising important questions about...",
         "links": [
           {
@@ -379,10 +344,10 @@
         ]
       },
       {
-        "rank": 4,
+        "rank": 3,
         "title": "Anthropic falls more than 9% day after record IPO",
-        "score": 6.0,
-        "rating": "Notable",
+        "score": 5.0,
+        "rating": "Emerging",
         "stage": "Development",
         "fields": [
           "AI & Computing"
@@ -391,7 +356,7 @@
           "Phys.org Technology"
         ],
         "latest_utc": "2026-11-20T18:40:11+00:00",
-        "rationale": "Reported by 1 source (Phys.org Technology); fields: AI & Computing (artificial intelligence); progress signals: record, announce; stage: Development; rising versus recent days: artificial intelligence.",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: AI & Computing (artificial intelligence); progress signals: record, announce; stage: Development.",
         "finding": "Shares in Anthropic fell 9.5% in early trading Friday as the artificial intelligence company announced it had pocketed about $91.6 billion from its record-breaking initial public offering.",
         "links": [
           {
@@ -402,126 +367,7 @@
         ]
       },
       {
-        "rank": 5,
-        "title": "Adaptive AI agent connects experimental planning with robotic control in wastewater treatment test",
-        "score": 6.0,
-        "rating": "Notable",
-        "stage": "Research",
-        "fields": [
-          "AI & Computing",
-          "Health & Biotech",
-          "Materials & Science",
-          "Robotics & Mobility"
-        ],
-        "sources": [
-          "Phys.org Technology"
-        ],
-        "latest_utc": "2026-11-20T13:00:08+00:00",
-        "rationale": "Reported by 1 source (Phys.org Technology); fields: AI & Computing (ai, artificial intelligence); Health & Biotech (drug, treatment); Materials & Science (material); Robotics & Mobility (robot); progress signals: discover; stage: Research; rising versus recent days: artificial intelligence.",
-        "finding": "Artificial intelligence systems are now widely used in research settings, primarily to analyze data, make predictions and discover promising materials, drugs or solutions. Most of the agents used for research are disembodied, which means that they are computer-based and require humans or separate automated systems to...",
-        "links": [
-          {
-            "source": "Phys.org Technology",
-            "title": "Adaptive AI agent connects experimental planning with robotic control in wastewater treatment test",
-            "url": "https://techxplore.com/news/2026-11-ai-agent-experimental-robotic-wastewater.html"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "title": "NASA’s Voyager 1 is now so far away that light takes 24 hours to reach it",
-        "score": 6.0,
-        "rating": "Notable",
-        "stage": "Launch",
-        "fields": [
-          "Space"
-        ],
-        "sources": [
-          "ScienceDaily Technology"
-        ],
-        "latest_utc": "2026-11-20T12:55:54+00:00",
-        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Space (nasa, spacecraft); progress signals: first, launch, milestone; stage: Launch.",
-        "finding": "NASA’s Voyager 1 has reached an extraordinary milestone, traveling 16.1 billion miles from Earth to become the first spacecraft so distant that its signals take a full day to reach us. Nearly 50 years after launch, the aging probe continues its historic journey through interstellar space, pushing the limits of human...",
-        "links": [
-          {
-            "source": "ScienceDaily Technology",
-            "title": "NASA’s Voyager 1 is now so far away that light takes 24 hours to reach it",
-            "url": "https://www.sciencedaily.com/releases/2026/11/261120075554.htm"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "title": "CERN scientists finally find evidence of a particle decay so rare it took 40 years to detect",
-        "score": 6.0,
-        "rating": "Notable",
-        "stage": "Research",
-        "fields": [
-          "Materials & Science"
-        ],
-        "sources": [
-          "ScienceDaily Technology"
-        ],
-        "latest_utc": "2026-11-20T12:23:23+00:00",
-        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Materials & Science (microscop, physicist); progress signals: breakthrough, first; stage: Research.",
-        "finding": "Scientists at CERN have found the first evidence of an incredibly rare particle decay after more than 40 years of searching, detecting a process expected to occur just once in every 10 billion beauty particles. The breakthrough could help physicists explore a mysterious microscopic realm where unknown particles and...",
-        "links": [
-          {
-            "source": "ScienceDaily Technology",
-            "title": "CERN scientists finally find evidence of a particle decay so rare it took 40 years to detect",
-            "url": "https://www.sciencedaily.com/releases/2026/11/261119194530.htm"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "title": "Anthropic soars in record Wall Street debut",
-        "score": 6.0,
-        "rating": "Notable",
-        "stage": "Launch",
-        "fields": [
-          "AI & Computing"
-        ],
-        "sources": [
-          "Phys.org Technology"
-        ],
-        "latest_utc": "2026-11-20T09:20:01+00:00",
-        "rationale": "Reported by 1 source (Phys.org Technology); fields: AI & Computing (ai); progress signals: record, debut; stage: Launch.",
-        "finding": "Anthropic shares closed 17% higher in their record Nasdaq debut on Thursday, defying a broad Wall Street sell-off as investors shrugged off the Nvidia spy scandal and fears of a tech bubble to back the AI giant.",
-        "links": [
-          {
-            "source": "Phys.org Technology",
-            "title": "Anthropic soars in record Wall Street debut",
-            "url": "https://techxplore.com/news/2026-11-anthropic-soars-wall-street-debut-1.html"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "title": "From 'seeing' to 'recognizing': Intelligent ultraviolet image sensor developed with reduced afterimages",
-        "score": 5.5,
-        "rating": "Emerging",
-        "stage": "Development",
-        "fields": [
-          "AI & Computing",
-          "Chips & Hardware"
-        ],
-        "sources": [
-          "Phys.org Technology"
-        ],
-        "latest_utc": "2026-11-20T18:00:08+00:00",
-        "rationale": "Reported by 1 source (Phys.org Technology); fields: AI & Computing (ai, artificial intelligence); Chips & Hardware (sensor); progress signals: develop, new; stage: Development; rising versus recent days: artificial intelligence.",
-        "finding": "A new image sensor technology has been developed that rapidly reduces \"afterimages\"—residual signals that remain in a sensor after light disappears—and uses artificial intelligence (AI) to recognize sequential ultraviolet images.",
-        "links": [
-          {
-            "source": "Phys.org Technology",
-            "title": "From 'seeing' to 'recognizing': Intelligent ultraviolet image sensor developed with reduced afterimages",
-            "url": "https://techxplore.com/news/2026-11-intelligent-ultraviolet-image-sensor-afterimages.html"
-          }
-        ]
-      },
-      {
-        "rank": 10,
+        "rank": 4,
         "title": "After 8 years in space, a groundbreaking X-ray telescope finally opens its eyes",
         "score": 4.5,
         "rating": "Emerging",
@@ -541,6 +387,145 @@
             "source": "ScienceDaily Technology",
             "title": "After 8 years in space, a groundbreaking X-ray telescope finally opens its eyes",
             "url": "https://www.sciencedaily.com/releases/2026/11/261120075547.htm"
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "title": "From 'seeing' to 'recognizing': Intelligent ultraviolet image sensor developed with reduced afterimages",
+        "score": 4.5,
+        "rating": "Emerging",
+        "stage": "Development",
+        "fields": [
+          "AI & Computing",
+          "Chips & Hardware"
+        ],
+        "sources": [
+          "Phys.org Technology"
+        ],
+        "latest_utc": "2026-11-20T18:00:08+00:00",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: AI & Computing (ai, artificial intelligence); Chips & Hardware (sensor); progress signals: develop, new; stage: Development.",
+        "finding": "A new image sensor technology has been developed that rapidly reduces \"afterimages\"—residual signals that remain in a sensor after light disappears—and uses artificial intelligence (AI) to recognize sequential ultraviolet images.",
+        "links": [
+          {
+            "source": "Phys.org Technology",
+            "title": "From 'seeing' to 'recognizing': Intelligent ultraviolet image sensor developed with reduced afterimages",
+            "url": "https://techxplore.com/news/2026-11-intelligent-ultraviolet-image-sensor-afterimages.html"
+          }
+        ]
+      },
+      {
+        "rank": 6,
+        "title": "Your questions about Apple HomeView’s audio, answered",
+        "score": 4.0,
+        "rating": "Emerging",
+        "stage": "Development",
+        "fields": [
+          "Chips & Hardware"
+        ],
+        "sources": [
+          "The Verge"
+        ],
+        "latest_utc": "2026-11-22T13:00:00+00:00",
+        "rationale": "Reported by 1 source (The Verge); fields: Chips & Hardware (display); progress signals: first; stage: Development.",
+        "finding": "After I published my review of the HomeView, Apple's first smart display, y'all still had a ton of questions about how it works as a smart speaker. So, I spent a bunch more time testing its audio capabilities and support for third-party music apps - and found a few more frustrations along the way. Here […]",
+        "links": [
+          {
+            "source": "The Verge",
+            "title": "Your questions about Apple HomeView’s audio, answered",
+            "url": "https://www.theverge.com/tech/1038713/apple-homeview-audio-smart-speaker-spotify-airplay"
+          }
+        ]
+      },
+      {
+        "rank": 7,
+        "title": "Can Anthropic afford to put safety first?",
+        "score": 4.0,
+        "rating": "Emerging",
+        "stage": "Research",
+        "fields": [
+          "AI & Computing"
+        ],
+        "sources": [
+          "The Verge"
+        ],
+        "latest_utc": "2026-11-21T15:00:00+00:00",
+        "rationale": "Reported by 1 source (The Verge); fields: AI & Computing (ai); progress signals: first; stage: Research.",
+        "finding": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to...",
+        "links": [
+          {
+            "source": "The Verge",
+            "title": "Can Anthropic afford to put safety first?",
+            "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure"
+          }
+        ]
+      },
+      {
+        "rank": 8,
+        "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+        "score": 4.0,
+        "rating": "Emerging",
+        "stage": "Development",
+        "fields": [
+          "AI & Computing"
+        ],
+        "sources": [
+          "Ars Technica"
+        ],
+        "latest_utc": "2026-11-20T21:47:10+00:00",
+        "rationale": "Reported by 1 source (Ars Technica); fields: AI & Computing (ai, data center); progress signals: record; stage: Development.",
+        "finding": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?",
+        "links": [
+          {
+            "source": "Ars Technica",
+            "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+            "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
+          }
+        ]
+      },
+      {
+        "rank": 9,
+        "title": "New NASA Seed Funding Primes Small Businesses for Innovation",
+        "score": 4.0,
+        "rating": "Emerging",
+        "stage": "Research",
+        "fields": [
+          "Space"
+        ],
+        "sources": [
+          "NASA News"
+        ],
+        "latest_utc": "2026-11-20T20:46:14+00:00",
+        "rationale": "Reported by 1 source (NASA News); fields: Space (mars, moon, nasa); progress signals: new, innovation; stage: Research.",
+        "finding": "Awards to small businesses around the country are addressing some of NASA’s most crucial technology needs for exploration of the Moon and Mars while fueling the U.S. space economy. NASA’s Small Business Innovation Research/Small Business Technology Transfer (SBIR/STTR) program recently selected 302 innovative...",
+        "links": [
+          {
+            "source": "NASA News",
+            "title": "New NASA Seed Funding Primes Small Businesses for Innovation",
+            "url": "https://www.nasa.gov/directorates/rtmd/new-nasa-seed-funding-primes-small-businesses-for-innovation/"
+          }
+        ]
+      },
+      {
+        "rank": 10,
+        "title": "Outdoor 3D tracking technology uses a drone's flight path as a 'moving ruler'",
+        "score": 4.0,
+        "rating": "Emerging",
+        "stage": "Development",
+        "fields": [
+          "Robotics & Mobility"
+        ],
+        "sources": [
+          "Phys.org Technology"
+        ],
+        "latest_utc": "2026-11-20T16:00:28+00:00",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: Robotics & Mobility (drone); progress signals: record; stage: Development.",
+        "finding": "The secret behind the lifelike movements of the characters in the film \"Avatar\" was motion capture, a technology that records movement in three dimensions by attaching markers to actors' bodies and filming them with multiple cameras inside a studio. However, bringing such precise measurement into wide outdoor spaces...",
+        "links": [
+          {
+            "source": "Phys.org Technology",
+            "title": "Outdoor 3D tracking technology uses a drone's flight path as a 'moving ruler'",
+            "url": "https://techxplore.com/news/2026-11-outdoor-3d-tracking-technology-drone.html"
           }
         ]
       }
