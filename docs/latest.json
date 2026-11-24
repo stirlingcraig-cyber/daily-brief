@@ -1,28 +1,31 @@
 {
   "version": "2.1.0",
-  "generated_utc": "2026-11-23T20:35:05.730310+00:00",
+  "generated_utc": "2026-11-24T17:38:51.687727+00:00",
   "method": "Scores (0-10) combine perspective breadth, severity wording, cross-source corroboration and momentum. They measure attention and concern in public reporting - not probability, not a forecast. Read the sources before acting.",
   "summary": [
-    "Scanned 471 items from 13 of 13 sources; 96 matched a perspective and were grouped into 90 distinct issues.",
-    "Top list ratings: High 3, Elevated 7 (10 threats, 0 watch items).",
-    "Perspective mix: Social 9, Technical 3, Cultural 1.",
-    "Rising topics versus recent days: strike, climate, public health.",
-    "Most widely reported: \"Why did COP31 climate talks collapse without a deal?\" (2 sources)."
+    "Scanned 470 items from 13 of 13 sources; 114 matched a perspective and were grouped into 111 distinct issues.",
+    "Top list ratings: High 9, Elevated 1 (10 threats, 0 watch items).",
+    "Perspective mix: Social 9, Technical 7, Cultural 5.",
+    "Rising topics versus recent days: war, satellite, software, conflict, housing, cultural.",
+    "Most widely reported: \"Israeli air strike kills Hamas internal security chief in Gaza\" (3 sources)."
   ],
   "rising_terms": [
-    "strike",
-    "climate",
-    "public health"
+    "war",
+    "satellite",
+    "software",
+    "conflict",
+    "housing",
+    "cultural"
   ],
   "feed_status": {
-    "BBC World": "ok (32 items)",
+    "BBC World": "ok (28 items)",
     "BBC Technology": "ok (21 items)",
     "The Guardian World": "ok (45 items)",
     "NPR World": "ok (10 items)",
     "Fox News World": "ok (25 items)",
     "WSJ World": "ok (20 items)",
     "Al Jazeera": "ok (25 items)",
-    "DW (Germany)": "ok (139 items)",
+    "DW (Germany)": "ok (142 items)",
     "France 24": "ok (24 items)",
     "UN News": "ok (30 items)",
     "Ars Technica": "ok (20 items)",
@@ -32,7 +35,32 @@
   "issues": [
     {
       "rank": 1,
-      "title": "EU sanctions package intended to ‘keep pressure’ on Russia and ‘strike harder’ at its ability to fund Ukraine war – as it happened",
+      "title": "Leaked data suggests 500,000 Russian soldiers killed since start of Ukraine invasion",
+      "score": 8.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Cultural",
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "France 24"
+      ],
+      "latest_utc": "2026-11-24T15:53:03+00:00",
+      "rationale": "Reported by 1 source (France 24); perspectives: Cultural (media); Social (war); Technical (cyber, hack); severity wording: kill, war; rising versus recent days: war.",
+      "finding": "More than 500,000 Russian soldiers have been killed in the war with Ukraine, according to an estimate by a number of media organisations. The figures are based on a huge dataset that was hacked from Russia’s state statistics agency Rosstat by Belarusian activist group Cyber Partisans and a Ukrainian hacker group...",
+      "links": [
+        {
+          "source": "France 24",
+          "title": "Leaked data suggests 500,000 Russian soldiers killed since start of Ukraine invasion",
+          "url": "https://www.france24.com/en/video/20261124-leaked-data-suggests-500-000-russian-soldiers-killed-since-start-of-ukraine-invasion"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "The Nvidia case is just the latest episode of Trump disregarding intelligence",
       "score": 8.0,
       "rating": "High",
       "type": "Threat",
@@ -43,19 +71,92 @@
       "sources": [
         "The Guardian World"
       ],
-      "latest_utc": "2026-11-23T16:42:56+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (strike, war); Technical (cyber); severity wording: attack, war, sanction; rising versus recent days: strike.",
-      "finding": "European Commission president Ursula von der Leyen sets out 22nd package of sanctions Turning to Ukraine, Nato’s Rutte stresses the need to secure the flow of “crucial supplies” or air defence weapons and ammunition to Ukraine. “ It helps Ukraine to defend itself today, but it also strengthens Ukraine’s hands in any...",
+      "latest_utc": "2026-11-24T14:00:48+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (war); Technical (artificial intelligence); severity wording: war, warning; rising versus recent days: war.",
+      "finding": "Trump’s reaction to sensitive information that contradicts his worldview mirrors his conduct towards war with Iran Donald Trump’s unwillingness to heed warnings of suspected Chinese penetration of the tech giant Nvidia follows a pattern of the US president ignoring sensitive intelligence that contradicts his world...",
       "links": [
         {
           "source": "The Guardian World",
-          "title": "EU sanctions package intended to ‘keep pressure’ on Russia and ‘strike harder’ at its ability to fund Ukraine war – as it happened",
-          "url": "https://www.theguardian.com/world/live/2026/nov/23/russia-ukraine-war-zelenskyy-libya-benghazi-drone-attack-ship-merkury-un-nato-europe-latest-news-updates"
+          "title": "The Nvidia case is just the latest episode of Trump disregarding intelligence",
+          "url": "https://www.theguardian.com/technology/2026/nov/24/nvidia-trump-huang-intelligence"
         }
       ]
     },
     {
-      "rank": 2,
+      "rank": 3,
+      "title": "Security Council LIVE: Can conflict resolution keep pace as AI and drones reshape war?",
+      "score": 8.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Cultural",
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "UN News"
+      ],
+      "latest_utc": "2026-11-24T12:00:00+00:00",
+      "rationale": "Reported by 1 source (UN News); perspectives: Cultural (disinformation); Social (conflict, war); Technical (ai, artificial intelligence, robot); severity wording: kill, war; rising versus recent days: conflict, satellite, war.",
+      "finding": "When the UN was founded in 1945, computers, the internet and satellites were the stuff of science fiction. Today, artificial intelligence (AI) is already assisting in targeting, drones are reshaping warfare and disinformation is spreading in unprecedented ways, fuelling record levels of conflict. The Security Council...",
+      "links": [
+        {
+          "source": "UN News",
+          "title": "Security Council LIVE: Can conflict resolution keep pace as AI and drones reshape war?",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168866"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "AutomationDirect C-More EA9 Programming Software",
+      "score": 8.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Cultural",
+        "Technical"
+      ],
+      "sources": [
+        "CISA Advisories (US Gov)"
+      ],
+      "latest_utc": "2026-11-24T12:00:00+00:00",
+      "rationale": "Reported by 1 source (CISA Advisories (US Gov)); perspectives: Cultural (media); Technical (cyber, infrastructure, phishing); severity wording: critical, attack, exploit; rising versus recent days: software.",
+      "finding": "View CSAF Summary Successful exploitation of this vulnerability could allow attackers to corrupt application memory and cause instability or a crash, potentially leading to arbitrary code execution, if a user is convinced to open a malicious file. The following versions of AutomationDirect C-More EA9 Programming...",
+      "links": [
+        {
+          "source": "CISA Advisories (US Gov)",
+          "title": "AutomationDirect C-More EA9 Programming Software",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "Butt of the joke: Trump impersonator mocks president at Canada press dinner",
+      "score": 8.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Cultural",
+        "Social"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-23T22:41:48+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (journalis); Social (war); severity wording: war, threat; rising versus recent days: war.",
+      "finding": "Carney watches on as comedian lampoons US leader and his interest in men’s backsides at correspondents’ event Ottawa Canada’s prime minister, Mark Carney, was joined on stage in Ottawa by a Donald Trump impersonator who mocked the US president to raucous laughter from a crowd of politicians and journalists at a...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "Butt of the joke: Trump impersonator mocks president at Canada press dinner",
+          "url": "https://www.theguardian.com/world/2026/nov/23/canada-trump-impersonator-press-dinner"
+        }
+      ]
+    },
+    {
+      "rank": 6,
       "title": "Security Council LIVE: Winter attacks on Ukraine's power grid and Black Sea shipping threaten lives and global food supplies",
       "score": 8.0,
       "rating": "High",
@@ -68,8 +169,8 @@
         "UN News"
       ],
       "latest_utc": "2026-11-23T12:00:00+00:00",
-      "rationale": "Reported by 1 source (UN News); perspectives: Social (strike, war); Technical (power grid); severity wording: attack, war; rising versus recent days: strike.",
-      "finding": "As winter sets in, the Security Council is holding a high stakes meeting Monday to discuss how Russian attacks on Ukraine's energy grid are leaving civilians without heat, power and water. It will also look at how strikes on Black Sea shipping threaten grain supplies to import-dependent countries far from the war’s...",
+      "rationale": "Reported by 1 source (UN News); perspectives: Social (strike, war); Technical (power grid); severity wording: attack, war; rising versus recent days: war.",
+      "finding": "As winter sets in, the Security Council held a high stakes meeting Monday to discuss how Russian attacks on Ukraine's energy grid are leaving civilians without heat, power and water. It will also look at how strikes on Black Sea shipping threaten grain supplies to import-dependent countries far from the war’s...",
       "links": [
         {
           "source": "UN News",
@@ -79,90 +180,92 @@
       ]
     },
     {
-      "rank": 3,
-      "title": "Top Democrats raise corruption concerns after Trump involvement in Jensen Huang’s Nvidia reinstatement – live",
-      "score": 7.0,
+      "rank": 7,
+      "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+      "score": 7.5,
       "rating": "High",
-      "type": "Threat",
-      "perspectives": [
-        "Cultural",
-        "Technical"
-      ],
-      "sources": [
-        "The Guardian World"
-      ],
-      "latest_utc": "2026-11-23T20:13:41+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (media, social media); Technical (ai); severity wording: crisis, concern.",
-      "finding": "Robert Garcia, top Democrat on House oversight, and Chris Van Hollen, vying for Senate leadership, join Republicans in expressing concern at return of CEO felled by affair scandal and Trump administration’s involvement Nvidia shares surge on Huang‘s return – business live Sign up to the Breaking News US email Nvidia...",
-      "links": [
-        {
-          "source": "The Guardian World",
-          "title": "Top Democrats raise corruption concerns after Trump involvement in Jensen Huang’s Nvidia reinstatement – live",
-          "url": "https://www.theguardian.com/us-news/live/2026/nov/23/donald-trump-democrats-republicans-presidential-primary-midterms-house-latest-news-updates"
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "title": "Why did COP31 climate talks collapse without a deal?",
-      "score": 6.5,
-      "rating": "Elevated",
       "type": "Threat",
       "perspectives": [
         "Social"
       ],
       "sources": [
         "Al Jazeera",
-        "BBC World"
-      ],
-      "latest_utc": "2026-11-23T16:38:30+00:00",
-      "rationale": "Reported by 2 sources (Al Jazeera, BBC World); perspectives: Social (climate); severity wording: collapse; rising versus recent days: climate.",
-      "finding": "The longest UN climate summit in history collapsed without a final deal in Turkiye, the first such failure in 17 years.",
-      "links": [
-        {
-          "source": "Al Jazeera",
-          "title": "Why did COP31 climate talks collapse without a deal?",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/why-did-cop31-climate-talks-collapse-without-a-deal?traffic_source=rss"
-        },
-        {
-          "source": "BBC World",
-          "title": "What's next after no deal at COP31 climate talks?",
-          "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "title": "Ukraine claims strikes on Russian ships off Libyan coast",
-      "score": 6.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social"
-      ],
-      "sources": [
         "BBC World",
         "France 24"
       ],
-      "latest_utc": "2026-11-23T14:36:26+00:00",
-      "rationale": "Reported by 2 sources (BBC World, France 24); perspectives: Social (strike); severity wording: attack; rising versus recent days: strike.",
-      "finding": "Ukraine claimed responsibility on Monday for attacks on two Russian vessels off the coast of Libya the previous day. Here is what we know about the operation, claimed by President Volodymyr Zelensky shortly after the United Nations called for an investigation into the strikes.",
+      "latest_utc": "2026-11-24T15:35:53+00:00",
+      "rationale": "Reported by 3 sources (Al Jazeera, BBC World, France 24); perspectives: Social (strike); severity wording: kill.",
+      "finding": "Naeem Abu Nahel, who had been in the post for two months, is among seven Palestinians reportedly killed in Israeli strikes on Tuesday.",
       "links": [
         {
-          "source": "France 24",
-          "title": "Ukraine claims strikes on Russian ships off Libyan coast",
-          "url": "https://www.france24.com/en/video/20261123-ukraine-claims-strikes-on-russian-ships-off-libyan-coast"
+          "source": "BBC World",
+          "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+          "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "source": "BBC World",
-          "title": "Ukraine shares video of strikes on Russian ships off Libya",
-          "url": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_medium=RSS&at_campaign=rss"
+          "source": "Al Jazeera",
+          "title": "Israeli air strike kills senior Hamas security official in Gaza",
+          "url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza?traffic_source=rss"
+        },
+        {
+          "source": "France 24",
+          "title": "Israeli strikes on Gaza kill senior Hamas security official and six other people, medics say",
+          "url": "https://www.france24.com/en/middle-east/20261124-israeli-strikes-on-gaza-kill-senior-hamas-security-official-and-six-other-people-medics-say"
         }
       ]
     },
     {
-      "rank": 6,
-      "title": "Cop31 collapses: why did climate talks fall apart? - The Latest",
+      "rank": 8,
+      "title": "Education software supplier's legacy login system left 355,000 school email addresses exposed",
+      "score": 7.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "The Register"
+      ],
+      "latest_utc": "2026-11-24T08:37:00+00:00",
+      "rationale": "Reported by 1 source (The Register); perspectives: Social (education); Technical (software); severity wording: attack; rising versus recent days: software.",
+      "finding": "Have I Been Pwned puts a number on September's attack on Bromcom",
+      "links": [
+        {
+          "source": "The Register",
+          "title": "Education software supplier's legacy login system left 355,000 school email addresses exposed",
+          "url": "https://www.theregister.com/cyber-crime/2026/11/24/education-software-suppliers-legacy-login-system-left-355000-school-email-addresses-exposed/5311622"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "Weapons, war and wavering trust: Germans want to see more restraint in foreign policy",
+      "score": 7.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Cultural",
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "DW (Germany)"
+      ],
+      "latest_utc": "2026-11-24T05:59:00+00:00",
+      "rationale": "Reported by 1 source (DW (Germany)); perspectives: Cultural (trust); Social (war); Technical (ai); severity wording: war; rising versus recent days: war.",
+      "finding": "According to a study by the Körber Foundation, a growing number of Germans now oppose providing military aid to Ukraine. The majority also believes that Germany should take a neutral position between the US and China.",
+      "links": [
+        {
+          "source": "DW (Germany)",
+          "title": "Weapons, war and wavering trust: Germans want to see more restraint in foreign policy",
+          "url": "https://www.dw.com/en/weapons-war-and-wavering-trust-germans-want-to-see-more-restraint-in-foreign-policy/a-80026254?maca=en-rss-en-all-1573-rdf"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "Italy expresses concern to Ukraine over Libya ship attacks – as it happened",
       "score": 6.5,
       "rating": "Elevated",
       "type": "Threat",
@@ -172,106 +275,14 @@
       "sources": [
         "The Guardian World"
       ],
-      "latest_utc": "2026-11-23T17:19:55+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (climate); severity wording: crisis, collapse; rising versus recent days: climate.",
-      "finding": "Countries at the Cop31 climate summit failed to reach a keystone agreement for the first time in 17 years. The talks, co-chaired by Turkey and Australia, were intended to produce a pact that would have injected urgency into climate action and financing for vulnerable states. Instead, the deal failed after a standoff...",
+      "latest_utc": "2026-11-24T16:24:49+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (election, housing, protest); severity wording: attack, protest, concern; rising versus recent days: housing.",
+      "finding": "Ukraine earlier confirmed that it deployed naval drones in strikes on Russian vessels off the coast of Libya The leader of Spain’s leftwing Broad Front coalition has called for a drastic rethink of the country’s entire housing rental system, and described the eviction of an 87-year-old woman – the spark for nationwide...",
       "links": [
         {
           "source": "The Guardian World",
-          "title": "Cop31 collapses: why did climate talks fall apart? - The Latest",
-          "url": "https://www.theguardian.com/news/audio/2026/nov/23/cop31-collapses-why-did-climate-talks-fall-apart-the-latest"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "title": "Israeli strikes kill at least three, including UNRWA worker, in Gaza",
-      "score": 6.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social"
-      ],
-      "sources": [
-        "Al Jazeera"
-      ],
-      "latest_utc": "2026-11-23T16:36:22+00:00",
-      "rationale": "Reported by 1 source (Al Jazeera); perspectives: Social (ceasefire, strike); severity wording: kill, attack; rising versus recent days: strike.",
-      "finding": "Israel continues to launch attacks across the enclave, despite an October 2025 'ceasefire' deal.",
-      "links": [
-        {
-          "source": "Al Jazeera",
-          "title": "Israeli strikes kill at least three, including UNRWA worker, in Gaza",
-          "url": "https://www.aljazeera.com/news/2026/11/23/israeli-drone-strike-kills-unrwa-worker-in-gaza?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "title": "Gaza mourns UNRWA worker killed in Israeli strike",
-      "score": 6.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social"
-      ],
-      "sources": [
-        "Al Jazeera"
-      ],
-      "latest_utc": "2026-11-23T16:35:28+00:00",
-      "rationale": "Reported by 1 source (Al Jazeera); perspectives: Social (strike); severity wording: kill; rising versus recent days: strike.",
-      "finding": "Palestinians mourned UNRWA employee Adel al-Helou, who was killed on Monday in an Israeli airstrike while on duty",
-      "links": [
-        {
-          "source": "Al Jazeera",
-          "title": "Gaza mourns UNRWA worker killed in Israeli strike",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/gaza-mourns-unrwa-worker-killed-in-israeli-strike?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "rank": 9,
-      "title": "Airports, public transport shut down amid national strike in Belgium",
-      "score": 6.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social"
-      ],
-      "sources": [
-        "France 24"
-      ],
-      "latest_utc": "2026-11-23T16:10:30+00:00",
-      "rationale": "Reported by 1 source (France 24); perspectives: Social (strike); severity wording: collapse, disruption; rising versus recent days: strike.",
-      "finding": "Belgium's prime minister on Monday set a new year-end deadline for his coalition government to agree a cost-cutting budget or face collapse. The announcement came as a national strike against the planned cuts grounded all flights in and out of Belgium. Public transport, schools and other public services also faced...",
-      "links": [
-        {
-          "source": "France 24",
-          "title": "Airports, public transport shut down amid national strike in Belgium",
-          "url": "https://www.france24.com/en/video/20261123-airports-public-transport-shut-down-amid-national-strike-in-belgium"
-        }
-      ]
-    },
-    {
-      "rank": 10,
-      "title": "Behind COP31 failure: A showdown over fossil fuel interests",
-      "score": 6.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social"
-      ],
-      "sources": [
-        "France 24"
-      ],
-      "latest_utc": "2026-11-23T15:40:01+00:00",
-      "rationale": "Reported by 1 source (France 24); perspectives: Social (climate); severity wording: crisis, collapse; rising versus recent days: climate.",
-      "finding": "Several countries and environmental groups expressed fury at the collapse of the COP31 climate conference in Antalya, Turkey on Sunday, amid a dramatic failure to thrash out an agreement, two days after the summit was scheduled to end. Oil-producing states blocked any mention of phasing out fossil fuels – the root...",
-      "links": [
-        {
-          "source": "France 24",
-          "title": "Behind COP31 failure: A showdown over fossil fuel interests",
-          "url": "https://www.france24.com/en/tv-shows/down-to-earth/20261123-behind-cop31-failure-a-showdown-over-fossil-fuel-interests"
+          "title": "Italy expresses concern to Ukraine over Libya ship attacks – as it happened",
+          "url": "https://www.theguardian.com/world/live/2026/nov/24/russia-ukraine-poland-drone-patriots-latest-news-updates"
         }
       ]
     }
@@ -279,16 +290,20 @@
   "advancements": {
     "method": "Scores (0-10) combine the technology field, progress wording (breakthrough, unveils, first, approved...), cross-source corroboration and momentum. They show how strongly a development is being reported - not its proven impact or commercial success.",
     "summary": [
-      "Found 18 advancement stories from 12 of 12 technology sources, grouped into 18 distinct developments.",
-      "Top list ratings: Major 1, Notable 5, Emerging 4; stages: Research 4, Development 3, Launch 3.",
-      "Field mix: AI & Computing 4, Energy & Climate 4, Space 4, Chips & Hardware 3, Connectivity 2, Robotics & Mobility 2, Materials & Science 1.",
-      "Rising topics versus recent days: satellite, nuclear, charging, orbit*."
+      "Found 28 advancement stories from 12 of 12 technology sources, grouped into 27 distinct developments.",
+      "Top list ratings: Major 1, Notable 8, Emerging 1; stages: Launch 4, Research 4, Development 2.",
+      "Field mix: Materials & Science 5, Robotics & Mobility 4, AI & Computing 4, Space 2, Connectivity 1, Energy & Climate 1, Chips & Hardware 1.",
+      "Rising topics versus recent days: material, satellite, grid, robot*, nuclear, moon, autonomous.",
+      "Most widely reported: \"Uber and Nuro begin driverless testing of Lucid robotaxis ahead of 2027 launch\" (2 sources)."
     ],
     "rising_terms": [
+      "material",
       "satellite",
+      "grid",
+      "robot*",
       "nuclear",
-      "charging",
-      "orbit*"
+      "moon",
+      "autonomous"
     ],
     "feed_status": {
       "MIT Technology Review": "ok (10 items)",
@@ -307,31 +322,83 @@
     "items": [
       {
         "rank": 1,
-        "title": "Nothing’s upcoming Ear Note is a pair of earbuds with AI transcription",
+        "title": "Uber and Nuro begin driverless testing of Lucid robotaxis ahead of 2027 launch",
         "score": 8.0,
         "rating": "Major",
-        "stage": "Development",
+        "stage": "Launch",
         "fields": [
-          "AI & Computing",
-          "Chips & Hardware",
-          "Energy & Climate"
+          "Robotics & Mobility"
         ],
         "sources": [
+          "TechCrunch",
           "The Verge"
         ],
-        "latest_utc": "2026-11-23T19:04:52+00:00",
-        "rationale": "Reported by 1 source (The Verge); fields: AI & Computing (ai); Chips & Hardware (wearable); Energy & Climate (charging); progress signals: record, demonstrat, new; stage: Development; rising versus recent days: charging.",
-        "finding": "Nothing's new AI device is the Ear Note, a set of earbuds and their microphone-equipped charging case that can record and transcribe conversations, with a connected app to manage the recordings, transcriptions and AI-generated summaries, similar to Apple's new Watch feature and devices like Amazon's Bee wearable....",
+        "latest_utc": "2026-11-24T16:40:46+00:00",
+        "rationale": "Reported by 2 sources (TechCrunch, The Verge); fields: Robotics & Mobility (autonomous, robot); progress signals: launch, first, announce; stage: Launch; rising versus recent days: autonomous, robot*.",
+        "finding": "Uber and Nuro have started testing driverless Lucid Gravity SUVs on public streets in the San Francisco Bay Area.",
         "links": [
           {
+            "source": "TechCrunch",
+            "title": "Uber and Nuro begin driverless testing of Lucid robotaxis ahead of 2027 launch",
+            "url": "https://techcrunch.com/2026/11/24/uber-and-nuro-begin-driverless-testing-of-lucid-robotaxis-ahead-of-2027-launch/"
+          },
+          {
             "source": "The Verge",
-            "title": "Nothing’s upcoming Ear Note is a pair of earbuds with AI transcription",
-            "url": "https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording"
+            "title": "Uber, Nuro, and Lucid kick off fully driverless robotaxi testing",
+            "url": "https://www.theverge.com/transportation/1040676/uber-nuro-lucid-driverless-robotaxi-testing-bay-area"
           }
         ]
       },
       {
         "rank": 2,
+        "title": "A simple metal is hiding a strange new form of magnetism",
+        "score": 7.5,
+        "rating": "Notable",
+        "stage": "Research",
+        "fields": [
+          "AI & Computing",
+          "Materials & Science"
+        ],
+        "sources": [
+          "ScienceDaily Technology"
+        ],
+        "latest_utc": "2026-11-24T11:18:20+00:00",
+        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: AI & Computing (quantum); Materials & Science (material); progress signals: breakthrough, discover, develop, new; stage: Research; rising versus recent days: material.",
+        "finding": "Scientists have discovered a strange form of magnetism in an ordinary-looking metal that has no overall magnetization yet profoundly changes how electrons behave. The breakthrough offers a promising new path toward understanding exotic quantum materials and developing future electronic technologies.",
+        "links": [
+          {
+            "source": "ScienceDaily Technology",
+            "title": "A simple metal is hiding a strange new form of magnetism",
+            "url": "https://www.sciencedaily.com/releases/2026/11/261123005341.htm"
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "title": "Strange new materials can crawl, walk, and dig like living creatures",
+        "score": 7.5,
+        "rating": "Notable",
+        "stage": "Research",
+        "fields": [
+          "Materials & Science",
+          "Robotics & Mobility"
+        ],
+        "sources": [
+          "ScienceDaily Technology"
+        ],
+        "latest_utc": "2026-11-24T00:05:29+00:00",
+        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Materials & Science (material); Robotics & Mobility (autonomous, robot); progress signals: discover, develop, new; stage: Research; rising versus recent days: autonomous, material, robot*.",
+        "finding": "Scientists have developed remarkable materials that can crawl, walk, and dig using their own internal energy, potentially paving the way for a new generation of autonomous soft robots. They also discovered that making individual components more active can paradoxically make the entire material less responsive...",
+        "links": [
+          {
+            "source": "ScienceDaily Technology",
+            "title": "Strange new materials can crawl, walk, and dig like living creatures",
+            "url": "https://www.sciencedaily.com/releases/2026/11/261121221137.htm"
+          }
+        ]
+      },
+      {
+        "rank": 4,
         "title": "Learn How 5G NTN Architecture, Mobility, and Testing Shape 6G",
         "score": 7.0,
         "rating": "Notable",
@@ -356,32 +423,55 @@
         ]
       },
       {
-        "rank": 3,
-        "title": "Laser Focus at the Top of the World",
-        "score": 7.0,
+        "rank": 5,
+        "title": "Predicting the unknown: A robust approach lets AI extrapolate to undiscovered materials",
+        "score": 6.5,
         "rating": "Notable",
-        "stage": "Launch",
+        "stage": "Research",
         "fields": [
-          "Connectivity",
-          "Materials & Science",
-          "Space"
+          "AI & Computing",
+          "Materials & Science"
         ],
         "sources": [
-          "NASA News"
+          "Phys.org Technology"
         ],
-        "latest_utc": "2026-11-23T05:01:00+00:00",
-        "rationale": "Reported by 1 source (NASA News); fields: Connectivity (network); Materials & Science (laser); Space (nasa, orbit, satellite); progress signals: debut, develop; stage: Launch; rising versus recent days: orbit*, satellite.",
-        "finding": "A next-generation geodetic instrument developed by NASA, part of a network that helps measure satellites’ orbits and the planet’s shape, has debuted in Svalbard, Norway.",
+        "latest_utc": "2026-11-24T16:00:02+00:00",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: AI & Computing (ai); Materials & Science (material); progress signals: demonstrat, new; stage: Research; rising versus recent days: material.",
+        "finding": "Imagine asking a computer to predict the properties of a material it has never seen before. It may perform well when the new material resembles something in its training data, but its predictions can become unreliable when it encounters something truly unfamiliar. This poses a challenge for materials discovery, where...",
         "links": [
           {
-            "source": "NASA News",
-            "title": "Laser Focus at the Top of the World",
-            "url": "https://science.nasa.gov/earth/earth-observatory/laser-focus-at-the-top-of-the-world/"
+            "source": "Phys.org Technology",
+            "title": "Predicting the unknown: A robust approach lets AI extrapolate to undiscovered materials",
+            "url": "https://techxplore.com/news/2026-11-unknown-robust-approach-ai-extrapolate.html"
           }
         ]
       },
       {
-        "rank": 4,
+        "rank": 6,
+        "title": "Bambu’s five-nozzle P3C isn’t quite the 3D printer I expected",
+        "score": 6.5,
+        "rating": "Notable",
+        "stage": "Launch",
+        "fields": [
+          "Materials & Science",
+          "Robotics & Mobility"
+        ],
+        "sources": [
+          "The Verge"
+        ],
+        "latest_utc": "2026-11-24T14:00:00+00:00",
+        "rationale": "Reported by 1 source (The Verge); fields: Materials & Science (material); Robotics & Mobility (3d print); progress signals: introduc, new; stage: Launch; rising versus recent days: material.",
+        "finding": "Three weeks ago, Bambu Lab introduced the state of the art in home printing tech at $2,499 - now, you can get many of its fancy new features for less than half the price. Like that bigger H3C, the new $1,149 Bambu P3C can also swap between materials on the fly, mix different colors to […]",
+        "links": [
+          {
+            "source": "The Verge",
+            "title": "Bambu’s five-nozzle P3C isn’t quite the 3D printer I expected",
+            "url": "https://www.theverge.com/tech/1041034/bambu-p3c-3d-printer-price-release-date"
+          }
+        ]
+      },
+      {
+        "rank": 7,
         "title": "NASA Seeks Partners to Design First Nuclear Reactor for the Moon",
         "score": 6.5,
         "rating": "Notable",
@@ -394,7 +484,7 @@
           "NASA News"
         ],
         "latest_utc": "2026-11-23T17:23:50+00:00",
-        "rationale": "Reported by 1 source (NASA News); fields: Energy & Climate (nuclear, reactor); Space (lunar, moon, nasa); progress signals: first, develop; stage: Development; rising versus recent days: nuclear.",
+        "rationale": "Reported by 1 source (NASA News); fields: Energy & Climate (nuclear, reactor); Space (lunar, moon, nasa); progress signals: first, develop; stage: Development; rising versus recent days: moon, nuclear.",
         "finding": "NASA is seeking industry partners to develop and test the first nuclear reactor designed to provide electricity on the Moon, a major step toward establishing a sustained human presence on the lunar surface. Lunar Reactor-1 (LR-1) will be a small fission power system that will generate 20 kilowatts of electricity...",
         "links": [
           {
@@ -405,78 +495,53 @@
         ]
       },
       {
-        "rank": 5,
-        "title": "'SLIC' training could help engineers design analog chips faster and with less expense",
-        "score": 6.5,
-        "rating": "Notable",
-        "stage": "Research",
-        "fields": [
-          "AI & Computing",
-          "Chips & Hardware"
-        ],
-        "sources": [
-          "Phys.org Technology"
-        ],
-        "latest_utc": "2026-11-23T14:00:11+00:00",
-        "rationale": "Reported by 1 source (Phys.org Technology); fields: AI & Computing (artificial intelligence); Chips & Hardware (chip, semiconductor); progress signals: develop, faster, new, innovation; stage: Research.",
-        "finding": "A new technique developed by MIT researchers could help engineers use artificial intelligence to streamline the design and innovation of analog integrated circuits, semiconductor chips that perform vital functions like communication and power management in electronic devices.",
-        "links": [
-          {
-            "source": "Phys.org Technology",
-            "title": "'SLIC' training could help engineers design analog chips faster and with less expense",
-            "url": "https://techxplore.com/news/2026-11-slic-analog-chips-faster-expense.html"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "title": "New synthetic graphite paves way for rapid EV charging",
+        "rank": 8,
+        "title": "New laser welding process joins aluminum castings with fewer pores and less spatter",
         "score": 6.0,
         "rating": "Notable",
-        "stage": "Research",
+        "stage": "Launch",
         "fields": [
-          "Energy & Climate"
+          "Materials & Science"
         ],
         "sources": [
           "Phys.org Technology"
         ],
-        "latest_utc": "2026-11-23T19:20:27+00:00",
-        "rationale": "Reported by 1 source (Phys.org Technology); fields: Energy & Climate (batteries, battery, charging); progress signals: develop, faster, new; stage: Research; rising versus recent days: charging.",
-        "finding": "Lithium-ion batteries, like those found in cars, cell phones and cameras, often have anodes made of graphite. During charging, lithium ions move into the graphite anode. How quickly they can move through the graphite is one of the key factors limiting how fast a battery can charge. James Tour's lab at Rice University...",
+        "latest_utc": "2026-11-24T11:28:48+00:00",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: Materials & Science (laser, material); progress signals: release, new; stage: Launch; rising versus recent days: material.",
+        "finding": "Laser welding can now join cast aluminum directly to cast aluminum. Producing high-quality joints between aluminum die-cast components has long been a major challenge. Process-related pores and gas inclusions in the material can open during conventional laser beam welding. The released gases cause pores in the weld...",
         "links": [
           {
             "source": "Phys.org Technology",
-            "title": "New synthetic graphite paves way for rapid EV charging",
-            "url": "https://techxplore.com/news/2026-11-synthetic-graphite-paves-rapid-ev.html"
+            "title": "New laser welding process joins aluminum castings with fewer pores and less spatter",
+            "url": "https://techxplore.com/news/2026-11-laser-welding-aluminum-pores-spatter.html"
           }
         ]
       },
       {
-        "rank": 7,
-        "title": "Reports: Russia may launch nuclear weapon into orbit as soon as next month",
-        "score": 5.5,
-        "rating": "Emerging",
-        "stage": "Launch",
+        "rank": 9,
+        "title": "Artificial muscles sense their own motion to give robots precise control",
+        "score": 6.0,
+        "rating": "Notable",
+        "stage": "Development",
         "fields": [
-          "Energy & Climate",
-          "Space"
+          "Robotics & Mobility"
         ],
         "sources": [
-          "Ars Technica"
+          "Phys.org Technology"
         ],
-        "latest_utc": "2026-11-23T19:28:30+00:00",
-        "rationale": "Reported by 1 source (Ars Technica); fields: Energy & Climate (nuclear); Space (orbit, satellite); progress signals: launch; stage: Launch; rising versus recent days: nuclear, orbit*, satellite.",
-        "finding": "A nuclear detonation in space \"could cause rapid and sudden loss or degradation of thousands of satellites.\"",
+        "latest_utc": "2026-11-23T17:20:02+00:00",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: Robotics & Mobility (robot); progress signals: demonstrat, new; stage: Development; rising versus recent days: robot*.",
+        "finding": "A robotic finger presses a piano key, pauses and moves to the next note. An artificial eye shifts its gaze through a series of controlled movements. Behind both demonstrations is a new kind of artificial muscle that can sense its own state, hold intermediate positions and coordinate with other muscles to produce...",
         "links": [
           {
-            "source": "Ars Technica",
-            "title": "Reports: Russia may launch nuclear weapon into orbit as soon as next month",
-            "url": "https://arstechnica.com/space/2026/11/russia-may-launch-a-nuclear-armed-satellite-far-sooner-than-we-thought/"
+            "source": "Phys.org Technology",
+            "title": "Artificial muscles sense their own motion to give robots precise control",
+            "url": "https://techxplore.com/news/2026-11-artificial-muscles-motion-robots-precise.html"
           }
         ]
       },
       {
-        "rank": 8,
+        "rank": 10,
         "title": "Researchers develop smarter way to handle tokens in long-context AI",
         "score": 5.5,
         "rating": "Emerging",
@@ -496,52 +561,6 @@
             "source": "Phys.org Technology",
             "title": "Researchers develop smarter way to handle tokens in long-context AI",
             "url": "https://techxplore.com/news/2026-11-smarter-tokens-context-ai.html"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "title": "New drone prototype folds itself through gaps half its width during flight",
-        "score": 5.0,
-        "rating": "Emerging",
-        "stage": "Research",
-        "fields": [
-          "Robotics & Mobility"
-        ],
-        "sources": [
-          "Phys.org Technology"
-        ],
-        "latest_utc": "2026-11-23T18:20:07+00:00",
-        "rationale": "Reported by 1 source (Phys.org Technology); fields: Robotics & Mobility (drone); progress signals: prototype, new; stage: Research.",
-        "finding": "Drones are now commonly used in areas that are difficult for humans to access, but these spaces often have small or awkwardly shaped regions that are also difficult for drones to access. Some designs have attempted to overcome these limitations with shape-changing mechanisms that require extra motors or special thrust...",
-        "links": [
-          {
-            "source": "Phys.org Technology",
-            "title": "New drone prototype folds itself through gaps half its width during flight",
-            "url": "https://techxplore.com/news/2026-11-drone-prototype-gaps-width-flight.html"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "title": "Artificial muscles sense their own motion to give robots precise control",
-        "score": 5.0,
-        "rating": "Emerging",
-        "stage": "Development",
-        "fields": [
-          "Robotics & Mobility"
-        ],
-        "sources": [
-          "Phys.org Technology"
-        ],
-        "latest_utc": "2026-11-23T17:20:02+00:00",
-        "rationale": "Reported by 1 source (Phys.org Technology); fields: Robotics & Mobility (robot); progress signals: demonstrat, new; stage: Development.",
-        "finding": "A robotic finger presses a piano key, pauses and moves to the next note. An artificial eye shifts its gaze through a series of controlled movements. Behind both demonstrations is a new kind of artificial muscle that can sense its own state, hold intermediate positions and coordinate with other muscles to produce...",
-        "links": [
-          {
-            "source": "Phys.org Technology",
-            "title": "Artificial muscles sense their own motion to give robots precise control",
-            "url": "https://techxplore.com/news/2026-11-artificial-muscles-motion-robots-precise.html"
           }
         ]
       }
