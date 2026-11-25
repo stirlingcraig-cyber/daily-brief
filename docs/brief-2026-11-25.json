@@ -1,0 +1,557 @@
+{
+  "version": "2.1.0",
+  "generated_utc": "2026-11-25T17:10:09.531501+00:00",
+  "method": "Scores (0-10) combine perspective breadth, severity wording, cross-source corroboration and momentum. They measure attention and concern in public reporting - not probability, not a forecast. Read the sources before acting.",
+  "summary": [
+    "Scanned 472 items from 13 of 13 sources; 124 matched a perspective and were grouped into 123 distinct issues.",
+    "Top list ratings: High 10 (10 threats, 0 watch items).",
+    "Perspective mix: Social 9, Technical 9, Cultural 4.",
+    "Rising topics versus recent days: war, violence, software, trust, cloud, satellite, disinformation, public health."
+  ],
+  "rising_terms": [
+    "war",
+    "violence",
+    "software",
+    "trust",
+    "cloud",
+    "satellite",
+    "disinformation",
+    "public health"
+  ],
+  "feed_status": {
+    "BBC World": "ok (28 items)",
+    "BBC Technology": "ok (21 items)",
+    "The Guardian World": "ok (45 items)",
+    "NPR World": "ok (10 items)",
+    "Fox News World": "ok (25 items)",
+    "WSJ World": "ok (20 items)",
+    "Al Jazeera": "ok (25 items)",
+    "DW (Germany)": "ok (144 items)",
+    "France 24": "ok (24 items)",
+    "UN News": "ok (30 items)",
+    "Ars Technica": "ok (20 items)",
+    "The Register": "ok (50 items)",
+    "CISA Advisories (US Gov)": "ok (30 items)"
+  },
+  "issues": [
+    {
+      "rank": 1,
+      "title": "Kremlin declines comment on reports 700,000 Russian soldiers killed in Ukraine war",
+      "score": 8.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "France 24"
+      ],
+      "latest_utc": "2026-11-25T15:14:07+00:00",
+      "rationale": "Reported by 1 source (France 24); perspectives: Social (war); Technical (hack); severity wording: kill, war; rising versus recent days: war.",
+      "finding": "Kremlin spokesman Dmitry Peskov on Wednesday declined to comment on reports in Russian and international news outlets that around 700,000 Russian soldiers have been killed in the Ukraine war so far. The reports were based on hacked data from Russia's official statistics agency. Peskov said only the defence ministry...",
+      "links": [
+        {
+          "source": "France 24",
+          "title": "Kremlin declines comment on reports 700,000 Russian soldiers killed in Ukraine war",
+          "url": "https://www.france24.com/en/europe/20261125-kremlin-declines-comment-reports-700-000-russian-soldiers-killed-ukraine-war"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "Yemen war: Emergency aid chief calls for access to war-hit communities",
+      "score": 8.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "UN News"
+      ],
+      "latest_utc": "2026-11-25T12:00:00+00:00",
+      "rationale": "Reported by 1 source (UN News); perspectives: Social (war); Technical (ai); severity wording: war, emergency, warning; rising versus recent days: war.",
+      "finding": "The UN’s top aid official, Tom Fletcher, arrived in Yemen on Wednesday warning that the war there is preventing families from accessing the food and medicine they need to survive, particularly those in Taiz City.",
+      "links": [
+        {
+          "source": "UN News",
+          "title": "Yemen war: Emergency aid chief calls for access to war-hit communities",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168872"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "The Russian army’s secret death toll – podcast",
+      "score": 8.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-25T03:00:03+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (war); Technical (hack); severity wording: kill, war; rising versus recent days: war.",
+      "finding": "Vladimir Putin has always kept the number of soldiers killed in Ukraine a secret, but at one point 720 were dying in 24 hours. Pjotr Sauer reports. Send your comments and questions to tif.questions@theguardian.com Russia has kept the death toll of its soldiers in the Ukraine war a carefully guarded secret. Now...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "The Russian army’s secret death toll – podcast",
+          "url": "https://www.theguardian.com/news/audio/2026/nov/25/the-russian-armys-secret-death-toll-podcast"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "My family were killed in Ukraine. My mum blamed Zelensky's troops - the truth is complicated",
+      "score": 8.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Cultural",
+        "Social"
+      ],
+      "sources": [
+        "BBC World"
+      ],
+      "latest_utc": "2026-11-25T00:54:13+00:00",
+      "rationale": "Reported by 1 source (BBC World); perspectives: Cultural (journalis); Social (war); severity wording: kill, war; rising versus recent days: war.",
+      "finding": "BBC journalist Anastasiya Gribanova investigates who killed her father and grandparents in the war.",
+      "links": [
+        {
+          "source": "BBC World",
+          "title": "My family were killed in Ukraine. My mum blamed Zelensky's troops - the truth is complicated",
+          "url": "https://www.bbc.co.uk/news/articles/cw24e17v9e51o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "Microsoft's historic cloud outage exposed an engineering “fog of war”",
+      "score": 8.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "Ars Technica"
+      ],
+      "latest_utc": "2026-11-24T22:36:28+00:00",
+      "rationale": "Reported by 1 source (Ars Technica); perspectives: Social (war); Technical (cloud, outage); severity wording: war, outage; rising versus recent days: cloud, war.",
+      "finding": "Internal memos reveal a “Code Red” overhaul and ambitious one-hour recovery goals.",
+      "links": [
+        {
+          "source": "Ars Technica",
+          "title": "Microsoft's historic cloud outage exposed an engineering “fog of war”",
+          "url": "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "The Nvidia case is just the latest episode of Trump disregarding intelligence",
+      "score": 8.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-24T14:00:48+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (war); Technical (artificial intelligence); severity wording: war, warning; rising versus recent days: war.",
+      "finding": "Trump’s reaction to sensitive information that contradicts his worldview mirrors his conduct towards war with Iran Donald Trump’s unwillingness to heed warnings of suspected Chinese penetration of the tech giant Nvidia follows a pattern of the US president ignoring sensitive intelligence that contradicts his world...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "The Nvidia case is just the latest episode of Trump disregarding intelligence",
+          "url": "https://www.theguardian.com/technology/2026/nov/24/nvidia-trump-huang-intelligence"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "Security Council LIVE: Can conflict resolution keep pace as AI and drones reshape war?",
+      "score": 8.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Cultural",
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "UN News"
+      ],
+      "latest_utc": "2026-11-24T12:00:00+00:00",
+      "rationale": "Reported by 1 source (UN News); perspectives: Cultural (disinformation); Social (conflict, war); Technical (ai, artificial intelligence, robot); severity wording: kill, war; rising versus recent days: disinformation, satellite, war.",
+      "finding": "When the UN was founded in 1945, computers, the internet and satellites were the stuff of science fiction. Today, artificial intelligence (AI) is already assisting in targeting, drones are reshaping warfare and disinformation is spreading in unprecedented ways, fuelling record levels of conflict. The Security Council...",
+      "links": [
+        {
+          "source": "UN News",
+          "title": "Security Council LIVE: Can conflict resolution keep pace as AI and drones reshape war?",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168866"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "AutomationDirect C-More EA9 Programming Software",
+      "score": 8.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Cultural",
+        "Technical"
+      ],
+      "sources": [
+        "CISA Advisories (US Gov)"
+      ],
+      "latest_utc": "2026-11-24T12:00:00+00:00",
+      "rationale": "Reported by 1 source (CISA Advisories (US Gov)); perspectives: Cultural (media, trust); Technical (cloud, cyber, infrastructure); severity wording: critical, attack, exploit, threat; rising versus recent days: cloud, software, trust.",
+      "finding": "View CSAF Summary Successful exploitation of this vulnerability could allow attackers to corrupt application memory and cause instability or a crash, potentially leading to arbitrary code execution, if a user is convinced to open a malicious file. The following versions of AutomationDirect C-More EA9 Programming...",
+      "links": [
+        {
+          "source": "CISA Advisories (US Gov)",
+          "title": "AutomationDirect C-More EA9 Programming Software",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "Russian casualties in Ukraine war: New reports suggest death toll as high as 700,000",
+      "score": 7.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Cultural",
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "France 24"
+      ],
+      "latest_utc": "2026-11-25T16:17:02+00:00",
+      "rationale": "Reported by 1 source (France 24); perspectives: Cultural (media); Social (war); Technical (hack); severity wording: war; rising versus recent days: war.",
+      "finding": "New analysis of leaked Russian government data suggests some 700,000 Russian soldiers have died in the war against Ukraine. Independent Russian media outlets have updated their estimates of Moscow's military casualties after Belarusian and Ukrainian hackers obtained figures from the Russian statistics agency.",
+      "links": [
+        {
+          "source": "France 24",
+          "title": "Russian casualties in Ukraine war: New reports suggest death toll as high as 700,000",
+          "url": "https://www.france24.com/en/video/20261125-russian-casualties-in-ukraine-war-new-reports-suggest-death-toll-as-high-as-700-000"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "Russian strikes on Ukraine kill five, cause power outages in five regions",
+      "score": 7.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "Al Jazeera"
+      ],
+      "latest_utc": "2026-11-25T12:19:17+00:00",
+      "rationale": "Reported by 1 source (Al Jazeera); perspectives: Social (strike); Technical (outage); severity wording: kill, attack, outage.",
+      "finding": "A Ukrainian official says attacks on Zaporizhia and Dnipropetrovsk regions damaged a number of energy sites.",
+      "links": [
+        {
+          "source": "Al Jazeera",
+          "title": "Russian strikes on Ukraine kill five, cause power outages in five regions",
+          "url": "https://www.aljazeera.com/news/2026/11/25/russian-strikes-on-ukraine-cause-power-outages-in-five-regions?traffic_source=rss"
+        }
+      ]
+    }
+  ],
+  "advancements": {
+    "method": "Scores (0-10) combine the technology field, progress wording (breakthrough, unveils, first, approved...), cross-source corroboration and momentum. They show how strongly a development is being reported - not its proven impact or commercial success.",
+    "summary": [
+      "Found 28 advancement stories from 12 of 12 technology sources, grouped into 28 distinct developments.",
+      "Top list ratings: Major 1, Notable 8, Emerging 1; stages: Research 5, Launch 3, Approval 1, Development 1.",
+      "Field mix: AI & Computing 4, Space 4, Materials & Science 4, Energy & Climate 3, Chips & Hardware 2, Robotics & Mobility 2, Connectivity 2, Health & Biotech 1.",
+      "Rising topics versus recent days: ai, quantum, grid, display, data center, material, spacecraft, satellite."
+    ],
+    "rising_terms": [
+      "ai",
+      "quantum",
+      "grid",
+      "display",
+      "data center",
+      "material",
+      "spacecraft",
+      "satellite"
+    ],
+    "feed_status": {
+      "MIT Technology Review": "ok (10 items)",
+      "IEEE Spectrum": "ok (30 items)",
+      "TechCrunch": "ok (20 items)",
+      "The Verge": "ok (10 items)",
+      "Wired": "ok (50 items)",
+      "New Scientist Technology": "ok (10 items)",
+      "ScienceDaily Technology": "ok (60 items)",
+      "Phys.org Technology": "ok (30 items)",
+      "NASA News": "ok (10 items)",
+      "BBC Technology": "ok (21 items)",
+      "Ars Technica": "ok (20 items)",
+      "The Register": "ok (50 items)"
+    },
+    "items": [
+      {
+        "rank": 1,
+        "title": "Mitsubishi Electric Research Lab CEO on How He Reached the C-Suite",
+        "score": 8.0,
+        "rating": "Major",
+        "stage": "Approval",
+        "fields": [
+          "AI & Computing",
+          "Chips & Hardware",
+          "Connectivity",
+          "Energy & Climate",
+          "Robotics & Mobility",
+          "Space"
+        ],
+        "sources": [
+          "IEEE Spectrum"
+        ],
+        "latest_utc": "2026-11-24T19:00:01+00:00",
+        "rationale": "Reported by 1 source (IEEE Spectrum); fields: AI & Computing (data center); Chips & Hardware (display); Connectivity (network); Energy & Climate (grid, renewable); Robotics & Mobility (robot); Space (satellite); progress signals: first, launch, develop, new; stage: Approval; rising versus recent days: data center, display, grid, satellite.",
+        "finding": "The trajectory from researcher to top executive at a leading R&D organization doesn’t happen overnight. It took Anthony Vetro nearly 30 years to climb the corporate ladder at Mitsubishi Electric Research Laboratories , in Cambridge, Mass. He joined MERL in 1996, right out of college, and he has worked there ever...",
+        "links": [
+          {
+            "source": "IEEE Spectrum",
+            "title": "Mitsubishi Electric Research Lab CEO on How He Reached the C-Suite",
+            "url": "https://spectrum.ieee.org/mitsubishi-electric-research-lab-ceo"
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "title": "Nothing offers a full look at its AI earbuds and charging case",
+        "score": 7.5,
+        "rating": "Notable",
+        "stage": "Launch",
+        "fields": [
+          "AI & Computing",
+          "Energy & Climate"
+        ],
+        "sources": [
+          "The Verge"
+        ],
+        "latest_utc": "2026-11-25T16:00:59+00:00",
+        "rationale": "Reported by 1 source (The Verge); fields: AI & Computing (ai); Energy & Climate (charging); progress signals: record, release; stage: Launch; rising versus recent days: ai.",
+        "finding": "Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release. The Ear Note buds can record your calls, while their charging case can record, transcribe, and summarize your conversations. Like the Ear 3, the Ear Note's microphone-equipped case comes with a \"Talk\"...",
+        "links": [
+          {
+            "source": "The Verge",
+            "title": "Nothing offers a full look at its AI earbuds and charging case",
+            "url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal"
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "title": "Teams Lock in Mission Architecture for NASA’s SR-1 Freedom",
+        "score": 7.5,
+        "rating": "Notable",
+        "stage": "Launch",
+        "fields": [
+          "Energy & Climate",
+          "Space"
+        ],
+        "sources": [
+          "NASA News"
+        ],
+        "latest_utc": "2026-11-24T21:04:32+00:00",
+        "rationale": "Reported by 1 source (NASA News); fields: Energy & Climate (nuclear, reactor); Space (nasa, spacecraft); progress signals: first, launch, demonstrat; stage: Launch; rising versus recent days: spacecraft.",
+        "finding": "NASA completed a major review for Space Reactor-1 (SR-1) Freedom and locked in key elements of the spacecraft, which is targeted to launch in 2028 and demonstrate nuclear electric propulsion in deep space for the first time. Experts from across the agency, the U.S. Department of Energy (DOE), and industry met at...",
+        "links": [
+          {
+            "source": "NASA News",
+            "title": "Teams Lock in Mission Architecture for NASA’s SR-1 Freedom",
+            "url": "https://www.nasa.gov/general/nasa-locks-in-sr1-freedom-mission-architecture/"
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "title": "A simple metal is hiding a strange new form of magnetism",
+        "score": 7.5,
+        "rating": "Notable",
+        "stage": "Research",
+        "fields": [
+          "AI & Computing",
+          "Materials & Science"
+        ],
+        "sources": [
+          "ScienceDaily Technology"
+        ],
+        "latest_utc": "2026-11-24T11:18:20+00:00",
+        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: AI & Computing (quantum); Materials & Science (material); progress signals: breakthrough, discover, develop, new; stage: Research; rising versus recent days: material, quantum.",
+        "finding": "Scientists have discovered a strange form of magnetism in an ordinary-looking metal that has no overall magnetization yet profoundly changes how electrons behave. The breakthrough offers a promising new path toward understanding exotic quantum materials and developing future electronic technologies.",
+        "links": [
+          {
+            "source": "ScienceDaily Technology",
+            "title": "A simple metal is hiding a strange new form of magnetism",
+            "url": "https://www.sciencedaily.com/releases/2026/11/261123005341.htm"
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "title": "Strange new materials can crawl, walk, and dig like living creatures",
+        "score": 7.5,
+        "rating": "Notable",
+        "stage": "Research",
+        "fields": [
+          "Materials & Science",
+          "Robotics & Mobility"
+        ],
+        "sources": [
+          "ScienceDaily Technology"
+        ],
+        "latest_utc": "2026-11-24T00:05:29+00:00",
+        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Materials & Science (material); Robotics & Mobility (autonomous, robot); progress signals: discover, develop, new; stage: Research; rising versus recent days: material.",
+        "finding": "Scientists have developed remarkable materials that can crawl, walk, and dig using their own internal energy, potentially paving the way for a new generation of autonomous soft robots. They also discovered that making individual components more active can paradoxically make the entire material less responsive...",
+        "links": [
+          {
+            "source": "ScienceDaily Technology",
+            "title": "Strange new materials can crawl, walk, and dig like living creatures",
+            "url": "https://www.sciencedaily.com/releases/2026/11/261121221137.htm"
+          }
+        ]
+      },
+      {
+        "rank": 6,
+        "title": "Predicting the unknown: A robust approach lets AI extrapolate to undiscovered materials",
+        "score": 6.5,
+        "rating": "Notable",
+        "stage": "Research",
+        "fields": [
+          "AI & Computing",
+          "Materials & Science"
+        ],
+        "sources": [
+          "Phys.org Technology"
+        ],
+        "latest_utc": "2026-11-24T16:00:02+00:00",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: AI & Computing (ai); Materials & Science (material); progress signals: demonstrat, new; stage: Research; rising versus recent days: ai, material.",
+        "finding": "Imagine asking a computer to predict the properties of a material it has never seen before. It may perform well when the new material resembles something in its training data, but its predictions can become unreliable when it encounters something truly unfamiliar. This poses a challenge for materials discovery, where...",
+        "links": [
+          {
+            "source": "Phys.org Technology",
+            "title": "Predicting the unknown: A robust approach lets AI extrapolate to undiscovered materials",
+            "url": "https://techxplore.com/news/2026-11-unknown-robust-approach-ai-extrapolate.html"
+          }
+        ]
+      },
+      {
+        "rank": 7,
+        "title": "A space telescope hunting for dark matter just discovered something unexpected",
+        "score": 6.0,
+        "rating": "Notable",
+        "stage": "Research",
+        "fields": [
+          "Space"
+        ],
+        "sources": [
+          "ScienceDaily Technology"
+        ],
+        "latest_utc": "2026-11-25T10:35:04+00:00",
+        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Space (esa, orbit, telescope); progress signals: first, discover; stage: Research.",
+        "finding": "ESA’s Euclid space telescope has discovered its first previously unknown comet, despite being designed to study distant galaxies and the mysteries of the dark Universe. The icy object is approximately 1.3 billion kilometers from Earth and follows an unusual orbit that takes thousands of years to complete.",
+        "links": [
+          {
+            "source": "ScienceDaily Technology",
+            "title": "A space telescope hunting for dark matter just discovered something unexpected",
+            "url": "https://www.sciencedaily.com/releases/2026/11/261124055852.htm"
+          }
+        ]
+      },
+      {
+        "rank": 8,
+        "title": "Space lasers are fast, but clouds still rule the forecast",
+        "score": 6.0,
+        "rating": "Notable",
+        "stage": "Launch",
+        "fields": [
+          "Connectivity",
+          "Materials & Science",
+          "Space"
+        ],
+        "sources": [
+          "Phys.org Technology"
+        ],
+        "latest_utc": "2026-11-24T18:00:07+00:00",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: Connectivity (network); Materials & Science (laser); Space (spacecraft); progress signals: launch; stage: Launch; rising versus recent days: laser, spacecraft.",
+        "finding": "Since the launch of Sputnik, humanity has talked to its spacecraft through radio waves. Radio is great for communication through any weather, but it has hit a limit—traditional radio frequencies are highly regulated by bodies like the International Telecommunications Union, which limits the scalability of radio...",
+        "links": [
+          {
+            "source": "Phys.org Technology",
+            "title": "Space lasers are fast, but clouds still rule the forecast",
+            "url": "https://techxplore.com/news/2026-11-space-lasers-fast-clouds.html"
+          }
+        ]
+      },
+      {
+        "rank": 9,
+        "title": "Thin lenses, clear images in bright daylight: A step toward everyday AR glasses",
+        "score": 6.0,
+        "rating": "Notable",
+        "stage": "Research",
+        "fields": [
+          "Chips & Hardware"
+        ],
+        "sources": [
+          "Phys.org Technology"
+        ],
+        "latest_utc": "2026-11-24T15:40:13+00:00",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: Chips & Hardware (display); progress signals: prototype, new; stage: Research; rising versus recent days: display.",
+        "finding": "A new technology could make augmented reality (AR) glasses—which overlay information such as directions or text onto the scene in front of the wearer—more practical for everyday use. By reducing light loss inside a thin lens, a Korean research team has built prototype glasses that display legible text even in bright...",
+        "links": [
+          {
+            "source": "Phys.org Technology",
+            "title": "Thin lenses, clear images in bright daylight: A step toward everyday AR glasses",
+            "url": "https://techxplore.com/news/2026-11-thin-lenses-images-bright-daylight.html"
+          }
+        ]
+      },
+      {
+        "rank": 10,
+        "title": "11 Things Jensen Huang Actually Said at His First All-Hands Back at Nvidia",
+        "score": 4.0,
+        "rating": "Emerging",
+        "stage": "Development",
+        "fields": [
+          "Health & Biotech"
+        ],
+        "sources": [
+          "Wired"
+        ],
+        "latest_utc": "2026-11-24T19:33:23+00:00",
+        "rationale": "Reported by 1 source (Wired); fields: Health & Biotech (therapy); progress signals: first; stage: Development.",
+        "finding": "The newly reinstated CEO discussed his daily therapy sessions, his reputation as a “tech bro,” his disdain for succession planning, and his relationship with President Trump.",
+        "links": [
+          {
+            "source": "Wired",
+            "title": "11 Things Jensen Huang Actually Said at His First All-Hands Back at Nvidia",
+            "url": "https://www.wired.com/story/11-things-jensen-huang-actually-said-at-his-first-all-hands-back-at-nvidia/"
+          }
+        ]
+      }
+    ]
+  }
+}
