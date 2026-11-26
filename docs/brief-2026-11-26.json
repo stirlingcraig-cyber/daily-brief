@@ -1,0 +1,538 @@
+{
+  "version": "2.1.0",
+  "generated_utc": "2026-11-26T16:50:46.252614+00:00",
+  "method": "Scores (0-10) combine perspective breadth, severity wording, cross-source corroboration and momentum. They measure attention and concern in public reporting - not probability, not a forecast. Read the sources before acting.",
+  "summary": [
+    "Scanned 472 items from 13 of 13 sources; 105 matched a perspective and were grouped into 103 distinct issues.",
+    "Top list ratings: High 4, Elevated 6 (10 threats, 0 watch items).",
+    "Perspective mix: Social 10, Technical 6, Cultural 1.",
+    "Rising topics versus recent days: outbreak, unemployment."
+  ],
+  "rising_terms": [
+    "outbreak",
+    "unemployment"
+  ],
+  "feed_status": {
+    "BBC World": "ok (28 items)",
+    "BBC Technology": "ok (21 items)",
+    "The Guardian World": "ok (45 items)",
+    "NPR World": "ok (10 items)",
+    "Fox News World": "ok (25 items)",
+    "WSJ World": "ok (20 items)",
+    "Al Jazeera": "ok (25 items)",
+    "DW (Germany)": "ok (144 items)",
+    "France 24": "ok (24 items)",
+    "UN News": "ok (30 items)",
+    "Ars Technica": "ok (20 items)",
+    "The Register": "ok (50 items)",
+    "CISA Advisories (US Gov)": "ok (30 items)"
+  },
+  "issues": [
+    {
+      "rank": 1,
+      "title": "Two Italians killed by ‘drone strike debris’ in Kuwait",
+      "score": 7.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "Al Jazeera"
+      ],
+      "latest_utc": "2026-11-26T16:32:31+00:00",
+      "rationale": "Reported by 1 source (Al Jazeera); perspectives: Social (strike); Technical (surveillance); severity wording: kill.",
+      "finding": "The Italians were technicians working at an air-defence surveillance station.",
+      "links": [
+        {
+          "source": "Al Jazeera",
+          "title": "Two Italians killed by ‘drone strike debris’ in Kuwait",
+          "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "Palestinian journalist killed by Israel in Gaza wins Rory Peck prize",
+      "score": 7.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Cultural",
+        "Social"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-25T23:06:06+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (journalis, trust); Social (strike, war); severity wording: kill, war.",
+      "finding": "Mariam Dagga shares award with two of her colleagues from AP for ‘powerful coverage’ of human cost of war Mariam Dagga, the Palestinian war correspondent who was killed at the age of 33 in Gaza in an Israeli strike, has posthumously won the prestigious Rory Peck prize for freelance video journalists, the organisers...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "Palestinian journalist killed by Israel in Gaza wins Rory Peck prize",
+          "url": "https://www.theguardian.com/media/2026/nov/25/palestinian-journalist-killed-by-israel-in-gaza-wins-rory-peck-prize"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "Yemen war: Emergency aid chief calls for access to war-hit communities",
+      "score": 7.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "UN News"
+      ],
+      "latest_utc": "2026-11-25T12:00:00+00:00",
+      "rationale": "Reported by 1 source (UN News); perspectives: Social (war); Technical (ai); severity wording: war, emergency, warning.",
+      "finding": "The UN’s top aid official, Tom Fletcher, arrived in Yemen on Wednesday warning that the war there is preventing families from accessing the food and medicine they need to survive, particularly those in Taiz City.",
+      "links": [
+        {
+          "source": "UN News",
+          "title": "Yemen war: Emergency aid chief calls for access to war-hit communities",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168872"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "Microsoft's historic cloud outage exposed an engineering “fog of war”",
+      "score": 7.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "Ars Technica"
+      ],
+      "latest_utc": "2026-11-24T22:36:28+00:00",
+      "rationale": "Reported by 1 source (Ars Technica); perspectives: Social (war); Technical (cloud, outage); severity wording: war, outage.",
+      "finding": "Internal memos reveal a “Code Red” overhaul and ambitious one-hour recovery goals.",
+      "links": [
+        {
+          "source": "Ars Technica",
+          "title": "Microsoft's historic cloud outage exposed an engineering “fog of war”",
+          "url": "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "Fighting in eastern Congo forces Ebola workers to evacuate, disrupts outbreak response",
+      "score": 6.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "France 24"
+      ],
+      "latest_utc": "2026-11-26T14:20:13+00:00",
+      "rationale": "Reported by 1 source (France 24); perspectives: Social (humanitarian, outbreak); severity wording: kill, escalat; rising versus recent days: outbreak.",
+      "finding": "Escalating fighting in eastern Congo has forced Ebola response workers to leave affected areas and disrupted efforts to contain the deadliest outbreak in the country, health officials and humanitarian workers said Wednesday. Congo’s Ebola outbreak has infected more than 11,700 people and killed more than 5,700 since...",
+      "links": [
+        {
+          "source": "France 24",
+          "title": "Fighting in eastern Congo forces Ebola workers to evacuate, disrupts outbreak response",
+          "url": "https://www.france24.com/en/video/20261126-fighting-in-eastern-congo-forces-ebola-workers-to-evacuate-disrupts-outbreak-response"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "Rackspace pulls plug on Spot cloud service after security breach",
+      "score": 6.0,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "The Register"
+      ],
+      "latest_utc": "2026-11-26T14:45:00+00:00",
+      "rationale": "Reported by 1 source (The Register); perspectives: Social (migra); Technical (cloud); severity wording: breach.",
+      "finding": "Customers face frantic scramble to migrate workloads and rotate compromised credentials",
+      "links": [
+        {
+          "source": "The Register",
+          "title": "Rackspace pulls plug on Spot cloud service after security breach",
+          "url": "https://www.theregister.com/cyber-crime/2026/11/26/rackspace-pulls-plug-on-spot-cloud-service-after-security-breach/5312352"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "Can Rassvet, 'Russia's Starlink' change the course of the war in Ukraine?",
+      "score": 6.0,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "DW (Germany)"
+      ],
+      "latest_utc": "2026-11-26T05:45:00+00:00",
+      "rationale": "Reported by 1 source (DW (Germany)); perspectives: Social (war); Technical (satellite); severity wording: war.",
+      "finding": "SpaceX's US Starlink satellite system has played a key role in countering the Russian military in Ukraine, but now a Russian counterpart is under development. What could this mean for Ukraine in future?",
+      "links": [
+        {
+          "source": "DW (Germany)",
+          "title": "Can Rassvet, 'Russia's Starlink' change the course of the war in Ukraine?",
+          "url": "https://www.dw.com/en/can-rassvet-russia-s-starlink-change-the-course-of-the-war-in-ukraine/a-80052579?maca=en-rss-en-all-1573-rdf"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "UN sacked Palestinian staff on back of unproven Israeli allegations, tribunal rules",
+      "score": 6.0,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social",
+        "Technical"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-26T00:05:50+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (humanitarian); Technical (ai); severity wording: attack.",
+      "finding": "Judgment casts doubt on evidence linking aid workers to Hamas and says humanitarian efforts in Gaza were damaged A UN tribunal has cast doubt on the evidence used to justify the sacking of Palestinian UN aid workers in 2024, saying it was based “almost entirely” on unproven assertions from the Israeli government and...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "UN sacked Palestinian staff on back of unproven Israeli allegations, tribunal rules",
+          "url": "https://www.theguardian.com/world/2026/nov/25/un-sacked-palestinian-staff-on-back-of-unproven-israel-allegations"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "Italy says two citizens killed in Iranian strike in Kuwait",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "BBC World"
+      ],
+      "latest_utc": "2026-11-26T16:39:30+00:00",
+      "rationale": "Reported by 1 source (BBC World); perspectives: Social (strike); severity wording: kill.",
+      "finding": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
+      "links": [
+        {
+          "source": "BBC World",
+          "title": "Italy says two citizens killed in Iranian strike in Kuwait",
+          "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "Spanish economist de Cos to succeed Lagarde as head of ECB",
+      "score": 5.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "France 24"
+      ],
+      "latest_utc": "2026-11-26T15:55:45+00:00",
+      "rationale": "Reported by 1 source (France 24); perspectives: Social (cost of living, inflation, war); severity wording: war, crisis.",
+      "finding": "Spanish monetary economist Pablo Hernandez de Cos on Thursday was set to replace France's Christine Lagarde as the new head of the European Central Bank (ECB). His nomination comes as the Europe's most powerful financial institution grapples with an Iran war-driven resurgence in inflation and a cost of living crisis.",
+      "links": [
+        {
+          "source": "France 24",
+          "title": "Spanish economist de Cos to succeed Lagarde as head of ECB",
+          "url": "https://www.france24.com/en/europe/20261126-spanish-economist-de-cos-succeed-lagarde-head-ecb"
+        }
+      ]
+    }
+  ],
+  "advancements": {
+    "method": "Scores (0-10) combine the technology field, progress wording (breakthrough, unveils, first, approved...), cross-source corroboration and momentum. They show how strongly a development is being reported - not its proven impact or commercial success.",
+    "summary": [
+      "Found 22 advancement stories from 12 of 12 technology sources, grouped into 22 distinct developments.",
+      "Top list ratings: Major 1, Notable 6, Emerging 3; stages: Approval 4, Research 4, Development 2.",
+      "Field mix: AI & Computing 5, Space 5, Chips & Hardware 4, Materials & Science 2, Energy & Climate 1, Robotics & Mobility 1, Connectivity 1, Health & Biotech 1.",
+      "Rising topics versus recent days: satellite, chip."
+    ],
+    "rising_terms": [
+      "satellite",
+      "chip"
+    ],
+    "feed_status": {
+      "MIT Technology Review": "ok (10 items)",
+      "IEEE Spectrum": "ok (30 items)",
+      "TechCrunch": "ok (20 items)",
+      "The Verge": "ok (10 items)",
+      "Wired": "ok (50 items)",
+      "New Scientist Technology": "ok (10 items)",
+      "ScienceDaily Technology": "ok (60 items)",
+      "Phys.org Technology": "ok (30 items)",
+      "NASA News": "ok (10 items)",
+      "BBC Technology": "ok (21 items)",
+      "Ars Technica": "ok (20 items)",
+      "The Register": "ok (50 items)"
+    },
+    "items": [
+      {
+        "rank": 1,
+        "title": "Mitsubishi Electric Research Lab CEO on How He Reached the C-Suite",
+        "score": 8.0,
+        "rating": "Major",
+        "stage": "Approval",
+        "fields": [
+          "AI & Computing",
+          "Chips & Hardware",
+          "Connectivity",
+          "Energy & Climate",
+          "Robotics & Mobility",
+          "Space"
+        ],
+        "sources": [
+          "IEEE Spectrum"
+        ],
+        "latest_utc": "2026-11-24T19:00:01+00:00",
+        "rationale": "Reported by 1 source (IEEE Spectrum); fields: AI & Computing (data center); Chips & Hardware (display); Connectivity (network); Energy & Climate (grid, renewable); Robotics & Mobility (robot); Space (satellite); progress signals: first, launch, develop, new; stage: Approval; rising versus recent days: satellite.",
+        "finding": "The trajectory from researcher to top executive at a leading R&D organization doesn’t happen overnight. It took Anthony Vetro nearly 30 years to climb the corporate ladder at Mitsubishi Electric Research Laboratories , in Cambridge, Mass. He joined MERL in 1996, right out of college, and he has worked there ever...",
+        "links": [
+          {
+            "source": "IEEE Spectrum",
+            "title": "Mitsubishi Electric Research Lab CEO on How He Reached the C-Suite",
+            "url": "https://spectrum.ieee.org/mitsubishi-electric-research-lab-ceo"
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "title": "Are photon-powered AR glasses on the horizon?",
+        "score": 7.0,
+        "rating": "Notable",
+        "stage": "Research",
+        "fields": [
+          "Chips & Hardware"
+        ],
+        "sources": [
+          "Phys.org Technology"
+        ],
+        "latest_utc": "2026-11-26T16:00:03+00:00",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: Chips & Hardware (chip); progress signals: first, more efficient; stage: Research; rising versus recent days: chip.",
+        "finding": "One of the first computers at the University of Pittsburgh, a tape-driven IBM 7090 mainframe, took up nearly an entire room. As computers evolved, their components were integrated onto a single chip—a leap made possible by nanoscale structures that control electricity. Those chips then shrank, became more efficient...",
+        "links": [
+          {
+            "source": "Phys.org Technology",
+            "title": "Are photon-powered AR glasses on the horizon?",
+            "url": "https://techxplore.com/news/2026-11-photon-powered-ar-glasses-horizon.html"
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "title": "The sky was once full of stars, kids; then the FCC let Elon Musk launch a million datacenter satellites",
+        "score": 7.0,
+        "rating": "Notable",
+        "stage": "Approval",
+        "fields": [
+          "Space"
+        ],
+        "sources": [
+          "The Register"
+        ],
+        "latest_utc": "2026-11-25T22:54:07+00:00",
+        "rationale": "Reported by 1 source (The Register); fields: Space (satellite); progress signals: launch, approv; stage: Approval; rising versus recent days: satellite.",
+        "finding": "Approval for ‘Starmind’ granted but it’s a long way from the launchpad, or making sense",
+        "links": [
+          {
+            "source": "The Register",
+            "title": "The sky was once full of stars, kids; then the FCC let Elon Musk launch a million datacenter satellites",
+            "url": "https://www.theregister.com/off-prem/2026/11/25/the-sky-was-once-full-of-stars-kids-then-the-fcc-let-elon-musk-launch-a-million-datacenter-satellites/5312268"
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "title": "Etching a 6-inch wafer one atomic layer at a time",
+        "score": 7.0,
+        "rating": "Notable",
+        "stage": "Research",
+        "fields": [
+          "AI & Computing",
+          "Chips & Hardware",
+          "Materials & Science"
+        ],
+        "sources": [
+          "Phys.org Technology"
+        ],
+        "latest_utc": "2026-11-25T18:00:10+00:00",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: AI & Computing (ai, artificial intelligence); Chips & Hardware (semiconductor); Materials & Science (material); progress signals: world's first, first, develop; stage: Research.",
+        "finding": "The world's first technology for controlling the thickness of a next-generation semiconductor material one atomic layer at a time across an entire 15 cm (6-inch) wafer has been developed. The material is approximately one hundred-thousandth the thickness of a human hair. The research team precisely reduced the...",
+        "links": [
+          {
+            "source": "Phys.org Technology",
+            "title": "Etching a 6-inch wafer one atomic layer at a time",
+            "url": "https://techxplore.com/news/2026-11-etching-inch-wafer-atomic-layer.html"
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "title": "Astronomers may have discovered a black hole born before the first stars",
+        "score": 6.0,
+        "rating": "Notable",
+        "stage": "Research",
+        "fields": [
+          "Space"
+        ],
+        "sources": [
+          "ScienceDaily Technology"
+        ],
+        "latest_utc": "2026-11-26T02:00:33+00:00",
+        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Space (moon); progress signals: first, discover, new; stage: Research.",
+        "finding": "A mysterious object named Phoebe, detected when it briefly magnified a distant star, could be a primordial black hole formed just after the Big Bang. With an estimated mass only three times that of the Moon, it may be a 13-billion-year-old cosmic relic that offers new clues to the mystery of dark matter.",
+        "links": [
+          {
+            "source": "ScienceDaily Technology",
+            "title": "Astronomers may have discovered a black hole born before the first stars",
+            "url": "https://www.sciencedaily.com/releases/2026/11/261122060346.htm"
+          }
+        ]
+      },
+      {
+        "rank": 6,
+        "title": "Tiny NbP wires could make computer chips more efficient where copper falters",
+        "score": 6.0,
+        "rating": "Notable",
+        "stage": "Development",
+        "fields": [
+          "AI & Computing",
+          "Chips & Hardware",
+          "Materials & Science"
+        ],
+        "sources": [
+          "Phys.org Technology"
+        ],
+        "latest_utc": "2026-11-25T21:20:01+00:00",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: AI & Computing (ai); Chips & Hardware (chip, transistor); Materials & Science (material); progress signals: more efficient; stage: Development; rising versus recent days: chip.",
+        "finding": "A computer chip is rarely bigger than a postage stamp but can have 100 kilometers (62 miles) of copper wire inside, connecting its billions of transistors and other components. The smallest of these wires are almost impossibly slim, over 1,000 times thinner than a human hair. One challenge for chipmakers is that...",
+        "links": [
+          {
+            "source": "Phys.org Technology",
+            "title": "Tiny NbP wires could make computer chips more efficient where copper falters",
+            "url": "https://techxplore.com/news/2026-11-tiny-nbp-wires-chips-efficient.html"
+          }
+        ]
+      },
+      {
+        "rank": 7,
+        "title": "A space telescope hunting for dark matter just discovered something unexpected",
+        "score": 6.0,
+        "rating": "Notable",
+        "stage": "Research",
+        "fields": [
+          "Space"
+        ],
+        "sources": [
+          "ScienceDaily Technology"
+        ],
+        "latest_utc": "2026-11-25T10:35:04+00:00",
+        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Space (esa, orbit, telescope); progress signals: first, discover; stage: Research.",
+        "finding": "ESA’s Euclid space telescope has discovered its first previously unknown comet, despite being designed to study distant galaxies and the mysteries of the dark Universe. The icy object is approximately 1.3 billion kilometers from Earth and follows an unusual orbit that takes thousands of years to complete.",
+        "links": [
+          {
+            "source": "ScienceDaily Technology",
+            "title": "A space telescope hunting for dark matter just discovered something unexpected",
+            "url": "https://www.sciencedaily.com/releases/2026/11/261124055852.htm"
+          }
+        ]
+      },
+      {
+        "rank": 8,
+        "title": "Musk's plan to send a million SpaceX data satellites into space approved",
+        "score": 5.5,
+        "rating": "Emerging",
+        "stage": "Approval",
+        "fields": [
+          "AI & Computing",
+          "Space"
+        ],
+        "sources": [
+          "BBC Technology"
+        ],
+        "latest_utc": "2026-11-26T09:27:44+00:00",
+        "rationale": "Reported by 1 source (BBC Technology); fields: AI & Computing (ai); Space (satellite, spacex); progress signals: approv; stage: Approval; rising versus recent days: satellite.",
+        "finding": "The Starmind constellation aims to be the most cost and energy-efficient way to meet the growing demand for AI computing power.",
+        "links": [
+          {
+            "source": "BBC Technology",
+            "title": "Musk's plan to send a million SpaceX data satellites into space approved",
+            "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      },
+      {
+        "rank": 9,
+        "title": "Australia's Parliament backs law imposing massive new fines for Big Tech",
+        "score": 5.0,
+        "rating": "Emerging",
+        "stage": "Approval",
+        "fields": [
+          "AI & Computing"
+        ],
+        "sources": [
+          "Phys.org Technology"
+        ],
+        "latest_utc": "2026-11-26T10:20:07+00:00",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: AI & Computing (algorithm); progress signals: approv, new; stage: Approval.",
+        "finding": "Australia's Parliament has approved new laws allowing users to opt out of social media algorithms and imposing massive fines on tech giants that fail to remove content deemed harmful.",
+        "links": [
+          {
+            "source": "Phys.org Technology",
+            "title": "Australia's Parliament backs law imposing massive new fines for Big Tech",
+            "url": "https://techxplore.com/news/2026-11-australia-parliament-law-imposing-massive.html"
+          }
+        ]
+      },
+      {
+        "rank": 10,
+        "title": "11 Things Jensen Huang Actually Said at His First All-Hands Back at Nvidia",
+        "score": 4.0,
+        "rating": "Emerging",
+        "stage": "Development",
+        "fields": [
+          "Health & Biotech"
+        ],
+        "sources": [
+          "Wired"
+        ],
+        "latest_utc": "2026-11-24T19:33:23+00:00",
+        "rationale": "Reported by 1 source (Wired); fields: Health & Biotech (therapy); progress signals: first; stage: Development.",
+        "finding": "The newly reinstated CEO discussed his daily therapy sessions, his reputation as a “tech bro,” his disdain for succession planning, and his relationship with President Trump.",
+        "links": [
+          {
+            "source": "Wired",
+            "title": "11 Things Jensen Huang Actually Said at His First All-Hands Back at Nvidia",
+            "url": "https://www.wired.com/story/11-things-jensen-huang-actually-said-at-his-first-all-hands-back-at-nvidia/"
+          }
+        ]
+      }
+    ]
+  }
+}
