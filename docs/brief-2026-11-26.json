@@ -1,16 +1,16 @@
 {
   "version": "2.1.0",
-  "generated_utc": "2026-11-26T16:50:46.252614+00:00",
+  "generated_utc": "2026-11-26T18:39:06.431249+00:00",
   "method": "Scores (0-10) combine perspective breadth, severity wording, cross-source corroboration and momentum. They measure attention and concern in public reporting - not probability, not a forecast. Read the sources before acting.",
   "summary": [
-    "Scanned 472 items from 13 of 13 sources; 105 matched a perspective and were grouped into 103 distinct issues.",
+    "Scanned 472 items from 13 of 13 sources; 100 matched a perspective and were grouped into 98 distinct issues.",
     "Top list ratings: High 4, Elevated 6 (10 threats, 0 watch items).",
     "Perspective mix: Social 10, Technical 6, Cultural 1.",
-    "Rising topics versus recent days: outbreak, unemployment."
+    "Rising topics versus recent days: outbreak.",
+    "Most widely reported: \"Two Italians killed in strike in Kuwait, as Iran denies responsibility\" (2 sources)."
   ],
   "rising_terms": [
-    "outbreak",
-    "unemployment"
+    "outbreak"
   ],
   "feed_status": {
     "BBC World": "ok (28 items)",
@@ -30,8 +30,8 @@
   "issues": [
     {
       "rank": 1,
-      "title": "Two Italians killed by ‘drone strike debris’ in Kuwait",
-      "score": 7.0,
+      "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+      "score": 8.0,
       "rating": "High",
       "type": "Threat",
       "perspectives": [
@@ -39,12 +39,18 @@
         "Technical"
       ],
       "sources": [
-        "Al Jazeera"
+        "Al Jazeera",
+        "BBC World"
       ],
-      "latest_utc": "2026-11-26T16:32:31+00:00",
-      "rationale": "Reported by 1 source (Al Jazeera); perspectives: Social (strike); Technical (surveillance); severity wording: kill.",
-      "finding": "The Italians were technicians working at an air-defence surveillance station.",
+      "latest_utc": "2026-11-26T17:54:22+00:00",
+      "rationale": "Reported by 2 sources (Al Jazeera, BBC World); perspectives: Social (strike); Technical (surveillance); severity wording: kill.",
+      "finding": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
       "links": [
+        {
+          "source": "BBC World",
+          "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+          "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss"
+        },
         {
           "source": "Al Jazeera",
           "title": "Two Italians killed by ‘drone strike debris’ in Kuwait",
@@ -186,7 +192,7 @@
       ],
       "latest_utc": "2026-11-26T05:45:00+00:00",
       "rationale": "Reported by 1 source (DW (Germany)); perspectives: Social (war); Technical (satellite); severity wording: war.",
-      "finding": "SpaceX's US Starlink satellite system has played a key role in countering the Russian military in Ukraine, but now a Russian counterpart is under development. What could this mean for Ukraine in future?",
+      "finding": "SpaceX's US Starlink satellite system has played a key role in countering the Russian military in Ukraine, but now a Russian counterpart is under development. What could this mean for Ukraine?",
       "links": [
         {
           "source": "DW (Germany)",
@@ -221,7 +227,7 @@
     },
     {
       "rank": 9,
-      "title": "Italy says two citizens killed in Iranian strike in Kuwait",
+      "title": "Israeli strikes kill 16 schoolchildren so far this month, Gaza ministry says",
       "score": 5.5,
       "rating": "Elevated",
       "type": "Threat",
@@ -229,16 +235,16 @@
         "Social"
       ],
       "sources": [
-        "BBC World"
+        "The Guardian World"
       ],
-      "latest_utc": "2026-11-26T16:39:30+00:00",
-      "rationale": "Reported by 1 source (BBC World); perspectives: Social (strike); severity wording: kill.",
-      "finding": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
+      "latest_utc": "2026-11-26T17:59:44+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (education, strike); severity wording: kill, escalat.",
+      "finding": "Statement follows death of sisters, aged 15 and 13, in airstrike on residential apartment in Gaza City Israeli strikes have killed at least 16 schoolchildren in Gaza since the start of November, as young people across the territory face intensifying bombardment and struggle to find food, clean water and shelter. On...",
       "links": [
         {
-          "source": "BBC World",
-          "title": "Italy says two citizens killed in Iranian strike in Kuwait",
-          "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss"
+          "source": "The Guardian World",
+          "title": "Israeli strikes kill 16 schoolchildren so far this month, Gaza ministry says",
+          "url": "https://www.theguardian.com/world/2026/nov/26/gaza-ministry-schoolchildren-killed-this-month-israel-strikes"
         }
       ]
     },
@@ -269,13 +275,12 @@
   "advancements": {
     "method": "Scores (0-10) combine the technology field, progress wording (breakthrough, unveils, first, approved...), cross-source corroboration and momentum. They show how strongly a development is being reported - not its proven impact or commercial success.",
     "summary": [
-      "Found 22 advancement stories from 12 of 12 technology sources, grouped into 22 distinct developments.",
-      "Top list ratings: Major 1, Notable 6, Emerging 3; stages: Approval 4, Research 4, Development 2.",
-      "Field mix: AI & Computing 5, Space 5, Chips & Hardware 4, Materials & Science 2, Energy & Climate 1, Robotics & Mobility 1, Connectivity 1, Health & Biotech 1.",
-      "Rising topics versus recent days: satellite, chip."
+      "Found 20 advancement stories from 12 of 12 technology sources, grouped into 20 distinct developments.",
+      "Top list ratings: Notable 7, Emerging 3; stages: Research 4, Approval 3, Development 3.",
+      "Field mix: Chips & Hardware 4, AI & Computing 4, Space 4, Materials & Science 3, Energy & Climate 1, Robotics & Mobility 1, Connectivity 1, Health & Biotech 1.",
+      "Rising topics versus recent days: chip."
     ],
     "rising_terms": [
-      "satellite",
       "chip"
     ],
     "feed_status": {
@@ -295,34 +300,6 @@
     "items": [
       {
         "rank": 1,
-        "title": "Mitsubishi Electric Research Lab CEO on How He Reached the C-Suite",
-        "score": 8.0,
-        "rating": "Major",
-        "stage": "Approval",
-        "fields": [
-          "AI & Computing",
-          "Chips & Hardware",
-          "Connectivity",
-          "Energy & Climate",
-          "Robotics & Mobility",
-          "Space"
-        ],
-        "sources": [
-          "IEEE Spectrum"
-        ],
-        "latest_utc": "2026-11-24T19:00:01+00:00",
-        "rationale": "Reported by 1 source (IEEE Spectrum); fields: AI & Computing (data center); Chips & Hardware (display); Connectivity (network); Energy & Climate (grid, renewable); Robotics & Mobility (robot); Space (satellite); progress signals: first, launch, develop, new; stage: Approval; rising versus recent days: satellite.",
-        "finding": "The trajectory from researcher to top executive at a leading R&D organization doesn’t happen overnight. It took Anthony Vetro nearly 30 years to climb the corporate ladder at Mitsubishi Electric Research Laboratories , in Cambridge, Mass. He joined MERL in 1996, right out of college, and he has worked there ever...",
-        "links": [
-          {
-            "source": "IEEE Spectrum",
-            "title": "Mitsubishi Electric Research Lab CEO on How He Reached the C-Suite",
-            "url": "https://spectrum.ieee.org/mitsubishi-electric-research-lab-ceo"
-          }
-        ]
-      },
-      {
-        "rank": 2,
         "title": "Are photon-powered AR glasses on the horizon?",
         "score": 7.0,
         "rating": "Notable",
@@ -345,30 +322,7 @@
         ]
       },
       {
-        "rank": 3,
-        "title": "The sky was once full of stars, kids; then the FCC let Elon Musk launch a million datacenter satellites",
-        "score": 7.0,
-        "rating": "Notable",
-        "stage": "Approval",
-        "fields": [
-          "Space"
-        ],
-        "sources": [
-          "The Register"
-        ],
-        "latest_utc": "2026-11-25T22:54:07+00:00",
-        "rationale": "Reported by 1 source (The Register); fields: Space (satellite); progress signals: launch, approv; stage: Approval; rising versus recent days: satellite.",
-        "finding": "Approval for ‘Starmind’ granted but it’s a long way from the launchpad, or making sense",
-        "links": [
-          {
-            "source": "The Register",
-            "title": "The sky was once full of stars, kids; then the FCC let Elon Musk launch a million datacenter satellites",
-            "url": "https://www.theregister.com/off-prem/2026/11/25/the-sky-was-once-full-of-stars-kids-then-the-fcc-let-elon-musk-launch-a-million-datacenter-satellites/5312268"
-          }
-        ]
-      },
-      {
-        "rank": 4,
+        "rank": 2,
         "title": "Etching a 6-inch wafer one atomic layer at a time",
         "score": 7.0,
         "rating": "Notable",
@@ -393,7 +347,35 @@
         ]
       },
       {
-        "rank": 5,
+        "rank": 3,
+        "title": "Mitsubishi Electric Research Lab CEO on How He Reached the C-Suite",
+        "score": 7.0,
+        "rating": "Notable",
+        "stage": "Approval",
+        "fields": [
+          "AI & Computing",
+          "Chips & Hardware",
+          "Connectivity",
+          "Energy & Climate",
+          "Robotics & Mobility",
+          "Space"
+        ],
+        "sources": [
+          "IEEE Spectrum"
+        ],
+        "latest_utc": "2026-11-24T19:00:01+00:00",
+        "rationale": "Reported by 1 source (IEEE Spectrum); fields: AI & Computing (data center); Chips & Hardware (display); Connectivity (network); Energy & Climate (grid, renewable); Robotics & Mobility (robot); Space (satellite); progress signals: first, launch, develop, new; stage: Approval.",
+        "finding": "The trajectory from researcher to top executive at a leading R&D organization doesn’t happen overnight. It took Anthony Vetro nearly 30 years to climb the corporate ladder at Mitsubishi Electric Research Laboratories , in Cambridge, Mass. He joined MERL in 1996, right out of college, and he has worked there ever...",
+        "links": [
+          {
+            "source": "IEEE Spectrum",
+            "title": "Mitsubishi Electric Research Lab CEO on How He Reached the C-Suite",
+            "url": "https://spectrum.ieee.org/mitsubishi-electric-research-lab-ceo"
+          }
+        ]
+      },
+      {
+        "rank": 4,
         "title": "Astronomers may have discovered a black hole born before the first stars",
         "score": 6.0,
         "rating": "Notable",
@@ -412,6 +394,29 @@
             "source": "ScienceDaily Technology",
             "title": "Astronomers may have discovered a black hole born before the first stars",
             "url": "https://www.sciencedaily.com/releases/2026/11/261122060346.htm"
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "title": "The sky was once full of stars, kids; then the FCC let Elon Musk launch a million datacenter satellites",
+        "score": 6.0,
+        "rating": "Notable",
+        "stage": "Approval",
+        "fields": [
+          "Space"
+        ],
+        "sources": [
+          "The Register"
+        ],
+        "latest_utc": "2026-11-25T22:54:07+00:00",
+        "rationale": "Reported by 1 source (The Register); fields: Space (satellite); progress signals: launch, approv; stage: Approval.",
+        "finding": "Approval for ‘Starmind’ granted but it’s a long way from the launchpad, or making sense",
+        "links": [
+          {
+            "source": "The Register",
+            "title": "The sky was once full of stars, kids; then the FCC let Elon Musk launch a million datacenter satellites",
+            "url": "https://www.theregister.com/off-prem/2026/11/25/the-sky-was-once-full-of-stars-kids-then-the-fcc-let-elon-musk-launch-a-million-datacenter-satellites/5312268"
           }
         ]
       },
@@ -465,30 +470,6 @@
       },
       {
         "rank": 8,
-        "title": "Musk's plan to send a million SpaceX data satellites into space approved",
-        "score": 5.5,
-        "rating": "Emerging",
-        "stage": "Approval",
-        "fields": [
-          "AI & Computing",
-          "Space"
-        ],
-        "sources": [
-          "BBC Technology"
-        ],
-        "latest_utc": "2026-11-26T09:27:44+00:00",
-        "rationale": "Reported by 1 source (BBC Technology); fields: AI & Computing (ai); Space (satellite, spacex); progress signals: approv; stage: Approval; rising versus recent days: satellite.",
-        "finding": "The Starmind constellation aims to be the most cost and energy-efficient way to meet the growing demand for AI computing power.",
-        "links": [
-          {
-            "source": "BBC Technology",
-            "title": "Musk's plan to send a million SpaceX data satellites into space approved",
-            "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss"
-          }
-        ]
-      },
-      {
-        "rank": 9,
         "title": "Australia's Parliament backs law imposing massive new fines for Big Tech",
         "score": 5.0,
         "rating": "Emerging",
@@ -507,6 +488,29 @@
             "source": "Phys.org Technology",
             "title": "Australia's Parliament backs law imposing massive new fines for Big Tech",
             "url": "https://techxplore.com/news/2026-11-australia-parliament-law-imposing-massive.html"
+          }
+        ]
+      },
+      {
+        "rank": 9,
+        "title": "Physicists trap antimatter in a breakthrough that could explain why the universe exists",
+        "score": 5.0,
+        "rating": "Emerging",
+        "stage": "Development",
+        "fields": [
+          "Materials & Science"
+        ],
+        "sources": [
+          "ScienceDaily Technology"
+        ],
+        "latest_utc": "2026-11-25T10:06:22+00:00",
+        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Materials & Science (physicist); progress signals: breakthrough; stage: Development.",
+        "finding": "Positrons are the antimatter counterpart of an electron. Physicists trapped a positron and cooled it to temperatures near absolute zero. Positron is suspended in a wall-free trap, safely separated from ordinary matter. Team will conduct most precise comparison yet between matter and antimatter. Any difference between...",
+        "links": [
+          {
+            "source": "ScienceDaily Technology",
+            "title": "Physicists trap antimatter in a breakthrough that could explain why the universe exists",
+            "url": "https://www.sciencedaily.com/releases/2026/11/261124055849.htm"
           }
         ]
       },
