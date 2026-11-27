@@ -1,19 +1,24 @@
 {
   "version": "2.1.0",
-  "generated_utc": "2026-11-26T18:39:06.431249+00:00",
+  "generated_utc": "2026-11-27T16:36:33.861967+00:00",
   "method": "Scores (0-10) combine perspective breadth, severity wording, cross-source corroboration and momentum. They measure attention and concern in public reporting - not probability, not a forecast. Read the sources before acting.",
   "summary": [
-    "Scanned 472 items from 13 of 13 sources; 100 matched a perspective and were grouped into 98 distinct issues.",
-    "Top list ratings: High 4, Elevated 6 (10 threats, 0 watch items).",
-    "Perspective mix: Social 10, Technical 6, Cultural 1.",
-    "Rising topics versus recent days: outbreak.",
-    "Most widely reported: \"Two Italians killed in strike in Kuwait, as Iran denies responsibility\" (2 sources)."
+    "Scanned 475 items from 13 of 13 sources; 117 matched a perspective and were grouped into 115 distinct issues.",
+    "Top list ratings: High 5, Elevated 5 (10 threats, 0 watch items).",
+    "Perspective mix: Social 10, Cultural 4, Technical 4.",
+    "Rising topics versus recent days: election, violence, religio*, journalis*, cloud, housing, cultural."
   ],
   "rising_terms": [
-    "outbreak"
+    "election",
+    "violence",
+    "religio*",
+    "journalis*",
+    "cloud",
+    "housing",
+    "cultural"
   ],
   "feed_status": {
-    "BBC World": "ok (28 items)",
+    "BBC World": "ok (31 items)",
     "BBC Technology": "ok (21 items)",
     "The Guardian World": "ok (45 items)",
     "NPR World": "ok (10 items)",
@@ -30,38 +35,8 @@
   "issues": [
     {
       "rank": 1,
-      "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
-      "score": 8.0,
-      "rating": "High",
-      "type": "Threat",
-      "perspectives": [
-        "Social",
-        "Technical"
-      ],
-      "sources": [
-        "Al Jazeera",
-        "BBC World"
-      ],
-      "latest_utc": "2026-11-26T17:54:22+00:00",
-      "rationale": "Reported by 2 sources (Al Jazeera, BBC World); perspectives: Social (strike); Technical (surveillance); severity wording: kill.",
-      "finding": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
-      "links": [
-        {
-          "source": "BBC World",
-          "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
-          "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "Al Jazeera",
-          "title": "Two Italians killed by ‘drone strike debris’ in Kuwait",
-          "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "rank": 2,
       "title": "Palestinian journalist killed by Israel in Gaza wins Rory Peck prize",
-      "score": 7.0,
+      "score": 8.0,
       "rating": "High",
       "type": "Threat",
       "perspectives": [
@@ -72,7 +47,7 @@
         "The Guardian World"
       ],
       "latest_utc": "2026-11-25T23:06:06+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (journalis, trust); Social (strike, war); severity wording: kill, war.",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (journalis, trust); Social (strike, war); severity wording: kill, war; rising versus recent days: journalis*.",
       "finding": "Mariam Dagga shares award with two of her colleagues from AP for ‘powerful coverage’ of human cost of war Mariam Dagga, the Palestinian war correspondent who was killed at the age of 33 in Gaza in an Israeli strike, has posthumously won the prestigious Rory Peck prize for freelance video journalists, the organisers...",
       "links": [
         {
@@ -83,32 +58,56 @@
       ]
     },
     {
-      "rank": 3,
-      "title": "Yemen war: Emergency aid chief calls for access to war-hit communities",
+      "rank": 2,
+      "title": "Spanish prime minister Pedro Sánchez confident of election victory despite polls – Europe live",
       "score": 7.0,
       "rating": "High",
       "type": "Threat",
       "perspectives": [
-        "Social",
-        "Technical"
+        "Cultural",
+        "Social"
       ],
       "sources": [
-        "UN News"
+        "The Guardian World"
       ],
-      "latest_utc": "2026-11-25T12:00:00+00:00",
-      "rationale": "Reported by 1 source (UN News); perspectives: Social (war); Technical (ai); severity wording: war, emergency, warning.",
-      "finding": "The UN’s top aid official, Tom Fletcher, arrived in Yemen on Wednesday warning that the war there is preventing families from accessing the food and medicine they need to survive, particularly those in Taiz City.",
+      "latest_utc": "2026-11-27T16:19:50+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (journalis); Social (election, war); severity wording: war; rising versus recent days: election, journalis*.",
+      "finding": "‘I can’t conceive of us losing,’ the leader said Freelance journalist based in Madrid and host of the Sobremesa podcast Vox has often been portrayed in international coverage as a party of Franco nostalgists whose ultraconservative Catholicism and civil-war rhetoric towards the separatist Catalan “enemy within”...",
       "links": [
         {
-          "source": "UN News",
-          "title": "Yemen war: Emergency aid chief calls for access to war-hit communities",
-          "url": "https://news.un.org/feed/view/en/story/2026/11/1168872"
+          "source": "The Guardian World",
+          "title": "Spanish prime minister Pedro Sánchez confident of election victory despite polls – Europe live",
+          "url": "https://www.theguardian.com/world/live/2026/nov/27/zelenskyy-putin-trump-comments-russia-ukraine-latest-news-updates"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "Saudi strike kills ’11 civilians’ in Yemen’s Taiz: Houthi media",
+      "score": 7.0,
+      "rating": "High",
+      "type": "Threat",
+      "perspectives": [
+        "Cultural",
+        "Social"
+      ],
+      "sources": [
+        "Al Jazeera"
+      ],
+      "latest_utc": "2026-11-27T12:00:22+00:00",
+      "rationale": "Reported by 1 source (Al Jazeera); perspectives: Cultural (media); Social (humanitarian, strike); severity wording: kill, crisis.",
+      "finding": "Hostilities between Iran-backed Houthis and Saudi-backed coalition continue to push Yemen into a humanitarian crisis.",
+      "links": [
+        {
+          "source": "Al Jazeera",
+          "title": "Saudi strike kills ’11 civilians’ in Yemen’s Taiz: Houthi media",
+          "url": "https://www.aljazeera.com/news/2026/11/27/saudi-strike-kills-11-civilians-in-yemens-taiz-houthi-media?traffic_source=rss"
         }
       ]
     },
     {
       "rank": 4,
-      "title": "Microsoft's historic cloud outage exposed an engineering “fog of war”",
+      "title": "Russia’s hybrid war on Europe evolving, but failing: IISS",
       "score": 7.0,
       "rating": "High",
       "type": "Threat",
@@ -117,47 +116,24 @@
         "Technical"
       ],
       "sources": [
-        "Ars Technica"
+        "Al Jazeera"
       ],
-      "latest_utc": "2026-11-24T22:36:28+00:00",
-      "rationale": "Reported by 1 source (Ars Technica); perspectives: Social (war); Technical (cloud, outage); severity wording: war, outage.",
-      "finding": "Internal memos reveal a “Code Red” overhaul and ambitious one-hour recovery goals.",
+      "latest_utc": "2026-11-27T11:44:46+00:00",
+      "rationale": "Reported by 1 source (Al Jazeera); perspectives: Social (war); Technical (infrastructure); severity wording: attack, war.",
+      "finding": "Growing attacks have damaged European infrastructure, but have not reduced support for Ukraine, analysis says.",
       "links": [
         {
-          "source": "Ars Technica",
-          "title": "Microsoft's historic cloud outage exposed an engineering “fog of war”",
-          "url": "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/"
+          "source": "Al Jazeera",
+          "title": "Russia’s hybrid war on Europe evolving, but failing: IISS",
+          "url": "https://www.aljazeera.com/news/2026/11/27/russias-hybrid-war-on-europe-evolving-but-failing-iiss?traffic_source=rss"
         }
       ]
     },
     {
       "rank": 5,
-      "title": "Fighting in eastern Congo forces Ebola workers to evacuate, disrupts outbreak response",
-      "score": 6.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social"
-      ],
-      "sources": [
-        "France 24"
-      ],
-      "latest_utc": "2026-11-26T14:20:13+00:00",
-      "rationale": "Reported by 1 source (France 24); perspectives: Social (humanitarian, outbreak); severity wording: kill, escalat; rising versus recent days: outbreak.",
-      "finding": "Escalating fighting in eastern Congo has forced Ebola response workers to leave affected areas and disrupted efforts to contain the deadliest outbreak in the country, health officials and humanitarian workers said Wednesday. Congo’s Ebola outbreak has infected more than 11,700 people and killed more than 5,700 since...",
-      "links": [
-        {
-          "source": "France 24",
-          "title": "Fighting in eastern Congo forces Ebola workers to evacuate, disrupts outbreak response",
-          "url": "https://www.france24.com/en/video/20261126-fighting-in-eastern-congo-forces-ebola-workers-to-evacuate-disrupts-outbreak-response"
-        }
-      ]
-    },
-    {
-      "rank": 6,
       "title": "Rackspace pulls plug on Spot cloud service after security breach",
-      "score": 6.0,
-      "rating": "Elevated",
+      "score": 7.0,
+      "rating": "High",
       "type": "Threat",
       "perspectives": [
         "Social",
@@ -167,7 +143,7 @@
         "The Register"
       ],
       "latest_utc": "2026-11-26T14:45:00+00:00",
-      "rationale": "Reported by 1 source (The Register); perspectives: Social (migra); Technical (cloud); severity wording: breach.",
+      "rationale": "Reported by 1 source (The Register); perspectives: Social (migra); Technical (cloud); severity wording: breach; rising versus recent days: cloud.",
       "finding": "Customers face frantic scramble to migrate workloads and rotate compromised credentials",
       "links": [
         {
@@ -178,7 +154,77 @@
       ]
     },
     {
+      "rank": 6,
+      "title": "Nigeria: Political violence and attacks on candidates raise fears ahead of January elections",
+      "score": 6.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "France 24"
+      ],
+      "latest_utc": "2026-11-27T16:25:05+00:00",
+      "rationale": "Reported by 1 source (France 24); perspectives: Social (election, violence); severity wording: deadly, attack, escalat; rising versus recent days: election, violence.",
+      "finding": "Political violence is escalating in Nigeria ahead of the general elections scheduled for January. Candidates and their supporters have increasingly come under attack, with armed groups disrupting campaign rallies and some assaults resulting in deaths. Despite the growing number of incidents, security forces have...",
+      "links": [
+        {
+          "source": "France 24",
+          "title": "Nigeria: Political violence and attacks on candidates raise fears ahead of January elections",
+          "url": "https://www.france24.com/en/video/20261127-nigeria-political-violence-and-attacks-on-candidates-raise-fears-ahead-of-january-elections"
+        }
+      ]
+    },
+    {
       "rank": 7,
+      "title": "Why is India so afraid of Pakistan's new Netflix series?",
+      "score": 6.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "France 24"
+      ],
+      "latest_utc": "2026-11-27T09:56:52+00:00",
+      "rationale": "Reported by 1 source (France 24); perspectives: Social (election); severity wording: attack, threat, ban; rising versus recent days: election.",
+      "finding": "PRESS REVIEW – Friday, November 27: Controversy brews as India asks Netflix to ban a Pakistani series from being broadcast in the country. Tensions have been high between the two nations since last year's terror attack in the Kashmir region. Also in the news: Taiwanese voters will head to the polls for all-important...",
+      "links": [
+        {
+          "source": "France 24",
+          "title": "Why is India so afraid of Pakistan's new Netflix series?",
+          "url": "https://www.france24.com/en/tv-shows/press-review/20261127-why-is-india-so-afraid-of-pakistan-s-new-netflix-series"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "Inside Saudi Arabia, Houthi attacks test kingdom's image of security",
+      "score": 6.0,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Cultural",
+        "Social"
+      ],
+      "sources": [
+        "BBC World"
+      ],
+      "latest_utc": "2026-11-27T06:04:51+00:00",
+      "rationale": "Reported by 1 source (BBC World); perspectives: Cultural (trust); Social (strike); severity wording: attack.",
+      "finding": "Despite the strikes, markets and restaurants in Riyadh remain busy as residents express trust in the government to protect them.",
+      "links": [
+        {
+          "source": "BBC World",
+          "title": "Inside Saudi Arabia, Houthi attacks test kingdom's image of security",
+          "url": "https://www.bbc.co.uk/news/articles/c6ly7jgv7jzdo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "rank": 9,
       "title": "Can Rassvet, 'Russia's Starlink' change the course of the war in Ukraine?",
       "score": 6.0,
       "rating": "Elevated",
@@ -202,7 +248,7 @@
       ]
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "UN sacked Palestinian staff on back of unproven Israeli allegations, tribunal rules",
       "score": 6.0,
       "rating": "Elevated",
@@ -224,63 +270,18 @@
           "url": "https://www.theguardian.com/world/2026/nov/25/un-sacked-palestinian-staff-on-back-of-unproven-israel-allegations"
         }
       ]
-    },
-    {
-      "rank": 9,
-      "title": "Israeli strikes kill 16 schoolchildren so far this month, Gaza ministry says",
-      "score": 5.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social"
-      ],
-      "sources": [
-        "The Guardian World"
-      ],
-      "latest_utc": "2026-11-26T17:59:44+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (education, strike); severity wording: kill, escalat.",
-      "finding": "Statement follows death of sisters, aged 15 and 13, in airstrike on residential apartment in Gaza City Israeli strikes have killed at least 16 schoolchildren in Gaza since the start of November, as young people across the territory face intensifying bombardment and struggle to find food, clean water and shelter. On...",
-      "links": [
-        {
-          "source": "The Guardian World",
-          "title": "Israeli strikes kill 16 schoolchildren so far this month, Gaza ministry says",
-          "url": "https://www.theguardian.com/world/2026/nov/26/gaza-ministry-schoolchildren-killed-this-month-israel-strikes"
-        }
-      ]
-    },
-    {
-      "rank": 10,
-      "title": "Spanish economist de Cos to succeed Lagarde as head of ECB",
-      "score": 5.5,
-      "rating": "Elevated",
-      "type": "Threat",
-      "perspectives": [
-        "Social"
-      ],
-      "sources": [
-        "France 24"
-      ],
-      "latest_utc": "2026-11-26T15:55:45+00:00",
-      "rationale": "Reported by 1 source (France 24); perspectives: Social (cost of living, inflation, war); severity wording: war, crisis.",
-      "finding": "Spanish monetary economist Pablo Hernandez de Cos on Thursday was set to replace France's Christine Lagarde as the new head of the European Central Bank (ECB). His nomination comes as the Europe's most powerful financial institution grapples with an Iran war-driven resurgence in inflation and a cost of living crisis.",
-      "links": [
-        {
-          "source": "France 24",
-          "title": "Spanish economist de Cos to succeed Lagarde as head of ECB",
-          "url": "https://www.france24.com/en/europe/20261126-spanish-economist-de-cos-succeed-lagarde-head-ecb"
-        }
-      ]
     }
   ],
   "advancements": {
     "method": "Scores (0-10) combine the technology field, progress wording (breakthrough, unveils, first, approved...), cross-source corroboration and momentum. They show how strongly a development is being reported - not its proven impact or commercial success.",
     "summary": [
-      "Found 20 advancement stories from 12 of 12 technology sources, grouped into 20 distinct developments.",
-      "Top list ratings: Notable 7, Emerging 3; stages: Research 4, Approval 3, Development 3.",
-      "Field mix: Chips & Hardware 4, AI & Computing 4, Space 4, Materials & Science 3, Energy & Climate 1, Robotics & Mobility 1, Connectivity 1, Health & Biotech 1.",
-      "Rising topics versus recent days: chip."
+      "Found 15 advancement stories from 12 of 12 technology sources, grouped into 15 distinct developments.",
+      "Top list ratings: Major 1, Notable 7, Emerging 2; stages: Research 6, Launch 2, Approval 1, Development 1.",
+      "Field mix: Space 5, AI & Computing 3, Chips & Hardware 3, Materials & Science 3, Energy & Climate 2, Robotics & Mobility 1.",
+      "Rising topics versus recent days: moon, chip."
     ],
     "rising_terms": [
+      "moon",
       "chip"
     ],
     "feed_status": {
@@ -300,6 +301,31 @@
     "items": [
       {
         "rank": 1,
+        "title": "Harvard’s tiny UV light chip could help shrink quantum computers",
+        "score": 8.0,
+        "rating": "Major",
+        "stage": "Research",
+        "fields": [
+          "AI & Computing",
+          "Chips & Hardware",
+          "Materials & Science"
+        ],
+        "sources": [
+          "ScienceDaily Technology"
+        ],
+        "latest_utc": "2026-11-27T03:22:20+00:00",
+        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: AI & Computing (quantum); Chips & Hardware (chip, sensor); Materials & Science (microscop); progress signals: breakthrough, develop; stage: Research; rising versus recent days: chip.",
+        "finding": "Harvard-led researchers have developed a microscopic device that generates 120 times more ultraviolet light than previous comparable approaches by efficiently converting red light into UV. The breakthrough could unlock smaller quantum computers, ultra-precise atomic clocks, and compact environmental sensors.",
+        "links": [
+          {
+            "source": "ScienceDaily Technology",
+            "title": "Harvard’s tiny UV light chip could help shrink quantum computers",
+            "url": "https://www.sciencedaily.com/releases/2026/11/261126063333.htm"
+          }
+        ]
+      },
+      {
+        "rank": 2,
         "title": "Are photon-powered AR glasses on the horizon?",
         "score": 7.0,
         "rating": "Notable",
@@ -322,62 +348,9 @@
         ]
       },
       {
-        "rank": 2,
-        "title": "Etching a 6-inch wafer one atomic layer at a time",
-        "score": 7.0,
-        "rating": "Notable",
-        "stage": "Research",
-        "fields": [
-          "AI & Computing",
-          "Chips & Hardware",
-          "Materials & Science"
-        ],
-        "sources": [
-          "Phys.org Technology"
-        ],
-        "latest_utc": "2026-11-25T18:00:10+00:00",
-        "rationale": "Reported by 1 source (Phys.org Technology); fields: AI & Computing (ai, artificial intelligence); Chips & Hardware (semiconductor); Materials & Science (material); progress signals: world's first, first, develop; stage: Research.",
-        "finding": "The world's first technology for controlling the thickness of a next-generation semiconductor material one atomic layer at a time across an entire 15 cm (6-inch) wafer has been developed. The material is approximately one hundred-thousandth the thickness of a human hair. The research team precisely reduced the...",
-        "links": [
-          {
-            "source": "Phys.org Technology",
-            "title": "Etching a 6-inch wafer one atomic layer at a time",
-            "url": "https://techxplore.com/news/2026-11-etching-inch-wafer-atomic-layer.html"
-          }
-        ]
-      },
-      {
         "rank": 3,
-        "title": "Mitsubishi Electric Research Lab CEO on How He Reached the C-Suite",
-        "score": 7.0,
-        "rating": "Notable",
-        "stage": "Approval",
-        "fields": [
-          "AI & Computing",
-          "Chips & Hardware",
-          "Connectivity",
-          "Energy & Climate",
-          "Robotics & Mobility",
-          "Space"
-        ],
-        "sources": [
-          "IEEE Spectrum"
-        ],
-        "latest_utc": "2026-11-24T19:00:01+00:00",
-        "rationale": "Reported by 1 source (IEEE Spectrum); fields: AI & Computing (data center); Chips & Hardware (display); Connectivity (network); Energy & Climate (grid, renewable); Robotics & Mobility (robot); Space (satellite); progress signals: first, launch, develop, new; stage: Approval.",
-        "finding": "The trajectory from researcher to top executive at a leading R&D organization doesn’t happen overnight. It took Anthony Vetro nearly 30 years to climb the corporate ladder at Mitsubishi Electric Research Laboratories , in Cambridge, Mass. He joined MERL in 1996, right out of college, and he has worked there ever...",
-        "links": [
-          {
-            "source": "IEEE Spectrum",
-            "title": "Mitsubishi Electric Research Lab CEO on How He Reached the C-Suite",
-            "url": "https://spectrum.ieee.org/mitsubishi-electric-research-lab-ceo"
-          }
-        ]
-      },
-      {
-        "rank": 4,
         "title": "Astronomers may have discovered a black hole born before the first stars",
-        "score": 6.0,
+        "score": 7.0,
         "rating": "Notable",
         "stage": "Research",
         "fields": [
@@ -387,7 +360,7 @@
           "ScienceDaily Technology"
         ],
         "latest_utc": "2026-11-26T02:00:33+00:00",
-        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Space (moon); progress signals: first, discover, new; stage: Research.",
+        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Space (moon); progress signals: first, discover, new; stage: Research; rising versus recent days: moon.",
         "finding": "A mysterious object named Phoebe, detected when it briefly magnified a distant star, could be a primordial black hole formed just after the Big Bang. With an estimated mass only three times that of the Moon, it may be a 13-billion-year-old cosmic relic that offers new clues to the mystery of dark matter.",
         "links": [
           {
@@ -398,7 +371,78 @@
         ]
       },
       {
+        "rank": 4,
+        "title": "NASA’s NG-25 Mission to Launch Pioneering Space Crops Research",
+        "score": 6.0,
+        "rating": "Notable",
+        "stage": "Launch",
+        "fields": [
+          "Space"
+        ],
+        "sources": [
+          "NASA News"
+        ],
+        "latest_utc": "2026-11-27T14:22:00+00:00",
+        "rationale": "Reported by 1 source (NASA News); fields: Space (nasa, space station); progress signals: first, launch, advance; stage: Launch.",
+        "finding": "NASA experiments, including a first-of-its-kind space crop production system, will travel to the International Space Station aboard Northrop Grumman’s 25th Commercial Resupply Services mission for the agency. Investigations from NASA’s Biological and Physical Sciences Division will advance research that benefits life...",
+        "links": [
+          {
+            "source": "NASA News",
+            "title": "NASA’s NG-25 Mission to Launch Pioneering Space Crops Research",
+            "url": "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/"
+          }
+        ]
+      },
+      {
         "rank": 5,
+        "title": "Scientists turn one of the world’s hardest-to-recycle plastics into high-performance lubricating oil",
+        "score": 6.0,
+        "rating": "Notable",
+        "stage": "Research",
+        "fields": [
+          "Materials & Science"
+        ],
+        "sources": [
+          "ScienceDaily Technology"
+        ],
+        "latest_utc": "2026-11-27T09:52:24+00:00",
+        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Materials & Science (material); progress signals: breakthrough, discover; stage: Research.",
+        "finding": "Virginia Tech scientists have discovered how to transform one of the world's hardest-to-recycle plastics into a valuable ingredient for high-performance engine oil. Their innovative process converts discarded PVC into a useful lubricant material in just three hours. The breakthrough could turn a major source of...",
+        "links": [
+          {
+            "source": "ScienceDaily Technology",
+            "title": "Scientists turn one of the world’s hardest-to-recycle plastics into high-performance lubricating oil",
+            "url": "https://www.sciencedaily.com/releases/2026/11/261126033501.htm"
+          }
+        ]
+      },
+      {
+        "rank": 6,
+        "title": "How Engineers Designed a Mission to One of Jupiter’s Icy Moons",
+        "score": 6.0,
+        "rating": "Notable",
+        "stage": "Launch",
+        "fields": [
+          "AI & Computing",
+          "Energy & Climate",
+          "Space"
+        ],
+        "sources": [
+          "IEEE Spectrum"
+        ],
+        "latest_utc": "2026-11-26T14:00:02+00:00",
+        "rationale": "Reported by 1 source (IEEE Spectrum); fields: AI & Computing (ai); Energy & Climate (solar); Space (mars, moon, nasa); progress signals: launch; stage: Launch; rising versus recent days: moon.",
+        "finding": "On 3 December 2026, a 30.5-meter-wide space probe will slingshot past Earth, picking up the speed it needs to reach Jupiter in 2030. The Europa Clipper is designed to investigate Jupiter’s enigmatic moon Europa and look for places that could support life in the ocean beneath the moon’s thick shell of ice. Tim Larson...",
+        "links": [
+          {
+            "source": "IEEE Spectrum",
+            "title": "How Engineers Designed a Mission to One of Jupiter’s Icy Moons",
+            "url": "https://spectrum.ieee.org/jupiter-europa-clipper-mission-jpl"
+          }
+        ]
+      },
+      {
+        "rank": 7,
         "title": "The sky was once full of stars, kids; then the FCC let Elon Musk launch a million datacenter satellites",
         "score": 6.0,
         "rating": "Notable",
@@ -421,7 +465,7 @@
         ]
       },
       {
-        "rank": 6,
+        "rank": 8,
         "title": "Tiny NbP wires could make computer chips more efficient where copper falters",
         "score": 6.0,
         "rating": "Notable",
@@ -446,94 +490,49 @@
         ]
       },
       {
-        "rank": 7,
-        "title": "A space telescope hunting for dark matter just discovered something unexpected",
-        "score": 6.0,
-        "rating": "Notable",
+        "rank": 9,
+        "title": "APOD: 2026 November 27 – The Moon Watchers",
+        "score": 5.0,
+        "rating": "Emerging",
         "stage": "Research",
         "fields": [
           "Space"
         ],
         "sources": [
-          "ScienceDaily Technology"
+          "NASA News"
         ],
-        "latest_utc": "2026-11-25T10:35:04+00:00",
-        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Space (esa, orbit, telescope); progress signals: first, discover; stage: Research.",
-        "finding": "ESA’s Euclid space telescope has discovered its first previously unknown comet, despite being designed to study distant galaxies and the mysteries of the dark Universe. The icy object is approximately 1.3 billion kilometers from Earth and follows an unusual orbit that takes thousands of years to complete.",
+        "latest_utc": "2026-11-27T05:05:00+00:00",
+        "rationale": "Reported by 1 source (NASA News); fields: Space (moon); progress signals: discover; stage: Research; rising versus recent days: moon.",
+        "finding": "APOD Science APOD APOD: 2026 November 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a...",
         "links": [
           {
-            "source": "ScienceDaily Technology",
-            "title": "A space telescope hunting for dark matter just discovered something unexpected",
-            "url": "https://www.sciencedaily.com/releases/2026/11/261124055852.htm"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "title": "Australia's Parliament backs law imposing massive new fines for Big Tech",
-        "score": 5.0,
-        "rating": "Emerging",
-        "stage": "Approval",
-        "fields": [
-          "AI & Computing"
-        ],
-        "sources": [
-          "Phys.org Technology"
-        ],
-        "latest_utc": "2026-11-26T10:20:07+00:00",
-        "rationale": "Reported by 1 source (Phys.org Technology); fields: AI & Computing (algorithm); progress signals: approv, new; stage: Approval.",
-        "finding": "Australia's Parliament has approved new laws allowing users to opt out of social media algorithms and imposing massive fines on tech giants that fail to remove content deemed harmful.",
-        "links": [
-          {
-            "source": "Phys.org Technology",
-            "title": "Australia's Parliament backs law imposing massive new fines for Big Tech",
-            "url": "https://techxplore.com/news/2026-11-australia-parliament-law-imposing-massive.html"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "title": "Physicists trap antimatter in a breakthrough that could explain why the universe exists",
-        "score": 5.0,
-        "rating": "Emerging",
-        "stage": "Development",
-        "fields": [
-          "Materials & Science"
-        ],
-        "sources": [
-          "ScienceDaily Technology"
-        ],
-        "latest_utc": "2026-11-25T10:06:22+00:00",
-        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Materials & Science (physicist); progress signals: breakthrough; stage: Development.",
-        "finding": "Positrons are the antimatter counterpart of an electron. Physicists trapped a positron and cooled it to temperatures near absolute zero. Positron is suspended in a wall-free trap, safely separated from ordinary matter. Team will conduct most precise comparison yet between matter and antimatter. Any difference between...",
-        "links": [
-          {
-            "source": "ScienceDaily Technology",
-            "title": "Physicists trap antimatter in a breakthrough that could explain why the universe exists",
-            "url": "https://www.sciencedaily.com/releases/2026/11/261124055849.htm"
+            "source": "NASA News",
+            "title": "APOD: 2026 November 27 – The Moon Watchers",
+            "url": "https://science.nasa.gov/image-article/apod-2026-november-27-the-moon-watchers/"
           }
         ]
       },
       {
         "rank": 10,
-        "title": "11 Things Jensen Huang Actually Said at His First All-Hands Back at Nvidia",
-        "score": 4.0,
+        "title": "Wind power boom risks leaving developing countries dependent on foreign technology",
+        "score": 4.5,
         "rating": "Emerging",
-        "stage": "Development",
+        "stage": "Research",
         "fields": [
-          "Health & Biotech"
+          "Energy & Climate",
+          "Robotics & Mobility"
         ],
         "sources": [
-          "Wired"
+          "Phys.org Technology"
         ],
-        "latest_utc": "2026-11-24T19:33:23+00:00",
-        "rationale": "Reported by 1 source (Wired); fields: Health & Biotech (therapy); progress signals: first; stage: Development.",
-        "finding": "The newly reinstated CEO discussed his daily therapy sessions, his reputation as a “tech bro,” his disdain for succession planning, and his relationship with President Trump.",
+        "latest_utc": "2026-11-27T12:20:12+00:00",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: Energy & Climate (renewable, wind power); Robotics & Mobility (manufactur); progress signals: develop, new; stage: Research.",
+        "finding": "The global shift toward renewable energy risks creating a new divide between countries that control green technology and those left doing the manufacturing, according to new research involving The University of Manchester.",
         "links": [
           {
-            "source": "Wired",
-            "title": "11 Things Jensen Huang Actually Said at His First All-Hands Back at Nvidia",
-            "url": "https://www.wired.com/story/11-things-jensen-huang-actually-said-at-his-first-all-hands-back-at-nvidia/"
+            "source": "Phys.org Technology",
+            "title": "Wind power boom risks leaving developing countries dependent on foreign technology",
+            "url": "https://techxplore.com/news/2026-11-power-boom-countries-foreign-technology.html"
           }
         ]
       }
