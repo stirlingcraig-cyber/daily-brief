@@ -1,30 +1,30 @@
 {
   "version": "2.1.0",
-  "generated_utc": "2026-11-27T18:28:11.343013+00:00",
+  "generated_utc": "2026-11-28T15:28:01.677601+00:00",
   "method": "Scores (0-10) combine perspective breadth, severity wording, cross-source corroboration and momentum. They measure attention and concern in public reporting - not probability, not a forecast. Read the sources before acting.",
   "summary": [
-    "Scanned 475 items from 13 of 13 sources; 105 matched a perspective and were grouped into 102 distinct issues.",
-    "Top list ratings: High 3, Elevated 7 (9 threats, 1 watch items).",
-    "Perspective mix: Social 7, Technical 5, Cultural 4.",
-    "Rising topics versus recent days: election, violence, religio*, migra*, journalis*.",
-    "Most widely reported: \"Canada's top court largely upholds Quebec ban on religious symbols for public servants\" (3 sources)."
+    "Scanned 469 items from 13 of 13 sources; 90 matched a perspective and were grouped into 86 distinct issues.",
+    "Top list ratings: High 1, Elevated 9 (9 threats, 1 watch items).",
+    "Perspective mix: Social 9, Technical 2, Cultural 1.",
+    "Rising topics versus recent days: election, housing, migra*, religio*, outbreak.",
+    "Most widely reported: \"Two Médecins Sans Frontières staff killed by Israeli strike in Gaza, charity says\" (2 sources)."
   ],
   "rising_terms": [
     "election",
-    "violence",
-    "religio*",
+    "housing",
     "migra*",
-    "journalis*"
+    "religio*",
+    "outbreak"
   ],
   "feed_status": {
-    "BBC World": "ok (31 items)",
+    "BBC World": "ok (24 items)",
     "BBC Technology": "ok (21 items)",
     "The Guardian World": "ok (45 items)",
     "NPR World": "ok (10 items)",
     "Fox News World": "ok (25 items)",
     "WSJ World": "ok (20 items)",
     "Al Jazeera": "ok (25 items)",
-    "DW (Germany)": "ok (144 items)",
+    "DW (Germany)": "ok (145 items)",
     "France 24": "ok (24 items)",
     "UN News": "ok (30 items)",
     "Ars Technica": "ok (20 items)",
@@ -34,55 +34,7 @@
   "issues": [
     {
       "rank": 1,
-      "title": "Palestinian journalist killed by Israel in Gaza wins Rory Peck prize",
-      "score": 8.0,
-      "rating": "High",
-      "type": "Threat",
-      "perspectives": [
-        "Cultural",
-        "Social"
-      ],
-      "sources": [
-        "The Guardian World"
-      ],
-      "latest_utc": "2026-11-25T23:06:06+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (journalis, trust); Social (strike, war); severity wording: kill, war; rising versus recent days: journalis*.",
-      "finding": "Mariam Dagga shares award with two of her colleagues from AP for ‘powerful coverage’ of human cost of war Mariam Dagga, the Palestinian war correspondent who was killed at the age of 33 in Gaza in an Israeli strike, has posthumously won the prestigious Rory Peck prize for freelance video journalists, the organisers...",
-      "links": [
-        {
-          "source": "The Guardian World",
-          "title": "Palestinian journalist killed by Israel in Gaza wins Rory Peck prize",
-          "url": "https://www.theguardian.com/media/2026/nov/25/palestinian-journalist-killed-by-israel-in-gaza-wins-rory-peck-prize"
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "title": "Spanish prime minister Pedro Sánchez confident of election victory despite polls – as it happened",
-      "score": 7.0,
-      "rating": "High",
-      "type": "Threat",
-      "perspectives": [
-        "Cultural",
-        "Social"
-      ],
-      "sources": [
-        "The Guardian World"
-      ],
-      "latest_utc": "2026-11-27T16:19:50+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Cultural (journalis); Social (election, war); severity wording: war; rising versus recent days: election, journalis*.",
-      "finding": "This blog is now closed Freelance journalist based in Madrid and host of the Sobremesa podcast Vox has often been portrayed in international coverage as a party of Franco nostalgists whose ultraconservative Catholicism and civil-war rhetoric towards the separatist Catalan “enemy within” threatened a return to the...",
-      "links": [
-        {
-          "source": "The Guardian World",
-          "title": "Spanish prime minister Pedro Sánchez confident of election victory despite polls – as it happened",
-          "url": "https://www.theguardian.com/world/live/2026/nov/27/zelenskyy-putin-trump-comments-russia-ukraine-latest-news-updates"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "title": "Rackspace pulls plug on Spot cloud service after security breach",
+      "title": "Yuri and I used to play football together. Then I spotted his name among Russia’s war dead",
       "score": 7.0,
       "rating": "High",
       "type": "Threat",
@@ -91,22 +43,22 @@
         "Technical"
       ],
       "sources": [
-        "The Register"
+        "The Guardian World"
       ],
-      "latest_utc": "2026-11-26T14:45:00+00:00",
-      "rationale": "Reported by 1 source (The Register); perspectives: Social (migra); Technical (cloud); severity wording: breach; rising versus recent days: migra*.",
-      "finding": "Customers face frantic scramble to migrate workloads and rotate compromised credentials",
+      "latest_utc": "2026-11-28T05:00:30+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (war); Technical (hack); severity wording: dead, war.",
+      "finding": "I had no idea he had gone to fight in Ukraine and without hacked data I would probably never have learned of his death One evening, after weeks spent counting Russia’s war dead, I began looking for names I might recognise. My colleagues and I had been working our way through more than 11m death certificates leaked...",
       "links": [
         {
-          "source": "The Register",
-          "title": "Rackspace pulls plug on Spot cloud service after security breach",
-          "url": "https://www.theregister.com/cyber-crime/2026/11/26/rackspace-pulls-plug-on-spot-cloud-service-after-security-breach/5312352"
+          "source": "The Guardian World",
+          "title": "Yuri and I used to play football together. Then I spotted his name among Russia’s war dead",
+          "url": "https://www.theguardian.com/world/2026/nov/28/yuri-football-together-russia-war-dead-ukraine"
         }
       ]
     },
     {
-      "rank": 4,
-      "title": "Nigeria: Political violence and attacks on candidates raise fears ahead of January elections",
+      "rank": 2,
+      "title": "Two Médecins Sans Frontières staff killed by Israeli strike in Gaza, charity says",
       "score": 6.5,
       "rating": "Elevated",
       "type": "Threat",
@@ -114,169 +66,217 @@
         "Social"
       ],
       "sources": [
-        "France 24"
+        "BBC World",
+        "The Guardian World"
       ],
-      "latest_utc": "2026-11-27T16:25:05+00:00",
-      "rationale": "Reported by 1 source (France 24); perspectives: Social (election, violence); severity wording: deadly, attack, escalat; rising versus recent days: election, violence.",
-      "finding": "Political violence is escalating in Nigeria ahead of the general elections scheduled for January. Candidates and their supporters have increasingly come under attack, with armed groups disrupting campaign rallies and some assaults resulting in deaths. Despite the growing number of incidents, security forces have...",
+      "latest_utc": "2026-11-28T12:14:49+00:00",
+      "rationale": "Reported by 2 sources (BBC World, The Guardian World); perspectives: Social (strike, war); severity wording: kill, attack, war.",
+      "finding": "MSF and head of WHO denounce attack on Gaza City clinic as Israel claims security guards were members of Hamas Israeli forces have bombed a clinic run by Médecins Sans Frontières in Gaza City, killing two of its staff members, the organisation has said. MSF said Israel had directly struck the clinic, despite the fact...",
       "links": [
         {
-          "source": "France 24",
-          "title": "Nigeria: Political violence and attacks on candidates raise fears ahead of January elections",
-          "url": "https://www.france24.com/en/video/20261127-nigeria-political-violence-and-attacks-on-candidates-raise-fears-ahead-of-january-elections"
+          "source": "The Guardian World",
+          "title": "Two Médecins Sans Frontières staff killed by Israeli strike in Gaza, charity says",
+          "url": "https://www.theguardian.com/world/2026/nov/28/medecins-sans-frontieres-staff-killed-gaza-israeli-strike"
+        },
+        {
+          "source": "BBC World",
+          "title": "Two staff killed in Israeli strike on Gaza medical clinic, MSF says",
+          "url": "https://www.bbc.co.uk/news/articles/cm5y10yydln3o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "The perfect storm behind Congo’s deadliest Ebola outbreak",
+      "score": 6.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "Al Jazeera"
+      ],
+      "latest_utc": "2026-11-28T11:27:34+00:00",
+      "rationale": "Reported by 1 source (Al Jazeera); perspectives: Social (outbreak, war); severity wording: deadly, war; rising versus recent days: outbreak.",
+      "finding": "Patients and health workers pay a staggering cost as war and a failing health system collide with a deadly virus.",
+      "links": [
+        {
+          "source": "Al Jazeera",
+          "title": "The perfect storm behind Congo’s deadliest Ebola outbreak",
+          "url": "https://www.aljazeera.com/features/longform/2026/11/28/the-perfect-storm-behind-congos-deadliest-ebola-outbreak?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "Spain to vote in election that could put far right in power for first time since Franco",
+      "score": 6.5,
+      "rating": "Elevated",
+      "type": "Threat",
+      "perspectives": [
+        "Social"
+      ],
+      "sources": [
+        "The Guardian World"
+      ],
+      "latest_utc": "2026-11-28T11:00:39+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (election, housing); severity wording: crisis, emergency; rising versus recent days: election, housing.",
+      "finding": "Socialist PM Pedro Sánchez’s high-stakes gamble could end in defeat to a coalition including the far-right Vox Spaniards head to the polls on Sunday to vote in a high-stakes snap general election that could put a far-right party in government for the first time since the country’s return to democracy after the death...",
+      "links": [
+        {
+          "source": "The Guardian World",
+          "title": "Spain to vote in election that could put far right in power for first time since Franco",
+          "url": "https://www.theguardian.com/world/2026/nov/28/spain-vote-election-could-far-right-power-first-time-franco"
         }
       ]
     },
     {
       "rank": 5,
-      "title": "Inside Saudi Arabia, Houthi attacks test kingdom's image of security",
-      "score": 6.0,
+      "title": "Gaza strike kills two Doctors Without Borders staff Israel links to Hamas",
+      "score": 5.5,
       "rating": "Elevated",
       "type": "Threat",
       "perspectives": [
-        "Cultural",
         "Social"
       ],
       "sources": [
-        "BBC World"
+        "France 24"
       ],
-      "latest_utc": "2026-11-27T06:04:51+00:00",
-      "rationale": "Reported by 1 source (BBC World); perspectives: Cultural (trust); Social (strike); severity wording: attack.",
-      "finding": "Despite the strikes, markets and restaurants in Riyadh remain busy as residents express trust in the government to protect them.",
+      "latest_utc": "2026-11-28T14:31:26+00:00",
+      "rationale": "Reported by 1 source (France 24); perspectives: Social (ceasefire, strike, war); severity wording: kill, war.",
+      "finding": "Doctors Without Borders (MSF) voiced outrage on Saturday after an Israeli strike killed two staff members at a clinic in Gaza, while the Israeli military said the pair were Hamas \"terrorists\". The Friday night strike in Gaza City drew swift condemnation from the head of the UN's World Health Organization and came...",
       "links": [
         {
-          "source": "BBC World",
-          "title": "Inside Saudi Arabia, Houthi attacks test kingdom's image of security",
-          "url": "https://www.bbc.co.uk/news/articles/c6ly7jgv7jzdo?at_medium=RSS&at_campaign=rss"
+          "source": "France 24",
+          "title": "Gaza strike kills two Doctors Without Borders staff Israel links to Hamas",
+          "url": "https://www.france24.com/en/gaza-strike-kills-two-doctors-without-borders-staff-israel-links-to-hamas"
+        },
+        {
+          "source": "France 24",
+          "title": "Israeli strike on Gaza kills two medics from Doctors Without Borders",
+          "url": "https://www.france24.com/en/middle-east/20261128-israeli-strike-on-gaza-kills-two-medics-from-doctors-without-borders"
+        },
+        {
+          "source": "France 24",
+          "title": "Israeli strike kills two Doctors Without Borders staff in Gaza",
+          "url": "https://www.france24.com/en/israeli-strike-kills-two-doctors-without-borders-staff-in-gaza"
         }
       ]
     },
     {
       "rank": 6,
-      "title": "Can Rassvet, 'Russia's Starlink' change the course of the war in Ukraine?",
-      "score": 6.0,
+      "title": "Iran points to Europe’s war role after Italians killed in Kuwait strike",
+      "score": 5.5,
       "rating": "Elevated",
       "type": "Threat",
       "perspectives": [
-        "Social",
-        "Technical"
+        "Social"
       ],
       "sources": [
-        "DW (Germany)"
+        "Al Jazeera"
       ],
-      "latest_utc": "2026-11-26T05:45:00+00:00",
-      "rationale": "Reported by 1 source (DW (Germany)); perspectives: Social (war); Technical (satellite); severity wording: war.",
-      "finding": "SpaceX's US Starlink satellite system has played a key role in countering the Russian military in Ukraine, but now a Russian counterpart is under development. What could this mean for Ukraine?",
+      "latest_utc": "2026-11-28T13:42:53+00:00",
+      "rationale": "Reported by 1 source (Al Jazeera); perspectives: Social (strike, war); severity wording: kill, war, escalat.",
+      "finding": "Italy and Kuwait say an Iranian drone was involved, but Tehran says the US and Israel may be looking to escalate war.",
       "links": [
         {
-          "source": "DW (Germany)",
-          "title": "Can Rassvet, 'Russia's Starlink' change the course of the war in Ukraine?",
-          "url": "https://www.dw.com/en/can-rassvet-russia-s-starlink-change-the-course-of-the-war-in-ukraine/a-80052579?maca=en-rss-en-all-1573-rdf"
+          "source": "Al Jazeera",
+          "title": "Iran points to Europe’s war role after Italians killed in Kuwait strike",
+          "url": "https://www.aljazeera.com/news/2026/11/28/iran-points-to-europes-war-role-after-italians-killed-in-kuwait-strike?traffic_source=rss"
         }
       ]
     },
     {
       "rank": 7,
-      "title": "UN sacked Palestinian staff on back of unproven Israeli allegations, tribunal rules",
-      "score": 6.0,
+      "title": "Jess Wilson’s rapid rise is hard to believe - but Victorian Labor’s collapse has been years in the making",
+      "score": 5.5,
       "rating": "Elevated",
       "type": "Threat",
       "perspectives": [
-        "Social",
-        "Technical"
+        "Social"
       ],
       "sources": [
         "The Guardian World"
       ],
-      "latest_utc": "2026-11-26T00:05:50+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (humanitarian); Technical (ai); severity wording: attack.",
-      "finding": "Judgment casts doubt on evidence linking aid workers to Hamas and says humanitarian efforts in Gaza were damaged A UN tribunal has cast doubt on the evidence used to justify the sacking of Palestinian UN aid workers in 2024, saying it was based “almost entirely” on unproven assertions from the Israeli government and...",
+      "latest_utc": "2026-11-28T13:31:11+00:00",
+      "rationale": "Reported by 1 source (The Guardian World); perspectives: Social (election); severity wording: collapse; rising versus recent days: election.",
+      "finding": "Labor faces possibility of relegation to crossbench as Coalition claims majority government and Greens celebrate ‘wild’ success Full report: Victorian Coalition wins majority government as Labor suffers historic defeat ‘Worse than anyone feared’: how Victorian Labor unravelled after 12 years in government Victoria...",
       "links": [
         {
           "source": "The Guardian World",
-          "title": "UN sacked Palestinian staff on back of unproven Israeli allegations, tribunal rules",
-          "url": "https://www.theguardian.com/world/2026/nov/25/un-sacked-palestinian-staff-on-back-of-unproven-israel-allegations"
+          "title": "Jess Wilson’s rapid rise is hard to believe - but Victorian Labor’s collapse has been years in the making",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/28/jess-wilson-coalition-rise-victorian-labor-collapse-election-2026-ntwnfb"
         }
       ]
     },
     {
       "rank": 8,
-      "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
+      "title": "Zelenskyy compares Putin to Hitler as Trump pushes to end Ukraine war: 'He's an aggressor and a killer'",
       "score": 5.5,
       "rating": "Elevated",
-      "type": "Watch",
+      "type": "Threat",
       "perspectives": [
-        "Cultural"
+        "Social"
       ],
       "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "The Guardian World"
+        "Fox News World"
       ],
-      "latest_utc": "2026-11-27T16:53:46+00:00",
-      "rationale": "Reported by 3 sources (Al Jazeera, BBC World, The Guardian World); perspectives: Cultural (religio); severity wording: ban; rising versus recent days: religio*.",
-      "finding": "The law faced legal challenges from a range of groups, including female Muslim, Sikh and Catholic teachers, who argued it violated their fundamental rights.",
+      "latest_utc": "2026-11-28T13:19:17+00:00",
+      "rationale": "Reported by 1 source (Fox News World); perspectives: Social (war); severity wording: kill, war.",
+      "finding": "Volodomyr Zelenskyy says Vladmir Putin is \"an aggressor and a killer,\" comparing him to Adolf Hitler and arguing he cannot be President Trump's friend.",
       "links": [
         {
-          "source": "BBC World",
-          "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
-          "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "The Guardian World",
-          "title": "Canada’s top court upholds Quebec law barring public sector workers from wearing religious symbols",
-          "url": "https://www.theguardian.com/world/2026/nov/27/canadas-top-court-upholds-quebec-law-barring-public-sector-workers-from-wearing-religious-symbols"
-        },
-        {
-          "source": "Al Jazeera",
-          "title": "Canada’s top court largely upholds Quebec’s religious symbols ban",
-          "url": "https://www.aljazeera.com/news/2026/11/27/canadas-top-court-largely-upholds-quebecs-religious-symbols-ban?traffic_source=rss"
+          "source": "Fox News World",
+          "title": "Zelenskyy compares Putin to Hitler as Trump pushes to end Ukraine war: 'He's an aggressor and a killer'",
+          "url": "https://www.foxnews.com/world/zelenskyy-compares-putin-hitler-trump-pushes-end-ukraine-war-aggressor-killer"
         }
       ]
     },
     {
       "rank": 9,
-      "title": "Paris Paloma tackles Greek mythology, generative AI in her second album 'The Fatal Flaw'",
+      "title": "Norse Atlantic ends flights: How Iran war continues to batter aviation",
       "score": 5.5,
       "rating": "Elevated",
       "type": "Threat",
       "perspectives": [
-        "Technical"
+        "Social"
       ],
       "sources": [
-        "France 24"
+        "Al Jazeera"
       ],
-      "latest_utc": "2026-11-27T17:25:27+00:00",
-      "rationale": "Reported by 1 source (France 24); perspectives: Technical (ai); severity wording: fatal.",
-      "finding": "Dheepthika Laurent chats with Paris Paloma on set ahead of her Paris concert. The UK singer-songwriter and guitarist is promoting her second album, \"The Fatal Flaw\", an ode to Greek mythology, art and feminism. She tells us why this album is more personal than her first record, \"Cacophony\".",
+      "latest_utc": "2026-11-28T12:56:53+00:00",
+      "rationale": "Reported by 1 source (Al Jazeera); perspectives: Social (war); severity wording: war, crisis.",
+      "finding": "The Norwegian budget carrier is the latest airline to fold under fuel costs driven by the Strait of Hormuz crisis.",
       "links": [
         {
-          "source": "France 24",
-          "title": "Paris Paloma tackles Greek mythology, generative AI in her second album 'The Fatal Flaw'",
-          "url": "https://www.france24.com/en/tv-shows/arts24/20261127-paris-paloma-tackles-greek-mythology-generative-ai-in-her-second-album-the-fatal-flaw"
+          "source": "Al Jazeera",
+          "title": "Norse Atlantic ends flights: How Iran war continues to batter aviation",
+          "url": "https://www.aljazeera.com/news/2026/11/28/norse-atlantic-ends-flights-how-iran-war-continues-to-batter-aviation?traffic_source=rss"
         }
       ]
     },
     {
       "rank": 10,
-      "title": "UK pensions department hit by ‘serious cyber incident’, minister says – as it happened",
-      "score": 5.5,
+      "title": "Tech's outage problem needs maintenance, not conspiracy theories",
+      "score": 5.0,
       "rating": "Elevated",
-      "type": "Threat",
+      "type": "Watch",
       "perspectives": [
+        "Cultural",
         "Technical"
       ],
       "sources": [
-        "The Guardian World"
+        "The Register"
       ],
-      "latest_utc": "2026-11-27T16:33:28+00:00",
-      "rationale": "Reported by 1 source (The Guardian World); perspectives: Technical (cyber, outage); severity wording: outage, disruption.",
-      "finding": "This blog is now closed, you can read more on this story here According to Downdetector , which tracks online service outages, reports of problems with the government website appeared to begin last night and peaked at about 8am this morning. Tory MP Neil Shastri-Hurst has also commented on the disruption at the DWP...",
+      "latest_utc": "2026-11-26T17:09:00+00:00",
+      "rationale": "Reported by 1 source (The Register); perspectives: Cultural (conspiracy); Technical (outage); severity wording: outage.",
+      "finding": "Forrester warns that shiny new services rest on brittle systems as organizations skimp on resilience",
       "links": [
         {
-          "source": "The Guardian World",
-          "title": "UK pensions department hit by ‘serious cyber incident’, minister says – as it happened",
-          "url": "https://www.theguardian.com/politics/live/2026/nov/27/department-work-pensions-offline-cyber-incident-rosebank-slapps-latest-news-updates"
+          "source": "The Register",
+          "title": "Tech's outage problem needs maintenance, not conspiracy theories",
+          "url": "https://www.theregister.com/research/2026/11/26/techs-outage-problem-needs-maintenance-not-conspiracy-theories/5312180"
         }
       ]
     }
@@ -284,14 +284,12 @@
   "advancements": {
     "method": "Scores (0-10) combine the technology field, progress wording (breakthrough, unveils, first, approved...), cross-source corroboration and momentum. They show how strongly a development is being reported - not its proven impact or commercial success.",
     "summary": [
-      "Found 14 advancement stories from 12 of 12 technology sources, grouped into 14 distinct developments.",
-      "Top list ratings: Notable 7, Emerging 3; stages: Research 6, Launch 2, Approval 2.",
-      "Field mix: Space 5, AI & Computing 3, Chips & Hardware 2, Materials & Science 2, Energy & Climate 2, Robotics & Mobility 1.",
-      "Rising topics versus recent days: moon."
+      "Found 9 advancement stories from 12 of 12 technology sources, grouped into 9 distinct developments.",
+      "Top list ratings: Notable 4, Emerging 5; stages: Research 7, Launch 2.",
+      "Field mix: Materials & Science 3, Space 3, AI & Computing 2, Chips & Hardware 2, Energy & Climate 1, Robotics & Mobility 1, Connectivity 1.",
+      "No topics rising sharply versus recent days."
     ],
-    "rising_terms": [
-      "moon"
-    ],
+    "rising_terms": [],
     "feed_status": {
       "MIT Technology Review": "ok (10 items)",
       "IEEE Spectrum": "ok (30 items)",
@@ -334,29 +332,6 @@
       },
       {
         "rank": 2,
-        "title": "Astronomers may have discovered a black hole born before the first stars",
-        "score": 7.0,
-        "rating": "Notable",
-        "stage": "Research",
-        "fields": [
-          "Space"
-        ],
-        "sources": [
-          "ScienceDaily Technology"
-        ],
-        "latest_utc": "2026-11-26T02:00:33+00:00",
-        "rationale": "Reported by 1 source (ScienceDaily Technology); fields: Space (moon); progress signals: first, discover, new; stage: Research; rising versus recent days: moon.",
-        "finding": "A mysterious object named Phoebe, detected when it briefly magnified a distant star, could be a primordial black hole formed just after the Big Bang. With an estimated mass only three times that of the Moon, it may be a 13-billion-year-old cosmic relic that offers new clues to the mystery of dark matter.",
-        "links": [
-          {
-            "source": "ScienceDaily Technology",
-            "title": "Astronomers may have discovered a black hole born before the first stars",
-            "url": "https://www.sciencedaily.com/releases/2026/11/261122060346.htm"
-          }
-        ]
-      },
-      {
-        "rank": 3,
         "title": "NASA’s NG-25 Mission to Launch Pioneering Space Crops Research",
         "score": 6.0,
         "rating": "Notable",
@@ -379,7 +354,7 @@
         ]
       },
       {
-        "rank": 4,
+        "rank": 3,
         "title": "Scientists turn one of the world’s hardest-to-recycle plastics into high-performance lubricating oil",
         "score": 6.0,
         "rating": "Notable",
@@ -402,7 +377,7 @@
         ]
       },
       {
-        "rank": 5,
+        "rank": 4,
         "title": "Are photon-powered AR glasses on the horizon?",
         "score": 6.0,
         "rating": "Notable",
@@ -425,101 +400,31 @@
         ]
       },
       {
-        "rank": 6,
-        "title": "How Engineers Designed a Mission to One of Jupiter’s Icy Moons",
-        "score": 6.0,
-        "rating": "Notable",
-        "stage": "Launch",
-        "fields": [
-          "AI & Computing",
-          "Energy & Climate",
-          "Space"
-        ],
-        "sources": [
-          "IEEE Spectrum"
-        ],
-        "latest_utc": "2026-11-26T14:00:02+00:00",
-        "rationale": "Reported by 1 source (IEEE Spectrum); fields: AI & Computing (ai); Energy & Climate (solar); Space (mars, moon, nasa); progress signals: launch; stage: Launch; rising versus recent days: moon.",
-        "finding": "On 3 December 2026, a 30.5-meter-wide space probe will slingshot past Earth, picking up the speed it needs to reach Jupiter in 2030. The Europa Clipper is designed to investigate Jupiter’s enigmatic moon Europa and look for places that could support life in the ocean beneath the moon’s thick shell of ice. Tim Larson...",
-        "links": [
-          {
-            "source": "IEEE Spectrum",
-            "title": "How Engineers Designed a Mission to One of Jupiter’s Icy Moons",
-            "url": "https://spectrum.ieee.org/jupiter-europa-clipper-mission-jpl"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "title": "The sky was once full of stars, kids; then the FCC let Elon Musk launch a million datacenter satellites",
-        "score": 6.0,
-        "rating": "Notable",
-        "stage": "Approval",
-        "fields": [
-          "Space"
-        ],
-        "sources": [
-          "The Register"
-        ],
-        "latest_utc": "2026-11-25T22:54:07+00:00",
-        "rationale": "Reported by 1 source (The Register); fields: Space (satellite); progress signals: launch, approv; stage: Approval.",
-        "finding": "Approval for ‘Starmind’ granted but it’s a long way from the launchpad, or making sense",
-        "links": [
-          {
-            "source": "The Register",
-            "title": "The sky was once full of stars, kids; then the FCC let Elon Musk launch a million datacenter satellites",
-            "url": "https://www.theregister.com/off-prem/2026/11/25/the-sky-was-once-full-of-stars-kids-then-the-fcc-let-elon-musk-launch-a-million-datacenter-satellites/5312268"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "title": "APOD: 2026 November 27 – The Moon Watchers",
-        "score": 5.0,
+        "rank": 5,
+        "title": "Frozen language model helps predict materials properties with roughly 95% less training time",
+        "score": 5.5,
         "rating": "Emerging",
         "stage": "Research",
         "fields": [
-          "Space"
-        ],
-        "sources": [
-          "NASA News"
-        ],
-        "latest_utc": "2026-11-27T05:05:00+00:00",
-        "rationale": "Reported by 1 source (NASA News); fields: Space (moon); progress signals: discover; stage: Research; rising versus recent days: moon.",
-        "finding": "APOD Science APOD APOD: 2026 November 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a...",
-        "links": [
-          {
-            "source": "NASA News",
-            "title": "APOD: 2026 November 27 – The Moon Watchers",
-            "url": "https://science.nasa.gov/image-article/apod-2026-november-27-the-moon-watchers/"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "title": "Australia's Parliament backs law imposing massive new fines for Big Tech",
-        "score": 5.0,
-        "rating": "Emerging",
-        "stage": "Approval",
-        "fields": [
-          "AI & Computing"
+          "AI & Computing",
+          "Materials & Science"
         ],
         "sources": [
           "Phys.org Technology"
         ],
-        "latest_utc": "2026-11-26T10:20:07+00:00",
-        "rationale": "Reported by 1 source (Phys.org Technology); fields: AI & Computing (algorithm); progress signals: approv, new; stage: Approval.",
-        "finding": "Australia's Parliament has approved new laws allowing users to opt out of social media algorithms and imposing massive fines on tech giants that fail to remove content deemed harmful.",
+        "latest_utc": "2026-11-27T18:40:02+00:00",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: AI & Computing (language model, llm); Materials & Science (material); progress signals: discover, new; stage: Research.",
+        "finding": "Discovering new materials often involves predicting their properties before investing time and resources in making and testing them in the laboratory. Machine-learning models are widely used to estimate important properties, such as band gap and formation energy, helping researchers narrow down candidate materials....",
         "links": [
           {
             "source": "Phys.org Technology",
-            "title": "Australia's Parliament backs law imposing massive new fines for Big Tech",
-            "url": "https://techxplore.com/news/2026-11-australia-parliament-law-imposing-massive.html"
+            "title": "Frozen language model helps predict materials properties with roughly 95% less training time",
+            "url": "https://techxplore.com/news/2026-11-frozen-language-materials-properties-roughly.html"
           }
         ]
       },
       {
-        "rank": 10,
+        "rank": 6,
         "title": "Wind power boom risks leaving developing countries dependent on foreign technology",
         "score": 4.5,
         "rating": "Emerging",
@@ -539,6 +444,75 @@
             "source": "Phys.org Technology",
             "title": "Wind power boom risks leaving developing countries dependent on foreign technology",
             "url": "https://techxplore.com/news/2026-11-power-boom-countries-foreign-technology.html"
+          }
+        ]
+      },
+      {
+        "rank": 7,
+        "title": "What can Britain learn from China's metro revolution?",
+        "score": 4.0,
+        "rating": "Emerging",
+        "stage": "Research",
+        "fields": [
+          "Connectivity"
+        ],
+        "sources": [
+          "Phys.org Technology"
+        ],
+        "latest_utc": "2026-11-28T00:20:01+00:00",
+        "rationale": "Reported by 1 source (Phys.org Technology); fields: Connectivity (network); progress signals: develop, new; stage: Research.",
+        "finding": "As the U.K. considers how to improve public transportation and accommodate growing urban populations, new research into China's rapidly expanding metro networks has uncovered important lessons about how rail systems can shape the way cities develop.",
+        "links": [
+          {
+            "source": "Phys.org Technology",
+            "title": "What can Britain learn from China's metro revolution?",
+            "url": "https://techxplore.com/news/2026-11-britain-china-metro-revolution.html"
+          }
+        ]
+      },
+      {
+        "rank": 8,
+        "title": "Artemis III Astronaut Andre Douglas Visits VAB",
+        "score": 4.0,
+        "rating": "Emerging",
+        "stage": "Launch",
+        "fields": [
+          "Space"
+        ],
+        "sources": [
+          "NASA News"
+        ],
+        "latest_utc": "2026-11-27T15:01:00+00:00",
+        "rationale": "Reported by 1 source (NASA News); fields: Space (nasa, rocket); progress signals: launch; stage: Launch.",
+        "finding": "NASA astronaut Andre Douglas, Artemis III mission specialist, stands inside an RS-25 engine test article during a visit to the Vehicle Assembly Building at NASA’s Kennedy Space Center in Florida on Tuesday, Nov. 17, 2026. During Artemis III, four RS-25 engines will power the SLS (Space Launch System) rocket core stage...",
+        "links": [
+          {
+            "source": "NASA News",
+            "title": "Artemis III Astronaut Andre Douglas Visits VAB",
+            "url": "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab/"
+          }
+        ]
+      },
+      {
+        "rank": 9,
+        "title": "APOD: 2026 November 27 – The Moon Watchers",
+        "score": 4.0,
+        "rating": "Emerging",
+        "stage": "Research",
+        "fields": [
+          "Space"
+        ],
+        "sources": [
+          "NASA News"
+        ],
+        "latest_utc": "2026-11-27T05:05:00+00:00",
+        "rationale": "Reported by 1 source (NASA News); fields: Space (moon); progress signals: discover; stage: Research.",
+        "finding": "APOD Science APOD APOD: 2026 November 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a...",
+        "links": [
+          {
+            "source": "NASA News",
+            "title": "APOD: 2026 November 27 – The Moon Watchers",
+            "url": "https://science.nasa.gov/image-article/apod-2026-november-27-the-moon-watchers/"
           }
         ]
       }
